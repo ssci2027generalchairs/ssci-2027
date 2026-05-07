@@ -1,0 +1,31 @@
+---
+import EmptyState from './EmptyState.astro';
+
+interface Member {
+  name: string;
+  role?: string;
+  affiliation?: string;
+}
+
+interface Props {
+  name: string;
+  members: Member[];
+}
+---
+
+<section class="committee-list">
+  <h2>{Astro.props.name}</h2>
+  {Astro.props.members.length > 0 ? (
+    <div class="member-grid">
+      {Astro.props.members.map((member) => (
+        <article class="member-card">
+          {member.role && <p>{member.role}</p>}
+          <h3>{member.name}</h3>
+          {member.affiliation && <span>{member.affiliation}</span>}
+        </article>
+      ))}
+    </div>
+  ) : (
+    <EmptyState title="Committee members not announced yet" text="Names, roles, and affiliations can be added through the committee data file." />
+  )}
+</section>

@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import SectionHeader from '../components/SectionHeader.astro';
+import NewsList from '../components/NewsList.astro';
+import ImportantDates from '../components/ImportantDates.astro';
+import SpeakerGrid from '../components/SpeakerGrid.astro';
+import SponsorGrid from '../components/SponsorGrid.astro';
+import site from '../data/site.json';
+import news from '../data/news.json';
+import importantDates from '../data/importantDates.json';
+import speakers from '../data/speakers.json';
+import sponsors from '../data/sponsors.json';
+---
+
+<BaseLayout>
+  <Hero />
+
+  <section class="section">
+    <div class="container welcome-grid">
+      <div>
+        <SectionHeader title={site.welcomeTitle} text={`${site.locationLabel} · ${site.datesLabel}`} />
+        {site.welcomeBody.map((paragraph) => <p>{paragraph}</p>)}
+      </div>
+      <aside class="info-panel" aria-labelledby="dates-heading">
+        <h2 id="dates-heading">Important Dates</h2>
+        <ImportantDates dates={importantDates} />
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section-muted">
+    <div class="container">
+      <SectionHeader label="Latest" title="News and Updates" text="Announcements can be added at any time through the news data file." />
+      <NewsList items={news} />
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <SpeakerGrid title="Plenary Speakers" speakers={speakers.plenary} />
+      <SpeakerGrid title="Keynote Speakers" speakers={speakers.keynote} />
+    </div>
+  </section>
+
+  <section class="section section-muted">
+    <div class="container">
+      <SectionHeader title="Sponsors" text="Sponsor listings are generated from structured sponsor data." />
+      <SponsorGrid sponsors={sponsors} />
+    </div>
+  </section>
+</BaseLayout>

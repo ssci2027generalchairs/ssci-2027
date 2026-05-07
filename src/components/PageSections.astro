@@ -1,0 +1,51 @@
+---
+interface TableData {
+  headers: string[];
+  rows: string[][];
+}
+
+interface SectionData {
+  heading?: string;
+  paragraphs?: string[];
+  bullets?: string[];
+  table?: TableData;
+}
+
+interface Props {
+  sections?: SectionData[];
+}
+---
+
+{Astro.props.sections?.length ? (
+  <div class="page-sections">
+    {Astro.props.sections.map((section) => (
+      <section class="content-section">
+        {section.heading && <h2>{section.heading}</h2>}
+        {section.paragraphs?.map((paragraph) => <p>{paragraph}</p>)}
+        {section.bullets?.length ? (
+          <ul>
+            {section.bullets.map((item) => <li>{item}</li>)}
+          </ul>
+        ) : null}
+        {section.table && (
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  {section.table.headers.map((header) => <th>{header}</th>)}
+                </tr>
+              </thead>
+              <tbody>
+                {section.table.rows.map((row) => (
+                  <tr>
+                    {row.map((cell) => <td>{cell}</td>)}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </section>
+    ))}
+  </div>
+) : null}

@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SectionHeader from '../components/SectionHeader.astro';
+import CommitteeList from '../components/CommitteeList.astro';
+import SpeakerGrid from '../components/SpeakerGrid.astro';
+import SponsorGrid from '../components/SponsorGrid.astro';
+import EmptyState from '../components/EmptyState.astro';
+import PageSections from '../components/PageSections.astro';
+import pages from '../data/pages.json';
+import committees from '../data/committees.json';
+import speakers from '../data/speakers.json';
+import sponsors from '../data/sponsors.json';
+
+export function getStaticPaths() {
+  return pages.map((page) => ({
+    params: { slug: page.slug },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+const committee = page.kind === 'committee'
+  ? committees.find((item) => item.slug === page.committeeSlug)
+  : undefined;
+---
+
+<BaseLayout title={page.title} description={page.summary}>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">IEEE SSCI 2027</p>
+      <h1>{page.title}</h1>
+      <p>{page.summary}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container page-content">
+      <PageSections sections={page.sections} />
+      {page.kind === 'committee' && committee && <CommitteeList name={committee.name} members={committee.members} />}
+      {page.kind === 'speakers' && (
+        <>
+          <SpeakerGrid title="Plenary Speakers" speakers={speakers.plenary} />
+          <SpeakerGrid title="Keynote Speakers" speakers={speakers.keynote} />
+        </>
+      )}
+      {page.kind === 'sponsors' && (
+        <>
+          <SectionHeader title="Sponsors" text={page.summary} />
+          <SponsorGrid sponsors={sponsors} />
+        </>
+      )}
+      {!page.sections?.length && page.kind === 'basic' && (
+        <EmptyState title="Content coming soon" text="This page is ready for confirmed conference information, links, images, and downloadable files." />
+      )}
+    </div>
+  </section>
+</BaseLayout>

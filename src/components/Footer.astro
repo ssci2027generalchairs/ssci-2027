@@ -1,0 +1,41 @@
+---
+import site from '../data/site.json';
+import navigation from '../data/navigation.json';
+
+const base = import.meta.env.BASE_URL;
+const cleanBase = base.endsWith('/') ? base.slice(0, -1) : base;
+const withBase = (href: string) => href === '/' ? base : `${cleanBase}${href}`;
+const quickLinks = navigation
+  .flatMap((item) => item.href ? [item] : item.items || [])
+  .slice(0, 8);
+---
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <section>
+      <h2>{site.shortName}</h2>
+      <p>{site.name}</p>
+      <p>{site.locationLabel} · {site.datesLabel}</p>
+    </section>
+    <section>
+      <h2>Quick Links</h2>
+      <nav aria-label="Footer navigation">
+        {quickLinks.map((link) => (
+          <a href={withBase(link.href)}>{link.label}</a>
+        ))}
+      </nav>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      {site.contactEmail ? (
+        <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
+      ) : (
+        <p>Contact details will be announced.</p>
+      )}
+    </section>
+  </div>
+  <div class="footer-bottom">
+    <span>© {site.year} IEEE SSCI.</span>
+    <span>Static site prepared for GitHub Pages and future IEEE hosting.</span>
+  </div>
+</footer>

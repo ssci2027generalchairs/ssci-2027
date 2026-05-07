@@ -1,0 +1,575 @@
+[
+  {
+    "slug": "about/organizing-committee",
+    "title": "Organizing Committee",
+    "summary": "Current organizing roles and committee appointments from the IEEE SSCI 2027 proposal draft.",
+    "kind": "committee",
+    "committeeSlug": "organizing-committee",
+    "sections": [
+      {
+        "paragraphs": [
+          "The organizing committee is being developed around Griffith University, University of Technology Sydney, and partner institutions. Roles and affiliations will be updated as appointments are confirmed."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "about/symposium-chairs",
+    "title": "Symposium Chairs",
+    "summary": "Current symposium chair appointments and proposed symposia from the IEEE SSCI 2027 proposal draft.",
+    "kind": "committee",
+    "committeeSlug": "symposium-chairs",
+    "sections": [
+      {
+        "paragraphs": [
+          "IEEE SSCI 2027 is planned around a suite of applied computational intelligence symposia. Additional co-chairs may be added as invitations are confirmed."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "about/evaluation-and-planning-committee",
+    "title": "SSCI Evaluation and Planning Committee",
+    "summary": "Committee information will be added as appointments are confirmed.",
+    "kind": "committee",
+    "committeeSlug": "evaluation-and-planning-committee"
+  },
+  {
+    "slug": "about/contact",
+    "title": "Contact Us",
+    "summary": "Contact details for IEEE SSCI 2027.",
+    "kind": "basic",
+    "sections": [
+      {
+        "heading": "Website Enquiries",
+        "paragraphs": [
+          "For website content updates, please contact the website chair team at z.gong@griffith.edu.au.",
+          "Additional conference contact addresses will be published once confirmed."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "submissions/call-for-papers",
+    "title": "Call for Papers and Abstracts",
+    "summary": "IEEE SSCI 2027 will invite full papers, short papers, late-breaking work, abstracts, and journal-to-conference submissions.",
+    "kind": "basic",
+    "sections": [
+      {
+        "heading": "Submission Scope",
+        "paragraphs": [
+          "Following recent IEEE SSCI practice, the program is expected to call for full papers, short papers, late-breaking papers, abstract-only submissions, and journal-to-conference conversions across the conference symposia."
+        ]
+      },
+      {
+        "heading": "Review Process",
+        "paragraphs": [
+          "The review process is planned to use a centralized conference management system such as CMT3 or EasyChair. Full papers will follow a rigorous double-blind peer-review process with common review guidelines, standardized evaluation criteria, and coordinated acceptance thresholds across symposia."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "submissions/instructions",
+    "title": "Submission Instructions",
+    "summary": "Submission instructions will be added once the submission system and policies are confirmed.",
+    "kind": "basic",
+    "sections": [
+      {
+        "heading": "Planned Submission System",
+        "paragraphs": [
+          "IEEE SSCI 2027 plans to use a centralized paper management system such as CMT3 or EasyChair. The final submission link, formatting requirements, page limits, and policy details will be published after confirmation."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "submissions/presentation-format",
+    "title": "Presentation Format",
+    "summary": "Planned presentation formats for IEEE SSCI 2027.",
+    "kind": "basic",
+    "sections": [
+      {
+        "heading": "Session Formats",
+        "bullets": [
+          "Oral presentations: typically 20 minutes for the talk plus 5 minutes for Q&A.",
+          "Poster sessions: full paper posters, short paper posters, and late-breaking work or abstract posters.",
+          "Panels and interactive sessions: 60-90 minute moderated discussions with academic, industry, and government speakers.",
+          "Tutorials and workshops: half-day or full-day sessions, ideally scheduled before the main conference.",
+          "Competitions and challenge tracks: live presentations of results and winner announcements."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "submissions/poster-instructions",
+    "title": "Poster Instructions",
+    "summary": "Poster instructions and downloadable files will be added when available.",
+    "kind": "basic"
+  },
+  {
+    "slug": "submissions/camera-ready",
+    "title": "Camera-ready Submission Instructions",
+    "summary": "Camera-ready submission instructions will be added after acceptance notifications.",
+    "kind": "basic"
+  },
+  {
+    "slug": "symposia",
+    "title": "Symposia Overview",
+    "summary": "Planned symposia for IEEE SSCI 2027.",
+    "kind": "basic",
+    "sections": [
+      {
+        "heading": "Proposed Symposia",
+        "bullets": [
+          "IEEE Symposium on Computational Intelligence for Energy, Transport and Environmental Sustainability (IEEE CIETES)",
+          "IEEE Symposium on Computational Intelligence in Engineering / Cyber Physical Systems (IEEE CIES)",
+          "IEEE Symposium on Computational Intelligence in Image, Signal Processing and Synthetic Media (IEEE CISM)",
+          "IEEE Symposium on Computational Intelligence in Artificial Life and Cooperative Intelligent Systems (IEEE ALIFE-CIS)",
+          "IEEE Symposium on Computational Intelligence in Security, Defence and Biometrics (IEEE CISDB)",
+          "IEEE Symposium on Computational Intelligence in Health and Medicine (IEEE CIHM)",
+          "IEEE Symposium on Computational Intelligence for Financial Engineering and Economics (IEEE CiFer)",
+          "IEEE Symposium on Computational Intelligence in Natural Language Processing and Social Media (IEEE CI-NLPSoMe)",
+          "IEEE Symposium on Trustworthy, Explainable and Responsible Computational Intelligence (IEEE CITREx)",
+          "IEEE Symposium for Multidisciplinary Computational Intelligence Incubators (IEEE MCII)"
+        ]
+      },
+      {
+        "heading": "Incubator Special Sessions",
+        "bullets": [
+          "Computational intelligence in time series and spatio-temporal data mining",
+          "Computational intelligence in control",
+          "Computational intelligence in remote sensing",
+          "Learning for graphs",
+          "Computational intelligence in multidisciplinary applications"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "symposia/energy-transport-environment",
+    "title": "CI for Energy, Transport and Environmental Sustainability",
+    "summary": "IEEE CIETES symposium details will be added here.",
+    "kind": "basic"
+  },
+  {
+    "slug": "symposia/engineering-cyber-physical-systems",
+    "title": "CI in Engineering / Cyber Physical Systems",
+    "summary": "IEEE CIES symposium details will be added here.",
+    "kind": "basic"
+  },
+  {
+    "slug": "symposia/image-signal-synthetic-media",
+    "title": "CI in Image, Signal Processing and Synthetic Media",
+    "summary": "IEEE CISM symposium details will be added here.",
+    "kind": "basic"
+  },
+  {
+    "slug": "symposia/artificial-life-cooperative-systems",
+    "title": "CI in Artificial Life and Cooperative Intelligent Systems",
+    "summary": "IEEE ALIFE-CIS symposium details will be added here.",
+    "kind": "basic"
+  },
+  {
+    "slug": "symposia/security-defence-biometrics",
+    "title": "CI in Security, Defence and Biometrics",
+    "summary": "IEEE CISDB symposium details will be added here.",
+    "kind": "basic"
+  },
+  {
+    "slug": "symposia/health-medicine",
+    "title": "CI in Health and Medicine",
+    "summary": "IEEE CIHM symposium details will be added here.",
+    "kind": "basic"
+  },
+  {
+    "slug": "symposia/financial-engineering-economics",
+    "title": "CI for Financial Engineering and Economics",
+    "summary": "IEEE CiFer symposium details will be added here.",
+    "kind": "basic"
+  },
+  {
+    "slug": "symposia/nlp-social-media",
+    "title": "CI in Natural Language Processing and Social Media",
+    "summary": "IEEE CI-NLPSoMe symposium details will be added here.",
+    "kind": "basic"
+  },
+  {
+    "slug": "symposia/trustworthy-explainable-responsible-ci",
+    "title": "Trustworthy, Explainable and Responsible CI",
+    "summary": "IEEE CITREx symposium details will be added here.",
+    "kind": "basic"
+  },
+  {
+    "slug": "symposia/multidisciplinary-incubators",
+    "title": "Multidisciplinary Computational Intelligence Incubators",
+    "summary": "IEEE MCII symposium and special session details will be added here.",
+    "kind": "basic",
+    "sections": [
+      {
+        "heading": "Proposed Special Sessions",
+        "bullets": [
+          "Computational intelligence in time series and spatio-temporal data mining",
+          "Computational intelligence in control",
+          "Computational intelligence in remote sensing",
+          "Learning for graphs",
+          "Computational intelligence in multidisciplinary applications"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "program/at-a-glance",
+    "title": "Program at a Glance",
+    "summary": "IEEE SSCI 2027 is planned as a three-day in-person technical program with pre-conference tutorials and workshops.",
+    "kind": "basic",
+    "sections": [
+      {
+        "heading": "Technical Program Overview",
+        "paragraphs": [
+          "The technical program is planned to span three full days of in-person sessions, supported by hybrid presentation capability if needed."
+        ],
+        "bullets": [
+          "Plenary and keynote talks",
+          "Industry and academic panels",
+          "Parallel oral paper sessions",
+          "Poster sessions for full papers, short papers, and late-breaking abstracts",
+          "Tutorials and workshops before the main conference",
+          "Competitions and challenge tracks",
+          "Awards for outstanding contributions",
+          "Young Professionals, Women in Computational Intelligence, and other networking sessions"
+        ]
+      },
+      {
+        "heading": "Awards",
+        "bullets": [
+          "Best Paper Award",
+          "Best Student Paper Award",
+          "Best Poster Award",
+          "Industry Collaboration Award"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "program/social-program",
+    "title": "Social Program",
+    "summary": "Planned social and networking events for IEEE SSCI 2027.",
+    "kind": "basic",
+    "sections": [
+      {
+        "heading": "Welcome Reception",
+        "paragraphs": [
+          "A sunset welcome reception is planned for the first evening at a scenic outdoor terrace adjacent to the Gold Coast Convention and Exhibition Centre. Delegates will be able to network in a relaxed setting with local cuisine and drinks."
+        ]
+      },
+      {
+        "heading": "Conference Banquet",
+        "paragraphs": [
+          "The conference banquet is planned for The Star Gold Coast, minutes from the conference venue. The evening is expected to include an Australian menu, local entertainment, awards, and networking zones."
+        ]
+      },
+      {
+        "heading": "Targeted Networking",
+        "bullets": [
+          "Women in Computational Intelligence lunch panel",
+          "Student and Early-Career Researcher meet-up",
+          "Industry and academia roundtables during lunch breaks or coffee sessions"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "program/additional-social-events",
+    "title": "Additional Social Events",
+    "summary": "Optional local experiences are planned to showcase the Gold Coast region.",
+    "kind": "basic",
+    "sections": [
+      {
+        "heading": "Optional Activities",
+        "bullets": [
+          "Guided rainforest hikes in Springbrook National Park",
+          "Visits to Currumbin Wildlife Sanctuary",
+          "Surfing lessons or beach yoga",
+          "Group outings to local galleries, markets, and scenic lookouts"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "program/plenary-and-keynote-sessions",
+    "title": "Plenary and Keynote Sessions",
+    "summary": "Confirmed plenary and keynote speakers will appear here.",
+    "kind": "speakers",
+    "sections": [
+      {
+        "paragraphs": [
+          "IEEE SSCI 2027 plans to host distinguished keynote and plenary speakers from academia and industry addressing emerging frontiers in computational intelligence. Speaker names, talk titles, abstracts, and schedules will be updated after confirmation."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "program/panels",
+    "title": "Panels",
+    "summary": "Industry and academic panels will focus on computational intelligence applications across key sectors.",
+    "kind": "basic",
+    "sections": [
+      {
+        "heading": "Planned Panel Themes",
+        "bullets": [
+          "AI and computational intelligence in healthcare decision support and clinical data integration",
+          "Trustworthy AI in financial services",
+          "Applied machine learning in banking",
+          "Computational intelligence for sustainable energy optimization",
+          "Trustworthy, explainable, and responsible computational intelligence"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "program/tutorials",
+    "title": "Tutorials",
+    "summary": "Tutorial proposals are planned to open in 2026.",
+    "kind": "basic",
+    "sections": [
+      {
+        "heading": "Planned Tutorial Timeline",
+        "bullets": [
+          "Tutorial proposal deadline: 1 October 2026",
+          "Tutorial material submission: 15 December 2026",
+          "Tutorials are expected to be half-day or full-day sessions before the main conference."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "program/competitions",
+    "title": "Competitions",
+    "summary": "Competitions and challenge tracks are planned for IEEE SSCI 2027.",
+    "kind": "basic",
+    "sections": [
+      {
+        "paragraphs": [
+          "Competition and challenge tracks are expected to include live presentations of results and winner announcements. Detailed calls and timelines will be added after confirmation."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "program/industry-collaboration-workshop",
+    "title": "Industry Collaboration Workshop",
+    "summary": "IEEE SSCI 2027 will feature a strong industry engagement program.",
+    "kind": "basic",
+    "sections": [
+      {
+        "heading": "Industry Outreach",
+        "paragraphs": [
+          "The conference plans to foster collaboration between researchers, practitioners, policymakers, companies, research labs, startups, and government partners."
+        ],
+        "bullets": [
+          "Dedicated industry panels and keynotes",
+          "Technology demonstrations and showcases near poster and exhibit areas",
+          "Career and industry networking fair",
+          "Startup and innovation pitch session",
+          "Coordination with IEEE CIS Industry and Government Committees"
+        ]
+      },
+      {
+        "heading": "Technology Demonstrations",
+        "bullets": [
+          "Intelligent systems and embedded solutions",
+          "Industrial and robotics applications of computational intelligence",
+          "Live decision-support systems for healthcare, energy, and finance"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "registration",
+    "title": "Registration",
+    "summary": "Registration information and links will be added once available.",
+    "kind": "basic",
+    "sections": [
+      {
+        "paragraphs": [
+          "Registration categories, rates, deadlines, and the registration portal will be published after they are confirmed."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "venue-travel/venue",
+    "title": "Venue Information",
+    "summary": "IEEE SSCI 2027 is proposed for the Gold Coast Convention and Exhibition Centre.",
+    "kind": "basic",
+    "sections": [
+      {
+        "heading": "Gold Coast Convention and Exhibition Centre",
+        "paragraphs": [
+          "The proposed venue is the Gold Coast Convention and Exhibition Centre (GCCEC), one of Australia's premier conference centres. It is centrally located in Broadbeach and is close to hotels, restaurants, the beach, and public transportation."
+        ]
+      },
+      {
+        "heading": "Capacity and Meeting Spaces",
+        "bullets": [
+          "Over 10,000 square metres of configurable event space",
+          "Main arena seating up to 6,000 participants",
+          "18 meeting rooms and boardrooms for parallel sessions, workshops, and panels",
+          "Small rooms for 20-50 seats and mid-size rooms for 100-300 seats",
+          "Foyers and exhibition areas for registration, posters, networking, and social functions"
+        ]
+      },
+      {
+        "heading": "Technology, Accessibility, and Amenities",
+        "bullets": [
+          "High-speed Wi-Fi throughout the venue",
+          "AV-equipped rooms supporting live streaming, virtual presentations, and hybrid meetings",
+          "On-site technical support",
+          "Wheelchair accessibility, accessible restrooms, elevators, and designated parking",
+          "Catering, exhibitor support, business centre, lounges, and Green Globe certified operations"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "venue-travel/travel",
+    "title": "Travel Information",
+    "summary": "Travel information for Gold Coast, Queensland, Australia.",
+    "kind": "basic",
+    "sections": [
+      {
+        "heading": "Airports",
+        "bullets": [
+          "Brisbane Airport (BNE) is approximately 85 km from the Gold Coast and offers direct connections to major Asian and North American hubs, with one-stop connections to Europe via Doha, Dubai, Singapore, and other hubs.",
+          "Gold Coast Airport (OOL) is approximately 30 minutes from the proposed venue and offers regional and selected international connections, including New Zealand and Southeast Asia."
+        ]
+      },
+      {
+        "heading": "Local Transport",
+        "bullets": [
+          "The region is served by the G:link light rail, buses, shuttles, taxis, and rideshare services.",
+          "The Gold Coast Convention and Exhibition Centre is located next to Broadbeach North tram station.",
+          "Recommended hotels are within walking distance of the venue."
+        ]
+      },
+      {
+        "heading": "Visa Guidance",
+        "paragraphs": [
+          "Australia offers online visa pathways for many international visitors. The conference will provide visa support letters upon request for registered authors, presenters, and attendees."
+        ],
+        "bullets": [
+          "eVisitor visa (Subclass 651) for citizens of the EU, UK, and several other European countries",
+          "Electronic Travel Authority (ETA, Subclass 601) for passport holders from the USA, Canada, Japan, South Korea, Singapore, and others",
+          "Visitor visa (Subclass 600) for other countries; attendees are encouraged to apply well in advance"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "venue-travel/accommodation",
+    "title": "Accommodation",
+    "summary": "Recommended accommodation options near the Gold Coast Convention and Exhibition Centre.",
+    "kind": "basic",
+    "sections": [
+      {
+        "heading": "Nearby Hotels",
+        "table": {
+          "headers": ["Hotel", "Indicative Rate", "Distance to GCCEC", "Notes"],
+          "rows": [
+            ["Dorsett Gold Coast", "Approx. AUD $180/night", "About 0.6 km, 6-minute walk", "Outdoor pool, gym, dining, Wi-Fi, accessible rooms"],
+            ["Avani Broadbeach Residences", "Approx. AUD $210/night", "About 0.6 km, 7-minute walk", "Apartment-style rooms, pool, fitness centre, step-free access"],
+            ["Meriton Suites Broadbeach", "Approx. AUD $255/night", "About 0.7 km, 6-minute walk", "Spacious suites, kitchens, pools, gym, wheelchair-friendly suites"],
+            ["Sofitel Gold Coast Broadbeach", "Approx. AUD $350/night", "About 0.4 km, 4-minute walk", "Luxury beachfront property, pools, dining, accessible rooms"],
+            ["The Star Grand at The Star Gold Coast", "Approx. AUD $220-520/night", "About 0.4 km, 5-minute walk", "Resort facilities, restaurants, spa, gym, accessible rooms"]
+          ]
+        }
+      },
+      {
+        "heading": "Conference Rates",
+        "paragraphs": [
+          "Negotiated conference rates are not finalized. The organizing team plans to publish confirmed accommodation discounts no later than November 2026, after early attendance estimates become clearer."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "venue-travel/things-to-do",
+    "title": "Things To Do",
+    "summary": "Gold Coast visitor highlights for IEEE SSCI 2027 delegates.",
+    "kind": "basic",
+    "sections": [
+      {
+        "heading": "Gold Coast Highlights",
+        "bullets": [
+          "Surfers Paradise and other Gold Coast beaches",
+          "Springbrook and Lamington national parks",
+          "Theme parks, cultural festivals, and wildlife encounters",
+          "A safe, walkable, and welcoming environment for international guests"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "venue-travel/travel-grants",
+    "title": "Travel Grants",
+    "summary": "Student and early-career support information will be added here.",
+    "kind": "basic",
+    "sections": [
+      {
+        "paragraphs": [
+          "Sponsorship income is planned to support student travel grants, reduced registration fees, early-career researcher support, prizes, and inclusive hybrid participation where needed."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "sponsors/call-for-sponsors",
+    "title": "Call for Sponsors",
+    "summary": "IEEE SSCI 2027 will offer a structured sponsorship program for industry, universities, research institutions, and civic partners.",
+    "kind": "basic",
+    "sections": [
+      {
+        "heading": "Sponsorship Tiers",
+        "table": {
+          "headers": ["Tier", "Contribution", "Key Benefits"],
+          "rows": [
+            ["Platinum", "AUD $25,000+", "Keynote or session speaking slot, premium booth, logo on all materials, homepage placement, 6 full registrations, branded student award sponsorship"],
+            ["Gold", "AUD $15,000-24,999", "Panel participation, exhibit booth, logo on digital materials and lanyards, 4 full registrations"],
+            ["Silver", "AUD $7,500-14,999", "Logo on website and program, booth space, 2 full registrations"],
+            ["Bronze", "AUD $3,000-7,499", "Website and program logo, 1 registration discount"],
+            ["Startup / Academic Lab Partner", "AUD $1,000+", "Poster or table display, networking session access, visibility in student activities"]
+          ]
+        }
+      },
+      {
+        "heading": "Use of Sponsorship Funds",
+        "bullets": [
+          "Student travel grants and reduced registration fees",
+          "Early-career researcher support through discounted tutorials and workshops",
+          "Best student paper and poster prizes",
+          "Hybrid participation subsidies to support inclusivity"
+        ]
+      },
+      {
+        "heading": "Prospective Outreach",
+        "paragraphs": [
+          "The outreach plan targets government, research, and industry organizations including Experience Gold Coast, Tourism and Events Queensland, CSIRO, Google, Amazon Web Services, Westpac, and leading Australian technology companies."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "sponsors",
+    "title": "Our Sponsors",
+    "summary": "Sponsor logos and acknowledgements will appear here as sponsorships are confirmed.",
+    "kind": "sponsors",
+    "sections": [
+      {
+        "paragraphs": [
+          "The sponsor list below reflects proposed or prospective partners from the current planning draft. Confirmed sponsorship tiers and logos will be updated as agreements are finalized."
+        ]
+      }
+    ]
+  }
+]

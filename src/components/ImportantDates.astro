@@ -1,0 +1,27 @@
+---
+import EmptyState from './EmptyState.astro';
+
+interface DateItem {
+  label: string;
+  date: string;
+  status?: string;
+}
+
+interface Props {
+  dates: DateItem[];
+}
+---
+
+{Astro.props.dates.length > 0 ? (
+  <ol class="date-list">
+    {Astro.props.dates.map((item) => (
+      <li>
+        <span>{item.label}</span>
+        <strong>{item.date}</strong>
+        {item.status && <em>{item.status}</em>}
+      </li>
+    ))}
+  </ol>
+) : (
+  <EmptyState title="Dates to be announced" text="Submission deadlines and conference milestones will appear here when confirmed." />
+)}

@@ -1,0 +1,35 @@
+---
+import EmptyState from './EmptyState.astro';
+
+interface Sponsor {
+  name: string;
+  logo?: string;
+  href?: string;
+  tier?: string;
+}
+
+interface Props {
+  sponsors: Sponsor[];
+}
+
+const base = import.meta.env.BASE_URL;
+---
+
+{Astro.props.sponsors.length > 0 ? (
+  <div class="sponsor-grid">
+    {Astro.props.sponsors.map((sponsor) => (
+      <article class="sponsor-card">
+        {sponsor.href ? (
+          <a href={sponsor.href} target="_blank" rel="noreferrer">
+            {sponsor.logo ? <img src={`${base}${sponsor.logo.replace(/^\//, '')}`} alt={sponsor.name} /> : <span>{sponsor.name}</span>}
+          </a>
+        ) : (
+          sponsor.logo ? <img src={`${base}${sponsor.logo.replace(/^\//, '')}`} alt={sponsor.name} /> : <span>{sponsor.name}</span>
+        )}
+        {sponsor.tier && <p>{sponsor.tier}</p>}
+      </article>
+    ))}
+  </div>
+) : (
+  <EmptyState title="Sponsors not announced yet" text="Sponsor logos and acknowledgements will appear here as sponsorships are confirmed." />
+)}

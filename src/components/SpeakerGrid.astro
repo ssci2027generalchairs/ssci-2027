@@ -1,0 +1,47 @@
+---
+import EmptyState from './EmptyState.astro';
+
+interface Speaker {
+  name: string;
+  title?: string;
+  affiliation?: string;
+  talkTitle?: string;
+  dateTime?: string;
+  image?: string;
+  href?: string;
+}
+
+interface Props {
+  title: string;
+  speakers: Speaker[];
+}
+
+const base = import.meta.env.BASE_URL;
+---
+
+<section class="speaker-section">
+  <h2>{Astro.props.title}</h2>
+  {Astro.props.speakers.length > 0 ? (
+    <div class="speaker-grid">
+      {Astro.props.speakers.map((speaker) => (
+        <article class="speaker-card">
+          <div class="speaker-photo">
+            {speaker.image ? (
+              <img src={`${base}${speaker.image.replace(/^\//, '')}`} alt={speaker.name} />
+            ) : (
+              <span>{speaker.name.split(' ').map((part) => part[0]).join('').slice(0, 2)}</span>
+            )}
+          </div>
+          <div>
+            {speaker.talkTitle && <p class="talk-title">{speaker.talkTitle}</p>}
+            <h3>{speaker.href ? <a href={speaker.href}>{speaker.name}</a> : speaker.name}</h3>
+            {speaker.affiliation && <p>{speaker.affiliation}</p>}
+            {speaker.dateTime && <p class="speaker-time">{speaker.dateTime}</p>}
+          </div>
+        </article>
+      ))}
+    </div>
+  ) : (
+    <EmptyState title={`${Astro.props.title} not announced yet`} text="Confirmed speakers will be added here without changing the page layout." />
+  )}
+</section>

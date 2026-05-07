@@ -1,0 +1,46 @@
+---
+import site from '../data/site.json';
+import heroImages from '../data/heroImages.json';
+
+const base = import.meta.env.BASE_URL;
+const cleanBase = base.endsWith('/') ? base.slice(0, -1) : base;
+const withBase = (href: string) => href === '/' ? base : `${cleanBase}${href}`;
+const withAssetBase = (href: string) => `${base}${href.replace(/^\//, '')}`;
+---
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-carousel" data-hero-carousel aria-label="Gold Coast images">
+    {heroImages.map((image, index) => (
+      <figure class:list={['hero-slide', index === 0 && 'active']} data-hero-slide>
+        <img src={withAssetBase(image.src)} alt={image.alt} />
+        <figcaption>{image.caption}</figcaption>
+      </figure>
+    ))}
+    <button class="hero-control prev" type="button" data-hero-prev aria-label="Previous image">‹</button>
+    <button class="hero-control next" type="button" data-hero-next aria-label="Next image">›</button>
+    <div class="hero-dots" aria-label="Select hero image">
+      {heroImages.map((image, index) => (
+        <button
+          type="button"
+          class:list={[index === 0 && 'active']}
+          data-hero-dot={index}
+          aria-label={`Show image ${index + 1}: ${image.caption}`}
+        ></button>
+      ))}
+    </div>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="eyebrow">{site.name}</p>
+    <h1 id="hero-title">{site.shortName}</h1>
+    <p class="hero-meta">{site.locationLabel} · {site.datesLabel}</p>
+    <div class="hero-actions" aria-label="Primary links">
+      <a class="button primary" href={withBase('/submissions/call-for-papers/')}>Call for Papers</a>
+      <a class="button secondary" href={withBase('/program/at-a-glance/')}>Program</a>
+    </div>
+  </div>
+</section>
+
+<script>
+  import '../scripts/hero-carousel.js';
+</script>

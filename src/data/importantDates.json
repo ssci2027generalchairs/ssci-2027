@@ -1,0 +1,43 @@
+[
+  {
+    "label": "Special session proposal due",
+    "date": "1 June 2026"
+  },
+  {
+    "label": "Special session acceptance notification",
+    "date": "10 June 2026"
+  },
+  {
+    "label": "Main track paper submission deadline",
+    "date": "10 July 2026"
+  },
+  {
+    "label": "Workshop proposal due",
+    "date": "1 June 2026"
+  },
+  {
+    "label": "Workshop paper deadline",
+    "date": "15 August 2026"
+  },
+  {
+    "label": "Paper and workshop notification",
+    "date": "19 October 2026"
+  },
+  {
+    "label": "Tutorial proposal deadline",
+    "date": "1 October 2026"
+  },
+  {
+    "label": "Final camera-ready version due",
+    "date": "10 November 2026"
+  },
+  {
+    "label": "Tutorial material submission",
+    "date": "15 December 2026"
+  },
+  {
+    "label": "Conference dates",
+    "date": "14-17 February 2027",
+    "status": "Proposed"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "year": "2027",
+  "name": "IEEE Symposium Series on Computational Intelligence",
+  "shortName": "IEEE SSCI 2027",
+  "locationLabel": "Gold Coast, Queensland, Australia",
+  "datesLabel": "14-17 February 2027",
+  "welcomeTitle": "Welcome to Gold Coast, Australia, IEEE SSCI 2027",
+  "welcomeBody": [
+    "IEEE SSCI 2027 is proposed as an in-person conference on the Gold Coast, Queensland, Australia, with hybrid presentation support available if needed.",
+    "The conference will bring together researchers, practitioners, industry leaders, government partners, and students working across the broad field of computational intelligence.",
+    "Program details, speakers, registration information, sponsors, and local arrangements will continue to be updated as they are confirmed."
+  ],
+  "metaDescription": "IEEE SSCI 2027 conference website.",
+  "contactEmail": "z.gong@griffith.edu.au",
+  "analyticsId": "",
+  "ieeeLinks": [
+    { "label": "IEEE.org", "href": "https://www.ieee.org/index.html" },
+    { "label": "IEEE Xplore Digital Library", "href": "https://ieeexplore.ieee.org/Xplore/home.jsp" },
+    { "label": "IEEE Standards", "href": "https://standards.ieee.org/" },
+    { "label": "IEEE Spectrum", "href": "https://spectrum.ieee.org/" },
+    { "label": "More Sites", "href": "https://www.ieee.org/sitemap.html" }
+  ]
+}

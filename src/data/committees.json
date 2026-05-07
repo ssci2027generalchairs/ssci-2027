@@ -1,0 +1,209 @@
+[
+  {
+    "name": "Organizing Committee",
+    "slug": "organizing-committee",
+    "members": [
+      {
+        "role": "General Chair",
+        "name": "Alan Liew",
+        "affiliation": "Griffith University"
+      },
+      {
+        "role": "General Chair",
+        "name": "Chin-Teng Lin",
+        "affiliation": "University of Technology Sydney"
+      },
+      {
+        "role": "Program Chair",
+        "name": "Shirui Pan",
+        "affiliation": "Griffith University"
+      },
+      {
+        "role": "Local Chair",
+        "name": "Xuefei Yin",
+        "affiliation": "Griffith University"
+      },
+      {
+        "role": "Local Chair",
+        "name": "Yanjun Zhang",
+        "affiliation": "Griffith University"
+      },
+      {
+        "role": "Local Chair",
+        "name": "Leo Zhang",
+        "affiliation": "To be confirmed"
+      },
+      {
+        "role": "Website Chair",
+        "name": "Zirui Gong",
+        "affiliation": "Griffith University"
+      },
+      {
+        "role": "Website Chair",
+        "name": "Zhaoxi Zhang",
+        "affiliation": "Griffith University"
+      },
+      {
+        "role": "Publicity Chair",
+        "name": "Jun Shen",
+        "affiliation": "To be confirmed"
+      },
+      {
+        "role": "Registration Chair",
+        "name": "Ryan Zhou",
+        "affiliation": "To be confirmed"
+      },
+      {
+        "role": "Proceedings Chair",
+        "name": "Yixin Liu",
+        "affiliation": "To be confirmed"
+      },
+      {
+        "role": "Proceedings Chair",
+        "name": "Xin Zheng",
+        "affiliation": "To be confirmed"
+      },
+      {
+        "role": "Proceedings Chair",
+        "name": "Liang Chen",
+        "affiliation": "To be confirmed"
+      },
+      {
+        "role": "Tutorial Chair",
+        "name": "Bing Xue",
+        "affiliation": "Victoria University of Wellington"
+      },
+      {
+        "role": "Tutorial Chair",
+        "name": "M. Tanveer",
+        "affiliation": "Indian Institute of Technology Indore"
+      },
+      {
+        "role": "Tutorial Chair",
+        "name": "Junbin Gao",
+        "affiliation": "The University of Sydney"
+      },
+      {
+        "role": "Industry and Government Chair",
+        "name": "Ming Ding",
+        "affiliation": "CSIRO"
+      },
+      {
+        "role": "Industry and Government Chair",
+        "name": "Owen Vallis",
+        "affiliation": "OpenAI"
+      },
+      {
+        "role": "Competition Chair",
+        "name": "Catherine Huang",
+        "affiliation": "Google"
+      },
+      {
+        "role": "Finance Chair",
+        "name": "Yi Liu",
+        "affiliation": "To be confirmed"
+      },
+      {
+        "role": "Plenary and Keynote Chair",
+        "name": "To be announced",
+        "affiliation": "To be confirmed"
+      },
+      {
+        "role": "Collaboration and Engagement Chair",
+        "name": "To be announced",
+        "affiliation": "To be confirmed"
+      }
+    ]
+  },
+  {
+    "name": "SSCI Evaluation and Planning Committee",
+    "slug": "evaluation-and-planning-committee",
+    "members": []
+  },
+  {
+    "name": "Symposium Chairs",
+    "slug": "symposium-chairs",
+    "members": [
+      {
+        "role": "IEEE CIETES",
+        "name": "Bo Du",
+        "affiliation": "Griffith University Business School"
+      },
+      {
+        "role": "IEEE CIES",
+        "name": "Hai Dong",
+        "affiliation": "RMIT University"
+      },
+      {
+        "role": "IEEE CISM",
+        "name": "Kai Qin",
+        "affiliation": "To be confirmed"
+      },
+      {
+        "role": "IEEE ALIFE-CIS",
+        "name": "Jiajun Liu",
+        "affiliation": "CSIRO"
+      },
+      {
+        "role": "IEEE ALIFE-CIS",
+        "name": "Peyman Moghadam",
+        "affiliation": "CSIRO"
+      },
+      {
+        "role": "IEEE CISDB",
+        "name": "Jiankun Hu",
+        "affiliation": "The University of New South Wales"
+      },
+      {
+        "role": "IEEE CISDB",
+        "name": "Tianqing Zhu",
+        "affiliation": "City University of Macau"
+      },
+      {
+        "role": "IEEE CIHM",
+        "name": "Xiuying Wang",
+        "affiliation": "The University of Sydney"
+      },
+      {
+        "role": "IEEE CIHM",
+        "name": "Zongyuan (Tony) Ge",
+        "affiliation": "To be confirmed"
+      },
+      {
+        "role": "IEEE CiFer",
+        "name": "Yongjae Lee",
+        "affiliation": "UNIST"
+      },
+      {
+        "role": "IEEE CiFer",
+        "name": "Jianxin Li",
+        "affiliation": "Edith Cowan University"
+      },
+      {
+        "role": "IEEE CI-NLPSoMe",
+        "name": "Hongzhi Yin",
+        "affiliation": "The University of Queensland"
+      },
+      {
+        "role": "IEEE CI-NLPSoMe",
+        "name": "Usman Naseem",
+        "affiliation": "Macquarie University"
+      },
+      {
+        "role": "IEEE CITREx",
+        "name": "Guangdong Bai",
+        "affiliation": "City University of Hong Kong"
+      },
+      {
+        "role": "IEEE CITREx",
+        "name": "Feng Liu",
+        "affiliation": "The University of Melbourne"
+      },
+      {
+        "role": "IEEE MCII",
+        "name": "Fenglei Fan",
+        "affiliation": "City University of Hong Kong"
+      }
+    ]
+  }
+]

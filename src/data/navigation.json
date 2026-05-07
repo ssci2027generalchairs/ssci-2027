@@ -1,0 +1,69 @@
+[
+  { "label": "Home", "href": "/" },
+  {
+    "label": "About",
+    "items": [
+      { "label": "Organizing Committee", "href": "/about/organizing-committee/" },
+      { "label": "Symposium Chairs", "href": "/about/symposium-chairs/" },
+      { "label": "SSCI Evaluation and Planning Committee", "href": "/about/evaluation-and-planning-committee/" },
+      { "label": "Contact Us", "href": "/about/contact/" }
+    ]
+  },
+  {
+    "label": "Submissions",
+    "items": [
+      { "label": "Call for Papers and Abstracts", "href": "/submissions/call-for-papers/" },
+      { "label": "Submission Instructions", "href": "/submissions/instructions/" },
+      { "label": "Presentation Format", "href": "/submissions/presentation-format/" },
+      { "label": "Poster Instructions", "href": "/submissions/poster-instructions/" },
+      { "label": "Camera-ready Submission Instructions", "href": "/submissions/camera-ready/" }
+    ]
+  },
+  {
+    "label": "Symposia",
+    "items": [
+      { "label": "Symposia Overview", "href": "/symposia/" },
+      { "label": "CI for Energy, Transport and Environmental Sustainability", "href": "/symposia/energy-transport-environment/" },
+      { "label": "CI in Engineering / Cyber Physical Systems", "href": "/symposia/engineering-cyber-physical-systems/" },
+      { "label": "CI in Image, Signal Processing and Synthetic Media", "href": "/symposia/image-signal-synthetic-media/" },
+      { "label": "CI in Artificial Life and Cooperative Intelligent Systems", "href": "/symposia/artificial-life-cooperative-systems/" },
+      { "label": "CI in Security, Defence and Biometrics", "href": "/symposia/security-defence-biometrics/" },
+      { "label": "CI in Health and Medicine", "href": "/symposia/health-medicine/" },
+      { "label": "CI for Financial Engineering and Economics", "href": "/symposia/financial-engineering-economics/" },
+      { "label": "CI in Natural Language Processing and Social Media", "href": "/symposia/nlp-social-media/" },
+      { "label": "Trustworthy, Explainable and Responsible CI", "href": "/symposia/trustworthy-explainable-responsible-ci/" },
+      { "label": "Multidisciplinary Computational Intelligence Incubators", "href": "/symposia/multidisciplinary-incubators/" }
+    ]
+  },
+  {
+    "label": "Program",
+    "items": [
+      { "label": "Program at a Glance", "href": "/program/at-a-glance/" },
+      { "label": "Social Program", "href": "/program/social-program/" },
+      { "label": "Additional Social Events", "href": "/program/additional-social-events/" },
+      { "label": "Plenary and Keynote Sessions", "href": "/program/plenary-and-keynote-sessions/" },
+      { "label": "Panels", "href": "/program/panels/" },
+      { "label": "Tutorials", "href": "/program/tutorials/" },
+      { "label": "Competitions", "href": "/program/competitions/" },
+      { "label": "Industry Collaboration Workshop", "href": "/program/industry-collaboration-workshop/" }
+    ]
+  },
+  { "label": "Registration", "href": "/registration/" },
+  {
+    "label": "Venue and Travel",
+    "items": [
+      { "label": "Venue Information", "href": "/venue-travel/venue/" },
+      { "label": "Travel Information", "href": "/venue-travel/travel/" },
+      { "label": "Accommodation", "href": "/venue-travel/accommodation/" },
+      { "label": "Things To Do", "href": "/venue-travel/things-to-do/" },
+      { "label": "Travel Grants", "href": "/venue-travel/travel-grants/" }
+    ]
+  },
+  {
+    "label": "Sponsors",
+    "items": [
+      { "label": "Call for Sponsors", "href": "/sponsors/call-for-sponsors/" },
+      { "label": "Our Sponsors", "href": "/sponsors/" }
+    ]
+  }
+]
