@@ -556,7 +556,8 @@ main {
 
 .speaker-card p,
 .member-card p,
-.member-card span {
+.member-card span,
+.member-card small {
   margin: 0;
   color: var(--muted);
 }
@@ -650,6 +651,20 @@ main {
 .member-card p {
   color: var(--teal);
   font-weight: 800;
+}
+
+.member-card a,
+.member-card em,
+.member-card small {
+  display: block;
+  margin-top: 6px;
+  overflow-wrap: anywhere;
+}
+
+.member-card em {
+  color: var(--coral);
+  font-style: normal;
+  font-weight: 700;
 }
 
 .page-sections {

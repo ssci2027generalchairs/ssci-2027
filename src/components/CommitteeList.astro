@@ -5,6 +5,9 @@ interface Member {
   name: string;
   role?: string;
   affiliation?: string;
+  email?: string;
+  status?: string;
+  note?: string;
 }
 
 interface Props {
@@ -22,6 +25,9 @@ interface Props {
           {member.role && <p>{member.role}</p>}
           <h3>{member.name}</h3>
           {member.affiliation && <span>{member.affiliation}</span>}
+          {member.email && <a href={`mailto:${member.email}`}>{member.email}</a>}
+          {member.status && <em>{member.status}</em>}
+          {member.note && <small>{member.note}</small>}
         </article>
       ))}
     </div>
