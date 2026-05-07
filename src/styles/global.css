@@ -148,6 +148,11 @@ main {
   position: relative;
 }
 
+.nav-item.has-menu {
+  padding-block: 14px;
+  margin-block: -14px;
+}
+
 .nav-item > a,
 .nav-item > button {
   display: inline-flex;
@@ -173,7 +178,7 @@ main {
 
 .dropdown {
   position: absolute;
-  top: calc(100% + 8px);
+  top: 100%;
   right: 0;
   display: grid;
   min-width: 285px;
@@ -188,7 +193,16 @@ main {
   opacity: 0;
   pointer-events: none;
   transform: translateY(-6px);
-  transition: 160ms ease;
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.dropdown::before {
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  left: 0;
+  height: 14px;
+  content: "";
 }
 
 .nav-item:hover .dropdown,
