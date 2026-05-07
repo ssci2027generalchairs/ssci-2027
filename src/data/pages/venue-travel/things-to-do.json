@@ -1,0 +1,17 @@
+{
+  "slug": "venue-travel/things-to-do",
+  "title": "Things To Do",
+  "summary": "Gold Coast visitor highlights for IEEE SSCI 2027 delegates.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Gold Coast Highlights",
+      "bullets": [
+        "Surfers Paradise and other Gold Coast beaches",
+        "Springbrook and Lamington national parks",
+        "Theme parks, cultural festivals, and wildlife encounters",
+        "A safe, walkable, and welcoming environment for international guests"
+      ]
+    }
+  ]
+}

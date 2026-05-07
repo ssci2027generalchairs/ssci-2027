@@ -1,0 +1,70 @@
+{
+  "slug": "venue-travel/accommodation",
+  "title": "Accommodation",
+  "summary": "Recommended accommodation options near the Gold Coast Convention and Exhibition Centre.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Nearby Hotels",
+      "table": {
+        "headers": [
+          "Hotel",
+          "Website",
+          "Indicative Rate",
+          "Distance to GCCEC",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Dorsett Gold Coast",
+            "https://www.dorsetthotels.com/dorsett-gold-coast/",
+            "Approx. AUD $180/night",
+            "About 0.6 km, 6-minute walk",
+            "Outdoor pool, gym, on-site dining, high-speed Wi-Fi, accessible rooms, lifts, and hearing loops"
+          ],
+          [
+            "Avani Broadbeach Residences",
+            "https://www.avanihotels.com/en/broadbeach",
+            "Approx. AUD $210/night",
+            "About 0.6 km, 7-minute walk",
+            "Apartment-style living, modern amenities, pool, fitness centre, step-free access, and lift to all floors"
+          ],
+          [
+            "Meriton Suites Broadbeach",
+            "https://www.meritonsuites.com.au/our-hotels/qld/gold-coast/broadbeach/",
+            "Approx. AUD $255/night",
+            "About 0.7 km, 6-minute walk",
+            "Spacious suites with full kitchens, indoor/outdoor pool, gym, lift access, and wheelchair-friendly suites"
+          ],
+          [
+            "Sofitel Gold Coast Broadbeach",
+            "https://www.sofitelgoldcoast.com.au/",
+            "Approx. AUD $350/night",
+            "About 0.4 km, 4-minute walk",
+            "Luxury beachfront property, two pools, fine dining, concierge, accessible rooms, ramps, lifts, and visual alarms"
+          ],
+          [
+            "The Star Grand at The Star Gold Coast",
+            "https://www.star.com.au/goldcoast",
+            "Approx. AUD $220-520/night",
+            "About 0.4 km, 5-minute walk",
+            "Casino, multiple restaurants, spa, gym, resort-style pools, and fully accessible rooms and facilities"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Conference Rates",
+      "paragraphs": [
+        "Negotiated conference rates are not finalized. Several hotels have expressed interest in providing discounted rates, contingent on a minimum number of bookings.",
+        "The organizing team plans to finalize hotel agreements in October 2026, once early attendance becomes clearer following the main paper submission deadline. Confirmed conference rates will be published on the conference website no later than November 2026, giving authors and international participants time to plan travel and accommodation."
+      ]
+    },
+    {
+      "heading": "Transportation Options",
+      "paragraphs": [
+        "The Gold Coast Convention and Exhibition Centre is located next to Broadbeach North Tram station, making it easily accessible by tram. The recommended hotels are all within approximately 0.5 km walking distance of the venue."
+      ]
+    }
+  ]
+}

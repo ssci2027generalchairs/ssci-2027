@@ -1,0 +1,46 @@
+{
+  "slug": "program/industry-collaboration-workshop",
+  "title": "Industry Collaboration Workshop",
+  "summary": "IEEE SSCI 2027 will feature a strong industry engagement program.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Industry Outreach",
+      "paragraphs": [
+        "The conference plans to foster collaboration between researchers, practitioners, policymakers, companies, research labs, startups, and government partners."
+      ],
+      "bullets": [
+        "Dedicated industry panels and keynotes",
+        "Technology demonstrations and showcases near poster and exhibit areas",
+        "Career and industry networking fair",
+        "Startup and innovation pitch session",
+        "Coordination with IEEE CIS Industry and Government Committees"
+      ]
+    },
+    {
+      "heading": "Career and Startup Sessions",
+      "paragraphs": [
+        "SSCI 2027 will host a Career and Industry Networking Fair where participating companies, research institutes, and government agencies can recruit students, postdocs, and early-career researchers. The event will provide opportunities for one-on-one discussions, resume exchanges, and introductions to potential employers.",
+        "A Startup and Innovation Pitch Session will enable early-stage AI and computational intelligence startups to present technologies and business ideas to industry experts, investors, and academic leaders. These sessions aim to promote talent development, foster collaborations, and highlight cutting-edge innovation within the computational intelligence community."
+      ]
+    },
+    {
+      "heading": "Technology Demonstrations",
+      "bullets": [
+        "Intelligent systems and embedded solutions",
+        "Industrial and robotics applications of computational intelligence",
+        "Live decision-support systems for healthcare, energy, and finance"
+      ]
+    },
+    {
+      "heading": "Liaison with IEEE CIS Industry and Government Committees",
+      "bullets": [
+        "Recommend industry speakers, panellists, and session topics aligned with current computational intelligence applications",
+        "Support the startup pitch session through mentorship or judging roles",
+        "Assist sponsor outreach by connecting the organizing team with corporate and governmental partners",
+        "Help design the Industry Day agenda, including panels, demos, and recruiting booths",
+        "Promote the conference through official CIS channels to broaden visibility"
+      ]
+    }
+  ]
+}

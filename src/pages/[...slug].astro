@@ -6,19 +6,33 @@ import SpeakerGrid from '../components/SpeakerGrid.astro';
 import SponsorGrid from '../components/SponsorGrid.astro';
 import EmptyState from '../components/EmptyState.astro';
 import PageSections from '../components/PageSections.astro';
-import pages from '../data/pages.json';
 import committees from '../data/committees.json';
 import speakers from '../data/speakers.json';
 import sponsors from '../data/sponsors.json';
 
+interface PageData {
+  slug: string;
+  title: string;
+  summary: string;
+  kind: 'basic' | 'committee' | 'speakers' | 'sponsors';
+  committeeSlug?: string;
+  sections?: Array<Record<string, unknown>>;
+}
+
 export function getStaticPaths() {
+  const pageModules = import.meta.glob<PageData>('../data/pages/**/*.json', {
+    eager: true,
+    import: 'default',
+  });
+  const pages = Object.values(pageModules);
+
   return pages.map((page) => ({
     params: { slug: page.slug },
     props: { page },
   }));
 }
 
-const { page } = Astro.props;
+const { page } = Astro.props as { page: PageData };
 const committee = page.kind === 'committee'
   ? committees.find((item) => item.slug === page.committeeSlug)
   : undefined;

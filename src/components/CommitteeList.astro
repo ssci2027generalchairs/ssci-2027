@@ -8,12 +8,22 @@ interface Member {
   email?: string;
   status?: string;
   note?: string;
+  photo?: string;
 }
 
 interface Props {
   name: string;
   members: Member[];
 }
+
+const base = import.meta.env.BASE_URL;
+const withAssetBase = (href: string) => `${base}${href.replace(/^\//, '')}`;
+const initials = (name: string) => name
+  .split(/\s+/)
+  .filter(Boolean)
+  .map((part) => part[0])
+  .join('')
+  .slice(0, 2);
 ---
 
 <section class="committee-list">
@@ -22,6 +32,13 @@ interface Props {
     <div class="member-grid">
       {Astro.props.members.map((member) => (
         <article class="member-card">
+          <div class="member-photo">
+            {member.photo ? (
+              <img src={withAssetBase(member.photo)} alt={member.name} />
+            ) : (
+              <span>{initials(member.name)}</span>
+            )}
+          </div>
           {member.role && <p>{member.role}</p>}
           <h3>{member.name}</h3>
           {member.affiliation && <span>{member.affiliation}</span>}

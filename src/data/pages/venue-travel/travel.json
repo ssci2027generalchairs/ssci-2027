@@ -1,0 +1,40 @@
+{
+  "slug": "venue-travel/travel",
+  "title": "Travel Information",
+  "summary": "Travel information for Gold Coast, Queensland, Australia.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Airports",
+      "bullets": [
+        "Brisbane Airport (BNE) is approximately 85 km from the Gold Coast, just over an hour by car or shuttle. It is a major international hub with direct connections to Asia, including Tokyo, Singapore, Hong Kong, and Seoul; North America, including Los Angeles and Vancouver; and Europe via one-stop flights through hubs such as Doha, Dubai, and Singapore.",
+        "Gold Coast Airport (OOL) is approximately 30 minutes from the proposed venue. It provides regional and selected international connections, particularly to New Zealand and Southeast Asia."
+      ]
+    },
+    {
+      "heading": "Local Transport",
+      "bullets": [
+        "The region is served by the G:link light rail, buses, shuttles, taxis, and rideshare services.",
+        "The Gold Coast Convention and Exhibition Centre is centrally located in Broadbeach and is easily accessible from nearby hotels, transit stops, and major roadways.",
+        "The Gold Coast Convention and Exhibition Centre is located next to Broadbeach North tram station.",
+        "Frequent airport shuttle services and car hire options make intercity travel straightforward.",
+        "Recommended hotels are within walking distance of the venue."
+      ]
+    },
+    {
+      "heading": "Travel Restrictions and Entry",
+      "paragraphs": [
+        "Australia maintains a transparent and streamlined visa system for international visitors. Most participants can apply for an Electronic Travel Authority or eVisitor visa online. Current entry conditions are traveller-friendly, with no major restrictions for most countries in Asia, Europe, and the Americas."
+      ]
+    },
+    {
+      "heading": "Ease of Travel and Local Attractions",
+      "bullets": [
+        "Pristine beaches, including Surfers Paradise",
+        "Rainforests and national parks, including Springbrook and Lamington",
+        "Theme parks, cultural festivals, and wildlife encounters",
+        "A safe, walkable, and welcoming environment for international guests"
+      ]
+    }
+  ]
+}

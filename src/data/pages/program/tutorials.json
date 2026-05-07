@@ -1,0 +1,16 @@
+{
+  "slug": "program/tutorials",
+  "title": "Tutorials",
+  "summary": "Tutorial proposals are planned to open in 2026.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Planned Tutorial Timeline",
+      "bullets": [
+        "Tutorial proposal deadline: 1 October 2026",
+        "Tutorial material submission: 15 December 2026",
+        "Tutorials are expected to be half-day or full-day sessions before the main conference."
+      ]
+    }
+  ]
+}

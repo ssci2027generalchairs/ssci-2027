@@ -1,0 +1,23 @@
+{
+  "slug": "program/additional-social-events",
+  "title": "Additional Social Events",
+  "summary": "Optional local experiences are planned to showcase the Gold Coast region.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Optional Activities",
+      "bullets": [
+        "Guided rainforest hikes in Springbrook National Park",
+        "Visits to Currumbin Wildlife Sanctuary",
+        "Surfing lessons or beach yoga",
+        "Group outings to local art galleries, markets, and scenic lookouts"
+      ]
+    },
+    {
+      "heading": "Scheduling",
+      "paragraphs": [
+        "Optional tours and local experiences will be timed to avoid overlap with core conference sessions and will be open to accompanying persons."
+      ]
+    }
+  ]
+}

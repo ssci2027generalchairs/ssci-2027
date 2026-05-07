@@ -19,9 +19,14 @@ Most frequently changing content lives in `src/data/`:
 - `sponsors.json`: sponsor logos and links.
 - `committees.json`: committee groups and members.
 - `importantDates.json`: deadlines and milestones.
-- `pages.json`: placeholder pages and editable body content.
+- `pages/`: editable page content split by website section, for example:
+  - `pages/about/conference-overview.json`
+  - `pages/program/panels.json`
+  - `pages/venue-travel/accommodation.json`
+  - `pages/submissions/call-for-papers.json`
 
 Images and PDFs go under `public/assets/images/` and `public/assets/files/`.
+Committee portraits go under `public/assets/images/committee/`; add the image path to the member's `photo` field in `src/data/committees.json`.
 
 ## GitHub Pages
 

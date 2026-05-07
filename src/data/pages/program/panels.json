@@ -1,0 +1,56 @@
+{
+  "slug": "program/panels",
+  "title": "Panels",
+  "summary": "Industry and academic panels will focus on computational intelligence applications across key sectors.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Planned Panel Themes",
+      "bullets": [
+        "AI and computational intelligence in healthcare decision support and clinical data integration",
+        "Trustworthy AI in financial services",
+        "Applied machine learning in banking",
+        "Computational intelligence for sustainable energy optimization",
+        "Trustworthy, explainable, and responsible computational intelligence"
+      ]
+    },
+    {
+      "heading": "Targeted Industry Panelists and Topics",
+      "table": {
+        "headers": [
+          "Panelist",
+          "Role / Organization",
+          "Topic"
+        ],
+        "rows": [
+          [
+            "Prof. Brent Richards",
+            "Director of Critical Care Research, Queensland Health - Gold Coast Health",
+            "AI and computational intelligence in healthcare decision support and clinical data integration"
+          ],
+          [
+            "Mr. Paul Bari",
+            "CTO - Consumer Banking, Westpac Group, Australia",
+            "Trustworthy AI in financial services"
+          ],
+          [
+            "Mr. Chris Bradford",
+            "AI and Tech Delivery Lead, Westpac Group",
+            "Applied machine learning in banking"
+          ],
+          [
+            "Dr. Lee Weng",
+            "CTO, Renox Energy",
+            "Computational intelligence for sustainable energy optimization"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Panel Format",
+      "paragraphs": [
+        "Industry panels will be integrated into the main program, with cross-disciplinary sessions encouraging debate, Q&A, and actionable takeaways."
+      ]
+    }
+  ]
+}

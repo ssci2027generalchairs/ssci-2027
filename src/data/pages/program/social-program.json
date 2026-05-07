@@ -1,0 +1,34 @@
+{
+  "slug": "program/social-program",
+  "title": "Social Program",
+  "summary": "Planned social and networking events for IEEE SSCI 2027.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Welcome Reception",
+      "paragraphs": [
+        "A sunset welcome reception is planned for the first evening at a scenic outdoor terrace adjacent to the Gold Coast Convention and Exhibition Centre. Delegates will be able to network in a relaxed setting with local cuisine and drinks."
+      ]
+    },
+    {
+      "heading": "Conference Banquet",
+      "paragraphs": [
+        "The conference banquet is planned for The Star Gold Coast, minutes from the conference venue. The evening is expected to include a three-course menu highlighting Australian cuisine, live local entertainment such as a didgeridoo performance or Indigenous dance, an awards ceremony, and networking zones."
+      ]
+    },
+    {
+      "heading": "Targeted Networking",
+      "bullets": [
+        "Women in Computational Intelligence lunch panel",
+        "Student and Early-Career Researcher meet-up",
+        "Industry and academia roundtables during lunch breaks or coffee sessions"
+      ]
+    },
+    {
+      "heading": "Networking Goals",
+      "paragraphs": [
+        "The social and networking program is designed to foster collaboration, mentorship, and community-building across career stages, disciplines, and cultures. The Gold Coast's coastal setting provides a memorable environment beyond the academic sessions."
+      ]
+    }
+  ]
+}

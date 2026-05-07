@@ -1,0 +1,27 @@
+{
+  "slug": "submissions/call-for-papers",
+  "title": "Call for Papers and Abstracts",
+  "summary": "IEEE SSCI 2027 will invite full papers, short papers, late-breaking work, abstracts, and journal-to-conference submissions.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Submission Scope",
+      "paragraphs": [
+        "Following recent IEEE SSCI practice, the program is expected to call for full papers, short papers, late-breaking papers, abstract-only submissions, and journal-to-conference conversions across the conference symposia."
+      ]
+    },
+    {
+      "heading": "Review Process",
+      "paragraphs": [
+        "The review process is planned to use a centralized conference management system such as CMT3 or EasyChair. Full papers will follow a rigorous double-blind peer-review process with common review guidelines, standardized evaluation criteria, and coordinated acceptance thresholds across symposia."
+      ]
+    },
+    {
+      "heading": "Paper Review Coordination",
+      "paragraphs": [
+        "Program Chairs will oversee the review process across all tracks to ensure fairness, quality control, and timely completion of reviews.",
+        "Workshops will use a different submission deadline, but their review workflow is planned to be hosted on the same platform and follow the same review criteria. Workshop Chairs will be responsible for setting up the workshop review process within the same system, ensuring consistency in reviewer assignment, evaluation standards, and notification procedures."
+      ]
+    }
+  ]
+}

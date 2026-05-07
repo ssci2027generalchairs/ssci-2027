@@ -1,0 +1,18 @@
+{
+  "slug": "submissions/presentation-format",
+  "title": "Presentation Format",
+  "summary": "Planned presentation formats for IEEE SSCI 2027.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Session Formats",
+      "bullets": [
+        "Oral presentations: typically 20 minutes for the talk plus 5 minutes for Q&A.",
+        "Poster sessions: full paper posters, short paper posters, and late-breaking work or abstract posters.",
+        "Panels and interactive sessions: 60-90 minute moderated discussions with academic, industry, and government speakers.",
+        "Tutorials and workshops: half-day or full-day sessions, ideally scheduled before the main conference.",
+        "Competitions and challenge tracks: live presentations of results and winner announcements."
+      ]
+    }
+  ]
+}

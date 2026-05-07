@@ -1,0 +1,33 @@
+{
+  "slug": "symposia",
+  "title": "Symposia Overview",
+  "summary": "Planned symposia for IEEE SSCI 2027.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Proposed Symposia",
+      "bullets": [
+        "IEEE Symposium on Computational Intelligence for Energy, Transport and Environmental Sustainability (IEEE CIETES)",
+        "IEEE Symposium on Computational Intelligence in Engineering / Cyber Physical Systems (IEEE CIES)",
+        "IEEE Symposium on Computational Intelligence in Image, Signal Processing and Synthetic Media (IEEE CISM)",
+        "IEEE Symposium on Computational Intelligence in Artificial Life and Cooperative Intelligent Systems (IEEE ALIFE-CIS)",
+        "IEEE Symposium on Computational Intelligence in Security, Defence and Biometrics (IEEE CISDB)",
+        "IEEE Symposium on Computational Intelligence in Health and Medicine (IEEE CIHM)",
+        "IEEE Symposium on Computational Intelligence for Financial Engineering and Economics (IEEE CiFer)",
+        "IEEE Symposium on Computational Intelligence in Natural Language Processing and Social Media (IEEE CI-NLPSoMe)",
+        "IEEE Symposium on Trustworthy, Explainable and Responsible Computational Intelligence (IEEE CITREx)",
+        "IEEE Symposium for Multidisciplinary Computational Intelligence Incubators (IEEE MCII)"
+      ]
+    },
+    {
+      "heading": "Incubator Special Sessions",
+      "bullets": [
+        "Computational intelligence in time series and spatio-temporal data mining",
+        "Computational intelligence in control",
+        "Computational intelligence in remote sensing",
+        "Learning for graphs",
+        "Computational intelligence in multidisciplinary applications"
+      ]
+    }
+  ]
+}

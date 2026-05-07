@@ -1,0 +1,76 @@
+{
+  "slug": "sponsors/call-for-sponsors",
+  "title": "Call for Sponsors",
+  "summary": "IEEE SSCI 2027 will offer a structured sponsorship program for industry, universities, research institutions, and civic partners.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Sponsorship Tiers",
+      "table": {
+        "headers": [
+          "Tier",
+          "Contribution",
+          "Key Benefits"
+        ],
+        "rows": [
+          [
+            "Platinum",
+            "AUD $25,000+",
+            "Keynote or session speaking slot, premium booth, logo on all materials, homepage placement, 6 full registrations, branded student award sponsorship"
+          ],
+          [
+            "Gold",
+            "AUD $15,000-24,999",
+            "Panel participation, exhibit booth, logo on digital materials and lanyards, 4 full registrations"
+          ],
+          [
+            "Silver",
+            "AUD $7,500-14,999",
+            "Logo on website and program, booth space, 2 full registrations"
+          ],
+          [
+            "Bronze",
+            "AUD $3,000-7,499",
+            "Website and program logo, 1 registration discount"
+          ],
+          [
+            "Startup / Academic Lab Partner",
+            "AUD $1,000+",
+            "Poster or table display, networking session access, visibility in student activities"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Government, Civic, and Academic Partners",
+      "paragraphs": [
+        "The organizing team will seek sponsorship from government and civic bodies and academic partners.",
+        "Experience Gold Coast is a prospective partner for in-kind support such as destination marketing, welcome kits, city tour logistics, and potential co-hosting of the welcome reception.",
+        "Griffith University is the proposed official host institution, supporting venue engagement, student volunteers, administrative support, and regional promotion."
+      ]
+    },
+    {
+      "heading": "Sponsor Acknowledgement",
+      "paragraphs": [
+        "All sponsors will be acknowledged in opening and closing ceremonies, conference emails and the mobile app, event signage, and proceedings."
+      ]
+    },
+    {
+      "heading": "Use of Sponsorship Funds",
+      "bullets": [
+        "Student travel grants and reduced registration fees",
+        "Early-career researcher support through discounted tutorials and workshops",
+        "Best student paper and poster prizes",
+        "Hybrid participation subsidies to support inclusivity"
+      ]
+    },
+    {
+      "heading": "Prospective Outreach",
+      "paragraphs": [
+        "The conference anticipates securing 4-6 sponsors across different tiers, including at least one Silver Sponsor and one Academic or Startup Partner already under discussion.",
+        "The outreach plan targets government, research, and industry organizations including Experience Gold Coast, Tourism and Events Queensland, CSIRO, Google, Amazon Web Services, Westpac, and leading Australian technology companies.",
+        "The organizing team will also collaborate with the IEEE CIS Industry and Government Subcommittees to identify additional partners and broaden engagement."
+      ]
+    }
+  ]
+}

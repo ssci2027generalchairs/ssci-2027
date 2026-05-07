@@ -1,0 +1,14 @@
+{
+  "slug": "submissions/instructions",
+  "title": "Submission Instructions",
+  "summary": "Submission instructions will be added once the submission system and policies are confirmed.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Planned Submission System",
+      "paragraphs": [
+        "IEEE SSCI 2027 plans to use a centralized paper management system such as CMT3 or EasyChair. The final submission link, formatting requirements, page limits, and policy details will be published after confirmation."
+      ]
+    }
+  ]
+}
