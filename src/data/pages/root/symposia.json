@@ -5,7 +5,7 @@
   "kind": "basic",
   "sections": [
     {
-      "heading": "Proposed Symposia",
+      "heading": "Proposed Tracks",
       "bullets": [
         "IEEE Symposium on Computational Intelligence for Energy, Transport and Environmental Sustainability (IEEE CIETES)",
         "IEEE Symposium on Computational Intelligence in Engineering / Cyber Physical Systems (IEEE CIES)",
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "heading": "Incubator Special Sessions",
+      "heading": "Special Sessions",
       "bullets": [
         "Computational intelligence in time series and spatio-temporal data mining",
         "Computational intelligence in control",

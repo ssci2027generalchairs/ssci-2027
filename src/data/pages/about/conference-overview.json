@@ -5,28 +5,33 @@
   "kind": "basic",
   "sections": [
     {
-      "heading": "Conference Title and Format",
+      "heading": "Conference Title",
       "paragraphs": [
-        "The conference title is IEEE Symposium Series on Computational Intelligence (IEEE SSCI 2027). The proposed format is in-person, with a hybrid mode supported if needed. Hybrid support would integrate onsite attendance with Zoom-based online presentations within the session schedule.",
-        "The proposed conference dates are 14-17 February 2027."
+        "The conference title is IEEE Symposium Series on Computational Intelligence (IEEE SSCI 2027)."
       ]
     },
     {
-      "heading": "Host City",
+      "heading": "Format",
+      "paragraphs": [
+        "The proposed format is in-person. A hybrid mode will be supported if needed, with onsite attendance and Zoom-based online presentations integrated into the session schedule."
+      ]
+    },
+    {
+      "heading": "Location",
       "paragraphs": [
         "Gold Coast, Queensland, Australia is proposed as the host city for IEEE SSCI 2027. The city combines global accessibility, ease of travel, cultural vibrancy, and a strong academic presence.",
         "Gold Coast is home to Griffith University, a globally recognized institution with active research in AI, robotics, and computational intelligence. The local academic ecosystem supports international collaboration and makes the region a strong venue for SSCI 2027."
       ]
     },
     {
-      "heading": "Why Gold Coast",
+      "heading": "Ease of Travel and Local Attractions",
       "paragraphs": [
         "The Gold Coast is a world-renowned destination offering pristine beaches, rainforests, national parks, theme parks, cultural festivals, wildlife encounters, and a safe, walkable, welcoming environment for international guests.",
         "The proposed venue in Broadbeach is centrally located near hotels, transit stops, restaurants, the beach, and major roadways, creating a convenient setting for international attendees."
       ]
     },
     {
-      "heading": "General Chair Profiles",
+      "heading": "Conference Organizers",
       "paragraphs": [
         "Professor Alan Wee-Chung Liew is Head of the School of Information & Communication Technology at Griffith University in Australia. He holds a first-class honours B.Eng. in Electrical & Electronic Engineering from the University of Auckland, New Zealand, and a PhD in Electronic Engineering from the University of Tasmania, Australia. He has published extensively in AI and machine learning, computer vision, ensemble and stream learning, and medical imaging. Professor Liew is a Senior Member of IEEE, Fellow of the Australian Computer Society, and Fellow of the Queensland Academy of Arts and Sciences. He serves on multiple editorial boards, including IEEE Transactions, and regularly chairs, organizes, and reviews major international conferences in computational intelligence.",
         "Professor Chin-Teng Lin is a Distinguished Professor at the University of Technology Sydney and a world-renowned expert in artificial intelligence, brain-computer interfaces, and computational intelligence. He received his BSc from National Chiao Tung University, Taiwan, and his MSc and PhD in Electrical Engineering from Purdue University, USA. He was Editor-in-Chief of IEEE Transactions on Fuzzy Systems from 2011 to 2016, is an IEEE Fellow and IFSA Fellow, and received the IEEE Fuzzy Pioneer Award in 2017. Professor Lin has led large-scale multi-year projects and has significant experience in conference leadership, including roles as Program Co-Chair and International Liaison for major IEEE events."

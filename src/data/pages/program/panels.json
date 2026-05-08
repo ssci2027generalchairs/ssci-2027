@@ -5,7 +5,7 @@
   "kind": "basic",
   "sections": [
     {
-      "heading": "Planned Panel Themes",
+      "heading": "Keynotes & Panels",
       "bullets": [
         "AI and computational intelligence in healthcare decision support and clinical data integration",
         "Trustworthy AI in financial services",
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "heading": "Targeted Industry Panelists and Topics",
+      "heading": "Industry Panels and Keynotes",
       "table": {
         "headers": [
           "Panelist",
@@ -47,7 +47,7 @@
       }
     },
     {
-      "heading": "Panel Format",
+      "heading": "Industry Panels and Keynotes",
       "paragraphs": [
         "Industry panels will be integrated into the main program, with cross-disciplinary sessions encouraging debate, Q&A, and actionable takeaways."
       ]

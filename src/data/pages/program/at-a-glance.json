@@ -5,7 +5,7 @@
   "kind": "basic",
   "sections": [
     {
-      "heading": "Technical Program Overview",
+      "heading": "Overview",
       "paragraphs": [
         "The technical program is planned to span three full days of in-person sessions, supported by hybrid presentation capability if needed."
       ],
@@ -21,14 +21,20 @@
       ]
     },
     {
-      "heading": "Keynotes, Panels, and Industry Participation",
+      "heading": "Keynotes & Panels",
       "paragraphs": [
         "The conference plans to host distinguished keynote speakers from academia and industry addressing emerging frontiers in computational intelligence. Industry and academic panels will focus on application domains such as healthcare AI, financial AI, energy and transport sustainability, and trustworthy computational intelligence.",
+        "These sessions will enhance relevance and cross-domain dialogue."
+      ]
+    },
+    {
+      "heading": "Industry Participation & Demos",
+      "paragraphs": [
         "A dedicated technology demo and industry exhibition zone is planned alongside the technical program. Industry panels and poster/demo sessions will invite participation from industry, startups, and applied labs."
       ]
     },
     {
-      "heading": "Awards",
+      "heading": "Awards & Recognition",
       "bullets": [
         "Best Paper Award",
         "Best Student Paper Award",
@@ -37,7 +43,7 @@
       ]
     },
     {
-      "heading": "Award Ceremony",
+      "heading": "Awards & Recognition",
       "paragraphs": [
         "Awards are planned to be presented during the conference banquet to recognize excellence and encourage participation."
       ]
