@@ -45,7 +45,7 @@
       {
         "role": "Local Chair",
         "name": "Leo Zhang",
-        "affiliation": "To be confirmed",
+        "affiliation": "Griffith University",
         "photo": ""
       },
       {
@@ -66,32 +66,32 @@
       {
         "role": "Publicity Chair",
         "name": "Jun Shen",
-        "affiliation": "To be confirmed",
+        "affiliation": "University of Wollongong",
+        "email": "jshen@uow.edu.au",
         "photo": ""
       },
       {
         "role": "Registration Chair",
         "name": "Ryan Zhou",
-        "affiliation": "To be confirmed",
-        "email": "jshen@uow.edu.au",
+        "affiliation": "",
         "photo": ""
       },
       {
         "role": "Proceedings Chair",
         "name": "Yixin Liu",
-        "affiliation": "To be confirmed",
+        "affiliation": "",
         "photo": ""
       },
       {
         "role": "Proceedings Chair",
         "name": "Xin Zheng",
-        "affiliation": "To be confirmed",
+        "affiliation": "",
         "photo": ""
       },
       {
         "role": "Proceedings Chair",
         "name": "Liang Chen",
-        "affiliation": "To be confirmed",
+        "affiliation": "",
         "photo": ""
       },
       {
@@ -137,26 +137,44 @@
         "name": "Catherine Huang",
         "affiliation": "Google",
         "email": "catherinehuanglei@gmail.com",
-        "status": "Invited",
+        "status": "Invited / pending confirmation",
         "note": "IEEE Member; IEEE CIS Member",
         "photo": ""
       },
       {
         "role": "Finance Chair",
         "name": "Yi Liu",
-        "affiliation": "To be confirmed",
+        "affiliation": "",
         "photo": ""
       },
       {
         "role": "Plenary and Keynote Chair",
-        "name": "To be announced",
-        "affiliation": "To be confirmed",
+        "name": "TBD",
+        "affiliation": "",
         "photo": ""
       },
       {
         "role": "Collaboration and Engagement Chair",
-        "name": "To be announced",
-        "affiliation": "To be confirmed",
+        "name": "TBD",
+        "affiliation": "",
+        "photo": ""
+      },
+      {
+        "role": "Conflict of Interest Chair",
+        "name": "TBD",
+        "affiliation": "",
+        "photo": ""
+      },
+      {
+        "role": "Poster Session Chair",
+        "name": "TBD",
+        "affiliation": "",
+        "photo": ""
+      },
+      {
+        "role": "Journal-to-Conference Chair",
+        "name": "TBD",
+        "affiliation": "",
         "photo": ""
       }
     ]
@@ -189,7 +207,7 @@
         "role": "IEEE CISM",
         "name": "Kai Qin",
         "affiliation": "To be confirmed",
-        "status": "Invited",
+        "status": "Invited / pending confirmation",
         "photo": ""
       },
       {
@@ -235,7 +253,7 @@
         "role": "IEEE CIHM",
         "name": "Zongyuan (Tony) Ge",
         "affiliation": "To be confirmed",
-        "status": "Invited",
+        "status": "Invited / pending confirmation",
         "photo": ""
       },
       {
@@ -249,7 +267,7 @@
         "name": "Jianxin Li",
         "affiliation": "Edith Cowan University",
         "email": "jianxin.li@ecu.edu.au",
-        "status": "Contacted",
+        "status": "Contacted / pending confirmation",
         "photo": ""
       },
       {
