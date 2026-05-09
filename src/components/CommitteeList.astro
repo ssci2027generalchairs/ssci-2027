@@ -24,28 +24,45 @@ const initials = (name: string) => name
   .map((part) => part[0])
   .join('')
   .slice(0, 2);
+
+const groupedMembers = Astro.props.members.reduce((groups, member) => {
+  const role = member.role || 'Committee Member';
+  const existing = groups.find((group) => group.role === role);
+  if (existing) {
+    existing.members.push(member);
+  } else {
+    groups.push({ role, members: [member] });
+  }
+  return groups;
+}, [] as { role: string; members: Member[] }[]);
 ---
 
 <section class="committee-list">
   <h2>{Astro.props.name}</h2>
   {Astro.props.members.length > 0 ? (
-    <div class="member-grid">
-      {Astro.props.members.map((member) => (
-        <article class="member-card">
-          <div class="member-photo">
-            {member.photo ? (
-              <img src={withAssetBase(member.photo)} alt={member.name} />
-            ) : (
-              <span>{initials(member.name)}</span>
-            )}
+    <div class="member-role-list">
+      {groupedMembers.map((group) => (
+        <section class="member-role-row" aria-labelledby={`role-${group.role.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>
+          <h3 id={`role-${group.role.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>{group.role}</h3>
+          <div class="member-grid">
+            {group.members.map((member) => (
+              <article class="member-card">
+                <div class="member-photo">
+                  {member.photo ? (
+                    <img src={withAssetBase(member.photo)} alt={member.name} />
+                  ) : (
+                    <span>{initials(member.name)}</span>
+                  )}
+                </div>
+                <h4>{member.name}</h4>
+                {member.affiliation && <span>{member.affiliation}</span>}
+                {member.email && <a href={`mailto:${member.email}`}>{member.email}</a>}
+                {member.status && <em>{member.status}</em>}
+                {member.note && <small>{member.note}</small>}
+              </article>
+            ))}
           </div>
-          {member.role && <p>{member.role}</p>}
-          <h3>{member.name}</h3>
-          {member.affiliation && <span>{member.affiliation}</span>}
-          {member.email && <a href={`mailto:${member.email}`}>{member.email}</a>}
-          {member.status && <em>{member.status}</em>}
-          {member.note && <small>{member.note}</small>}
-        </article>
+        </section>
       ))}
     </div>
   ) : (

@@ -11,6 +11,8 @@ import news from '../data/news.json';
 import importantDates from '../data/importantDates.json';
 import speakers from '../data/speakers.json';
 import sponsors from '../data/sponsors.json';
+
+const hasNews = news.length > 0;
 ---
 
 <BaseLayout>
@@ -29,12 +31,14 @@ import sponsors from '../data/sponsors.json';
     </div>
   </section>
 
-  <section class="section section-muted">
-    <div class="container">
-      <SectionHeader label="Latest" title="News and Updates" text="Announcements can be added at any time through the news data file." />
-      <NewsList items={news} />
-    </div>
-  </section>
+  {hasNews && (
+    <section class="section section-muted">
+      <div class="container">
+        <SectionHeader label="Latest" title="News and Updates" text="Announcements can be added at any time through the news data file." />
+        <NewsList items={news} />
+      </div>
+    </section>
+  )}
 
   <section class="section">
     <div class="container">

@@ -6,6 +6,7 @@ const base = import.meta.env.BASE_URL;
 const cleanBase = base.endsWith('/') ? base.slice(0, -1) : base;
 const withBase = (href: string) => href === '/' ? base : `${cleanBase}${href}`;
 const quickLinks = navigation
+  .filter((item) => !item.hidden)
   .flatMap((item) => item.href ? [item] : item.items || [])
   .slice(0, 8);
 ---

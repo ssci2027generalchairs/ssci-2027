@@ -3,6 +3,7 @@ import site from '../data/site.json';
 import navigation from '../data/navigation.json';
 
 const currentPath = Astro.url.pathname;
+const visibleNavigation = navigation.filter((item) => !item.hidden);
 const base = import.meta.env.BASE_URL;
 const cleanBase = base.endsWith('/') ? base.slice(0, -1) : base;
 const withBase = (href: string) => {
@@ -45,7 +46,7 @@ const isActive = (href: string) => {
 
     <nav class="primary-nav" aria-label="Primary navigation">
       <ul>
-        {navigation.map((item) => (
+        {visibleNavigation.map((item) => (
           <li class:list={['nav-item', item.items && 'has-menu']}>
             {item.href ? (
               <a class:list={[isActive(item.href) && 'active']} href={withBase(item.href)}>{item.label}</a>

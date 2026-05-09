@@ -1,6 +1,4 @@
 ---
-import EmptyState from './EmptyState.astro';
-
 interface NewsItem {
   title: string;
   href?: string;
@@ -14,7 +12,7 @@ interface Props {
 ---
 
 {Astro.props.items.length > 0 ? (
-  <div class="news-list">
+  <div class="news-list" tabindex="0">
     {Astro.props.items.map((item) => (
       <article class="news-item">
         {item.date && <time datetime={item.date}>{item.date}</time>}
@@ -25,6 +23,4 @@ interface Props {
       </article>
     ))}
   </div>
-) : (
-  <EmptyState title="No updates yet" text="News and announcements will appear here as soon as they are confirmed." />
-)}
+) : null}

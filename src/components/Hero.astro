@@ -36,7 +36,7 @@ const withAssetBase = (href: string) => `${base}${href.replace(/^\//, '')}`;
     <p class="hero-meta">{site.locationLabel} · {site.datesLabel}</p>
     <div class="hero-actions" aria-label="Primary links">
       <a class="button primary" href={withBase('/submissions/call-for-papers/')}>Call for Papers</a>
-      <a class="button secondary" href={withBase('/program/at-a-glance/')}>Program</a>
+      <a class="button secondary" href={withBase('/program/at-a-glance/')} hidden>Program</a>
     </div>
   </div>
 </section>

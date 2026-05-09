@@ -38,6 +38,7 @@
   },
   {
     "label": "Program",
+    "hidden": true,
     "items": [
       { "label": "Program at a Glance", "href": "/program/at-a-glance/" },
       { "label": "Social Program", "href": "/program/social-program/" },
@@ -49,9 +50,10 @@
       { "label": "Industry Collaboration Workshop", "href": "/program/industry-collaboration-workshop/" }
     ]
   },
-  { "label": "Registration", "href": "/registration/" },
+  { "label": "Registration", "href": "/registration/", "hidden": true },
   {
     "label": "Venue and Travel",
+    "hidden": true,
     "items": [
       { "label": "Venue Information", "href": "/venue-travel/venue/" },
       { "label": "Travel Information", "href": "/venue-travel/travel/" },
