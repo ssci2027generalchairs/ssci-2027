@@ -659,6 +659,10 @@ main {
 }
 
 .member-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 320px;
   padding: 20px;
 }
 
@@ -681,6 +685,12 @@ main {
   font-size: clamp(1.2rem, 2.2vw, 1.55rem);
   line-height: 1.2;
   letter-spacing: 0;
+}
+
+.member-role-row .member-grid {
+  grid-template-columns: repeat(auto-fill, minmax(230px, 260px));
+  grid-auto-rows: minmax(320px, 1fr);
+  align-items: stretch;
 }
 
 .member-photo {
@@ -716,6 +726,12 @@ main {
   color: var(--coral);
   font-style: normal;
   font-weight: 700;
+}
+
+@media (max-width: 620px) {
+  .member-role-row .member-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .page-sections {
