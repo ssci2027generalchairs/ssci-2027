@@ -43,6 +43,10 @@ img {
   max-width: 100%;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 main {
   min-height: 60vh;
 }

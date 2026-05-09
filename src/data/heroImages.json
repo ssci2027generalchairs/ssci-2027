@@ -1,17 +1,32 @@
 [
   {
-    "src": "/assets/images/gold-coast-hero-01.jpg",
-    "alt": "Gold Coast beach and skyline",
+    "src": "/assets/images/hero/gold-coast-2027-01.jpg",
+    "alt": "Aerial view of Gold Coast high-rises and coastline at dusk",
+    "caption": "Gold Coast skyline and coastline"
+  },
+  {
+    "src": "/assets/images/hero/gold-coast-2027-02.jpg",
+    "alt": "Gold Coast waterways, beach, and city towers",
+    "caption": "Waterways, beaches, and city towers"
+  },
+  {
+    "src": "/assets/images/hero/gold-coast-2027-03.jpg",
+    "alt": "Gold Coast skyline beside the beach",
     "caption": "Gold Coast, Queensland, Australia"
   },
   {
-    "src": "/assets/images/gold-coast-hero-02.jpg",
-    "alt": "Gold Coast coastal landscape",
+    "src": "/assets/images/hero/gold-coast-2027-04.jpg",
+    "alt": "Gold Coast skyline at sunset",
     "caption": "IEEE SSCI 2027 on the Gold Coast"
   },
   {
-    "src": "/assets/images/gold-coast-hero-03.jpg",
-    "alt": "Aerial view of the Gold Coast shoreline",
+    "src": "/assets/images/hero/gold-coast-2027-05.jpg",
+    "alt": "Whale tail with Gold Coast skyline in the background",
+    "caption": "Gold Coast coastal setting"
+  },
+  {
+    "src": "/assets/images/hero/gold-coast-2027-06.jpg",
+    "alt": "Gold Coast beachfront towers in warm evening light",
     "caption": "14-17 February 2027"
   }
 ]
