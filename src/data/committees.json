@@ -62,52 +62,6 @@
         "photo": ""
       },
       {
-        "role": "Website Chair",
-        "name": "Zirui Gong",
-        "affiliation": "Griffith University",
-        "email": "z.gong@griffith.edu.au",
-        "note": "IEEE Student Member",
-        "photo": ""
-      },
-      {
-        "role": "Website Chair",
-        "name": "Zhaoxi Zhang",
-        "affiliation": "Griffith University",
-        "email": "zhaoxi.zhang@griffith.edu.au",
-        "photo": ""
-      },
-      {
-        "role": "Publicity Chair",
-        "name": "Jun Shen",
-        "affiliation": "University of Wollongong",
-        "email": "jshen@uow.edu.au",
-        "photo": ""
-      },
-      {
-        "role": "Registration Chair",
-        "name": "Ryan Zhou",
-        "affiliation": "",
-        "photo": ""
-      },
-      {
-        "role": "Proceedings Chair",
-        "name": "Yixin Liu",
-        "affiliation": "",
-        "photo": ""
-      },
-      {
-        "role": "Proceedings Chair",
-        "name": "Xin Zheng",
-        "affiliation": "",
-        "photo": ""
-      },
-      {
-        "role": "Proceedings Chair",
-        "name": "Liang Chen",
-        "affiliation": "",
-        "photo": ""
-      },
-      {
         "role": "Tutorial Chair",
         "name": "Bing Xue",
         "affiliation": "Victoria University of Wellington",
@@ -155,9 +109,55 @@
         "photo": ""
       },
       {
+        "role": "Proceedings Chair",
+        "name": "Yixin Liu",
+        "affiliation": "",
+        "photo": ""
+      },
+      {
+        "role": "Proceedings Chair",
+        "name": "Xin Zheng",
+        "affiliation": "",
+        "photo": ""
+      },
+      {
+        "role": "Proceedings Chair",
+        "name": "Liang Chen",
+        "affiliation": "",
+        "photo": ""
+      },
+      {
+        "role": "Publicity Chair",
+        "name": "Jun Shen",
+        "affiliation": "University of Wollongong",
+        "email": "jshen@uow.edu.au",
+        "photo": ""
+      },
+      {
+        "role": "Registration Chair",
+        "name": "Ryan Zhou",
+        "affiliation": "",
+        "photo": ""
+      },
+      {
         "role": "Finance Chair",
         "name": "Yi Liu",
         "affiliation": "",
+        "photo": ""
+      },
+      {
+        "role": "Website Chair",
+        "name": "Zirui Gong",
+        "affiliation": "Griffith University",
+        "email": "z.gong@griffith.edu.au",
+        "note": "IEEE Student Member",
+        "photo": ""
+      },
+      {
+        "role": "Website Chair",
+        "name": "Zhaoxi Zhang",
+        "affiliation": "Griffith University",
+        "email": "zhaoxi.zhang@griffith.edu.au",
         "photo": ""
       },
       {
