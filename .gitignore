@@ -1,6 +1,8 @@
 node_modules/
 dist/
 .astro/
+backups/
+wordpress-export/
 .DS_Store
 *.log
 bid SSCI draft v3.pdf
