@@ -70,79 +70,6 @@
         "photo": ""
       },
       {
-        "role": "Local Chair",
-        "name": "Xuefei Yin",
-        "affiliation": "Griffith University",
-        "note": "IEEE Member",
-        "photo": ""
-      },
-      {
-        "role": "Local Chair",
-        "name": "Yanjun Zhang",
-        "affiliation": "Griffith University",
-        "email": "yanjun.zhang@griffith.edu.au",
-        "note": "IEEE Member",
-        "photo": ""
-      },
-      {
-        "role": "Local Chair",
-        "name": "Leo Zhang",
-        "affiliation": "Griffith University",
-        "photo": ""
-      },
-      {
-        "role": "Finance Chair",
-        "name": "Yi Liu",
-        "affiliation": "",
-        "photo": ""
-      },
-      {
-        "role": "Publicity Chair",
-        "name": "Jun Shen",
-        "affiliation": "University of Wollongong",
-        "email": "jshen@uow.edu.au",
-        "photo": ""
-      },
-      {
-        "role": "Registration Chair",
-        "name": "Ryan Zhou",
-        "affiliation": "",
-        "photo": ""
-      },
-      {
-        "role": "Website Chair",
-        "name": "Zirui Gong",
-        "affiliation": "Griffith University",
-        "email": "z.gong@griffith.edu.au",
-        "note": "IEEE Student Member",
-        "photo": ""
-      },
-      {
-        "role": "Website Chair",
-        "name": "Zhaoxi Zhang",
-        "affiliation": "Griffith University",
-        "email": "zhaoxi.zhang@griffith.edu.au",
-        "photo": ""
-      },
-      {
-        "role": "Collaboration and Engagement Chair",
-        "name": "TBD",
-        "affiliation": "",
-        "photo": ""
-      },
-      {
-        "role": "Conflict of Interest Chair",
-        "name": "TBD",
-        "affiliation": "",
-        "photo": ""
-      },
-      {
-        "role": "Poster Session Chair",
-        "name": "TBD",
-        "affiliation": "",
-        "photo": ""
-      },
-      {
         "role": "Industry and Government Chair",
         "name": "Ming Ding",
         "affiliation": "CSIRO",
@@ -167,6 +94,27 @@
         "photo": ""
       },
       {
+        "role": "Local Chair",
+        "name": "Xuefei Yin",
+        "affiliation": "Griffith University",
+        "note": "IEEE Member",
+        "photo": ""
+      },
+      {
+        "role": "Local Chair",
+        "name": "Yanjun Zhang",
+        "affiliation": "Griffith University",
+        "email": "yanjun.zhang@griffith.edu.au",
+        "note": "IEEE Member",
+        "photo": ""
+      },
+      {
+        "role": "Local Chair",
+        "name": "Leo Zhang",
+        "affiliation": "Griffith University",
+        "photo": ""
+      },
+      {
         "role": "Proceedings Chair",
         "name": "Yixin Liu",
         "affiliation": "",
@@ -185,9 +133,61 @@
         "photo": ""
       },
       {
+        "role": "Collaboration and Engagement Chair",
+        "name": "TBD",
+        "affiliation": "",
+        "photo": ""
+      },
+      {
+        "role": "Conflict of Interest Chair",
+        "name": "TBD",
+        "affiliation": "",
+        "photo": ""
+      },
+      {
+        "role": "Poster Session Chair",
+        "name": "TBD",
+        "affiliation": "",
+        "photo": ""
+      },
+      {
         "role": "Journal-to-Conference Chair",
         "name": "TBD",
         "affiliation": "",
+        "photo": ""
+      },
+      {
+        "role": "Finance Chair",
+        "name": "Yi Liu",
+        "affiliation": "",
+        "photo": ""
+      },
+      {
+        "role": "Registration Chair",
+        "name": "Ryan Zhou",
+        "affiliation": "",
+        "photo": ""
+      },
+      {
+        "role": "Publicity Chair",
+        "name": "Jun Shen",
+        "affiliation": "University of Wollongong",
+        "email": "jshen@uow.edu.au",
+        "photo": ""
+      },
+      {
+        "role": "Website Chair",
+        "name": "Zirui Gong",
+        "affiliation": "Griffith University",
+        "email": "z.gong@griffith.edu.au",
+        "note": "IEEE Student Member",
+        "photo": ""
+      },
+      {
+        "role": "Website Chair",
+        "name": "Zhaoxi Zhang",
+        "affiliation": "Griffith University",
+        "email": "zhaoxi.zhang@griffith.edu.au",
         "photo": ""
       }
     ]
