@@ -28,11 +28,7 @@ const quickLinks = navigation
     </section>
     <section>
       <h2>Contact</h2>
-      {site.contactEmail ? (
-        <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
-      ) : (
-        <p>Contact details will be announced.</p>
-      )}
+      <a href={withBase('/about/contact/')}>Contact Us</a>
     </section>
   </div>
   <div class="footer-bottom">
