@@ -1,6 +1,130 @@
 {
   "slug": "symposia/security-defence-biometrics",
-  "title": "CI in Security, Defence and Biometrics",
-  "summary": "IEEE CISDB symposium details will be added here.",
-  "kind": "basic"
+  "title": "2027 IEEE Symposium on CI in Security, Defence and Biometrics (IEEE CISDB)",
+  "summary": "IEEE CISDB focuses on computational intelligence in security, defence, and biometrics.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Symposium Chairs",
+      "bullets": [
+        "Prof. Jiankun Hu - jiankun.hu@unsw.edu.au, The University of New South Wales, IEEE Member",
+        "Tianqing Zhu - tqzhu@cityu.edu.mo, City University of Macau"
+      ]
+    },
+    {
+      "heading": "Scope",
+      "paragraphs": [
+        "Cyberattacks have come a long way since the first worm, CREEPER, was released on the ARPANET followed by the first defence, REAPER. In recent years, Ubiquitous cyberattacks have become more sophisticated with advanced persistent threats (APT), polymorphic viruses, ransomware, phishing schemes, zero-day attacks and other sinister worms. Enterprises are always playing catch-up. Meanwhile, governments across the world have woken up to critical re-thinking of what the cyber world is from a perspective of not only its usefulness but also the threats and limitations it brings. A host of security directives, regulations, and strategies have been created to enhance data and critical infrastructure protection mechanisms to not only become secure and resilient but also improve privacy and trust.",
+        "This symposium aims to provide a comprehensive exploration of Computational Intelligence (CI) models and applications in the realms of security and resilience. Delving into the past, present, and future, the symposium will address challenges, advancements, and emerging trends to foster collaboration among researchers, practitioners, and industry experts.",
+        "We are seeking contributions that address either theoretical developments or practical applications in this field. Further, the symposium aims to promote collaboration and the sharing of knowledge to develop the field of CI in Security, Defence and Biometrics."
+      ]
+    },
+    {
+      "heading": "Topics of Interest",
+      "paragraphs": [
+        "Topics of interest include, but are not limited to:"
+      ]
+    },
+    {
+      "heading": "Cyber Security",
+      "bullets": [
+        "Malware prediction",
+        "Malware classification",
+        "Malware responce",
+        "Survivable self-aware system models",
+        "Survivable resilient system models",
+        "Securing sensor, wireless, cellular, broadband and 5G/6G networks",
+        "Cloud security",
+        "Virtualisation security",
+        "Digital forensics",
+        "Security information visualisation",
+        "Sensor fusion and decision support for mobile device security",
+        "IoT and end-point security",
+        "Threat forecasting",
+        "Threat intelligence and models",
+        "Identification and prevention of zero-day exploits"
+      ]
+    },
+    {
+      "heading": "Physical Intrusion Security",
+      "bullets": [
+        "MIntrusion detection",
+        "Intrusion prediction",
+        "Intrusion classification",
+        "Air, maritime and land security",
+        "Critical infrastructure protection automations"
+      ]
+    },
+    {
+      "heading": "Defence",
+      "bullets": [
+        "Modelling adversarial behaviour for threat detection",
+        "Modelling adversarial behaviour for situation and impact assessment",
+        "Human failure and terrorist attacks",
+        "Automatic target recognition",
+        "Process and user refinement for defence operations",
+        "Mission weapon pairing and assignment",
+        "Decision support systems",
+        "Survivable self-healing system models",
+        "Sensor queuing and tasking",
+        "Situation and impact assessment",
+        "Threat intelligence gathering and exploitation",
+        "Threat models",
+        "Physics-based and human-derived information fusion",
+        "Mine detection",
+        "Anomaly detection and management",
+        "Distributed surveillance",
+        "Monitoring",
+        "Counterterrorism and counterinsurgency",
+        "Automated handling of dangerous situations",
+        "Automated handling of dangerous people",
+        "Attack prevention and defence"
+      ]
+    },
+    {
+      "heading": "Defence Operations",
+      "bullets": [
+        "Logistics support",
+        "Mission planning and execution",
+        "Models for war games",
+        "Operation in contaminated areas",
+        "Disruptive battle field effects",
+        "Multi-mission space operations"
+      ]
+    },
+    {
+      "heading": "Human",
+      "bullets": [
+        "Suspect behaviour profiling",
+        "Agent and human modelling",
+        "Human autonomy teaming",
+        "Automated handling of dangerous situations",
+        "Automated handling of dangerous people"
+      ]
+    },
+    {
+      "heading": "Biometrics and identity management",
+      "bullets": [
+        "User verification and identification",
+        "Intelligent biometric systems",
+        "Adaptive biometric systems",
+        "Cognitive biometric systems",
+        "Smart ID and RFID ePassort",
+        "Covert and unconstrained biometrics",
+        "Multiple, multi-modal and, multi-classifier biometrics",
+        "Soft biometrics and new biometric modalities",
+        "Mobile biometric devices and embedded systems"
+      ]
+    },
+    {
+      "heading": "Application Security and Privacy",
+      "bullets": [
+        "Supply chain security",
+        "Smart systems Security",
+        "Social networks security and privacy",
+        "Electronic healthcare security and privacy",
+        "Electronic healthcare compliance"
+      ]
+    }
+  ]
 }

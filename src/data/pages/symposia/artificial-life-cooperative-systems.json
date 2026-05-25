@@ -1,6 +1,146 @@
 {
   "slug": "symposia/artificial-life-cooperative-systems",
-  "title": "CI in Artificial Life and Cooperative Intelligent Systems",
-  "summary": "IEEE ALIFE-CIS symposium details will be added here.",
-  "kind": "basic"
+  "title": "2027 IEEE Symposium on CI in Artificial Life and Cooperative Intelligent Systems (IEEE ALIFE-CIS)",
+  "summary": "IEEE ALIFE-CIS focuses on computational intelligence in artificial life and cooperative intelligent systems.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Symposium Chairs",
+      "bullets": [
+        "Jiajun Liu - Ryan.Liu@data61.csiro.au, CSIRO, Not IEEE Member",
+        "Peyman Moghadam - Peyman.Moghadam@data61.csiro.au, CSIRO, IEEE Member"
+      ]
+    },
+    {
+      "heading": "Scope",
+      "paragraphs": [
+        "The IEEE SSCI symposium on Artificial Life and Cooperative Intelligent Systems brings together researchers working on the emerging areas of Artificial Life and Complex Adaptive Systems, as well as Cooperative Intelligent Systems. The aim is to understand and synthesize life-like systems and to apply bio-inspired synthetic methods to other science/engineering disciplines, including Biology, Robotics, Social Sciences, among others.",
+        "Artificial Life is the study of the simulation and synthesis of living systems, providing engineering with billions of years of design expertise to learn from and exploit through the example of the evolution of organic life on earth. Increased understanding of the massively successful design diversity, complexity, and adaptability of life is rapidly making inroads into all areas of engineering and the Sciences of the Artificial. Numerous applications of ideas from nature and their generalizations from life-as-we-know-it to life-as-it-could-be continually find their way into engineering and science.",
+        "Cooperative Intelligence is a hallmark of social, economic, and differentiated multicellular systems, and is a source of inspiration for engineering methods and applications. The motivation is that the coordination among related systems may result in higher performance, more efficiency and lower costs compared with the case that single system/control is involved. Distributed coordination and optimization have attracted particular attention since they can be implemented without relying on central computing and extensive communication among the agents. Thus, designing effective distributed coordination strategies and optimization algorithms for various multi-agent systems both poses significant challenges as well as provides abundant research opportunities.",
+        "We are seeking contributions that address either theoretical developments or practical applications in these fields. Further, the Symposium aims to promote collaboration and the sharing of knowledge to develop the field of CI in Artificial Life and Cooperative Intelligent Systems."
+      ]
+    },
+    {
+      "heading": "Topics of Interest",
+      "paragraphs": [
+        "Topics of interest include, but are not limited to:"
+      ]
+    },
+    {
+      "heading": "Artificial Life",
+      "bullets": [
+        "Systems biology",
+        "Astrobiology",
+        "Origins of replicators and life",
+        "Major evolutionary transitions",
+        "Applications in nanotechnology and medicine",
+        "Genetic regulatory systems",
+        "Predictive methods for complex adaptive systems",
+        "Self-reproduction, self-repair, and morphogenesis",
+        "Constructive dynamical systems and complexity",
+        "Evolvability, heritability, and multicellularity",
+        "Sensor and actuator evolution and adaptation",
+        "Wet and dry artificial life",
+        "Emergence and complexity",
+        "Multiscale robustness and plasticity",
+        "Phenotypic plasticity and adaptability",
+        "Predictive methods for complex adaptive systems",
+        "Predictive methods for life-like systems",
+        "Automata networks and cellular automata",
+        "Ethics and philosophy",
+        "Co-evolution and symbiogenesis",
+        "Simulation and visualization tools",
+        "Replicator and interaction dynamics",
+        "Synchronization and biological clocks",
+        "Evolutionary developmental systems",
+        "Games and generalized biology",
+        "Emergence of signalling and communication",
+        "Synthetic cells and biomedical applications",
+        "Computational and physical autopoiesis"
+      ]
+    },
+    {
+      "heading": "Multi-Agent Systems",
+      "bullets": [
+        "Modelling, identification and optimisation",
+        "Consensus, flocking and containment",
+        "Robust distributed control",
+        "Sampled-data and event-triggered control",
+        "Distributed diagnosis and fault tolerant control",
+        "Distributed optimisation",
+        "Coverage, searching and tracking",
+        "Agent-based data mining",
+        "Multi-agent UAV swarm",
+        "Agent-based swarms",
+        "Holonic agents",
+        "Semantic web agents",
+        "Multi-agent coordination",
+        "Multi-agent planning and re-planning",
+        "Communication networks in multi-agent systems",
+        "Social interactions"
+      ]
+    },
+    {
+      "heading": "Intelligent Agents",
+      "bullets": [
+        "Embedded and robotic agents",
+        "Mobile agents",
+        "Autonomous knowledge and information agents",
+        "Autonomous auctions and negotiations",
+        "Agent-based market places",
+        "Agents for E-commerce",
+        "Agents for dialogue systems",
+        "Environment aware agents",
+        "Interaction histories and autobiographic agents",
+        "Agents for smart environments",
+        "Swarm intelligence",
+        "Self-maintenance, self-production, self-repair",
+        "Narrative and affective intelligence"
+      ]
+    },
+    {
+      "heading": "Vehicles",
+      "bullets": [
+        "Distributed control autonomous vehicle networks",
+        "Agent-based UAV modelling",
+        "Agent-based unmanned vehicles",
+        "Self-* properties in vehicles, satellites and space-probes"
+      ]
+    },
+    {
+      "heading": "Human-like Intelligence",
+      "bullets": [
+        "Human-agent interaction",
+        "Human-like intelligent behaviour",
+        "Cognitive-plausible architectures and systems",
+        "Human-like problem solving",
+        "Future generation computing models",
+        "Ambient intelligence",
+        "Human-centred robotic systems",
+        "Human-robot interaction"
+      ]
+    },
+    {
+      "heading": "Robot Intelligence",
+      "bullets": [
+        "Adaptive, learning and evolutionary robotics",
+        "Networked intelligent robotics",
+        "Multi-robot systems",
+        "Collective decision making",
+        "Swarm robotics",
+        "Tele-operated robots",
+        "Minimal, adaptive, ontogenetic robotics",
+        "Social robotics",
+        "Sensor and actuator evolution and adaptation",
+        "Neurorobotics",
+        "Evolutionary robotics",
+        "Embodiment",
+        "human-robot interaction",
+        "Modular and self-reconfiguring robotics",
+        "Shape-morphing and soft robotics",
+        "Empowerment and information-theoretic methods",
+        "Perception-action loop and temporal horizon"
+      ]
+    }
+  ]
 }

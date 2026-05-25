@@ -1,6 +1,58 @@
 {
   "slug": "symposia/financial-engineering-economics",
-  "title": "CI for Financial Engineering and Economics",
-  "summary": "IEEE CiFer symposium details will be added here.",
-  "kind": "basic"
+  "title": "2027 IEEE Symposium on CI for Financial Engineering and Economics (IEEE CiFer)",
+  "summary": "IEEE CiFer focuses on computational intelligence for financial engineering and economics.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Symposium Chairs",
+      "bullets": [
+        "A/Prof. Yongjae Lee - yongjaelee@unist.ac.kr, UNIST",
+        "Prof. Jianxin Li - jianxin.li@ecu.edu.au, Edith Cowan University"
+      ]
+    },
+    {
+      "heading": "Scope",
+      "paragraphs": [
+        "Principles of finance combined with advanced mathematical structures form financial models, strategies and products that are tested and implemented with the use of advanced quantitative techniques. The use of computing technology through advances in artificial intelligence and machine learning, is pervasive throughout this process and combined with high performance computers has enabled Computational Finance (CF) to grow steadily in the last decade. CF has influenced the marketplace extensively with enormous impact on wealth building, employment opportunities, and tremendous economic growth. This field forms an ever-expanding part of the financial sector, in many ways today.",
+        "The symposium on CI for Financial Engineering and Economics, has provided a forum for advanced research since 1995, bringing together researchers who design and develop intelligent algorithms for various problems in finance. It is essential to continue bringing researchers to exchange their ideas, models, and results, providing fundamental threads to discussions and arguments.",
+        "Some of the major issues facing academics and practitioner alike include creating financial models (for pricing derivatives, or risk management strategies etc.), formulating them as computational problems and applying advanced computing technologies.",
+        "The symposium will focus on fundamentals of finance, introduce the computational issues therein and report latest findings and understanding of financial modeling using computational intelligence techniques that would benefit academic and practitioners alike."
+      ]
+    },
+    {
+      "heading": "Topics of Interest",
+      "paragraphs": [
+        "Topics of interest include, but are not limited to:"
+      ]
+    },
+    {
+      "heading": "Finance Modeling and Analysis",
+      "bullets": [
+        "Financial data analytics",
+        "Intelligent trading agents",
+        "Trading room simulation",
+        "Time series analysis",
+        "Probabilistic modeling/inference",
+        "Non-linear dynamics",
+        "Digital financial reporting",
+        "Stocks and derivative pricing",
+        "Cryptocurrencies and risks"
+      ]
+    },
+    {
+      "heading": "Business Modeling and Analysis",
+      "bullets": [
+        "IT Infrastructure and data management",
+        "Business data analytics",
+        "Customer service analytics",
+        "Hyper automation",
+        "Deep analytics",
+        "Advertising and sales",
+        "Demand forecasting",
+        "Economic agents",
+        "Disruptive technologies in business"
+      ]
+    }
+  ]
 }

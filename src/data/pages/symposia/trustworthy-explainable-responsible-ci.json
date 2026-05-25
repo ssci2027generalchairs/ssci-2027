@@ -1,6 +1,91 @@
 {
   "slug": "symposia/trustworthy-explainable-responsible-ci",
-  "title": "Trustworthy, Explainable and Responsible CI",
-  "summary": "IEEE CITREx symposium details will be added here.",
-  "kind": "basic"
+  "title": "2027 IEEE Symposium on Trustworthy, Explainable and Responsible CI (IEEE CITREx)",
+  "summary": "IEEE CITREx focuses on trustworthy, explainable, and responsible computational intelligence.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Symposium Chairs",
+      "bullets": [
+        "A/Prof. Guangdong Bai - g.bai@cityu.edu.hk, City University of Hong Kong, IEEE Member",
+        "Dr. Feng Liu - feng.liu1@unimelb.edu.au, Melbourne University",
+        "Prof. Ruwang Jiao - rwjiao@suda.edu.cn, Soochow University"
+      ]
+    },
+    {
+      "heading": "Scope",
+      "paragraphs": [
+        "The development of explainable, responsible, and trustworthy computational intelligence (CI) and artificial intelligence (AI) is essential to foster transparency, accountability, and user confidence in the increasingly pervasive role of these technologies. By ensuring that AI/CI systems can be understood, monitored, and relied upon to make decisions that comply with regulations and are bound by ethical principles, we not only mitigate potential risks and biases but also empower users to engage with these technologies with greater assurance, fostering a harmonious integration of AI into our daily lives.",
+        "The aim of the symposium is to discuss the ethical principles that govern the behaviour of AI/CI technology under the light of current regulatory efforts, as well as the operator, user and other stakeholders who are impacted by decisions informed by such technologies. Moreover, the symposium will also explore how clear, understandable, and interpretable explanation of AI/CI decisions can be made to enhance transparency and foster user trust. The symposium will help promote the following principles: balancing the ecological footprint of technologies against the economic benefits; managing the impact of automation on the workforce; ensuring privacy is not adversely affected; and dealing with the legal implications of embodying AI/CI technologies in autonomous and automated systems.",
+        "We are seeking contributions that address either theoretical developments or practical applications, presenting innovative approaches and technological advancements within Explainable, Responsible and Trustworthy CI."
+      ]
+    },
+    {
+      "heading": "Topics of Interest",
+      "paragraphs": [
+        "Topics of interest include, but are not limited to:"
+      ]
+    },
+    {
+      "heading": "Foundations of",
+      "bullets": [
+        "Explainable CI",
+        "Interpretable CI"
+      ]
+    },
+    {
+      "heading": "Explainable and Interpretable CI",
+      "bullets": [
+        "Explainable data analytics",
+        "Explainable control systems",
+        "Explainable models",
+        "Extracting understanding of datasets",
+        "Safety critical systems",
+        "Visualisation methods",
+        "Intrinsically interpretable methods",
+        "Ante-hoc vs post-hoc methods",
+        "Application domain specificity of methods"
+      ]
+    },
+    {
+      "heading": "Trustworthy CI",
+      "bullets": [
+        "Bias in CI methods",
+        "Fairness of CI methods",
+        "Accountability of CI methods",
+        "Transparency of CI methods",
+        "Role of explainable and interpretable methods",
+        "Human-machine trust and risk",
+        "Performance benchmarks for trust",
+        "Public perception",
+        "Role in politics",
+        "Role in manipulating public opinion"
+      ]
+    },
+    {
+      "heading": "Responsible CI",
+      "bullets": [
+        "Impact on the human workforce",
+        "Impact on the distribution of wealth",
+        "Impact on human cognition",
+        "Impact on social relatedness",
+        "Impact on the environment",
+        "Privacy",
+        "Ethics",
+        "Ethics in specific application domains",
+        "Legal implications",
+        "Legal implications in specific application domains",
+        "Regulatory frameworks",
+        "Governance",
+        "Standards"
+      ]
+    },
+    {
+      "heading": "People Centred CI",
+      "bullets": [
+        "Public engagement",
+        "Co-production"
+      ]
+    }
+  ]
 }

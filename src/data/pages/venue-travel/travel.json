@@ -1,7 +1,7 @@
 {
   "slug": "venue-travel/travel",
   "title": "Travel Information",
-  "summary": "Travel information for Gold Coast, Queensland, Australia.",
+  "summary": "Travel and visa information for Gold Coast, Queensland, Australia.",
   "kind": "basic",
   "sections": [
     {
@@ -25,6 +25,66 @@
       "heading": "Travel Restrictions and Entry",
       "paragraphs": [
         "Australia maintains a transparent and streamlined visa system for international visitors. Most participants can apply for an Electronic Travel Authority or eVisitor visa online. Current entry conditions are traveller-friendly, with no major restrictions for most countries in Asia, Europe, and the Americas."
+      ]
+    },
+    {
+      "heading": "Visa Policy",
+      "paragraphs": [
+        "Australia offers a structured and accessible visa system for academic conference attendees from around the world. IEEE SSCI 2027 will provide visa guidance, official documentation, and personalized assistance to support a smooth entry process.",
+        "A full list of visa options by nationality is available from the Australian Government visa finder."
+      ],
+      "bullets": [
+        {
+          "label": "Australian Government visa finder",
+          "href": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder/visit"
+        }
+      ]
+    },
+    {
+      "heading": "Visa Requirements by Region",
+      "table": {
+        "headers": [
+          "Visa Type",
+          "Eligible Participants",
+          "Cost",
+          "Application Method",
+          "Processing Time"
+        ],
+        "rows": [
+          [
+            "eVisitor Visa (Subclass 651)",
+            "Citizens of the EU, UK, and several other European countries",
+            "Free of charge",
+            "Apply online",
+            "1-10 business days"
+          ],
+          [
+            "Electronic Travel Authority (ETA, Subclass 601)",
+            "Passport holders from the USA, Canada, Japan, South Korea, Singapore, and others",
+            "Small service fee, approximately AUD $20",
+            "Apply via the Australian ETA app or authorized agents",
+            "Immediate to 3 business days"
+          ],
+          [
+            "Visitor Visa (Subclass 600)",
+            "All other countries, including India, China, Bangladesh, Pakistan, Nigeria, and others",
+            "Approximately AUD $150",
+            "Apply online via ImmiAccount",
+            "2-4 weeks, longer for high-risk regions; apply at least 6-8 weeks in advance"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Visa Support Letter Template",
+      "paragraphs": [
+        "IEEE SSCI 2027 will provide personalized visa support letters upon request for registered authors, presenters, and attendees. A sample visa support letter will be made available for download and customization through the conference website."
+      ],
+      "bullets": [
+        "Full conference details, including title, location, and dates",
+        "Confirmation of registration or accepted paper",
+        "Contact details of the organizing committee",
+        "Host institution affiliation, if applicable"
       ]
     },
     {

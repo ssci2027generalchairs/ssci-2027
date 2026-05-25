@@ -1,6 +1,154 @@
 {
   "slug": "symposia/nlp-social-media",
-  "title": "CI in Natural Language Processing and Social Media",
-  "summary": "IEEE CI-NLPSoMe symposium details will be added here.",
-  "kind": "basic"
+  "title": "2027 IEEE Symposium on CI in Natural Language Processing and Social Media (IEEE CI-NLPSoMe)",
+  "summary": "IEEE CI-NLPSoMe focuses on computational intelligence in natural language processing and social media.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Symposium Chairs",
+      "bullets": [
+        "Prof. Hongzhi Yin - h.yin1@uq.edu.au, UQ",
+        "Dr. Usman Naseem - usman.naseem@mq.edu.au, Macquarie University"
+      ]
+    },
+    {
+      "heading": "Scope",
+      "paragraphs": [
+        "Natural Language Processing (NLP) stands at the forefront of computational intelligence (CI), striving to enable computers to comprehend, interpret, and generate human language in a meaningful and contextually relevant manner. Large Language Models (LLMs) like ChatGPT, built upon state-of-the-art deep learning architectures, have revolutionized NLP and social media techniques, unlocking transformative applications across diverse domains.",
+        "The symposium titled \"Natural Language Processing and Social Media\" serves as an inclusive platform exploring the intricate intersections of NLP, including LLMs, social media analysis, and related topics. It serves as a convergence point for researchers dedicated to studying and applying NLP techniques, encompassing LLMs, social media analysis, and other relevant methods.",
+        "We welcome contributions addressing either theoretical advancements or practical applications in these domains. Furthermore, the symposium aims to cultivate collaboration and knowledge exchange among participants, providing networking opportunities, potential for joint projects, and interdisciplinary dialogue. Together, our objective is to advance the field of CI in NLP and social media."
+      ]
+    },
+    {
+      "heading": "Topics of Interest",
+      "paragraphs": [
+        "Topics of interest include, but are not limited to:"
+      ]
+    },
+    {
+      "heading": "Synthetic Text",
+      "bullets": [
+        "Automated journalism",
+        "Text generation",
+        "Chatbots, intention of people",
+        "Chatbots, human-level communication",
+        "Question generation - secure authentication",
+        "Slogan generation",
+        "Application of LLMs in synthetic text",
+        "Text Summarization and Paraphrasing",
+        "Fiction and Story Generation",
+        "Poetry Generation",
+        "Script Generation for Conversational Agents",
+        "Dialogue System Development",
+        "Language Model Fine-Tuning for Specific Tasks",
+        "Multimodal Text Generation (incorporating images, videos, etc.)",
+        "Sentiment Analysis and Emotion-aware Text Generation",
+        "Controlled Text Generation (controlling style, tone, personality, etc.)",
+        "Ethical Considerations in Synthetic Text Generation",
+        "Evaluation Metrics for Assessing Text Generation Quality",
+        "Transfer Learning in Text Generation Tasks",
+        "Semantic Parsing and Text Generation",
+        "Text Generation for Personalization and Recommendation Systems"
+      ]
+    },
+    {
+      "heading": "Social Media",
+      "bullets": [
+        "Social creation and management",
+        "Analysis and extraction of social insights",
+        "Optimized advertising",
+        "Recommendation system",
+        "Analysis of unstructured data",
+        "Application of LLMs in social media",
+        "Multilingual and multimodal challenges and solutions",
+        "Detection of Fake News and applications",
+        "Hate speech detection and applications",
+        "Social Network Analysis (SNA) and Graph Mining",
+        "Community Detection and Identification",
+        "Influence Detection and Virality Analysis",
+        "Sentiment Analysis and Opinion Mining",
+        "User Behavior Modeling and Predictionv Privacy and Security Issues in Social Media User Engagement and Interaction Analysis Crisis Communication and Social Media Brand Monitoring and Reputation Management Social Media Data Visualization Techniques Social Media Data Ethics and Responsible AI Social Media Analytics for Public Health Monitoring Social Media Data Fusion and Integration Cross-platform Analysis and Integration (e.g., Facebook, Twitter, Instagram) Social Media Influence on Elections and Political Discourse Social Media for Disaster Response and Emergency Management Social Media Marketing Strategies and Campaign Effectiveness Analysis Real-time Event Detection and Trend Prediction in Social Media User-generated Content Curation and Filtering Cross-cultural Analysis of Social Media Behavior and Content"
+      ]
+    },
+    {
+      "heading": "Text Modelling and Analysis",
+      "bullets": [
+        "Paraphrasing and backtranslation",
+        "SA language",
+        "Machine translation, mono-lingual and cross-lingual",
+        "Text summarisation",
+        "Natural language inference",
+        "Textual entailment",
+        "Text clustering and classification",
+        "Named entity extraction",
+        "Knowledge extraction",
+        "Sentiment analysis",
+        "Language modelling",
+        "Intent classification",
+        "Relation extraction",
+        "Application of LLMs in text modelling and analysis",
+        "Text Alignment and Alignment Models",
+        "Cross-document Coreference Resolution",
+        "Discourse Analysis and Discourse Coherence",
+        "Argumentation Mining and Argumentation Structure Analysis",
+        "Temporal Analysis of Text Data",
+        "Domain Adaptation and Domain-specific Text Modeling",
+        "Event Extraction and Event Detection in Text",
+        "Aspect-based Sentiment Analysis",
+        "Emotion Analysis and Emotion-aware Text Modeling",
+        "Text Generation Evaluation Metrics and Evaluation Methods",
+        "Multimodal Text Analysis (incorporating images, videos, etc.)",
+        "Text-based Information Retrieval and Search",
+        "Textual Entailment Recognition and Applications",
+        "Lexical Semantics and Word Sense Disambiguation",
+        "Text Annotation and Corpus Construction",
+        "Cross-domain Text Modeling and Transfer Learning",
+        "Semantic Parsing and Semantic Role Labeling",
+        "Argument Mining and Argumentation Analysis",
+        "Text Cohesion and Coherence Modeling",
+        "Text Generation for Data Augmentation and Data Synthesis"
+      ]
+    },
+    {
+      "heading": "Speech Modelling and Analysis",
+      "bullets": [
+        "Automatic speech recognition",
+        "Speech synthesis",
+        "Speaker and language identification",
+        "Spoken dialog systems",
+        "Spoken language processing",
+        "Application of LLMs in speech modelling and analysis",
+        "Prosody Modeling and Analysis",
+        "Speech Emotion Recognition and Analysis",
+        "Speech Segmentation and Diarization",
+        "Voice Activity Detection (VAD) and Non-Speech Detection",
+        "Speech Enhancement and Noise Reduction",
+        "Speech Signal Processing for Hearing-impaired Individuals",
+        "Speech-based Biometric Authentication and Verification",
+        "Speaker Diarization and Speaker Clustering",
+        "Spoken Language Understanding (SLU) and Semantic Parsing for Spoken Language",
+        "Acoustic Scene Analysis and Environmental Sound Recognition",
+        "End-to-End Speech Processing Systems",
+        "Multimodal Speech Analysis (incorporating visual cues, gestures, etc.)",
+        "Speech-based Assistive Technologies for Disabilities",
+        "Speech Prosody Generation and Modification",
+        "Robust Speech Recognition and Analysis in Adverse Conditions (e.g., noisy environments)",
+        "Low-resource Language Speech Modeling and Analysis",
+        "Code-switching and Multilingual Speech Modeling",
+        "Speech-based Interaction in Virtual and Augmented Reality Environments",
+        "Speech-based Health Monitoring and Diagnosis",
+        "Speech-based Human-Computer Interaction and Interfaces",
+        "Audio Signal Processing Techniques for Speech and Music",
+        "Cross-modal Analysis of Speech and Music",
+        "Emotion Recognition in Speech and Music",
+        "Multimodal Fusion of Speech and Music Features",
+        "Music Information Retrieval (MIR) Techniques Applied to Speech",
+        "Audio-to-Music Conversion and Synthesis",
+        "Musical Prosody Analysis and its Relationship to Speech Prosody",
+        "Music Generation from Speech Data",
+        "Computational Models for Joint Speech and Music Analysis",
+        "Cross-domain Transfer Learning between Speech and Music Domains"
+      ]
+    }
+  ]
 }

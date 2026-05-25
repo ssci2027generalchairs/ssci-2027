@@ -1,6 +1,102 @@
 {
   "slug": "symposia/health-medicine",
-  "title": "CI in Health and Medicine",
-  "summary": "IEEE CIHM symposium details will be added here.",
-  "kind": "basic"
+  "title": "2027 IEEE Symposium on CI in Health and Medicine (IEEE CIHM)",
+  "summary": "IEEE CIHM focuses on computational intelligence in health and medicine.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Symposium Chairs",
+      "bullets": [
+        "Prof. Xiuying Wang - Xiu.wang@sydney.edu.au, The University of Sydney",
+        "Prof. Vassilis P. Plagianakos - vpp@uth.gr, University of Thessaly"
+      ]
+    },
+    {
+      "heading": "Scope",
+      "paragraphs": [
+        "Recent computational intelligence (CI) revolution is changing the way we work, communicate, and conduct research. CI plays an important role in the advancement of health and medicine by analysing complex medical data for early disease detection and providing innovative technological solutions in diagnostic procedures, personalised medicine, and treatment planning.",
+        "As we are dealing with human health, the medical field requires high levels of accuracy and truthfulness. However, we are overwhelmed with the Big Data from the internet and other issues such as Large Language Model (LLM) hallucinations. Moreover, Computational Intelligence (CI) needs to be used with caution and with strict ethical guidelines in order to protect patients' rights and privacy. It is also essential that CI is used responsibly and ethically to ensure that it does not lead to biased outcomes. To address these and other challenges of CI, this symposium is dedicated to Computational Intelligence in Health and Medicine.",
+        "By focusing on the most recent advancements and uses of CI in Health and Medicine that are shaping the future of healthcare, this symposium aims to explore advancements in health research and clinical practice.",
+        "It is our goal to foster collaboration and the exchange of ideas between scientists in CI and clinical experts in the healthcare field from diverse multidisciplinary backgrounds. We are seeking contributions that address either theoretical developments or practical applications in this field. The symposium welcomes contributions that present innovative research, as well as contributions that discuss the implications of existing research. We also encourage scientific works that examine current challenges, opportunities, and future directions for CI in healthcare."
+      ]
+    },
+    {
+      "heading": "Topics of Interest",
+      "paragraphs": [
+        "Topics of interest include, but are not limited to:"
+      ]
+    },
+    {
+      "heading": "Assistive Technologies and Processes",
+      "bullets": [
+        "Prostheses design",
+        "Prostheses control",
+        "Assistive living",
+        "Wearable devices",
+        "ICT, ageing and disability",
+        "Mobile technologies for healthcare applications",
+        "Therapeutic and rehabilitation approaches",
+        "Neurorehabilitation",
+        "Real-time patient monitoring",
+        "Decision support systems",
+        "Personalised treatment recommendations"
+      ]
+    },
+    {
+      "heading": "Brain-Computer Interface (BCI)",
+      "bullets": [
+        "BCI signal processing",
+        "BCI feature extraction",
+        "BCI pattern recognition",
+        "Multimodal and multi-paradigm BCI",
+        "Hybrid BCI systems",
+        "Collaborate BCI",
+        "Passive BCI",
+        "Affective BCI",
+        "Invasive and non-invasive BCI"
+      ]
+    },
+    {
+      "heading": "Image/Pattern Analysis",
+      "bullets": [
+        "Genomic data analysis Biomarker detection",
+        "Medical data classification",
+        "Diagnosis and analysis",
+        "Pattern recognition",
+        "Biomedical image analysis",
+        "Medical and clinical informatics",
+        "Molecular diagnostics"
+      ]
+    },
+    {
+      "heading": "Medical Knowledge",
+      "bullets": [
+        "Knowledge management",
+        "Information systems",
+        "Personalised preventive and prognostic healthcare",
+        "Personal e-health records",
+        "Personal e-health standards",
+        "Integrated genetics with e-health",
+        "Integrated genetics with m-health"
+      ]
+    },
+    {
+      "heading": "Medical education/support",
+      "bullets": [
+        "Gamification",
+        "Telemedicine",
+        "Security and privacy features",
+        "CI in healthcare: ethical concerns and solutions"
+      ]
+    },
+    {
+      "heading": "Drug Discovery and Pharmacology",
+      "bullets": [
+        "Drug design",
+        "Pharmacokinetics",
+        "Toxicity prediction",
+        "Personalised medicine"
+      ]
+    }
+  ]
 }

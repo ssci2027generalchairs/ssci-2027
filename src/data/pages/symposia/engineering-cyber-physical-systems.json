@@ -1,6 +1,93 @@
 {
   "slug": "symposia/engineering-cyber-physical-systems",
-  "title": "CI in Engineering / Cyber Physical Systems",
-  "summary": "IEEE CIES symposium details will be added here.",
-  "kind": "basic"
+  "title": "2027 IEEE Symposium on CI in Engineering / Cyber Physical Systems (IEEE CIES)",
+  "summary": "IEEE CIES focuses on computational intelligence for engineering and cyber-physical systems.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Symposium Chairs",
+      "bullets": [
+        "A/Prof. Hai Dong - hai.dong@rmit.edu.au, RMIT",
+        "Prof. Yi Meng - yi.mei@vuw.ac.nz, Victoria University of Wellington"
+      ]
+    },
+    {
+      "heading": "Scope",
+      "paragraphs": [
+        "In an era marked by rapid technological advancements, Computational Intelligence (CI) continues to evolve the widespread computational paradigms of Artificial Intelligence (AI) to match these needs. The intersection of computational intelligence (CI) with engineering and cyber-physical systems (CPS) has thus emerged as a critical area of research and innovation.",
+        "This symposium aims to serve as a leading forum for researchers, technologists, and industry experts to exchange ideas, share advancements, and shape the future of this interdisciplinary field. Indeed, the fusion of CI with engineering and CPS is revolutionizing the way we interact with our physical world, making systems smarter, more efficient, and more adaptive. The application of CI and machine learning (ML) in these domains is not just enhancing existing technologies but is also paving the way for novel paradigms in design, operation, and services.",
+        "This symposium is organized into two distinct yet interconnected thematic axes: 'Computational Intelligence (CI) for Technologies/Systems' and 'Systems/Technologies for Computational Intelligence'. The first axis explores how computational intelligence drives and enhances various technological domains and systems, while the second focuses on the technological foundations and advancements that enable and enhance computational intelligence. By exploring these two thematic axes this symposium aims to bring together researchers, practitioners, and industry experts to share insights, experiences, and advancements in the field of Computational Intelligence for Engineering and Cyber-Physical Systems. Through these two thematic axes, the event will foster discussions that cross the traditional boundaries of technology and computational intelligence, paving the way for innovative solutions and future collaborations.",
+        "We are seeking contributions that address either theoretical developments or practical applications in these fields. Further, the Symposium aims to promote collaboration and the sharing of knowledge to develop the field of CI in Engineering/Cyber Physical Systems."
+      ]
+    },
+    {
+      "heading": "Topics of Interest",
+      "paragraphs": [
+        "Topics of interest include, but are not limited to:"
+      ]
+    },
+    {
+      "heading": "Intelligent Autonomous",
+      "bullets": [
+        "Industrial IoT",
+        "Automative systems",
+        "Adaptive control",
+        "Decentralised control",
+        "Industrial automations",
+        "Manufacturing systems",
+        "Digital twins",
+        "Warehouse automation",
+        "Intelligent industrial robots"
+      ]
+    },
+    {
+      "heading": "Civil and mechanical engineering",
+      "bullets": [
+        "Complex systems",
+        "Complex structures",
+        "Intelligent analysis and control",
+        "Infrastructure security",
+        "Design optimization"
+      ]
+    },
+    {
+      "heading": "Decision support",
+      "bullets": [
+        "Intelligent decision making",
+        "Management and processing of uncertainties",
+        "Sensitivity analysis",
+        "Risk-aware, risk impact and probability estimation"
+      ]
+    },
+    {
+      "heading": "Resource Management",
+      "bullets": [
+        "Resource planning",
+        "Predictions and recommendation of informed decisions",
+        "Supply and demand forecasting in warehouses"
+      ]
+    },
+    {
+      "heading": "Evolvable Hardware",
+      "bullets": [
+        "Autonomous systems",
+        "Self-reconfigurable and adaptive systems",
+        "Novel evolvable hardware architectures (e.g. FPGAs, FPAAs)",
+        "Self-repairing, fault-tolerant systems",
+        "Self-monitoring and self-testing",
+        "Electronic circuit synthesis and optimization",
+        "MEMS and nanotechnology"
+      ]
+    },
+    {
+      "heading": "Sensors",
+      "bullets": [
+        "Smart sensing",
+        "Monitoring",
+        "Intelligent ubiquitous sensor network",
+        "Biosensors",
+        "Sensor networks"
+      ]
+    }
+  ]
 }

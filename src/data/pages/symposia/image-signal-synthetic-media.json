@@ -1,6 +1,98 @@
 {
   "slug": "symposia/image-signal-synthetic-media",
-  "title": "CI in Image, Signal Processing and Synthetic Media",
-  "summary": "IEEE CISM symposium details will be added here.",
-  "kind": "basic"
+  "title": "2027 IEEE Symposium on CI in Image, Signal Processing and Synthetic Media (IEEE CISM)",
+  "summary": "IEEE CISM focuses on computational intelligence for image, signal processing, and synthetic media.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Symposium Chairs",
+      "bullets": [
+        "Prof. Ying Bi - yingbi@zzu.edu.cn, Zhengzhou University",
+        "Prof. Bing Xue - bing.xue@vuw.ac.nz, Victoria University of Wellington, IEEE Member, IEEE CIS Member"
+      ]
+    },
+    {
+      "heading": "Scope",
+      "paragraphs": [
+        "We are immersed in a plethora of data in various modalities, such as images, texts, and time-series, which are either produced in the real world - civil surveillance, internet activities and health examination among others or artificially generated data such as synthetic media. Such data contains great value which may power intelligent systems, fuelling unprecedented social and economic benefits. The considerable pace of recent technological advances - gaining insights from past, present and future data in different modalities - has generated considerable benefits to scientific discovery and informed decision-making. Among which, computational intelligence (CI) technology, with deep neural networks as the most well-known representative in this area, features unparalleled powerfulness and flexibility for handling the fast-growing complexity and scalability of scientific and engineering problems.",
+        "Compared to traditional approaches which require a deep understanding of the problem and high data quality, CI techniques can learn to solve the problem in a black box manner. Despite uncertain and incomplete data, powerful and adaptive CI techniques can create scalable computational models to solve complex scientific and engineering problems. Particularly, in the fields of computer vision and signal processing, nature and brain inspired techniques have demonstrated remarkable excellence, far outperforming conventional methods in addressing a variety of challenging tasks, from image classification, semantic segmentation, and object detection to speech and language processing, time-series forecasting, and synthetic media generation. Nowadays, more and more new applications related to image, signal processing, and synthetic media keep emerging in different sectors, such as health, space, transportation, education, and entertainment, leading to the surging demands of the theoretical and practical contributions in CI to deal with them.",
+        "This symposium aims to bring together researchers and practitioners in academia, industries, and governments to retrospect past achievements, discuss latest studies, and explore future directions about innovating and applying CI techniques, e.g., neural networks, fuzzy systems, and evolutionary computation, to solve open and new problems relevant to image, signal processing, and synthetic media. We welcome submissions about both theoretical developments and practical applications."
+      ]
+    },
+    {
+      "heading": "Topics of Interest",
+      "paragraphs": [
+        "Topics of interest include, but are not limited to:"
+      ]
+    },
+    {
+      "heading": "Image and Video Analysis",
+      "bullets": [
+        "Visual feature engineering and analysis",
+        "Biometric and biomedical image analysis",
+        "Object detection and tracking",
+        "Object recognition and classification",
+        "Image restoration and enhancement",
+        "Image classification and segmentation",
+        "Multimodal fusion",
+        "Action recognition and Video understanding",
+        "Real-time video processing",
+        "Video analytics",
+        "Mobile device applications"
+      ]
+    },
+    {
+      "heading": "Multimedia Signal Processing",
+      "bullets": [
+        "Compression, storage, retrieval",
+        "Content recommendation",
+        "Search engine optimization",
+        "Streaming quality",
+        "Content automation",
+        "Music recommendation"
+      ]
+    },
+    {
+      "heading": "Synthetic Media and Deep Fakes",
+      "bullets": [
+        "Robot journalism",
+        "Music generation",
+        "Deep fakes",
+        "Image and video generation",
+        "Voice synthesis",
+        "Automatic video captioning",
+        "Visual question answering",
+        "Multimodal generation"
+      ]
+    },
+    {
+      "heading": "Games",
+      "bullets": [
+        "Visual effects and graphics",
+        "Virtual reality",
+        "Pose estimation",
+        "Content generation",
+        "Sound effect rendering",
+        "Procedural audio"
+      ]
+    },
+    {
+      "heading": "Earth Observation and Extra-Terrestrial Exploration",
+      "bullets": [
+        "Satellite and UAV remote sensing",
+        "Change detection",
+        "Land use and land cover mapping",
+        "Land surface analysis",
+        "Ground object detection and tracking",
+        "Remote submarine surveillance",
+        "Maritime data analysis",
+        "Port monitoring and surveillance",
+        "Meteorological monitoring and analysis",
+        "Environmental monitoring and analysis",
+        "Astronomical image analysis",
+        "Extra-terrestrial discovery of unknowns",
+        "Onboard surveillance and decision-making"
+      ]
+    }
+  ]
 }

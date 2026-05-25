@@ -1,6 +1,114 @@
 {
   "slug": "symposia/energy-transport-environment",
-  "title": "CI for Energy, Transport and Environmental Sustainability",
-  "summary": "IEEE CIETES symposium details will be added here.",
-  "kind": "basic"
+  "title": "2027 IEEE Symposium on CI for Energy, Transport and Environmental Sustainability (IEEE CIETES)",
+  "summary": "IEEE CIETES focuses on computational intelligence for energy, transport, and environmental sustainability.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Symposium Chairs",
+      "bullets": [
+        "A/Prof. Bo Du - bo.du@griffith.edu.au, Griffith University Business School, IEEE Member",
+        "Prof. Wei-Neng Chen - cschenwn@scut.edu.cn, South China University of Technology"
+      ]
+    },
+    {
+      "heading": "Scope",
+      "paragraphs": [
+        "The primary focus of the IEEE Symposium on Computational Intelligence for Energy, Transport, and Environmental Sustainability is the convergence of computational intelligence (CI) with the vital areas of energy, transport, and environmental sustainability. This subject is crucial as it tackles the urgent difficulties encountered in energy, transportation, and environmental sustainability, which directly affect our world and future generations.",
+        "Computational intelligence has been effectively utilized in diverse sectors within this field. For example, CI has been employed in enhancing energy generation and distribution systems, optimizing transportation networks and logistics, and creating sophisticated environmental monitoring and management solutions. These applications have demonstrated the value of CI in tackling intricate challenges and attaining effective and durable results.",
+        "Notwithstanding the advancements achieved, there remain various concerns that necessitate attention. These encompass the incorporation of sustainable energy sources into current power networks, the enhancement of transportation systems to minimize traffic and pollution, and the creation of accurate forecasting models for environmental events. The Symposium seeks to offer a forum for researchers and practitioners to deliberate on these matters and other related issues, exchange their most recent discoveries, and investigate pioneering solutions employing CI approaches.",
+        "We are seeking contributions that address either theoretical developments or practical applications in these fields. Further, the symposium aims to promote collaboration and the sharing of knowledge to develop the field of CI for energy, transport, and environmental sustainability. Ultimately, a more sustainable and environmentally friendly future."
+      ]
+    },
+    {
+      "heading": "Topics of Interest",
+      "paragraphs": [
+        "Topics of interest include, but are not limited to:"
+      ]
+    },
+    {
+      "heading": "Natural Ecosystems",
+      "bullets": [
+        "Agriculture, harvesting and precision",
+        "Crop and animal genetics",
+        "Agriculture management",
+        "Soil and growing condition monitoring",
+        "Forest monitoring",
+        "Forest fire mitigation",
+        "Water resource management",
+        "Smart fishing",
+        "Pollution monitoring",
+        "Aquaculture management",
+        "Invasive species management",
+        "Ecosystems services",
+        "Ecosystems resilience",
+        "Sustainable agriculture",
+        "Ecosystem toxicology",
+        "Ecosystem restoration"
+      ]
+    },
+    {
+      "heading": "Environment",
+      "bullets": [
+        "Disaster warning and management",
+        "Forecasting models",
+        "Environmental monitoring",
+        "Biodiversity conservation",
+        "Pollution control",
+        "Climate modeling and simulation",
+        "Climate data analysis and pattern recognition",
+        "Climate risk assessment and adaptation",
+        "Carbon cycle modeling and prediction",
+        "Climate resilience planning",
+        "Climate informatics",
+        "Climate services and Decision Support Systems"
+      ]
+    },
+    {
+      "heading": "Energy/Transport",
+      "bullets": [
+        "Efficient energy",
+        "Renewable energy forecasting",
+        "Energy management",
+        "Distributed energy",
+        "Optimisation of energy storage",
+        "Charging and discharging strategies",
+        "Transport energy interfacing",
+        "Wireless power transfer",
+        "Smart grid scheduling",
+        "Smart grid integration with renewable energy",
+        "Electric vehicles/ships",
+        "Integrated multi-modal transport systems",
+        "Predictive maintenance in transport systems",
+        "Smart charging for electric vehicles",
+        "Energy efficiency in data centres"
+      ]
+    },
+    {
+      "heading": "Transport Vehicles/Ships",
+      "bullets": [
+        "Autonomous vehicles",
+        "Health and longevity of transport vehicles",
+        "Route optimisation",
+        "Efficient loading/unloading",
+        "Intelligent transport systems",
+        "Traffic flow optimization",
+        "Energy efficiency in vehicles/ships",
+        "Cybersecurity in vehicles",
+        "Vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I)"
+      ]
+    },
+    {
+      "heading": "Supply Chains",
+      "bullets": [
+        "Cost-efficient supply chains",
+        "Supply chain safety",
+        "IoT for goods in shipment and real-time tracking",
+        "Sustainable and Green supply chains",
+        "Demand forecasting",
+        "Supply chain resilience",
+        "Predictive analytics for risk management"
+      ]
+    }
+  ]
 }
