@@ -1,0 +1,31 @@
+---
+interface Sponsor {
+  name: string;
+  logo?: string;
+  href?: string;
+  tier?: string;
+}
+
+interface Props {
+  sponsors: Sponsor[];
+}
+
+const base = import.meta.env.BASE_URL;
+const withAssetBase = (href: string) => `${base}${href.replace(/^\//, '')}`;
+---
+
+{Astro.props.sponsors.length > 0 ? (
+  <div class="sponsor-strip" aria-label="Sponsors">
+    {Astro.props.sponsors.map((sponsor) => (
+      <div class="sponsor-strip-item">
+        {sponsor.href ? (
+          <a href={sponsor.href} target="_blank" rel="noreferrer">
+            {sponsor.logo ? <img src={withAssetBase(sponsor.logo)} alt={sponsor.name} /> : <span>{sponsor.name}</span>}
+          </a>
+        ) : (
+          sponsor.logo ? <img src={withAssetBase(sponsor.logo)} alt={sponsor.name} /> : <span>{sponsor.name}</span>
+        )}
+      </div>
+    ))}
+  </div>
+) : null}

@@ -35,11 +35,60 @@ const groupedMembers = Astro.props.members.reduce((groups, member) => {
   }
   return groups;
 }, [] as { role: string; members: Member[] }[]);
+
+const isOrganizingCommittee = Astro.props.name === 'Organizing Committee';
+const generalChairGroup = groupedMembers.find((group) => group.role === 'General Chair');
+const listGroups = groupedMembers.filter((group) => group.role !== 'General Chair');
+const roleHeading = (role: string) => role.endsWith('Chair') ? `${role}s` : role;
 ---
 
-<section class="committee-list">
-  <h2>{Astro.props.name}</h2>
-  {Astro.props.members.length > 0 ? (
+<section class:list={['committee-list', isOrganizingCommittee && 'legacy-committee']} aria-label={Astro.props.name}>
+  {!isOrganizingCommittee && <h2>{Astro.props.name}</h2>}
+  {Astro.props.members.length > 0 && isOrganizingCommittee ? (
+    <>
+      {generalChairGroup && (
+        <section class="committee-feature-section">
+          <h2 class="feature-title">{roleHeading(generalChairGroup.role)}</h2>
+          <div class="committee-feature-grid">
+            {generalChairGroup.members.map((member) => (
+              <article class="committee-feature-card">
+                <div class="committee-feature-photo">
+                  {member.photo ? (
+                    <img src={withAssetBase(member.photo)} alt={member.name} />
+                  ) : (
+                    <span>{initials(member.name)}</span>
+                  )}
+                </div>
+                <h3>{member.name}</h3>
+                <p class="member-title">{member.role}</p>
+                {member.affiliation && <p class="member-uni">{member.affiliation}</p>}
+                {member.email && <a href={`mailto:${member.email}`}>{member.email}</a>}
+                {member.note && <small>{member.note}</small>}
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+      <section class="committee-role-columns">
+        {listGroups.map((group) => (
+          <section class="committee-role-list">
+            <h3 class="committee-heading">{roleHeading(group.role)}</h3>
+            <ul>
+              {group.members.map((member) => (
+                <li>
+                  <strong class="organizers-names">{member.name}</strong>
+                  {member.affiliation && <span>, {member.affiliation}</span>}
+                  {member.email && <><br /><a href={`mailto:${member.email}`}>{member.email}</a></>}
+                  {member.status && <><br /><em>{member.status}</em></>}
+                  {member.note && <><br /><small>{member.note}</small></>}
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </section>
+    </>
+  ) : Astro.props.members.length > 0 ? (
     <div class="member-role-list">
       {groupedMembers.map((group) => (
         <section class="member-role-row" aria-labelledby={`role-${group.role.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>

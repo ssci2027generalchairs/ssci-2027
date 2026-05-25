@@ -47,6 +47,18 @@ img {
   display: none !important;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 main {
   min-height: 60vh;
 }
@@ -240,7 +252,7 @@ main {
   position: relative;
   display: grid;
   align-items: end;
-  min-height: clamp(470px, 64vh, 720px);
+  min-height: clamp(330px, 44vw, 540px);
   overflow: hidden;
   color: white;
   background: var(--navy);
@@ -263,7 +275,7 @@ main {
   inset: 0;
   margin: 0;
   opacity: 0;
-  transform: scale(1.02);
+  transform: none;
   transition: opacity 900ms ease, transform 6500ms ease;
 }
 
@@ -280,19 +292,20 @@ main {
 
 .hero-slide figcaption {
   position: absolute;
-  left: max(16px, calc((100vw - 1120px) / 2));
-  bottom: 18px;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 2;
-  color: rgba(255, 255, 255, 0.82);
-  font-size: 0.88rem;
-  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);
+  padding: 13px max(16px, calc((100vw - 1120px) / 2));
+  color: rgba(255, 255, 255, 0.94);
+  background: rgba(15, 38, 52, 0.72);
+  font-size: 1rem;
+  text-align: center;
 }
 
 .hero-overlay {
   pointer-events: none;
-  background:
-    linear-gradient(90deg, rgba(16, 43, 60, 0.9), rgba(16, 43, 60, 0.5) 54%, rgba(16, 43, 60, 0.24)),
-    linear-gradient(0deg, rgba(16, 43, 60, 0.8), rgba(16, 43, 60, 0.08) 45%);
+  background: linear-gradient(0deg, rgba(16, 43, 60, 0.34), rgba(16, 43, 60, 0.02) 45%);
 }
 
 .hero-control {
@@ -330,7 +343,7 @@ main {
 .hero-dots {
   position: absolute;
   right: max(16px, calc((100vw - 1120px) / 2));
-  bottom: 22px;
+  bottom: 60px;
   z-index: 3;
   display: flex;
   gap: 8px;
@@ -356,7 +369,9 @@ main {
   z-index: 1;
   width: min(1120px, calc(100% - 32px));
   margin: 0 auto;
-  padding: 0 0 clamp(56px, 9vw, 96px);
+  padding: 0 0 clamp(88px, 11vw, 132px);
+  text-align: center;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.62);
 }
 
 .eyebrow {
@@ -373,11 +388,18 @@ main {
 }
 
 .hero h1 {
-  max-width: 850px;
+  max-width: none;
   margin: 0;
-  font-size: clamp(3.4rem, 12vw, 7rem);
-  line-height: 0.96;
+  font-size: clamp(2.6rem, 7vw, 5.4rem);
+  line-height: 1;
   letter-spacing: 0;
+}
+
+.hero-content p {
+  max-width: 920px;
+  margin: 18px auto 0;
+  font-size: clamp(1rem, 2vw, 1.35rem);
+  color: rgba(255, 255, 255, 0.92);
 }
 
 .hero-meta {
@@ -452,6 +474,182 @@ main {
 .welcome-grid > div > p {
   max-width: 760px;
   font-size: 1.05rem;
+}
+
+.home-main {
+  background: #ffffff;
+}
+
+.home-about {
+  padding: 20px 0 44px;
+}
+
+.welcome-content {
+  padding-top: 30px;
+}
+
+.welcome-content h2 {
+  margin: 0 0 18px;
+  color: #4e4039;
+  font-size: clamp(1.85rem, 3.6vw, 2.35rem);
+  line-height: 1.18;
+  letter-spacing: 0;
+}
+
+.welcome-content p {
+  margin: 0 0 18px;
+  color: #5a6570;
+  font-size: 0.98rem;
+}
+
+.welcome-inline-image {
+  float: left;
+  width: min(420px, 48%);
+  margin: 4px 24px 14px 0;
+  border-radius: 4px;
+}
+
+.breaking-news {
+  position: relative;
+  height: 60px;
+  overflow: hidden;
+  border: 2px solid #2096cd;
+  background: #fff;
+}
+
+.breaking-news-title {
+  position: relative;
+  display: inline-block;
+  height: 60px;
+  background: #2096cd;
+}
+
+.breaking-news-title h2 {
+  height: 60px;
+  margin: 0;
+  padding: 0 20px;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+.breaking-news-title span {
+  position: absolute;
+  top: 20px;
+  right: -10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #2096cd;
+}
+
+.breaking-news ul {
+  position: absolute;
+  top: 0;
+  right: 16px;
+  left: 250px;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breaking-news li {
+  display: none;
+  height: 60px;
+  line-height: 60px;
+}
+
+.breaking-news li.active,
+.breaking-news li:first-child {
+  display: block;
+}
+
+.breaking-news a,
+.breaking-news span {
+  display: block;
+  overflow: hidden;
+  color: #eb5d1e;
+  font-weight: 800;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.home-dates,
+.home-sponsors,
+.home-speakers {
+  padding: 28px 0 46px;
+}
+
+.home-dates {
+  background: var(--soft);
+}
+
+.home-section-title {
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+.home-section-title p {
+  position: relative;
+  margin: 0;
+  padding-bottom: 15px;
+  color: #4e4039;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.home-section-title p::after {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 30px);
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #eb5d1e;
+  content: "";
+}
+
+.home-dates .date-list {
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 14px;
+}
+
+.home-dates .date-list li {
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+}
+
+.sponsor-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  padding: 18px 0;
+}
+
+.sponsor-strip-item {
+  display: grid;
+  place-items: center;
+  min-width: 150px;
+  min-height: 92px;
+}
+
+.sponsor-strip img {
+  max-width: 190px;
+  max-height: 72px;
+  object-fit: contain;
+}
+
+.sponsor-strip span {
+  color: var(--blue);
+  font-weight: 800;
+  text-align: center;
 }
 
 .info-panel {
@@ -658,6 +856,43 @@ main {
   max-width: 980px;
 }
 
+.committee-page-hero {
+  padding: 42px 0 34px;
+  color: var(--ink);
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+
+.committee-page-hero .eyebrow {
+  color: #068da9;
+}
+
+.committee-page-hero p:last-child {
+  color: #5a6570;
+}
+
+.committee-page-content {
+  max-width: 1120px;
+}
+
+.committee-page-section {
+  padding-top: clamp(38px, 5vw, 58px);
+}
+
+.committee-notes {
+  margin-top: clamp(42px, 6vw, 66px);
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+
+.committee-notes .page-sections {
+  gap: 24px;
+}
+
+.committee-notes h2 {
+  font-size: clamp(1.35rem, 2.4vw, 1.9rem);
+}
+
 .member-card {
   display: flex;
   flex-direction: column;
@@ -726,6 +961,117 @@ main {
   color: var(--coral);
   font-style: normal;
   font-weight: 700;
+}
+
+.legacy-committee h2 {
+  margin-bottom: 28px;
+  color: #4e4039;
+  font-size: clamp(1.9rem, 3vw, 2.2rem);
+}
+
+.committee-feature-section {
+  margin-bottom: 34px;
+}
+
+.feature-title {
+  margin: 0 0 22px;
+  color: var(--ink) !important;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.committee-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 26px;
+}
+
+.committee-feature-card {
+  text-align: center;
+}
+
+.committee-feature-photo {
+  display: grid;
+  place-items: center;
+  width: 210px;
+  height: 210px;
+  margin: 0 auto 16px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #e8f0f2;
+  color: var(--blue);
+  font-size: 2.3rem;
+  font-weight: 800;
+}
+
+.committee-feature-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.committee-feature-card h3 {
+  margin: 0 0 10px;
+  font-size: clamp(1.25rem, 2vw, 1.7rem);
+  font-weight: 400;
+}
+
+.committee-feature-card .member-title,
+.committee-feature-card .member-uni,
+.committee-feature-card a,
+.committee-feature-card small {
+  display: block;
+  margin: 0 0 8px;
+}
+
+.committee-feature-card .member-title {
+  color: #2f8aa5;
+  font-size: 1.15rem;
+}
+
+.committee-feature-card .member-uni {
+  color: #000;
+  font-size: 1rem;
+}
+
+.committee-role-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px 46px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.committee-role-list {
+  min-width: 0;
+}
+
+.committee-heading {
+  margin: 0 0 10px;
+  color: #1f2933;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.committee-role-list ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.committee-role-list li {
+  color: #5a6570;
+}
+
+.organizers-names {
+  color: #068da9;
+  font-weight: 800;
+}
+
+.committee-role-list a {
+  overflow-wrap: anywhere;
 }
 
 @media (max-width: 620px) {
@@ -914,6 +1260,10 @@ tr:last-child td {
   .footer-inner {
     grid-template-columns: 1fr;
   }
+
+  .committee-role-columns {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 680px) {
@@ -942,20 +1292,70 @@ tr:last-child td {
   }
 
   .hero {
-    min-height: 520px;
+    min-height: 430px;
   }
 
   .hero-control {
     display: none;
   }
 
-  .hero-slide figcaption,
+  .hero-slide figcaption {
+    padding-inline: 16px;
+    font-size: 0.88rem;
+  }
+
   .hero-dots {
-    bottom: 12px;
+    bottom: 56px;
   }
 
   .hero h1 {
-    font-size: clamp(3.2rem, 18vw, 5.5rem);
+    font-size: clamp(2.5rem, 15vw, 4.6rem);
+  }
+
+  .welcome-inline-image {
+    float: none;
+    width: 100%;
+    margin: 0 0 18px;
+  }
+
+  .breaking-news {
+    height: auto;
+  }
+
+  .breaking-news-title {
+    display: block;
+    height: 48px;
+  }
+
+  .breaking-news-title h2 {
+    height: 48px;
+    line-height: 48px;
+    font-size: 0.95rem;
+  }
+
+  .breaking-news-title span {
+    display: none;
+  }
+
+  .breaking-news ul {
+    position: static;
+    height: auto;
+    padding: 12px 16px;
+  }
+
+  .breaking-news li {
+    height: auto;
+    line-height: 1.35;
+  }
+
+  .breaking-news a,
+  .breaking-news span {
+    white-space: normal;
+  }
+
+  .committee-feature-photo {
+    width: 170px;
+    height: 170px;
   }
 
   .hero-actions,

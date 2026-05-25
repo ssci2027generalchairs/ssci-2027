@@ -36,35 +36,51 @@ const { page } = Astro.props as { page: PageData };
 const committee = page.kind === 'committee'
   ? committees.find((item) => item.slug === page.committeeSlug)
   : undefined;
+const isOrganizingCommitteePage = page.kind === 'committee' && page.committeeSlug === 'organizing-committee';
 ---
 
 <BaseLayout title={page.title} description={page.summary}>
-  <section class="page-hero">
-    <div class="container">
-      <p class="eyebrow">IEEE SSCI 2027</p>
-      <h1>{page.title}</h1>
-      <p>{page.summary}</p>
-    </div>
-  </section>
+  {!isOrganizingCommitteePage && (
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">IEEE SSCI 2027</p>
+        <h1>{page.title}</h1>
+        <p>{page.summary}</p>
+      </div>
+    </section>
+  )}
 
-  <section class="section">
-    <div class="container page-content">
-      <PageSections sections={page.sections} />
-      {page.kind === 'committee' && committee && <CommitteeList name={committee.name} members={committee.members} />}
-      {page.kind === 'speakers' && (
+  <section class:list={['section', isOrganizingCommitteePage && 'committee-page-section']}>
+    <div class:list={['container', 'page-content', isOrganizingCommitteePage && 'committee-page-content']}>
+      {isOrganizingCommitteePage && page.kind === 'committee' && committee ? (
         <>
-          <SpeakerGrid title="Plenary Speakers" speakers={speakers.plenary} />
-          <SpeakerGrid title="Keynote Speakers" speakers={speakers.keynote} />
+          <CommitteeList name={committee.name} members={committee.members} />
+          {page.sections?.length ? (
+            <div class="committee-notes">
+              <PageSections sections={page.sections} />
+            </div>
+          ) : null}
         </>
-      )}
-      {page.kind === 'sponsors' && (
+      ) : (
         <>
-          <SectionHeader title="Sponsors" text={page.summary} />
-          <SponsorGrid sponsors={sponsors} />
+          <PageSections sections={page.sections} />
+          {page.kind === 'committee' && committee && <CommitteeList name={committee.name} members={committee.members} />}
+          {page.kind === 'speakers' && (
+            <>
+              <SpeakerGrid title="Plenary Speakers" speakers={speakers.plenary} />
+              <SpeakerGrid title="Keynote Speakers" speakers={speakers.keynote} />
+            </>
+          )}
+          {page.kind === 'sponsors' && (
+            <>
+              <SectionHeader title="Sponsors" text={page.summary} />
+              <SponsorGrid sponsors={sponsors} />
+            </>
+          )}
+          {!page.sections?.length && page.kind === 'basic' && (
+            <EmptyState title="Content coming soon" text="This page is ready for confirmed conference information, links, images, and downloadable files." />
+          )}
         </>
-      )}
-      {!page.sections?.length && page.kind === 'basic' && (
-        <EmptyState title="Content coming soon" text="This page is ready for confirmed conference information, links, images, and downloadable files." />
       )}
     </div>
   </section>

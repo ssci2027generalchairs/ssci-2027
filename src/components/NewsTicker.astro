@@ -1,0 +1,28 @@
+---
+interface NewsItem {
+  title: string;
+  href?: string;
+  date?: string;
+  summary?: string;
+}
+
+interface Props {
+  items: NewsItem[];
+}
+---
+
+{Astro.props.items.length > 0 ? (
+  <div class="breaking-news" aria-label="Latest news and updates">
+    <div class="breaking-news-title">
+      <h2>Latest News &amp; Updates</h2>
+      <span aria-hidden="true"></span>
+    </div>
+    <ul>
+      {Astro.props.items.map((item, index) => (
+        <li class:list={[index === 0 && 'active']}>
+          {item.href ? <a href={item.href}>{item.title}</a> : <span>{item.title}</span>}
+        </li>
+      ))}
+    </ul>
+  </div>
+) : null}
