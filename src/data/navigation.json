@@ -3,9 +3,7 @@
   {
     "label": "About",
     "items": [
-      { "label": "Conference Overview", "href": "/about/conference-overview/" },
       { "label": "Organizing Committee", "href": "/about/organizing-committee/" },
-      { "label": "Symposium Chairs", "href": "/about/symposium-chairs/" },
       { "label": "SSCI Evaluation and Planning Committee", "href": "/about/evaluation-and-planning-committee/" },
       { "label": "Contact Us", "href": "/about/contact/" }
     ]
@@ -57,8 +55,7 @@
       { "label": "Venue Information", "href": "/venue-travel/venue/" },
       { "label": "Travel Information", "href": "/venue-travel/travel/" },
       { "label": "Accommodation", "href": "/venue-travel/accommodation/" },
-      { "label": "Things To Do", "href": "/venue-travel/things-to-do/" },
-      { "label": "Visa Policy", "href": "/venue-travel/visa-policy/" },
+      { "label": "Things To Do in Gold Coast", "href": "/venue-travel/things-to-do/" },
       { "label": "Travel Grants", "href": "/venue-travel/travel-grants/" }
     ]
   },
