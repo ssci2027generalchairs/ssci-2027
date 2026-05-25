@@ -23,7 +23,7 @@
     {
       "heading": "Keynotes & Panels",
       "paragraphs": [
-        "The conference plans to host distinguished keynote speakers from academia and industry addressing emerging frontiers in computational intelligence. Industry and academic panels will focus on application domains such as healthcare AI, financial AI, energy and transport sustainability, and trustworthy computational intelligence.",
+        "The conference plans to host 23 distinguished keynote speakers from academia or industry addressing emerging frontiers in computational intelligence. Industry and academic panels will focus on application domains such as healthcare AI, financial AI, energy and transport sustainability, and trustworthy computational intelligence.",
         "These sessions will enhance relevance and cross-domain dialogue."
       ]
     },
@@ -35,17 +35,14 @@
     },
     {
       "heading": "Awards & Recognition",
+      "paragraphs": [
+        "Awards are planned to be presented during the conference banquet to recognize excellence and encourage participation."
+      ],
       "bullets": [
         "Best Paper Award",
         "Best Student Paper Award",
         "Best Poster Award",
         "Industry Collaboration Award"
-      ]
-    },
-    {
-      "heading": "Awards & Recognition",
-      "paragraphs": [
-        "Awards are planned to be presented during the conference banquet to recognize excellence and encourage participation."
       ]
     }
   ]

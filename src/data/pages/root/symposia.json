@@ -22,11 +22,13 @@
     {
       "heading": "Special Sessions",
       "bullets": [
-        "Computational intelligence in time series and spatio-temporal data mining",
-        "Computational intelligence in control",
-        "Computational intelligence in remote sensing",
-        "Learning for graphs",
-        "Computational intelligence in multidisciplinary applications"
+        "CI in Archeology",
+        "CI in Non-Traditional Computation Technologies",
+        "CI in Aerospace Applications",
+        "CI in Agricultural Sciences and Agroforestry",
+        "CI in Neuroscience",
+        "CI in Search-based Software Engineering",
+        "CI in Maritime Technology"
       ]
     }
   ]

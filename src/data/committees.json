@@ -31,27 +31,29 @@
         "role": "Program Chair",
         "name": "Davide Bacciu",
         "affiliation": "University of Pisa",
+        "email": "davide.bacciu@unipi.it",
         "photo": ""
       },
       {
         "role": "Program Chair",
         "name": "Gary G. Yen",
         "affiliation": "Oklahoma State University",
+        "email": "gyen@okstate.edu",
         "note": "IEEE Fellow; IET Fellow",
         "photo": ""
       },
       {
         "role": "Plenary and Keynote Chair",
-        "name": "TBD",
-        "affiliation": "",
+        "name": "Xiaodong Li",
+        "affiliation": "RMIT University",
+        "email": "xiaodong.li@rmit.edu.au",
         "photo": ""
       },
       {
-        "role": "Tutorial Chair",
-        "name": "Bing Xue",
-        "affiliation": "Victoria University of Wellington",
-        "email": "bing.xue@vuw.ac.nz",
-        "note": "IEEE Member; IEEE CIS Member",
+        "role": "Plenary and Keynote Chair",
+        "name": "Yang Xiang",
+        "affiliation": "",
+        "status": "Invited / pending confirmation",
         "photo": ""
       },
       {
@@ -59,14 +61,6 @@
         "name": "M. Tanveer",
         "affiliation": "Indian Institute of Technology Indore",
         "email": "mtanveer@iiti.ac.in",
-        "photo": ""
-      },
-      {
-        "role": "Tutorial Chair",
-        "name": "Junbin Gao",
-        "affiliation": "The University of Sydney",
-        "email": "junbin.gao@sydney.edu.au",
-        "note": "IEEE Member",
         "photo": ""
       },
       {
@@ -79,9 +73,23 @@
       },
       {
         "role": "Industry and Government Chair",
+        "name": "Jialin Liu",
+        "affiliation": "Lingnan University",
+        "email": "jialin.liu@ln.edu.hk",
+        "photo": ""
+      },
+      {
+        "role": "Industry and Government Chair",
         "name": "Owen Vallis",
-        "affiliation": "OpenAI, USA",
+        "affiliation": "OpenAI",
         "email": "owensvallis@gmail.com",
+        "photo": ""
+      },
+      {
+        "role": "Competition Chair",
+        "name": "Min Wu",
+        "affiliation": "A*STAR",
+        "email": "wumin@a-star.edu.sg",
         "photo": ""
       },
       {
@@ -95,9 +103,9 @@
       },
       {
         "role": "Local Chair",
-        "name": "Xuefei Yin",
+        "name": "Leo Zhang",
         "affiliation": "Griffith University",
-        "note": "IEEE Member",
+        "email": "leo.zhang@griffith.edu.au",
         "photo": ""
       },
       {
@@ -110,56 +118,66 @@
       },
       {
         "role": "Local Chair",
-        "name": "Leo Zhang",
+        "name": "Xuefei Yin",
         "affiliation": "Griffith University",
+        "email": "x.yin@griffith.edu.au",
+        "note": "IEEE Member",
         "photo": ""
       },
       {
         "role": "Proceedings Chair",
         "name": "Yixin Liu",
-        "affiliation": "",
+        "affiliation": "Griffith University",
+        "email": "yixin.liu@griffith.edu.au",
         "photo": ""
       },
       {
         "role": "Proceedings Chair",
         "name": "Xin Zheng",
-        "affiliation": "",
+        "affiliation": "RMIT University",
+        "email": "xin.zheng2@rmit.edu.au",
         "photo": ""
       },
       {
         "role": "Proceedings Chair",
         "name": "Liang Chen",
-        "affiliation": "",
+        "affiliation": "Tongji University",
+        "email": "liangchen527@gmail.com",
         "photo": ""
       },
       {
         "role": "Collaboration and Engagement Chair",
-        "name": "TBD",
+        "name": "Andy Song",
         "affiliation": "",
+        "status": "Invited / pending confirmation",
         "photo": ""
       },
       {
         "role": "Conflict of Interest Chair",
-        "name": "TBD",
-        "affiliation": "",
+        "name": "Ponnuthurai Nagaratnam Suganthan",
+        "affiliation": "Qatar University",
+        "email": "p.n.suganthan@qu.edu.qa",
         "photo": ""
       },
       {
         "role": "Poster Session Chair",
         "name": "TBD",
         "affiliation": "",
+        "note": "Associated with 250-word abstract submissions in the proposal draft",
         "photo": ""
       },
       {
         "role": "Journal-to-Conference Chair",
-        "name": "TBD",
-        "affiliation": "",
+        "name": "He Zhang",
+        "affiliation": "Griffith University",
+        "email": "h.zhang@griffith.edu.au",
         "photo": ""
       },
       {
         "role": "Finance Chair",
         "name": "Yi Liu",
-        "affiliation": "",
+        "affiliation": "Quantstamp / Griffith University",
+        "email": "yi009@e.ntu.edu.sg",
         "photo": ""
       },
       {
@@ -210,6 +228,13 @@
         "photo": ""
       },
       {
+        "role": "IEEE CIETES",
+        "name": "Wei-Neng Chen",
+        "affiliation": "South China University of Technology",
+        "email": "cschenwn@scut.edu.cn",
+        "photo": ""
+      },
+      {
         "role": "IEEE CIES",
         "name": "Hai Dong",
         "affiliation": "RMIT University",
@@ -217,10 +242,25 @@
         "photo": ""
       },
       {
+        "role": "IEEE CIES",
+        "name": "Yi Meng",
+        "affiliation": "Victoria University of Wellington",
+        "email": "yi.mei@vuw.ac.nz",
+        "photo": ""
+      },
+      {
         "role": "IEEE CISM",
-        "name": "Kai Qin",
-        "affiliation": "To be confirmed",
-        "status": "Invited / pending confirmation",
+        "name": "Ying Bi",
+        "affiliation": "Zhengzhou University",
+        "email": "yingbi@zzu.edu.cn",
+        "photo": ""
+      },
+      {
+        "role": "IEEE CISM",
+        "name": "Bing Xue",
+        "affiliation": "Victoria University of Wellington",
+        "email": "bing.xue@vuw.ac.nz",
+        "note": "IEEE Member; IEEE CIS Member",
         "photo": ""
       },
       {
@@ -259,20 +299,20 @@
         "name": "Xiuying Wang",
         "affiliation": "The University of Sydney",
         "email": "Xiu.wang@sydney.edu.au",
-        "note": "Not IEEE Member",
         "photo": ""
       },
       {
         "role": "IEEE CIHM",
-        "name": "Zongyuan (Tony) Ge",
-        "affiliation": "To be confirmed",
-        "status": "Invited / pending confirmation",
+        "name": "Vassilis P. Plagianakos",
+        "affiliation": "University of Thessaly",
+        "email": "vpp@uth.gr",
         "photo": ""
       },
       {
         "role": "IEEE CiFer",
         "name": "Yongjae Lee",
         "affiliation": "UNIST",
+        "email": "yongjaelee@unist.ac.kr",
         "photo": ""
       },
       {
@@ -280,7 +320,6 @@
         "name": "Jianxin Li",
         "affiliation": "Edith Cowan University",
         "email": "jianxin.li@ecu.edu.au",
-        "status": "Contacted / pending confirmation",
         "photo": ""
       },
       {
@@ -313,54 +352,38 @@
         "photo": ""
       },
       {
+        "role": "IEEE CITREx",
+        "name": "Ruwang Jiao",
+        "affiliation": "Soochow University",
+        "email": "rwjiao@suda.edu.cn",
+        "photo": ""
+      },
+      {
         "role": "IEEE MCII",
         "name": "Fenglei Fan",
         "affiliation": "City University of Hong Kong",
+        "email": "fenglfan@cityu.edu.hk",
         "photo": ""
       },
       {
-        "role": "MCII Special Session: Time Series and Spatio-Temporal Data Mining",
-        "name": "Ming Jin",
-        "affiliation": "Griffith University",
-        "email": "ming.jin@griffith.edu.au",
-        "note": "IEEE Member",
+        "role": "IEEE MCII",
+        "name": "Min Jiang",
+        "affiliation": "Xiamen University",
+        "email": "minjiang@xmu.edu.cn",
         "photo": ""
       },
       {
-        "role": "MCII Special Session: Time Series and Spatio-Temporal Data Mining",
-        "name": "Mahsa Salehi",
-        "affiliation": "Monash University",
-        "email": "Mahsa.Salehi@monash.edu",
-        "note": "IEEE Member",
+        "role": "MCII Special Session: CI in Archeology",
+        "name": "Zhichun Jing",
+        "affiliation": "University of British Columbia",
+        "email": "jingzh@mail.ubc.ca",
         "photo": ""
       },
       {
-        "role": "MCII Special Session: Computational Intelligence in Control",
-        "name": "Suiyang Khoo",
-        "affiliation": "Deakin University",
-        "email": "sui.khoo@deakin.edu.au",
-        "note": "IEEE Member",
-        "photo": ""
-      },
-      {
-        "role": "MCII Special Session: Computational Intelligence in Remote Sensing",
-        "name": "Jun Zhou",
-        "affiliation": "Griffith University",
-        "email": "jun.zhou@griffith.edu.au",
-        "note": "IEEE Member",
-        "photo": ""
-      },
-      {
-        "role": "MCII Special Session: Learning for Graphs",
-        "name": "Feng Xia",
-        "affiliation": "To be confirmed",
-        "photo": ""
-      },
-      {
-        "role": "MCII Special Session: Computational Intelligence in Multidisciplinary Applications",
-        "name": "Jingxiao Liao",
-        "affiliation": "City University of Hong Kong",
-        "email": "jingxiao.liao@cityu.edu.hk",
+        "role": "MCII Special Session: CI in Archeology",
+        "name": "Qingyue Yang",
+        "affiliation": "Chinese Academy of Social Sciences",
+        "email": "yangqy@cass.org.cn",
         "photo": ""
       }
     ]
