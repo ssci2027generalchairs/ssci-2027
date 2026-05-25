@@ -6,7 +6,58 @@
   "sections": [
     {
       "paragraphs": [
-        "xxx@griffith.edu.au"
+        "Below are the various contact information:"
+      ]
+    },
+    {
+      "heading": "For local activities, contact:",
+      "bullets": [
+        "A/Prof. Leo Zhang - leo.zhang@griffith.edu.au",
+        "Dr. Yanjun Zhang - yanjun.zhang@griffith.edu.au",
+        "Dr. Xuefei Yin - x.yin@griffith.edu.au"
+      ]
+    },
+    {
+      "heading": "For paper submission problems, contact:",
+      "bullets": [
+        "Prof. Shirui Pan - s.pan@griffith.edu.au",
+        "Prof. Davide Bacciu - davide.bacciu@unipi.it",
+        "Prof. Gary G. Yen - gyen@okstate.edu"
+      ]
+    },
+    {
+      "heading": "For website issues, contact:",
+      "bullets": [
+        "Ms. Zirui Gong - z.gong@griffith.edu.au",
+        "Mr. Zhaoxi Zhang - zhaoxi.zhang@griffith.edu.au"
+      ]
+    },
+    {
+      "heading": "Whova Tech Support:",
+      "bullets": [
+        "To be confirmed"
+      ]
+    },
+    {
+      "heading": "For registration, contact:",
+      "bullets": [
+        "Mr. Ryan Zhou - email to be confirmed"
+      ]
+    },
+    {
+      "heading": "For sponsorship enquiries, contact:",
+      "bullets": [
+        "Prof. Ming Ding - Ming.Ding@data61.csiro.au",
+        "Prof. Jialin Liu - jialin.liu@ln.edu.hk",
+        "Dr. Owen Vallis - owensvallis@gmail.com"
+      ]
+    },
+    {
+      "heading": "For Camera Ready and Copyright Support, contact:",
+      "bullets": [
+        "Dr. Yixin Liu - yixin.liu@griffith.edu.au",
+        "Dr. Xin Zheng - xin.zheng2@rmit.edu.au",
+        "Dr. Liang Chen - liangchen527@gmail.com"
       ]
     }
   ]
