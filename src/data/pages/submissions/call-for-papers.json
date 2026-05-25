@@ -5,6 +5,49 @@
   "kind": "basic",
   "sections": [
     {
+      "heading": "Dates and Deadlines",
+      "table": {
+        "headers": [
+          "Item",
+          "Date"
+        ],
+        "rows": [
+          [
+            "Main track paper submission deadline",
+            "10 July 2026"
+          ],
+          [
+            "Main track notification due",
+            "19 October 2026"
+          ],
+          [
+            "Final camera-ready version due",
+            "10 November 2026"
+          ],
+          [
+            "Workshop proposal due",
+            "1 June 2026"
+          ],
+          [
+            "Workshop paper deadline",
+            "15 August 2026"
+          ],
+          [
+            "Workshop paper acceptance notification",
+            "19 October 2026"
+          ],
+          [
+            "Tutorial proposal deadline",
+            "1 October 2026"
+          ],
+          [
+            "Tutorial material submission",
+            "15 December 2026"
+          ]
+        ]
+      }
+    },
+    {
       "heading": "Submission & Review Format",
       "paragraphs": [
         "Following recent IEEE SSCI practice, the program is expected to call for full papers, short papers, late-breaking papers, abstract-only submissions, and journal-to-conference conversions across the conference symposia.",

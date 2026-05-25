@@ -12,7 +12,7 @@ const withAssetBase = (href: string) => `${base}${href.replace(/^\//, '')}`;
     {heroImages.map((image, index) => (
       <figure class:list={['hero-slide', index === 0 && 'active']} data-hero-slide>
         <img src={withAssetBase(image.src)} alt={image.alt} />
-        <figcaption>{site.shortName}, {site.locationLabel}. {site.datesLabel}</figcaption>
+        <figcaption>{site.year} {site.name}, {site.locationLabel}. {site.datesLabel}</figcaption>
       </figure>
     ))}
     <button class="hero-control prev" type="button" data-hero-prev aria-label="Previous image">‹</button>

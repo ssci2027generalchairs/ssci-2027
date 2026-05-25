@@ -2,18 +2,14 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
 import NewsTicker from '../components/NewsTicker.astro';
-import ImportantDates from '../components/ImportantDates.astro';
 import SpeakerGrid from '../components/SpeakerGrid.astro';
 import SponsorStrip from '../components/SponsorStrip.astro';
 import site from '../data/site.json';
 import news from '../data/news.json';
-import importantDates from '../data/importantDates.json';
 import speakers from '../data/speakers.json';
 import sponsors from '../data/sponsors.json';
 
 const hasNews = news.length > 0;
-const hasPlenary = speakers.plenary.length > 0;
-const hasKeynote = speakers.keynote.length > 0;
 const base = import.meta.env.BASE_URL;
 const withAssetBase = (href: string) => `${base}${href.replace(/^\//, '')}`;
 ---
@@ -21,43 +17,42 @@ const withAssetBase = (href: string) => `${base}${href.replace(/^\//, '')}`;
 <BaseLayout>
   <Hero />
 
-  <div class="home-main">
-    <section class="home-about" id="about">
+  <div class="home-main" id="main">
+    <section class="about home-about" id="about">
       <div class="container">
         {hasNews && <NewsTicker items={news} />}
-        <div class="welcome-content">
-          <h2>{site.welcomeTitle}</h2>
-          <img class="welcome-inline-image" src={withAssetBase('/assets/images/hero/gold-coast-2027-02.jpg')} alt="Gold Coast waterways and skyline" />
-          {site.welcomeBody.map((paragraph) => <p>{paragraph}</p>)}
+        <div class="row justify-content-between">
+          <div class="col-lg-12 pt-5 pt-lg-0 welcome-content">
+            <h3>{site.welcomeTitle}</h3>
+            <p>
+              <img class="welcome-inline-image img-fluid" src={withAssetBase('/assets/images/hero/gold-coast-2027-02.jpg')} alt="Gold Coast waterways and skyline" />
+              {site.welcomeBody[0]}
+            </p>
+            {site.welcomeBody.slice(1).map((paragraph) => <p>{paragraph}</p>)}
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="home-dates">
+    <section class="services section-bg" id="services">
       <div class="container">
-        <div class="home-section-title">
-          <p>Important Dates</p>
-        </div>
-        <ImportantDates dates={importantDates} />
-      </div>
-    </section>
-
-    <section class="home-sponsors">
-      <div class="container">
-        <div class="home-section-title">
+        <div class="section-title">
           <p>Sponsors</p>
         </div>
+      </div>
+    </section>
+
+    <section class="clients home-sponsors" id="clients">
+      <div class="container">
         <SponsorStrip sponsors={sponsors} />
       </div>
     </section>
 
-    {(hasPlenary || hasKeynote) && (
-      <section class="home-speakers">
-        <div class="container">
-          {hasPlenary && <SpeakerGrid title="Plenary Speakers" speakers={speakers.plenary} />}
-          {hasKeynote && <SpeakerGrid title="Keynote Speakers" speakers={speakers.keynote} />}
-        </div>
-      </section>
-    )}
+    <section class="about home-speakers">
+      <div class="container">
+        <SpeakerGrid title="Plenary Speakers" speakers={speakers.plenary} />
+        <SpeakerGrid title="Keynote Speakers" speakers={speakers.keynote} />
+      </div>
+    </section>
   </div>
 </BaseLayout>

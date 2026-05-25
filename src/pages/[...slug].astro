@@ -37,21 +37,19 @@ const committee = page.kind === 'committee'
   ? committees.find((item) => item.slug === page.committeeSlug)
   : undefined;
 const isOrganizingCommitteePage = page.kind === 'committee' && page.committeeSlug === 'organizing-committee';
+const showPageHeading = !isOrganizingCommitteePage;
 ---
 
 <BaseLayout title={page.title} description={page.summary}>
-  {!isOrganizingCommitteePage && (
-    <section class="page-hero">
-      <div class="container">
-        <p class="eyebrow">IEEE SSCI 2027</p>
-        <h1>{page.title}</h1>
-        <p>{page.summary}</p>
-      </div>
-    </section>
-  )}
-
-  <section class:list={['section', isOrganizingCommitteePage && 'committee-page-section']}>
+  <section class:list={['section', 'inner-page', isOrganizingCommitteePage && 'committee-page-section']}>
     <div class:list={['container', 'page-content', isOrganizingCommitteePage && 'committee-page-content']}>
+      {showPageHeading && (
+        <header class="content-page-heading">
+          <p class="sub-header">IEEE SSCI 2027</p>
+          <h1>{page.title}</h1>
+          {page.summary && <p>{page.summary}</p>}
+        </header>
+      )}
       {isOrganizingCommitteePage && page.kind === 'committee' && committee ? (
         <>
           <CommitteeList name={committee.name} members={committee.members} />
