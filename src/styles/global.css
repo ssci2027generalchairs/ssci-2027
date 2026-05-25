@@ -118,7 +118,7 @@ main {
   align-items: center;
   gap: 12px;
   color: var(--ink);
-  min-width: 220px;
+  min-width: 250px;
 }
 
 .brand:hover {
@@ -135,6 +135,12 @@ main {
   background: var(--blue);
   font-weight: 800;
   letter-spacing: 0;
+}
+
+.brand-logo {
+  display: block;
+  width: 250px;
+  height: auto;
 }
 
 .brand strong,
@@ -1437,7 +1443,7 @@ tr:last-child td {
 }
 
 .brand {
-  min-width: 245px;
+  min-width: 250px;
 }
 
 .brand-mark {
@@ -1445,6 +1451,10 @@ tr:last-child td {
   height: 58px;
   border-radius: 8px;
   background: linear-gradient(180deg, #0076ad, #00629b);
+}
+
+.brand-logo {
+  width: 250px;
 }
 
 .brand strong {
@@ -1874,7 +1884,11 @@ th {
   }
 
   .brand {
-    min-width: 210px;
+    min-width: 220px;
+  }
+
+  .brand-logo {
+    width: 220px;
   }
 }
 
@@ -1922,6 +1936,10 @@ th {
 
   .brand {
     min-width: 0;
+  }
+
+  .brand-logo {
+    width: min(220px, calc(100vw - 96px));
   }
 
   .brand small {

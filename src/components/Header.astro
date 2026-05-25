@@ -30,11 +30,7 @@ const isActive = (href: string) => {
 
   <div class="main-nav-wrap">
     <a class="brand" href={withBase('/')} aria-label={`${site.shortName} home`}>
-      <span class="brand-mark">SSCI</span>
-      <span>
-        <strong>{site.shortName}</strong>
-        <small>{site.locationLabel}</small>
-      </span>
+      <img class="brand-logo" src={withBase('/assets/images/ssci-2027-logo.svg')} alt={`${site.shortName} logo`} width="280" height="72" />
     </a>
 
     <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Toggle navigation" />

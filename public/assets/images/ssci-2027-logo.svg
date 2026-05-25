@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 72" role="img" aria-labelledby="title desc">
+  <title id="title">IEEE SSCI 2027 logo</title>
+  <desc id="desc">Line drawing of the Gold Coast skyline, sunset, beach, and waves beside the IEEE SSCI 2027 name.</desc>
+  <defs>
+    <linearGradient id="sunset" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7a51b"/>
+      <stop offset="0.55" stop-color="#f26722"/>
+      <stop offset="1" stop-color="#00629b"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#00a5b5"/>
+      <stop offset="1" stop-color="#00629b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="280" height="72" rx="8" fill="#fff"/>
+  <g transform="translate(4 5)">
+    <rect width="64" height="62" rx="8" fill="#f7fbfc" stroke="#d7e5ea" stroke-width="1.2"/>
+    <path d="M7 36 C18 28 30 29 42 34 C50 37 56 37 61 34" fill="none" stroke="#78909c" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="48" cy="18" r="8" fill="#f7a51b"/>
+    <path d="M4 43 C13 39 21 39 30 43 C39 47 49 47 62 41" fill="none" stroke="#d8b36a" stroke-width="3" stroke-linecap="round"/>
+    <path d="M5 51 C16 46 25 46 35 51 C45 56 52 55 62 49" fill="none" stroke="url(#sea)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M4 57 C14 54 22 54 32 57 C42 60 52 60 62 56" fill="none" stroke="#6ec7d0" stroke-width="2" stroke-linecap="round"/>
+
+    <g fill="none" stroke="#17324d" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M18 41 V27 H27 V41"/>
+      <path d="M28 41 V20 H37 V41"/>
+      <path d="M39 41 V11 H47 V41"/>
+      <path d="M47 11 C51 18 51 25 47 31"/>
+      <path d="M43 10 V5"/>
+      <path d="M50 41 V25 H58 V41"/>
+      <path d="M21 31 H25 M21 35 H25 M31 25 H35 M31 30 H35 M31 35 H35 M42 17 H45 M42 22 H45 M42 27 H45 M53 30 H56 M53 35 H56"/>
+    </g>
+  </g>
+
+  <g font-family="Inter, Arial, Helvetica, sans-serif" fill="#17324d">
+    <text x="82" y="30" font-size="20" font-weight="800" letter-spacing="0">IEEE SSCI</text>
+    <text x="203" y="30" font-size="20" font-weight="800" fill="#f26722" letter-spacing="0">2027</text>
+    <text x="82" y="50" font-size="12" font-weight="700" letter-spacing="0.6" fill="#00629b">GOLD COAST, AUSTRALIA</text>
+  </g>
+</svg>
