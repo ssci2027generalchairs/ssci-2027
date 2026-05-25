@@ -1,11 +1,11 @@
 ---
 interface Props {
   title: string;
-  text: string;
+  text?: string;
 }
 ---
 
 <div class="empty-state">
   <p class="empty-title">{Astro.props.title}</p>
-  <p>{Astro.props.text}</p>
+  {Astro.props.text && <p>{Astro.props.text}</p>}
 </div>

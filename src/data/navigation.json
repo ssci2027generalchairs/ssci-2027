@@ -8,16 +8,7 @@
       { "label": "Contact Us", "href": "/about/contact/" }
     ]
   },
-  {
-    "label": "Submissions",
-    "items": [
-      { "label": "Call for Papers and Abstracts", "href": "/submissions/call-for-papers/" },
-      { "label": "Submission Instructions", "href": "/submissions/instructions/" },
-      { "label": "Presentation Format", "href": "/submissions/presentation-format/" },
-      { "label": "Poster Instructions", "href": "/submissions/poster-instructions/" },
-      { "label": "Camera-ready Submission Instructions", "href": "/submissions/camera-ready/" }
-    ]
-  },
+  { "label": "Call for Papers", "href": "/submissions/call-for-papers/" },
   {
     "label": "Symposia",
     "items": [
@@ -36,6 +27,7 @@
   },
   {
     "label": "Program",
+    "hidden": true,
     "items": [
       { "label": "Program at a Glance", "href": "/program/at-a-glance/" },
       { "label": "Social Program", "href": "/program/social-program/" },
@@ -48,9 +40,10 @@
       { "label": "Schools Outreach - Quantum CI Workshop", "href": "/program/quantum-ci-workshop/" }
     ]
   },
-  { "label": "Registration", "href": "/registration/" },
+  { "label": "Registration", "href": "/registration/", "hidden": true },
   {
     "label": "Venue and Travel",
+    "hidden": true,
     "items": [
       { "label": "Venue Information", "href": "/venue-travel/venue/" },
       { "label": "Travel Information", "href": "/venue-travel/travel/" },
@@ -59,11 +52,5 @@
       { "label": "Travel Grants", "href": "/venue-travel/travel-grants/" }
     ]
   },
-  {
-    "label": "Sponsors",
-    "items": [
-      { "label": "Call for Sponsors", "href": "/sponsors/call-for-sponsors/" },
-      { "label": "Our Sponsors", "href": "/sponsors/" }
-    ]
-  }
+  { "label": "Call for Sponsors", "href": "/sponsors/call-for-sponsors/" }
 ]
