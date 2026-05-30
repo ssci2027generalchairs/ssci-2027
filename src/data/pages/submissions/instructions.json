@@ -7,41 +7,41 @@
     {
       "heading": "Submission Link",
       "paragraphs": [
-        "Full and short paper submissions should be made through the IEEE SSCI 2027 online submission system. The submission link will be added when the submission site opens.",
+        "Full and short paper submissions should be made through the IEEE SSCI 2027 online submission system.",
+        "You can access the CMT submission site <a href=\"https://cmt3.research.microsoft.com/IEEESSCI2027\" target=\"_blank\">here</a>.",
         "The deadline for full and short paper submissions is 10 August 2026.",
-        "Submissions for late breaking papers, abstract poster-only presentations, and journal-to-conference presentation submissions are also welcome."
+        "Submissions for late breaking papers, abstract (poster-only) and journal to conference presentation (J2C) submissions are also welcome."
       ]
     },
     {
       "heading": "Paper Submission Rules and Guidelines",
       "bullets": [
-        "Each paper should not reveal author identities during the double-anonymous review process.",
-        "All authors must have contributed significantly to the paper at the time of submission. By submitting to IEEE SSCI 2027, authors acknowledge that they conform to IEEE authorship and submission policies.",
-        "The use of artificial intelligence generated text in an article must be disclosed in the acknowledgements section of any paper submitted to an IEEE conference or periodical. The sections of the paper that use AI-generated text must cite the AI system used to generate the text.",
-        "No authorship changes will be allowed after acceptance.",
-        "All papers must respect the paper formatting rules. Alterations of spacing, font size, margins, or other changes that deviate from the template may result in desk rejection without further review.",
-        "Full papers, short papers, and late breaking papers must be original, not previously published elsewhere, and not under review or submitted for review elsewhere while under consideration for IEEE SSCI 2027.",
-        "Abstract poster-only submissions and journal-to-conference papers must not have been previously presented, under consideration for presentation, or submitted for presentation at other conferences, congresses, symposia, or workshops while under consideration for presentation at IEEE SSCI 2027.",
-        "Journal-to-conference papers must have been accepted at IEEE Transactions journals sponsored by CIS and first appeared in IEEE Xplore within the past 2 years.",
-        "Papers will be checked for plagiarism. The Program Committee reserves the right to desk-reject a paper if it contains elements suspected to be plagiarized. Program chairs may share submission lists with chairs of other conferences with overlapping review periods and may use external plagiarism detection software.",
-        "Authors must respect the page limitation for the respective paper type.",
+        "Each paper should not reveal author's identities (double-anonymous review process).",
+        "All authors must have contributed significantly to the paper at the time of the submission. By submitting to IEEE SSCI 2027, authors acknowledge that they conform to the <a href=\"https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/definition-of-authorship/\" target=\"_blank\">authorship policy of the IEEE</a> and the <a href=\"https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/\" target=\"_blank\">submission policy of the IEEE</a>.<br />Please note that this also includes the following about AI-generated text:<ul><li>The use of artificial intelligence (AI)-generated text in an article must be disclosed in the acknowledgements section of any paper submitted to an IEEE Conference or Periodical. The sections of the paper that use AI-generated text must have a citation to the AI system used to generate the text.</li></ul>",
+        "No authorship changes will be allowed after acceptance. Please ensure that you are following this guideline to avoid any issues with publication.",
+        "All papers must respect the paper formatting rules (see section on formatting below). Alterations of spacing, font size, and other changes that deviate from the template may result in desk rejection without further review.",
+        "Full paper, short paper and late breaking paper must be original, not previously published elsewhere, and not under review or submitted for review elsewhere whilst under consideration for IEEE SSCI 2027.",
+        "Abstract (poster-only) submissions and Journal to Conference (J2C) papers must not have been previously presented, under consideration for presentation, or submitted for presentation at other conferences, congresses, symposia or workshop whilst under consideration for presentation at IEEE SSCI 2027.",
+        "J2C papers must have been accepted at IEEE Transactions journals sponsored by CIS and first appeared in IEEE Xplore within the past 2 years.",
+        "Papers will be checked for plagiarism. By submitting to IEEE SSCI 2027, you acknowledge that you agree and are bound to the <a href=\"https://www.ieee.org/publications/rights/plagiarism/plagiarism.html\" target=\"_blank\">IEEE Plagiarism FAQ</a>. The Program Committee reserves the right to desk-reject a paper if it contains elements that are suspected to be plagiarized. To check for double submission and plagiarism issues, the program chairs reserve the right to (1) share the list of submissions with the PC Chairs of other conferences with overlapping review periods and (2) use external plagiarism detection software.",
+        "You must respect the page limitation for the respective paper type (see limitation in the section below).",
         "All papers must be submitted through the IEEE SSCI 2027 online submission system.",
-        "For full or short papers, please add a statement about data/code sharing following the open science instructions below.",
-        "For an accepted full paper to be included in the symposium program, the proceedings, and IEEE Xplore, the final accepted paper must be submitted by the final version deadline, the corresponding registration fees must be paid by the required registration deadline, and the paper must be presented by at least one author at the conference."
+        "For full or short papers, please add a statement about data/code sharing following the instructions below.",
+        "For a paper to be included in the symposium program, in the proceedings and in IEEE Xplore, final accepted papers must be submitted by the camera-ready deadline, the corresponding registration fees must be paid by the early registration deadline, and the paper must presented by at least one author at the required time slots at the conference. For information on the rules for author registration (e.g., how many papers a single author registration can cover, or the type of required registration), please refer to the <a href=\"/registration/\">registration</a> page. For more information on the presentation format, please refer to this <a href=\"/submissions/presentation-format/\">link</a>."
       ]
     },
     {
       "heading": "Page Limitation and Submission Format",
       "paragraphs": [
-        "All papers must be submitted using the IEEE conference proceedings template with body text in 10-point type. LaTeX users must use \\documentclass[10pt,conference]{IEEEtran}.",
+        "All papers must be submitted using the <a href=\"https://www.ieee.org/conferences/publishing/templates.html\" target=\"_blank\">IEEE conference proceedings template</a> with body text in 10pt type. LaTeX users must use <code>\\documentclass[10pt,conference]{IEEEtran}</code>.",
         "The page limitations are as follows:"
       ],
       "bullets": [
-        "Full papers: up to 6 pages, plus 1 page for references. A maximum of two extra content pages per full paper is allowed, up to 8 pages plus 1 page for references, with an additional charge per extra page.",
-        "Short papers: up to 4 pages, plus 1 page for references.",
-        "Late breaking papers: extended abstracts of up to 2 pages, including references, if any.",
-        "Abstract poster-only submissions: up to 250 words.",
-        "Journal to conference submissions: up to 1 page listing bullet points with the highlights of the paper and explaining why the paper is relevant to SSCI."
+        "<b>Full papers:</b> papers of up to 6 pages, plus 1 page for references. A maximum of two extra content pages per full paper is allowed (i.e, up to 8 pages plus 1 page for references), at an additional charge per extra page as specified in the <a href=\"/registration/\">registration</a> page. SSCI will be using a new <a href=\"/submissions/presentation-format/\">presentation format</a> for full papers this year.",
+        "<b>Short papers:</b> papers of up to 4 pages, plus 1 page for references.",
+        "<b>Late breaking papers:</b> extended abstracts of up to 2 pages, including references, if any.",
+        "<b>Abstract (poster-only):</b> abstracts of up to 250 words.",
+        "<b>Journal to conference:</b> up to 1 page listing bullet points with the highlights of the paper, and an explanation on why you believe the paper to be relevant to SSCI."
       ]
     },
     {
@@ -58,8 +58,8 @@
     {
       "heading": "Open Science for Full and Short Papers",
       "paragraphs": [
-        "Authors of full and short papers are encouraged to make data and code available upon acceptance to increase reproducibility and replicability.",
-        "Please add a note in the last paragraph of the introduction of your submitted paper either stating that you will make your data/code available upon acceptance or explaining why you cannot make your data/code available. Replace this note with a link to the data/code in the final version if you are sharing materials. You may use any online repository for this purpose."
+        "We encourage all authors to make their data/code available upon acceptance of full and short papers to increase reproducibility and replicability.",
+        "Please add a note in the last paragraph of the introduction of your submitted paper either stating that you will make your data/code available upon acceptance, or with a justification on why you cannot make your data/code available. Please replace this note by a link to the data/code in your camera-ready paper if you are sharing. You may use any online repository that you wish for this purpose. We suggest <a href=\"https://zenodo.org/\" target=\"_blank\">Zenodo</a> as it produces a permanent link with a DOI."
       ]
     }
   ]

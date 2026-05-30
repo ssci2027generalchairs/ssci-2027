@@ -4,7 +4,6 @@
     "label": "About",
     "items": [
       { "label": "Organizing Committee", "href": "/about/organizing-committee/" },
-      { "label": "SSCI Evaluation and Planning Committee", "href": "/about/evaluation-and-planning-committee/" },
       { "label": "Contact Us", "href": "/about/contact/" }
     ]
   },

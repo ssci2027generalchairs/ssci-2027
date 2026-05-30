@@ -52,6 +52,18 @@
         "photo": ""
       },
       {
+        "role": "Tutorial Chair",
+        "name": "Feng Xia",
+        "affiliation": "RMIT University",
+        "photo": ""
+      },
+      {
+        "role": "Poster Session Chair",
+        "name": "Yanming Zhu",
+        "affiliation": "",
+        "photo": ""
+      },
+      {
         "role": "Industry and Government Chair",
         "name": "Ming Ding",
         "affiliation": "CSIRO",
@@ -196,7 +208,7 @@
       },
       {
         "role": "IEEE CIES",
-        "name": "Yi Meng",
+        "name": "Yi Mei",
         "affiliation": "Victoria University of Wellington",
         "photo": ""
       },
@@ -210,6 +222,12 @@
         "role": "IEEE CISM",
         "name": "Bing Xue",
         "affiliation": "Victoria University of Wellington",
+        "photo": ""
+      },
+      {
+        "role": "IEEE CISM",
+        "name": "Kai Qin",
+        "affiliation": "Swinburne University of Technology",
         "photo": ""
       },
       {

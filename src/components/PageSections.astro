@@ -42,12 +42,12 @@ const withBase = (href: string) => {
     {Astro.props.sections.map((section) => (
       <section class="content-section">
         {section.heading && <h2>{section.heading}</h2>}
-        {section.paragraphs?.map((paragraph) => <p>{paragraph}</p>)}
+        {section.paragraphs?.map((paragraph) => <p set:html={paragraph} />)}
         {section.bullets?.length ? (
           <ul>
             {section.bullets.map((item) => (
               <li>
-                {typeof item === 'string' ? item : <a href={withBase(item.href)}>{item.label}</a>}
+                {typeof item === 'string' ? <Fragment set:html={item} /> : <a href={withBase(item.href)}>{item.label}</a>}
               </li>
             ))}
           </ul>
@@ -74,7 +74,7 @@ const withBase = (href: string) => {
               <tbody>
                 {section.table.rows.map((row) => (
                   <tr>
-                    {row.map((cell) => <td>{cell}</td>)}
+                    {row.map((cell) => <td set:html={cell} />)}
                   </tr>
                 ))}
               </tbody>

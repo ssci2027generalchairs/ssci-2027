@@ -5,7 +5,7 @@
   },
   {
     "label": "Main track notification due",
-    "date": "19 October 2026"
+    "date": "26 October 2026"
   },
   {
     "label": "Final camera-ready version due",
@@ -21,11 +21,27 @@
   },
   {
     "label": "Workshop paper acceptance notification",
-    "date": "19 October 2026"
+    "date": "26 October 2026"
+  },
+  {
+    "label": "Competitions proposal submission",
+    "date": "2 August 2026"
+  },
+  {
+    "label": "Competitions acceptance notification",
+    "date": "30 August 2026"
+  },
+  {
+    "label": "Late breaking / Poster-only / J2C submission deadline",
+    "date": "1 November 2026"
   },
   {
     "label": "Tutorial proposal deadline",
     "date": "1 October 2026"
+  },
+  {
+    "label": "Tutorial acceptance notification",
+    "date": "30 October 2026"
   },
   {
     "label": "Tutorial material submission",
