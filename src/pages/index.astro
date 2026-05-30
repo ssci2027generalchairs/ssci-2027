@@ -3,13 +3,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
 import NewsTicker from '../components/NewsTicker.astro';
 import SpeakerGrid from '../components/SpeakerGrid.astro';
-import SponsorStrip from '../components/SponsorStrip.astro';
 import site from '../data/site.json';
 import news from '../data/news.json';
 import speakers from '../data/speakers.json';
-import sponsors from '../data/sponsors.json';
 
 const hasNews = news.length > 0;
+const hasSpeakers = speakers.plenary.length > 0 || speakers.keynote.length > 0;
 const base = import.meta.env.BASE_URL;
 const withAssetBase = (href: string) => `${base}${href.replace(/^\//, '')}`;
 ---
@@ -34,25 +33,13 @@ const withAssetBase = (href: string) => `${base}${href.replace(/^\//, '')}`;
       </div>
     </section>
 
-    <section class="services section-bg" id="services">
-      <div class="container">
-        <div class="section-title">
-          <p>Sponsors</p>
+    {hasSpeakers && (
+      <section class="about home-speakers">
+        <div class="container">
+          {speakers.plenary.length > 0 && <SpeakerGrid title="Plenary Speakers" speakers={speakers.plenary} />}
+          {speakers.keynote.length > 0 && <SpeakerGrid title="Keynote Speakers" speakers={speakers.keynote} />}
         </div>
-      </div>
-    </section>
-
-    <section class="clients home-sponsors" id="clients">
-      <div class="container">
-        <SponsorStrip sponsors={sponsors} />
-      </div>
-    </section>
-
-    <section class="about home-speakers">
-      <div class="container">
-        <SpeakerGrid title="Plenary Speakers" speakers={speakers.plenary} />
-        <SpeakerGrid title="Keynote Speakers" speakers={speakers.keynote} />
-      </div>
-    </section>
+      </section>
+    )}
   </div>
 </BaseLayout>

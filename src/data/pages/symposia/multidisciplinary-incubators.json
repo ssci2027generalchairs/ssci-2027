@@ -13,34 +13,48 @@
     },
     {
       "heading": "Special Sessions",
-      "bullets": [
+      "cards": [
         {
-          "label": "Special Session in CI in Archeology",
-          "href": "/symposia/special-session-ci-archeology/"
+          "title": "Special Session in CI in Archeology",
+          "href": "/symposia/special-session-ci-archeology/",
+          "text": "CI for archaeology, cultural heritage, artifact modeling, reconstruction, and classification.",
+          "image": "/assets/images/hero/gold-coast-2027-04.jpg"
         },
         {
-          "label": "Special Session for CI in Non-Traditional Computation Technologies",
-          "href": "/symposia/special-session-ci-non-traditional-computation-technologies/"
+          "title": "Special Session for CI in Non-Traditional Computation Technologies",
+          "href": "/symposia/special-session-ci-non-traditional-computation-technologies/",
+          "text": "CI across DNA, quantum, cognitive, affective, granular, and word-based computing.",
+          "image": "/assets/images/hero/gold-coast-2027-05.jpg"
         },
         {
-          "label": "Special Session in CI in Aerospace Applications",
-          "href": "/symposia/special-session-ci-aerospace-applications/"
+          "title": "Special Session in CI in Aerospace Applications",
+          "href": "/symposia/special-session-ci-aerospace-applications/",
+          "text": "CI for aerospace missions, autonomous systems, spacecraft, UAVs, and situational awareness.",
+          "image": "/assets/images/hero/gold-coast-2027-06.jpg"
         },
         {
-          "label": "Special Session in CI in Agricultural Sciences and Agroforestry",
-          "href": "/symposia/special-session-ci-agricultural-sciences-agroforestry/"
+          "title": "Special Session in CI in Agricultural Sciences and Agroforestry",
+          "href": "/symposia/special-session-ci-agricultural-sciences-agroforestry/",
+          "text": "CI for precision agriculture, agroforestry, sensing, climate adaptation, and farm management.",
+          "image": "/assets/images/hero/gold-coast-2027-01.jpg"
         },
         {
-          "label": "Special Session in CI in Neuroscience",
-          "href": "/symposia/special-session-ci-neuroscience/"
+          "title": "Special Session in CI in Neuroscience",
+          "href": "/symposia/special-session-ci-neuroscience/",
+          "text": "CI for neurorehabilitation, BCIs, neural data, neuroimaging, and brain-inspired computing.",
+          "image": "/assets/images/hero/gold-coast-2027-02.jpg"
         },
         {
-          "label": "Special Session in CI in Search-based Software Engineering",
-          "href": "/symposia/special-session-ci-search-based-software-engineering/"
+          "title": "Special Session in CI in Search-based Software Engineering",
+          "href": "/symposia/special-session-ci-search-based-software-engineering/",
+          "text": "CI and search-based methods for software testing, maintenance, design, and optimization.",
+          "image": "/assets/images/hero/gold-coast-2027-03.jpg"
         },
         {
-          "label": "Special Session in CI in Maritime Technology",
-          "href": "/symposia/special-session-ci-maritime-technology/"
+          "title": "Special Session in CI in Maritime Technology",
+          "href": "/symposia/special-session-ci-maritime-technology/",
+          "text": "CI for maritime systems, autonomous ships, underwater robotics, ocean data, and marine risk.",
+          "image": "/assets/images/hero/gold-coast-2027-04.jpg"
         }
       ]
     },
@@ -48,132 +62,13 @@
       "heading": "Scope",
       "paragraphs": [
         "The integration of Computational Intelligence (CI) has become crucial in addressing complex problems that traditional approaches struggle to solve. To date, CI has found applications in diverse domains, including finance, healthcare and robotics, demonstrating its versatility and efficacy in solving real-world challenges. However, there is further potential in less explored areas of Applied CI where exploitation of the breadth of CI techniques can create new groundbreaking solutions in such domains or be applied to enhance other non-traditional technologies.",
-        "The symposium aims to nurture sub-fields of Applied CI, such as archaeology, agricultural sciences, aerospace engineering, neuroscience or climate science to mention a few, where there is much potential for further growth as well as providing a meeting place for niche areas of Applied CI that merit more focus. The special sessions will provide a venue for the foremost research in the selected domain. Both theoretical and practical contributions are sought from industry and academia alike. Further, poster-only submissions welcome domain submissions highlighting areas of the domain that could benefit from CI approaches. Where provided, workshops will provide more informal presentations and discussions on important topics in the relevant domain. All submissions to this symposia are to the individual Special Sessions/Workshops. There are no general symposium submissions."
+        "The symposium nurtures sub-fields of Applied CI, such as archaeology, agricultural sciences, aerospace engineering, neuroscience, and climate science, where there is strong potential for growth. The special sessions provide a venue for focused research in selected domains. Both theoretical and practical contributions are sought from industry and academia alike. All submissions to this symposium are directed to the individual Special Sessions or Workshops. There are no general symposium submissions."
       ]
     },
     {
       "heading": "Topics of Interest",
       "paragraphs": [
         "Topics of interest include, but are not limited to:"
-      ]
-    },
-    {
-      "heading": "Special Session in CI in Archeology",
-      "paragraphs": [
-        "Session Chairs: Prof. Zhichun Jing, University of British Columbia; Prof. Qingyue Yang, Chinese Academy of Social Sciences"
-      ],
-      "bullets": [
-        "Interpreting and explaining cultural heritage.",
-        "Modeling archaeological artifacts.",
-        "Archaeological recognition systems using CI.",
-        "Digital reconstruction of ancient Sites.",
-        "CI for archaeological classification.",
-        "CI approaches to dating techniques."
-      ]
-    },
-    {
-      "heading": "Special Session for CI in Non-Traditional Computation Technologies",
-      "paragraphs": [
-        "Session Chairs: Co-Chair: Zexuan Zhu, Shenzhen University; Co-Chair: Yaqing Hou, Dalian University of Technology"
-      ],
-      "bullets": [
-        "DNA computing",
-        "Quantum computing.",
-        "Cognitive informatics.",
-        "Affective computing.",
-        "Granular computing.",
-        "Computing with words."
-      ]
-    },
-    {
-      "heading": "Special Session in CI in Aerospace Applications",
-      "paragraphs": [
-        "Session Chairs: Co-Chair: Weineng Chen, South China University of Technology; Co-Chair: Chunxue Liu, Beijing Microelectronics Technology Institute; Co-Chair: Feng-Feng Wei, South China University of Technology"
-      ],
-      "bullets": [
-        "Planning and scheduling for autonomous systems in space.",
-        "Advances in CI for aerospace applications.",
-        "Intelligent search and optimization methods in aerospace applications.",
-        "Optimal control of aircraft, UAVs, spacecraft or rovers.",
-        "Autonomous spacecraft navigation.",
-        "Space situational awareness and collision avoidance.",
-        "Optimization of space mission trajectories.",
-        "CI for satellite constellations.",
-        "CI design of spacecraft components.",
-        "Cognitive systems for human spaceflight."
-      ]
-    },
-    {
-      "heading": "Special Session in CI in Agricultural Sciences and Agroforestry",
-      "paragraphs": [
-        "Session Chairs: Co-Chair: Weifeng Gao, Xidian University; Co-Chair: Yannan Sun, Sichuan University"
-      ],
-      "bullets": [
-        "Weed control, pesticides or fungicides application, disease identification.",
-        "Soil health monitoring and management.",
-        "Enhance carbon sequestration and improve crop management.",
-        "Precision agriculture and CI.",
-        "Crop yield prediction models and algorithms.",
-        "Agroforestry system design and optimization.",
-        "Smart irrigation systems.",
-        "Climate change adaptation strategies.",
-        "Multi-Criteria Decision Making in agroforestry.",
-        "Remote sensing applications in agroforestry.",
-        "Farm management systems integration."
-      ]
-    },
-    {
-      "heading": "Special Session in CI in Neuroscience",
-      "paragraphs": [
-        "Session Chairs: Chair: Imad Rida, Université de Technologie de Compiègne, France"
-      ],
-      "bullets": [
-        "Neurorehabilitation.",
-        "Neurorobotics.",
-        "Applied consumer neuroscience.",
-        "Brain-Computer Interfaces (BCIs).",
-        "Neural data analysis and modeling.",
-        "Computational neurostimulation.",
-        "Neuroimaging pattern recognition.",
-        "Computational Psychiatry.",
-        "Cognitive computational Neuroscience.",
-        "Brain network analysis.",
-        "Neuroevolutionary algorithms.",
-        "Computational neuropsychology.",
-        "Brain-Inspired computing."
-      ]
-    },
-    {
-      "heading": "Special Session in CI in Search-based Software Engineering",
-      "paragraphs": [
-        "Session Chairs: Co-Chair: Chunqiang Hu, Chongqing University; Co-Chair: Hui Xia, Ocean University of China"
-      ],
-      "bullets": [
-        "Search based software testing.",
-        "Search-based software optimization.",
-        "Software maintenance.",
-        "Software project scheduling.",
-        "Software design.",
-        "Software configuration."
-      ]
-    },
-    {
-      "heading": "Special Session in CI in Maritime Technology",
-      "paragraphs": [
-        "Session Chairs: Co-Chair: Chenxi Huang, Xiamen University; Co-Chair: Shi Zeyu, Marine Design & Research Institute of China; Co-Chair: Yang Meng, Hanjiang National Laboratory"
-      ],
-      "bullets": [
-        "Underwater technology research.",
-        "Underwater robotics and exploration.",
-        "Electric ships.",
-        "Autonomous ship navigation.",
-        "Intelligent ship design and optimization.",
-        "vessel performance optimization.",
-        "Marine traffic management systems.",
-        "Marine renewable energy systems.",
-        "Ocean data analysis and prediction.",
-        "Maritime risk assessment and decision support.",
-        "Marine environmental monitoring and conservation."
       ]
     }
   ]

@@ -1,14 +1,7 @@
 {
   "slug": "submissions/camera-ready",
-  "title": "Camera-ready Submission Instructions",
-  "summary": "Camera-ready submission instructions will be added after acceptance notifications.",
+  "title": "Final Submission Instructions",
+  "summary": "Final submission instructions for IEEE SSCI 2027.",
   "kind": "basic",
-  "sections": [
-    {
-      "heading": "Dates and Deadlines",
-      "paragraphs": [
-        "The final camera-ready version deadline in the current proposal draft is 10 November 2026."
-      ]
-    }
-  ]
+  "sections": []
 }

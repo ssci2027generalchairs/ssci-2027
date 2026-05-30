@@ -1,13 +1,13 @@
 {
   "slug": "about/symposium-chairs",
   "title": "Symposium Chairs",
-  "summary": "Current symposium chair appointments and proposed symposia from the IEEE SSCI 2027 proposal draft.",
+  "summary": "Symposium chair appointments and applied computational intelligence symposia for IEEE SSCI 2027.",
   "kind": "committee",
   "committeeSlug": "symposium-chairs",
   "sections": [
     {
       "paragraphs": [
-        "IEEE SSCI 2027 is planned around a suite of applied computational intelligence symposia. The latest proposal draft adds several co-chairs and updates the MCII special sessions; additional appointments may be added as invitations are confirmed."
+        "IEEE SSCI 2027 includes a suite of applied computational intelligence symposia and MCII special sessions."
       ]
     }
   ]

@@ -28,10 +28,17 @@
     "kind": "basic"
   },
   {
-    "title": "Call for Papers and Abstracts",
+    "title": "Call For Papers and Other Submissions",
     "slug": "submissions/call-for-papers",
     "wordpressPath": "/submissions/call-for-papers/",
     "file": "full-pages/submissions__call-for-papers.html",
+    "kind": "basic"
+  },
+  {
+    "title": "Submission Instructions",
+    "slug": "submissions/instructions",
+    "wordpressPath": "/submissions/instructions/",
+    "file": "full-pages/submissions__instructions.html",
     "kind": "basic"
   },
   {

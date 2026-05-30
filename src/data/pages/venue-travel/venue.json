@@ -1,13 +1,13 @@
 {
   "slug": "venue-travel/venue",
   "title": "Venue Information",
-  "summary": "IEEE SSCI 2027 is proposed for the Gold Coast Convention and Exhibition Centre.",
+  "summary": "IEEE SSCI 2027 will be held on the Gold Coast.",
   "kind": "basic",
   "sections": [
     {
       "heading": "Conference Venue",
       "paragraphs": [
-        "The proposed venue is the Gold Coast Convention and Exhibition Centre (GCCEC), one of Australia's premier conference centres. It is centrally located in Broadbeach and is close to hotels, restaurants, the beach, and public transportation."
+        "The venue is the Gold Coast Convention and Exhibition Centre (GCCEC), one of Australia's premier conference centres. It is centrally located in Broadbeach and is close to hotels, restaurants, the beach, and public transportation."
       ]
     },
     {
@@ -18,7 +18,8 @@
         "18 meeting rooms and boardrooms for parallel sessions, workshops, and panels",
         "Small rooms for 20-50 seats and mid-size rooms for 100-300 seats",
         "Foyers and exhibition areas for registration, posters, networking, and social functions"
-      ]
+      ],
+      "paragraphs": []
     },
     {
       "heading": "Technology and Hybrid Capabilities",
@@ -27,14 +28,16 @@
         "AV-equipped rooms supporting live streaming, virtual presentations, and hybrid meetings",
         "On-site technical support",
         "State-of-the-art audio-visual equipment"
-      ]
+      ],
+      "paragraphs": []
     },
     {
       "heading": "Accessibility",
       "bullets": [
         "Wheelchair accessibility, accessible restrooms, elevators, and designated parking",
         "Hearing loop systems in main rooms"
-      ]
+      ],
+      "paragraphs": []
     },
     {
       "heading": "Additional Amenities",
@@ -42,7 +45,8 @@
         "Catering services, exhibitor support, business center, and lounges",
         "Environmentally conscious operations, including Green Globe certification",
         "Walking distance to hotels, restaurants, the beach, and public transportation"
-      ]
+      ],
+      "paragraphs": []
     }
   ]
 }

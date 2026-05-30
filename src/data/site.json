@@ -9,17 +9,32 @@
     "IEEE SSCI is widely recognized for cultivating the interchange of state-of-the-art theories and sophisticated algorithms within the broad realm of computational intelligence applications. The Symposia provide for cross-pollination of research concepts, fostering an environment that facilitates future inter- and intra-disciplinary collaborations.",
     "The 2027 event continues the restructured biennial Symposia Series featuring dedicated Applied Computational Intelligence Symposia.",
     "IEEE SSCI 2027, hosted on the Gold Coast, Queensland, Australia, brings SSCI to a coastal destination known for global accessibility, walkable conference facilities, beaches, rainforests, national parks, cultural attractions, and a strong academic presence through Griffith University.",
-    "We, the Organising Committee, are thrilled to invite academia, industry, and government agencies to actively participate in presentations and discussions that will help shape the trajectory of computational intelligence. The conference program is planned to include plenary and keynote addresses, oral and poster presentations, panels, workshops, tutorials, competitions, industry engagement, and networking activities.",
+    "We, the Organising Committee, are thrilled to invite academia, industry, and government agencies to actively participate in presentations and discussions that will help shape the trajectory of computational intelligence. The conference program will include plenary and keynote addresses, technical sessions, panels, workshops, tutorials, competitions, industry engagement, and networking activities.",
     "Your participation is invaluable, and we look forward to welcoming a diverse and dynamic community to contribute to the success of IEEE SSCI 2027."
   ],
   "metaDescription": "IEEE SSCI 2027 conference website.",
   "contactEmail": "",
   "analyticsId": "",
   "ieeeLinks": [
-    { "label": "IEEE.org", "href": "https://www.ieee.org/index.html" },
-    { "label": "IEEE Xplore Digital Library", "href": "https://ieeexplore.ieee.org/Xplore/home.jsp" },
-    { "label": "IEEE Standards", "href": "https://standards.ieee.org/" },
-    { "label": "IEEE Spectrum", "href": "https://spectrum.ieee.org/" },
-    { "label": "More Sites", "href": "https://www.ieee.org/sitemap.html" }
+    {
+      "label": "IEEE.org",
+      "href": "https://www.ieee.org/index.html"
+    },
+    {
+      "label": "IEEE Xplore Digital Library",
+      "href": "https://ieeexplore.ieee.org/Xplore/home.jsp"
+    },
+    {
+      "label": "IEEE Standards",
+      "href": "https://standards.ieee.org/"
+    },
+    {
+      "label": "IEEE Spectrum",
+      "href": "https://spectrum.ieee.org/"
+    },
+    {
+      "label": "More Sites",
+      "href": "https://www.ieee.org/sitemap.html"
+    }
   ]
 }

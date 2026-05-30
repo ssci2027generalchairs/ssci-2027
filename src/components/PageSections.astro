@@ -9,10 +9,18 @@ interface LinkItem {
   href: string;
 }
 
+interface CardItem {
+  title: string;
+  href: string;
+  image?: string;
+  text?: string;
+}
+
 interface SectionData {
   heading?: string;
   paragraphs?: string[];
   bullets?: Array<string | LinkItem>;
+  cards?: CardItem[];
   table?: TableData;
 }
 
@@ -43,6 +51,17 @@ const withBase = (href: string) => {
               </li>
             ))}
           </ul>
+        ) : null}
+        {section.cards?.length ? (
+          <div class="link-card-grid">
+            {section.cards.map((card) => (
+              <a class="link-card" href={withBase(card.href)}>
+                {card.image && <img src={withBase(card.image)} alt="" loading="lazy" />}
+                <span>{card.title}</span>
+                {card.text && <small>{card.text}</small>}
+              </a>
+            ))}
+          </div>
         ) : null}
         {section.table && (
           <div class="table-wrap">

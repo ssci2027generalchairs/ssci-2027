@@ -8,7 +8,13 @@
       { "label": "Contact Us", "href": "/about/contact/" }
     ]
   },
-  { "label": "Call for Papers", "href": "/submissions/call-for-papers/" },
+  {
+    "label": "Submissions",
+    "items": [
+      { "label": "Call For Papers and Other Submissions", "href": "/submissions/call-for-papers/" },
+      { "label": "Submission Instructions", "href": "/submissions/instructions/" }
+    ]
+  },
   {
     "label": "Symposia",
     "items": [

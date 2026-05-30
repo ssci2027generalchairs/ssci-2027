@@ -84,14 +84,15 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 }
 
 .ssci-wp-shell {
-  --ssci-ink: #1f2933;
-  --ssci-muted: #5a6570;
-  --ssci-line: #d8e0e7;
-  --ssci-soft: #fef8f5;
-  --ssci-blue: #2096cd;
-  --ssci-teal: #068da9;
-  --ssci-orange: #eb5d1e;
-  --ssci-brown: #4e4039;
+  --ssci-ink: #102033;
+  --ssci-muted: #52677a;
+  --ssci-line: #d8e7ef;
+  --ssci-soft: #f4f9fc;
+  --ssci-blue: #00629b;
+  --ssci-teal: #008c95;
+  --ssci-orange: #c2410c;
+  --ssci-gold: #f2a900;
+  --ssci-navy: #082f49;
   color: var(--ssci-ink);
   font-family: Inter, Roboto, Arial, sans-serif;
   font-size: 17px;
@@ -113,8 +114,8 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-  background: #f4f8f9;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  background: #f4f9fc;
+  box-shadow: 0 2px 18px rgba(8, 47, 73, 0.1);
   line-height: 1.2;
 }
 
@@ -125,7 +126,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   width: min(1140px, calc(100% - 32px));
   margin: 0 auto;
   padding: 8px 0 0;
-  color: var(--ssci-brown);
+  color: var(--ssci-navy);
   font-size: 13px;
   font-weight: 600;
 }
@@ -145,12 +146,12 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 .ssci-wp-ieee-links a,
 .ssci-wp-join-link {
-  color: var(--ssci-brown) !important;
+  color: var(--ssci-navy) !important;
 }
 
 .ssci-wp-ieee-links a + a::before {
   margin: 0 8px;
-  color: #7a6960;
+  color: #7893a6;
   content: "|";
 }
 
@@ -205,7 +206,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   margin: 0;
   padding: 10px 0 10px 16px;
   border: 0;
-  color: var(--ssci-brown) !important;
+  color: var(--ssci-navy) !important;
   background: transparent;
   font: inherit;
   font-size: 15px;
@@ -219,7 +220,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 .ssci-wp-nav-item > button:hover,
 .ssci-wp-nav-item:focus-within > a,
 .ssci-wp-nav-item:focus-within > button {
-  color: rgb(147, 36, 23) !important;
+  color: var(--ssci-blue) !important;
 }
 
 .ssci-wp-dropdown {
@@ -228,9 +229,10 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   left: 14px;
   z-index: 1000;
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   width: max-content;
   min-width: 230px;
-  max-width: min(540px, calc(100vw - 32px));
+  max-width: min(720px, calc(100vw - 32px));
   margin: 0;
   padding: 8px 0;
   list-style: none;
@@ -265,11 +267,11 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 .ssci-wp-dropdown a {
   display: block;
   padding: 8px 18px;
-  color: var(--ssci-brown) !important;
-  font-size: 15px;
+  color: var(--ssci-ink) !important;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.35;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .ssci-wp-dropdown a:hover {
@@ -291,14 +293,15 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 }
 
 .ssci-wp {
-  --ssci-ink: #1f2933;
-  --ssci-muted: #5a6570;
-  --ssci-line: #d8e0e7;
-  --ssci-soft: #fef8f5;
-  --ssci-blue: #2096cd;
-  --ssci-teal: #068da9;
-  --ssci-orange: #eb5d1e;
-  --ssci-brown: #4e4039;
+  --ssci-ink: #102033;
+  --ssci-muted: #52677a;
+  --ssci-line: #d8e7ef;
+  --ssci-soft: #f4f9fc;
+  --ssci-blue: #00629b;
+  --ssci-teal: #008c95;
+  --ssci-orange: #c2410c;
+  --ssci-gold: #f2a900;
+  --ssci-navy: #082f49;
   width: min(1140px, calc(100% - 32px));
   margin: 0 auto;
   color: var(--ssci-ink);
@@ -465,7 +468,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 .ssci-welcome-content h2 {
   margin: 0 0 18px;
-  color: var(--ssci-brown);
+  color: var(--ssci-navy);
   font-size: clamp(30px, 3vw, 42px);
   font-weight: 700;
   line-height: 1.2;
@@ -489,7 +492,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   position: relative;
   margin: 0 0 15px;
   padding-bottom: 15px;
-  color: var(--ssci-brown);
+  color: var(--ssci-navy);
   font-size: 34px;
   font-weight: 700;
 }
@@ -501,7 +504,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   display: block;
   width: 60px;
   height: 2px;
-  background: var(--ssci-orange);
+  background: var(--ssci-gold);
   content: "";
 }
 
@@ -661,7 +664,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 .ssci-sub-header {
   margin: 0 0 8px !important;
-  color: #d01e1e !important;
+  color: var(--ssci-teal) !important;
   font-size: 14px !important;
   font-weight: 800;
   text-transform: uppercase;
@@ -669,8 +672,8 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 .ssci-page-heading h1 {
   margin: 0 0 10px;
-  color: var(--ssci-brown);
-  font-size: clamp(36px, 4vw, 50px);
+  color: var(--ssci-navy);
+  font-size: clamp(30px, 3vw, 40px);
   font-weight: 700;
   line-height: 1.2;
 }
@@ -679,25 +682,113 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   padding-bottom: 64px;
 }
 
+.ssci-content-hero-image {
+  display: block;
+  width: 100%;
+  height: clamp(220px, 28vw, 360px);
+  margin: 0 0 30px;
+  object-fit: cover;
+}
+
 .ssci-page-content h2 {
   margin: 24px 0 10px;
-  color: var(--ssci-brown);
-  font-size: clamp(24px, 2.4vw, 32px);
+  color: var(--ssci-navy);
+  font-size: clamp(21px, 2vw, 27px);
   font-weight: 700;
 }
 
 .ssci-page-content h3 {
   margin: 20px 0 10px;
   color: var(--ssci-ink);
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 800;
 }
 
-.ssci-page-content ul {
+.ssci-page-content > ul {
   display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
   margin: 0 0 18px;
   padding-left: 22px;
+}
+
+.ssci-link-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 0 0 22px;
+}
+
+.ssci-link-card {
+  display: grid;
+  grid-template-rows: 130px auto 1fr;
+  min-height: 230px;
+  overflow: hidden;
+  border: 1px solid var(--ssci-line);
+  color: var(--ssci-ink) !important;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(31, 41, 51, 0.08);
+}
+
+.ssci-link-card:hover {
+  color: var(--ssci-teal) !important;
+}
+
+.ssci-link-card img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+
+.ssci-link-card span,
+.ssci-link-card small {
+  display: block;
+  padding: 0 16px;
+}
+
+.ssci-link-card span {
+  padding-top: 14px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.ssci-link-card small {
+  padding-top: 8px;
+  padding-bottom: 16px;
+  color: var(--ssci-muted);
+  line-height: 1.45;
+}
+
+.ssci-symposia-overview-page .ssci-page-content > ul {
+  display: block;
+}
+
+.ssci-call-for-papers-page .ssci-page-content > ul {
+  display: block;
+}
+
+.ssci-submission-instructions-page .ssci-page-content > ul {
+  display: block;
+}
+
+.ssci-symposia-overview-page .ssci-page-content > ul li,
+.ssci-call-for-papers-page .ssci-page-content > ul li,
+.ssci-submission-instructions-page .ssci-page-content > ul li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 900px) {
+  .ssci-page-content > ul,
+  .ssci-link-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .ssci-page-content > ul,
+  .ssci-link-card-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .ssci-page-content li::marker {
@@ -721,7 +812,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 .ssci-page-content th {
   color: #fff;
-  background: var(--ssci-brown);
+  background: var(--ssci-blue);
   font-weight: 800;
 }
 
@@ -737,7 +828,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 .ssci-feature-title {
   margin: 0 0 24px !important;
-  color: var(--ssci-brown) !important;
+  color: var(--ssci-navy) !important;
   font-size: clamp(32px, 3vw, 38px) !important;
   text-align: left;
 }
@@ -826,8 +917,8 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-  color: var(--ssci-brown);
-  background: #f4f8f9;
+  color: rgba(255, 255, 255, 0.78);
+  background: var(--ssci-navy);
 }
 
 .ssci-wp-footer-inner {
@@ -841,14 +932,14 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 .ssci-wp-site-footer h2 {
   margin: 0 0 10px;
-  color: var(--ssci-brown);
+  color: #fff;
   font-size: 17px;
   font-weight: 800;
 }
 
 .ssci-wp-site-footer p {
   margin: 0 0 8px;
-  color: var(--ssci-brown);
+  color: rgba(255, 255, 255, 0.82);
 }
 
 .ssci-wp-site-footer nav {
@@ -857,7 +948,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 }
 
 .ssci-wp-site-footer a {
-  color: var(--ssci-brown);
+  color: #fff;
 }
 
 .ssci-wp-footer-bottom {
@@ -867,7 +958,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   width: min(1140px, calc(100% - 32px));
   margin: 0 auto;
   padding: 16px 0 22px;
-  border-top: 1px solid var(--ssci-line);
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
   font-size: 14px;
 }
 
@@ -1020,7 +1111,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 </div>
 <div class="ssci-wp-main-nav-wrap">
 <a class="ssci-wp-brand" href="https://attend.ieee.org/ssci-2027/" aria-label="IEEE SSCI 2027 home">
-<img class="ssci-wp-brand-logo" src="https://ssci2027generalchairs.github.io/ssci-2027/assets/images/ssci-2027-logo.svg" alt="IEEE SSCI 2027 logo" width="280" height="72" />
+<img class="ssci-wp-brand-logo" src="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/ssci-2027-logo.svg" alt="IEEE SSCI 2027 logo" width="280" height="72" />
 </a>
 <input class="ssci-wp-nav-toggle" type="checkbox" id="ssci-wp-nav-toggle" aria-label="Toggle navigation" />
 <label class="ssci-wp-nav-toggle-button" for="ssci-wp-nav-toggle" aria-hidden="true"><span></span><span></span><span></span></label>
@@ -1035,7 +1126,13 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <li><a href="https://attend.ieee.org/ssci-2027/about/contact/">Contact Us</a></li>
 </ul>
 </li>
-<li class="ssci-wp-nav-item"><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call for Papers</a></li>
+<li class="ssci-wp-nav-item ssci-wp-has-menu">
+<a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/" aria-haspopup="true">Submissions</a>
+<ul class="ssci-wp-dropdown">
+<li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call For Papers and Other Submissions</a></li>
+<li><a href="https://attend.ieee.org/ssci-2027/submissions/instructions/">Submission Instructions</a></li>
+</ul>
+</li>
 <li class="ssci-wp-nav-item ssci-wp-has-menu">
 <a href="https://attend.ieee.org/ssci-2027/symposia/" aria-haspopup="true">Symposia</a>
 <ul class="ssci-wp-dropdown">
@@ -1079,48 +1176,58 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 </header>
 
+<img class="ssci-content-hero-image" src="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/gold-coast-2027-06.jpg" alt="Gold Coast beachfront towers in warm evening light" loading="lazy" />
+
 <div class="ssci-page-content">
 
 <h2>Symposium Chairs</h2>
 <ul><li>Fenglei Fan, City University of Hong Kong</li><li>Min Jiang, Xiamen University</li></ul>
 
 <h2>Special Sessions</h2>
-<ul><li><a href="https://ssci2027generalchairs.github.io/ssci-2027/symposia/special-session-ci-archeology/">Special Session in CI in Archeology</a></li><li><a href="https://ssci2027generalchairs.github.io/ssci-2027/symposia/special-session-ci-non-traditional-computation-technologies/">Special Session for CI in Non-Traditional Computation Technologies</a></li><li><a href="https://ssci2027generalchairs.github.io/ssci-2027/symposia/special-session-ci-aerospace-applications/">Special Session in CI in Aerospace Applications</a></li><li><a href="https://ssci2027generalchairs.github.io/ssci-2027/symposia/special-session-ci-agricultural-sciences-agroforestry/">Special Session in CI in Agricultural Sciences and Agroforestry</a></li><li><a href="https://ssci2027generalchairs.github.io/ssci-2027/symposia/special-session-ci-neuroscience/">Special Session in CI in Neuroscience</a></li><li><a href="https://ssci2027generalchairs.github.io/ssci-2027/symposia/special-session-ci-search-based-software-engineering/">Special Session in CI in Search-based Software Engineering</a></li><li><a href="https://ssci2027generalchairs.github.io/ssci-2027/symposia/special-session-ci-maritime-technology/">Special Session in CI in Maritime Technology</a></li></ul>
+<div class="ssci-link-card-grid">
+<a class="ssci-link-card" href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-archeology/">
+<img src="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/gold-coast-2027-04.jpg" alt="" loading="lazy" />
+<span>Special Session in CI in Archeology</span>
+<small>CI for archaeology, cultural heritage, artifact modeling, reconstruction, and classification.</small>
+</a>
+<a class="ssci-link-card" href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-non-traditional-computation-technologies/">
+<img src="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/gold-coast-2027-05.jpg" alt="" loading="lazy" />
+<span>Special Session for CI in Non-Traditional Computation Technologies</span>
+<small>CI across DNA, quantum, cognitive, affective, granular, and word-based computing.</small>
+</a>
+<a class="ssci-link-card" href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-aerospace-applications/">
+<img src="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/gold-coast-2027-06.jpg" alt="" loading="lazy" />
+<span>Special Session in CI in Aerospace Applications</span>
+<small>CI for aerospace missions, autonomous systems, spacecraft, UAVs, and situational awareness.</small>
+</a>
+<a class="ssci-link-card" href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-agricultural-sciences-agroforestry/">
+<img src="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/gold-coast-2027-01.jpg" alt="" loading="lazy" />
+<span>Special Session in CI in Agricultural Sciences and Agroforestry</span>
+<small>CI for precision agriculture, agroforestry, sensing, climate adaptation, and farm management.</small>
+</a>
+<a class="ssci-link-card" href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-neuroscience/">
+<img src="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/gold-coast-2027-02.jpg" alt="" loading="lazy" />
+<span>Special Session in CI in Neuroscience</span>
+<small>CI for neurorehabilitation, BCIs, neural data, neuroimaging, and brain-inspired computing.</small>
+</a>
+<a class="ssci-link-card" href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-search-based-software-engineering/">
+<img src="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/gold-coast-2027-03.jpg" alt="" loading="lazy" />
+<span>Special Session in CI in Search-based Software Engineering</span>
+<small>CI and search-based methods for software testing, maintenance, design, and optimization.</small>
+</a>
+<a class="ssci-link-card" href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-maritime-technology/">
+<img src="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/gold-coast-2027-04.jpg" alt="" loading="lazy" />
+<span>Special Session in CI in Maritime Technology</span>
+<small>CI for maritime systems, autonomous ships, underwater robotics, ocean data, and marine risk.</small>
+</a>
+</div>
 
 <h2>Scope</h2>
 <p>The integration of Computational Intelligence (CI) has become crucial in addressing complex problems that traditional approaches struggle to solve. To date, CI has found applications in diverse domains, including finance, healthcare and robotics, demonstrating its versatility and efficacy in solving real-world challenges. However, there is further potential in less explored areas of Applied CI where exploitation of the breadth of CI techniques can create new groundbreaking solutions in such domains or be applied to enhance other non-traditional technologies.</p>
-<p>The symposium aims to nurture sub-fields of Applied CI, such as archaeology, agricultural sciences, aerospace engineering, neuroscience or climate science to mention a few, where there is much potential for further growth as well as providing a meeting place for niche areas of Applied CI that merit more focus. The special sessions will provide a venue for the foremost research in the selected domain. Both theoretical and practical contributions are sought from industry and academia alike. Further, poster-only submissions welcome domain submissions highlighting areas of the domain that could benefit from CI approaches. Where provided, workshops will provide more informal presentations and discussions on important topics in the relevant domain. All submissions to this symposia are to the individual Special Sessions/Workshops. There are no general symposium submissions.</p>
+<p>The symposium nurtures sub-fields of Applied CI, such as archaeology, agricultural sciences, aerospace engineering, neuroscience, and climate science, where there is strong potential for growth. The special sessions provide a venue for focused research in selected domains. Both theoretical and practical contributions are sought from industry and academia alike. All submissions to this symposium are directed to the individual Special Sessions or Workshops. There are no general symposium submissions.</p>
 
 <h2>Topics of Interest</h2>
 <p>Topics of interest include, but are not limited to:</p>
-
-<h2>Special Session in CI in Archeology</h2>
-<p>Session Chairs: Prof. Zhichun Jing, University of British Columbia; Prof. Qingyue Yang, Chinese Academy of Social Sciences</p>
-<ul><li>Interpreting and explaining cultural heritage.</li><li>Modeling archaeological artifacts.</li><li>Archaeological recognition systems using CI.</li><li>Digital reconstruction of ancient Sites.</li><li>CI for archaeological classification.</li><li>CI approaches to dating techniques.</li></ul>
-
-<h2>Special Session for CI in Non-Traditional Computation Technologies</h2>
-<p>Session Chairs: Co-Chair: Zexuan Zhu, Shenzhen University; Co-Chair: Yaqing Hou, Dalian University of Technology</p>
-<ul><li>DNA computing</li><li>Quantum computing.</li><li>Cognitive informatics.</li><li>Affective computing.</li><li>Granular computing.</li><li>Computing with words.</li></ul>
-
-<h2>Special Session in CI in Aerospace Applications</h2>
-<p>Session Chairs: Co-Chair: Weineng Chen, South China University of Technology; Co-Chair: Chunxue Liu, Beijing Microelectronics Technology Institute; Co-Chair: Feng-Feng Wei, South China University of Technology</p>
-<ul><li>Planning and scheduling for autonomous systems in space.</li><li>Advances in CI for aerospace applications.</li><li>Intelligent search and optimization methods in aerospace applications.</li><li>Optimal control of aircraft, UAVs, spacecraft or rovers.</li><li>Autonomous spacecraft navigation.</li><li>Space situational awareness and collision avoidance.</li><li>Optimization of space mission trajectories.</li><li>CI for satellite constellations.</li><li>CI design of spacecraft components.</li><li>Cognitive systems for human spaceflight.</li></ul>
-
-<h2>Special Session in CI in Agricultural Sciences and Agroforestry</h2>
-<p>Session Chairs: Co-Chair: Weifeng Gao, Xidian University; Co-Chair: Yannan Sun, Sichuan University</p>
-<ul><li>Weed control, pesticides or fungicides application, disease identification.</li><li>Soil health monitoring and management.</li><li>Enhance carbon sequestration and improve crop management.</li><li>Precision agriculture and CI.</li><li>Crop yield prediction models and algorithms.</li><li>Agroforestry system design and optimization.</li><li>Smart irrigation systems.</li><li>Climate change adaptation strategies.</li><li>Multi-Criteria Decision Making in agroforestry.</li><li>Remote sensing applications in agroforestry.</li><li>Farm management systems integration.</li></ul>
-
-<h2>Special Session in CI in Neuroscience</h2>
-<p>Session Chairs: Chair: Imad Rida, Université de Technologie de Compiègne, France</p>
-<ul><li>Neurorehabilitation.</li><li>Neurorobotics.</li><li>Applied consumer neuroscience.</li><li>Brain-Computer Interfaces (BCIs).</li><li>Neural data analysis and modeling.</li><li>Computational neurostimulation.</li><li>Neuroimaging pattern recognition.</li><li>Computational Psychiatry.</li><li>Cognitive computational Neuroscience.</li><li>Brain network analysis.</li><li>Neuroevolutionary algorithms.</li><li>Computational neuropsychology.</li><li>Brain-Inspired computing.</li></ul>
-
-<h2>Special Session in CI in Search-based Software Engineering</h2>
-<p>Session Chairs: Co-Chair: Chunqiang Hu, Chongqing University; Co-Chair: Hui Xia, Ocean University of China</p>
-<ul><li>Search based software testing.</li><li>Search-based software optimization.</li><li>Software maintenance.</li><li>Software project scheduling.</li><li>Software design.</li><li>Software configuration.</li></ul>
-
-<h2>Special Session in CI in Maritime Technology</h2>
-<p>Session Chairs: Co-Chair: Chenxi Huang, Xiamen University; Co-Chair: Shi Zeyu, Marine Design &amp; Research Institute of China; Co-Chair: Yang Meng, Hanjiang National Laboratory</p>
-<ul><li>Underwater technology research.</li><li>Underwater robotics and exploration.</li><li>Electric ships.</li><li>Autonomous ship navigation.</li><li>Intelligent ship design and optimization.</li><li>vessel performance optimization.</li><li>Marine traffic management systems.</li><li>Marine renewable energy systems.</li><li>Ocean data analysis and prediction.</li><li>Maritime risk assessment and decision support.</li><li>Marine environmental monitoring and conservation.</li></ul>
 
 </div>
 
@@ -1148,7 +1255,6 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 </div>
 <div class="ssci-wp-footer-bottom">
 <span>© 2027 IEEE SSCI.</span>
-<span>WordPress page version prepared for IEEE hosting.</span>
 </div>
 </footer>
 </div>

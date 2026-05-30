@@ -5,13 +5,6 @@
   "kind": "basic",
   "sections": [
     {
-      "heading": "Strategic Planning Representatives",
-      "bullets": [
-        "Conference Committee - To be confirmed",
-        "Technical Activities - To be confirmed"
-      ]
-    },
-    {
       "heading": "General Chairs",
       "bullets": [
         "Alan Liew - Griffith University, a.liew@griffith.edu.au",
@@ -39,12 +32,6 @@
         "CI in Natural Language Processing and Social Media - Hongzhi Yin, h.yin1@uq.edu.au; Usman Naseem, usman.naseem@mq.edu.au",
         "Trustworthy, Explainable and Responsible CI - Guangdong Bai, g.bai@cityu.edu.hk; Feng Liu, feng.liu1@unimelb.edu.au; Ruwang Jiao, rwjiao@suda.edu.cn",
         "Multidisciplinary Computational Intelligence Incubators - Fenglei Fan, fenglfan@cityu.edu.hk; Min Jiang, minjiang@xmu.edu.cn"
-      ]
-    },
-    {
-      "heading": "Technical Activities Liaison/Strategy Representatives",
-      "bullets": [
-        "To be confirmed"
       ]
     }
   ]

@@ -1,13 +1,7 @@
 {
   "slug": "program/quantum-ci-workshop",
   "title": "Schools Outreach - Quantum CI Workshop",
-  "summary": "Schools outreach and Quantum CI workshop information will be added as details are confirmed.",
+  "summary": "Schools outreach and Quantum CI workshop information for IEEE SSCI 2027.",
   "kind": "basic",
-  "sections": [
-    {
-      "paragraphs": [
-        "The IEEE SSCI 2027 proposal notes recent SSCI emphasis on schools outreach and industry collaboration elements. Detailed plans for any Quantum CI workshop or schools outreach activity will be added after confirmation."
-      ]
-    }
-  ]
+  "sections": []
 }

@@ -1,22 +1,7 @@
 {
   "slug": "submissions/poster-instructions",
   "title": "Poster Instructions",
-  "summary": "Poster instructions and downloadable files will be added when available.",
+  "summary": "Poster instructions for IEEE SSCI 2027.",
   "kind": "basic",
-  "sections": [
-    {
-      "heading": "Session Formats",
-      "paragraphs": [
-        "The technical program plans to include poster sessions for full papers, short papers, late-breaking work, and abstract-only submissions. The proposal draft notes a poster session pathway associated with 250-word abstract submissions."
-      ]
-    },
-    {
-      "heading": "Session Formats",
-      "bullets": [
-        "Full paper poster gallery",
-        "Short paper poster gallery",
-        "Late-breaking work and abstract poster gallery"
-      ]
-    }
-  ]
+  "sections": []
 }

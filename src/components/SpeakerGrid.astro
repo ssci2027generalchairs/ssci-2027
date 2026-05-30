@@ -41,7 +41,5 @@ const base = import.meta.env.BASE_URL;
         </article>
       ))}
     </div>
-  ) : (
-    <EmptyState title={`${Astro.props.title} not announced yet`} />
-  )}
+) : null}
 </section>

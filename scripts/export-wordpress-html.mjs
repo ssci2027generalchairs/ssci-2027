@@ -6,9 +6,12 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outputDir = path.join(root, 'wordpress-export');
 const pagesDir = path.join(root, 'src', 'data', 'pages');
 const assetBaseArg = process.argv.find((arg) => arg.startsWith('--asset-base='));
-const defaultWordPressAssetBase = 'https://ssci2027generalchairs.github.io/ssci-2027/';
+const defaultWordPressAssetBase = 'https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/';
 const assetBase = (assetBaseArg?.split('=').slice(1).join('=') || process.env.WORDPRESS_ASSET_BASE || defaultWordPressAssetBase)
   .replace(/\/?$/, '/');
+const wordpressAssetFileNames = new Map([
+  ['griffith-logo.png', 'griffith-logo-1.png'],
+]);
 
 const readJson = async (relativePath) => JSON.parse(
   await readFile(path.join(root, relativePath), 'utf8'),
@@ -34,7 +37,14 @@ const assetUrl = (value = '') => {
   if (!value) return '';
   if (/^(https?:)?\/\//.test(value) || value.startsWith('mailto:')) return value;
   const cleanPath = value.replace(/^\//, '');
-  return assetBase ? `${assetBase}${cleanPath}` : `/${cleanPath}`;
+  const uploadFileName = wordpressAssetFileNames.get(path.posix.basename(cleanPath)) || path.posix.basename(cleanPath);
+  return assetBase ? `${assetBase}${uploadFileName}` : `/${cleanPath}`;
+};
+
+const getSymposiaHeroImage = (slug = '') => {
+  if (!slug.startsWith('symposia/') || !heroImages.length) return undefined;
+  const seed = Array.from(slug).reduce((sum, char) => sum + char.charCodeAt(0), 0);
+  return heroImages[seed % heroImages.length];
 };
 
 const wordPressBaseArg = process.argv.find((arg) => arg.startsWith('--wordpress-base='));
@@ -69,9 +79,24 @@ const renderTable = (table) => {
 const renderBullet = (item) => {
   if (typeof item === 'string') return escapeHtml(item);
   if (item?.href && item?.label) {
-    return `<a href="${escapeHtml(assetUrl(item.href))}">${escapeHtml(item.label)}</a>`;
+    return `<a href="${escapeHtml(pageUrl(item.href))}">${escapeHtml(item.label)}</a>`;
   }
   return escapeHtml(item?.label || '');
+};
+
+const renderCards = (cards = []) => {
+  if (!cards.length) return '';
+  return [
+    '<div class="ssci-link-card-grid">',
+    cards.map((card) => [
+      `<a class="ssci-link-card" href="${escapeHtml(pageUrl(card.href))}">`,
+      card.image ? `<img src="${escapeHtml(assetUrl(card.image))}" alt="" loading="lazy" />` : '',
+      `<span>${escapeHtml(card.title)}</span>`,
+      card.text ? `<small>${escapeHtml(card.text)}</small>` : '',
+      '</a>',
+    ].filter(Boolean).join('\n')).join('\n'),
+    '</div>',
+  ].join('\n');
 };
 
 const renderSections = (sections = []) => sections
@@ -81,6 +106,7 @@ const renderSections = (sections = []) => sections
     section.bullets?.length
       ? `<ul>${section.bullets.map((item) => `<li>${renderBullet(item)}</li>`).join('')}</ul>`
       : '',
+    section.cards?.length ? renderCards(section.cards) : '',
     section.table ? renderTable(section.table) : '',
   ].filter(Boolean).join('\n'))
   .filter(Boolean)
@@ -135,7 +161,7 @@ const renderCommitteeFeatureCard = (member) => [
 const renderCommittee = (committeeSlug) => {
   const committee = committees.find((item) => item.slug === committeeSlug);
   if (!committee?.members?.length) {
-    return '<p><em>Committee members not announced yet.</em></p>';
+    return '';
   }
 
   const roleGroups = [];
@@ -195,16 +221,14 @@ const renderSpeakers = () => {
     ['Keynote Speakers', speakers.keynote || []],
   ];
 
-  return sections.map(([title, items]) => [
+  return sections.filter(([, items]) => items.length).map(([title, items]) => [
     `<h2>${escapeHtml(title)}</h2>`,
-    items.length
-      ? `<div class="ssci-card-grid">${items.map(renderPersonCard).join('\n')}</div>`
-      : `<p><em>${escapeHtml(title)} not announced yet.</em></p>`,
+    `<div class="ssci-card-grid">${items.map(renderPersonCard).join('\n')}</div>`,
   ].join('\n')).join('\n\n');
 };
 
 const renderSponsors = () => {
-  if (!sponsors.length) return '<p><em>Sponsors not announced yet.</em></p>';
+  if (!sponsors.length) return '';
   return [
     '<div class="ssci-card-grid">',
     sponsors.map((sponsor) => [
@@ -334,7 +358,6 @@ const renderFooter = () => [
   '</div>',
   '<div class="ssci-wp-footer-bottom">',
   `<span>© ${escapeHtml(site.year)} IEEE SSCI.</span>`,
-  '<span>WordPress page version prepared for IEEE hosting.</span>',
   '</div>',
   '</footer>',
 ].join('\n');
@@ -360,13 +383,13 @@ const renderSponsorStrip = () => {
 };
 
 const renderSpeakerSection = (title, items = []) => [
+  items.length ? [
   '<section class="ssci-speaker-section">',
   `<h2>${escapeHtml(title)}</h2>`,
-  items.length
-    ? `<div class="ssci-speaker-grid">${items.map(renderPersonCard).join('\n')}</div>`
-    : `<div class="ssci-empty-state"><p><strong>${escapeHtml(title)} not announced yet.</strong></p><p>Confirmed speakers will be added here without changing the page layout.</p></div>`,
+  `<div class="ssci-speaker-grid">${items.map(renderPersonCard).join('\n')}</div>`,
   '</section>',
-].join('\n');
+  ].join('\n') : '',
+].join('');
 
 const renderHomePage = () => {
   const heroImage = heroImages[3] || heroImages[0];
@@ -401,26 +424,31 @@ const renderHomePage = () => {
     '<section class="ssci-wp-section ssci-soft-section">',
     renderDateList(),
     '</section>',
-    renderSponsorStrip(),
-    '<section class="ssci-wp-section ssci-speakers-section">',
-    renderSpeakerSection('Plenary Speakers', speakers.plenary),
-    renderSpeakerSection('Keynote Speakers', speakers.keynote),
-    '</section>',
+    (speakers.plenary.length || speakers.keynote.length) ? [
+      '<section class="ssci-wp-section ssci-speakers-section">',
+      renderSpeakerSection('Plenary Speakers', speakers.plenary),
+      renderSpeakerSection('Keynote Speakers', speakers.keynote),
+      '</section>',
+    ].join('\n') : '',
     '</div>',
   ].filter(Boolean).join('\n\n');
 };
 
 const renderPage = (page) => {
   if (page.slug === 'home') return renderHomePage();
+  const symposiaHeroImage = getSymposiaHeroImage(page.slug);
 
   return [
     `<!-- WordPress export for ${escapeHtml(site.shortName)}: ${escapeHtml(page.title)} -->`,
-    '<div class="ssci-wp ssci-wp-page">',
+    `<div class="ssci-wp ssci-wp-page${page.slug === 'symposia' ? ' ssci-symposia-overview-page' : ''}${page.slug === 'submissions/call-for-papers' ? ' ssci-call-for-papers-page' : ''}${page.slug === 'submissions/instructions' ? ' ssci-submission-instructions-page' : ''}">`,
     '<header class="ssci-page-heading">',
     '<p class="ssci-sub-header">IEEE SSCI 2027</p>',
     `<h1>${escapeHtml(page.title)}</h1>`,
     page.summary ? `<p>${escapeHtml(page.summary)}</p>` : '',
     '</header>',
+    symposiaHeroImage
+      ? `<img class="ssci-content-hero-image" src="${escapeHtml(assetUrl(symposiaHeroImage.src))}" alt="${escapeHtml(symposiaHeroImage.alt || '')}" loading="lazy" />`
+      : '',
     '<div class="ssci-page-content">',
     renderSections(page.sections),
     page.kind === 'committee' ? renderCommittee(page.committeeSlug) : '',
@@ -609,14 +637,15 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 }
 
 .ssci-wp-shell {
-  --ssci-ink: #1f2933;
-  --ssci-muted: #5a6570;
-  --ssci-line: #d8e0e7;
-  --ssci-soft: #fef8f5;
-  --ssci-blue: #2096cd;
-  --ssci-teal: #068da9;
-  --ssci-orange: #eb5d1e;
-  --ssci-brown: #4e4039;
+  --ssci-ink: #102033;
+  --ssci-muted: #52677a;
+  --ssci-line: #d8e7ef;
+  --ssci-soft: #f4f9fc;
+  --ssci-blue: #00629b;
+  --ssci-teal: #008c95;
+  --ssci-orange: #c2410c;
+  --ssci-gold: #f2a900;
+  --ssci-navy: #082f49;
   color: var(--ssci-ink);
   font-family: Inter, Roboto, Arial, sans-serif;
   font-size: 17px;
@@ -638,8 +667,8 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-  background: #f4f8f9;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  background: #f4f9fc;
+  box-shadow: 0 2px 18px rgba(8, 47, 73, 0.1);
   line-height: 1.2;
 }
 
@@ -650,7 +679,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   width: min(1140px, calc(100% - 32px));
   margin: 0 auto;
   padding: 8px 0 0;
-  color: var(--ssci-brown);
+  color: var(--ssci-navy);
   font-size: 13px;
   font-weight: 600;
 }
@@ -670,12 +699,12 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 .ssci-wp-ieee-links a,
 .ssci-wp-join-link {
-  color: var(--ssci-brown) !important;
+  color: var(--ssci-navy) !important;
 }
 
 .ssci-wp-ieee-links a + a::before {
   margin: 0 8px;
-  color: #7a6960;
+  color: #7893a6;
   content: "|";
 }
 
@@ -730,7 +759,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   margin: 0;
   padding: 10px 0 10px 16px;
   border: 0;
-  color: var(--ssci-brown) !important;
+  color: var(--ssci-navy) !important;
   background: transparent;
   font: inherit;
   font-size: 15px;
@@ -744,7 +773,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 .ssci-wp-nav-item > button:hover,
 .ssci-wp-nav-item:focus-within > a,
 .ssci-wp-nav-item:focus-within > button {
-  color: rgb(147, 36, 23) !important;
+  color: var(--ssci-blue) !important;
 }
 
 .ssci-wp-dropdown {
@@ -753,9 +782,10 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   left: 14px;
   z-index: 1000;
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   width: max-content;
   min-width: 230px;
-  max-width: min(540px, calc(100vw - 32px));
+  max-width: min(720px, calc(100vw - 32px));
   margin: 0;
   padding: 8px 0;
   list-style: none;
@@ -790,11 +820,11 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 .ssci-wp-dropdown a {
   display: block;
   padding: 8px 18px;
-  color: var(--ssci-brown) !important;
-  font-size: 15px;
+  color: var(--ssci-ink) !important;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.35;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .ssci-wp-dropdown a:hover {
@@ -816,14 +846,15 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 }
 
 .ssci-wp {
-  --ssci-ink: #1f2933;
-  --ssci-muted: #5a6570;
-  --ssci-line: #d8e0e7;
-  --ssci-soft: #fef8f5;
-  --ssci-blue: #2096cd;
-  --ssci-teal: #068da9;
-  --ssci-orange: #eb5d1e;
-  --ssci-brown: #4e4039;
+  --ssci-ink: #102033;
+  --ssci-muted: #52677a;
+  --ssci-line: #d8e7ef;
+  --ssci-soft: #f4f9fc;
+  --ssci-blue: #00629b;
+  --ssci-teal: #008c95;
+  --ssci-orange: #c2410c;
+  --ssci-gold: #f2a900;
+  --ssci-navy: #082f49;
   width: min(1140px, calc(100% - 32px));
   margin: 0 auto;
   color: var(--ssci-ink);
@@ -990,7 +1021,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 .ssci-welcome-content h2 {
   margin: 0 0 18px;
-  color: var(--ssci-brown);
+  color: var(--ssci-navy);
   font-size: clamp(30px, 3vw, 42px);
   font-weight: 700;
   line-height: 1.2;
@@ -1014,7 +1045,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   position: relative;
   margin: 0 0 15px;
   padding-bottom: 15px;
-  color: var(--ssci-brown);
+  color: var(--ssci-navy);
   font-size: 34px;
   font-weight: 700;
 }
@@ -1026,7 +1057,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   display: block;
   width: 60px;
   height: 2px;
-  background: var(--ssci-orange);
+  background: var(--ssci-gold);
   content: "";
 }
 
@@ -1186,7 +1217,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 .ssci-sub-header {
   margin: 0 0 8px !important;
-  color: #d01e1e !important;
+  color: var(--ssci-teal) !important;
   font-size: 14px !important;
   font-weight: 800;
   text-transform: uppercase;
@@ -1194,8 +1225,8 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 .ssci-page-heading h1 {
   margin: 0 0 10px;
-  color: var(--ssci-brown);
-  font-size: clamp(36px, 4vw, 50px);
+  color: var(--ssci-navy);
+  font-size: clamp(30px, 3vw, 40px);
   font-weight: 700;
   line-height: 1.2;
 }
@@ -1204,25 +1235,113 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   padding-bottom: 64px;
 }
 
+.ssci-content-hero-image {
+  display: block;
+  width: 100%;
+  height: clamp(220px, 28vw, 360px);
+  margin: 0 0 30px;
+  object-fit: cover;
+}
+
 .ssci-page-content h2 {
   margin: 24px 0 10px;
-  color: var(--ssci-brown);
-  font-size: clamp(24px, 2.4vw, 32px);
+  color: var(--ssci-navy);
+  font-size: clamp(21px, 2vw, 27px);
   font-weight: 700;
 }
 
 .ssci-page-content h3 {
   margin: 20px 0 10px;
   color: var(--ssci-ink);
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 800;
 }
 
-.ssci-page-content ul {
+.ssci-page-content > ul {
   display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
   margin: 0 0 18px;
   padding-left: 22px;
+}
+
+.ssci-link-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 0 0 22px;
+}
+
+.ssci-link-card {
+  display: grid;
+  grid-template-rows: 130px auto 1fr;
+  min-height: 230px;
+  overflow: hidden;
+  border: 1px solid var(--ssci-line);
+  color: var(--ssci-ink) !important;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(31, 41, 51, 0.08);
+}
+
+.ssci-link-card:hover {
+  color: var(--ssci-teal) !important;
+}
+
+.ssci-link-card img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+
+.ssci-link-card span,
+.ssci-link-card small {
+  display: block;
+  padding: 0 16px;
+}
+
+.ssci-link-card span {
+  padding-top: 14px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.ssci-link-card small {
+  padding-top: 8px;
+  padding-bottom: 16px;
+  color: var(--ssci-muted);
+  line-height: 1.45;
+}
+
+.ssci-symposia-overview-page .ssci-page-content > ul {
+  display: block;
+}
+
+.ssci-call-for-papers-page .ssci-page-content > ul {
+  display: block;
+}
+
+.ssci-submission-instructions-page .ssci-page-content > ul {
+  display: block;
+}
+
+.ssci-symposia-overview-page .ssci-page-content > ul li,
+.ssci-call-for-papers-page .ssci-page-content > ul li,
+.ssci-submission-instructions-page .ssci-page-content > ul li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 900px) {
+  .ssci-page-content > ul,
+  .ssci-link-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .ssci-page-content > ul,
+  .ssci-link-card-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .ssci-page-content li::marker {
@@ -1246,7 +1365,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 .ssci-page-content th {
   color: #fff;
-  background: var(--ssci-brown);
+  background: var(--ssci-blue);
   font-weight: 800;
 }
 
@@ -1262,7 +1381,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 .ssci-feature-title {
   margin: 0 0 24px !important;
-  color: var(--ssci-brown) !important;
+  color: var(--ssci-navy) !important;
   font-size: clamp(32px, 3vw, 38px) !important;
   text-align: left;
 }
@@ -1351,8 +1470,8 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-  color: var(--ssci-brown);
-  background: #f4f8f9;
+  color: rgba(255, 255, 255, 0.78);
+  background: var(--ssci-navy);
 }
 
 .ssci-wp-footer-inner {
@@ -1366,14 +1485,14 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 .ssci-wp-site-footer h2 {
   margin: 0 0 10px;
-  color: var(--ssci-brown);
+  color: #fff;
   font-size: 17px;
   font-weight: 800;
 }
 
 .ssci-wp-site-footer p {
   margin: 0 0 8px;
-  color: var(--ssci-brown);
+  color: rgba(255, 255, 255, 0.82);
 }
 
 .ssci-wp-site-footer nav {
@@ -1382,7 +1501,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 }
 
 .ssci-wp-site-footer a {
-  color: var(--ssci-brown);
+  color: #fff;
 }
 
 .ssci-wp-footer-bottom {
@@ -1392,7 +1511,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   width: min(1140px, calc(100% - 32px));
   margin: 0 auto;
   padding: 16px 0 22px;
-  border-top: 1px solid var(--ssci-line);
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
   font-size: 14px;
 }
 

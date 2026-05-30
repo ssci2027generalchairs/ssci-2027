@@ -39,14 +39,15 @@
             "Poster or table display, networking session access, visibility in student activities"
           ]
         ]
-      }
+      },
+      "paragraphs": []
     },
     {
       "heading": "Sponsorships",
       "paragraphs": [
         "The organizing team will seek sponsorship from government and civic bodies and academic partners.",
         "Experience Gold Coast is a prospective partner for in-kind support such as destination marketing, welcome kits, city tour logistics, and potential co-hosting of the welcome reception.",
-        "Griffith University is the proposed official host institution, supporting venue engagement, student volunteers, administrative support, and regional promotion."
+        "Griffith University is the official host institution, supporting venue engagement, student volunteers, administrative support, and regional promotion."
       ]
     },
     {
@@ -62,7 +63,8 @@
         "Early-career researcher support through discounted tutorials and workshops",
         "Best student paper and poster prizes",
         "Hybrid participation subsidies to support inclusivity"
-      ]
+      ],
+      "paragraphs": []
     },
     {
       "heading": "Expected Sponsors and Outreach Plan",

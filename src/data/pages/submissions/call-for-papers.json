@@ -1,11 +1,64 @@
 {
   "slug": "submissions/call-for-papers",
-  "title": "Call for Papers and Abstracts",
-  "summary": "IEEE SSCI 2027 will invite full papers, short papers, late-breaking work, poster abstracts, and journal-to-conference presentations, with only accepted full papers planned for IEEE proceedings submission.",
+  "title": "Call For Papers and Other Submissions",
+  "summary": "IEEE SSCI 2027 invites paper, abstract, and journal-to-conference submissions across applied computational intelligence symposia.",
   "kind": "basic",
   "sections": [
     {
-      "heading": "Dates and Deadlines",
+      "paragraphs": [
+        "IEEE SSCI is widely recognized for cultivating the interchange of state-of-the-art theories and sophisticated algorithms within the broad realm of computational intelligence applications. The Symposia provide for cross-pollination of research concepts, fostering an environment that facilitates future inter- and intra-disciplinary collaborations.",
+        "The 2027 event continues the restructured biennial Symposia Series featuring ten dedicated Applied Computational Intelligence Symposia:"
+      ],
+      "bullets": [
+        {
+          "label": "2027 IEEE Symposium on CI for Energy, Transport and Environmental Sustainability (IEEE CIETES)",
+          "href": "/symposia/energy-transport-environment/"
+        },
+        {
+          "label": "2027 IEEE Symposium on CI in Engineering / Cyber Physical Systems (IEEE CIES)",
+          "href": "/symposia/engineering-cyber-physical-systems/"
+        },
+        {
+          "label": "2027 IEEE Symposium on CI in Image, Signal Processing and Synthetic Media (IEEE CISM)",
+          "href": "/symposia/image-signal-synthetic-media/"
+        },
+        {
+          "label": "2027 IEEE Symposium on CI in Artificial Life and Cooperative Intelligent Systems (IEEE ALIFE-CIS)",
+          "href": "/symposia/artificial-life-cooperative-systems/"
+        },
+        {
+          "label": "2027 IEEE Symposium on CI in Security, Defence and Biometrics (IEEE CISDB)",
+          "href": "/symposia/security-defence-biometrics/"
+        },
+        {
+          "label": "2027 IEEE Symposium on CI in Health and Medicine (IEEE CIHM)",
+          "href": "/symposia/health-medicine/"
+        },
+        {
+          "label": "2027 IEEE Symposium on CI for Financial Engineering and Economics (IEEE CiFer)",
+          "href": "/symposia/financial-engineering-economics/"
+        },
+        {
+          "label": "2027 IEEE Symposium on CI in Natural Language Processing and Social Media (IEEE CI-NLPSoMe)",
+          "href": "/symposia/nlp-social-media/"
+        },
+        {
+          "label": "2027 IEEE Symposium on Trustworthy, Explainable and Responsible CI (IEEE CITREx)",
+          "href": "/symposia/trustworthy-explainable-responsible-ci/"
+        },
+        {
+          "label": "2027 IEEE Symposium for Multidisciplinary Computational Intelligence Incubators (IEEE MCII)",
+          "href": "/symposia/multidisciplinary-incubators/"
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        "IEEE SSCI 2027, hosted on the Gold Coast, Queensland, Australia, brings IEEE SSCI to a coastal destination known for global accessibility, walkable conference facilities, beaches, rainforests, national parks, cultural attractions, and a strong academic presence through Griffith University. The February timing provides easy access to venues, accommodation, restaurants, and coastal attractions."
+      ]
+    },
+    {
+      "heading": "Important Dates",
       "table": {
         "headers": [
           "Item",
@@ -14,19 +67,11 @@
         "rows": [
           [
             "Main track paper submission deadline",
-            "10 July 2026"
+            "10 August 2026"
           ],
           [
             "Main track notification due",
             "19 October 2026"
-          ],
-          [
-            "Final camera-ready version due",
-            "10 November 2026"
-          ],
-          [
-            "Workshop proposal due",
-            "1 June 2026"
           ],
           [
             "Workshop paper deadline",
@@ -37,10 +82,6 @@
             "19 October 2026"
           ],
           [
-            "Tutorial proposal deadline",
-            "1 October 2026"
-          ],
-          [
             "Tutorial material submission",
             "15 December 2026"
           ]
@@ -48,73 +89,74 @@
       }
     },
     {
-      "heading": "Submission Types",
+      "heading": "Late Submission Opportunities",
       "paragraphs": [
-        "IEEE SSCI 2027 plans to follow the recent IEEE SSCI submission structure, with multiple presentation pathways for different stages and types of work. Final details, submission links, and registration requirements will be confirmed before submissions open."
+        "IEEE SSCI 2027 offers several submission options for late-breaking research:"
       ],
+      "bullets": [
+        "Late-Breaking Papers: Submit an extended abstract of up to 2 pages to share preliminary research, ideas, or critiques, fostering interactive discussions.",
+        "Poster-Only Submissions: Submit a short abstract of up to 250 words to present early-stage concepts or challenges for constructive feedback.",
+        "Journal to Conference (J2C) Submissions: Provide a summary of up to 1 page for recent journal articles relevant to SSCI themes, promoting broader engagement with your research."
+      ]
+    },
+    {
+      "heading": "Paper Formats",
       "table": {
         "headers": [
-          "Type",
-          "Expected length",
-          "Proceedings policy"
+          "Type of Paper",
+          "Description",
+          "Length",
+          "Publication Format",
+          "Presentation Format"
         ],
         "rows": [
           [
-            "Full paper",
-            "Up to 6 pages, plus 1 page for references",
-            "Accepted and presented full papers are planned for submission to the IEEE conference proceedings and IEEE Xplore, subject to IEEE requirements."
+            "Full papers",
+            "Complete papers describing your novel research in full.",
+            "Up to 6 pages, plus 1 page for references. A maximum of two extra content pages per full paper is allowed, up to 8 pages plus 1 page for references, with an additional charge per extra page.",
+            "To be submitted for publication in the respective symposium proceedings.",
+            "Lightning talk and poster"
           ],
           [
-            "Short paper",
-            "Up to 4 pages, plus 1 page for references",
-            "Presentation/program track only; not planned for proceedings submission."
+            "Short papers",
+            "Papers with novel insights, approaches or ideas which may not have been fully tested yet.",
+            "Up to 4 pages, plus 1 page for references.",
+            "For presentation at the conference but not to be included in the proceedings.",
+            "Poster"
           ],
           [
-            "Late-breaking paper",
-            "Up to 2 pages, including references if any",
-            "Presentation/program track only; not planned for proceedings submission."
+            "Late breaking papers",
+            "Extended abstracts with a prequel to provoke novel conversations for future work or ideas to emerge, a sequel to a prior research contribution, a discussion that alerts the community to important topics, or a critique of existing methodologies.",
+            "Up to 2 pages, including references, if any.",
+            "For presentation at the conference but not to be included in the proceedings. The titles and author names of accepted late breaking papers will be listed on the IEEE SSCI 2027 website. Authors may link accepted papers from the SSCI page if they upload the paper to a preprint repository.",
+            "Poster"
           ],
           [
-            "Abstract-only poster",
-            "Up to 250 words",
-            "Poster presentation track only; not planned for proceedings submission."
+            "Abstract (poster-only) submissions",
+            "Abstracts may involve novel insights, new ideas that may not have been fully tested, or challenges posed by a domain that could benefit from computational intelligence.",
+            "Up to 250 words.",
+            "For presentation at the conference but not to be included in the proceedings. The titles and author names of accepted abstracts will be listed on the IEEE SSCI 2027 website.",
+            "Poster"
           ],
           [
-            "Journal-to-conference presentation",
-            "Up to 1 page summarizing highlights and relevance to SSCI",
-            "Presentation track for eligible recent journal papers; not planned for proceedings submission."
+            "Journal to conference (J2C) submissions",
+            "Papers accepted at IEEE Transactions journals sponsored by CIS and first appeared in IEEE Xplore within the past 2 years.",
+            "Up to 1 page listing highlights and explaining relevance to SSCI.",
+            "For presentation at the conference but not to be included in the conference proceedings.",
+            "Lightning talk and poster"
           ]
         ]
       }
     },
     {
-      "heading": "Originality, Eligibility, and Review",
       "paragraphs": [
-        "Full papers, short papers, and late-breaking papers should describe original work that has not been published elsewhere and is not under review elsewhere during the IEEE SSCI 2027 review period.",
-        "Abstract-only poster submissions and journal-to-conference presentation submissions should not have been previously presented, be under consideration for presentation, or be submitted for presentation at another conference, congress, symposium, or workshop during the IEEE SSCI 2027 review period.",
-        "Journal-to-conference presentations are intended for recent journal papers that are relevant to SSCI. The final eligibility window and journal scope will be confirmed in the official submission instructions.",
-        "Submissions will be checked for plagiarism. Authors should follow IEEE authorship, submission, and AI-generated text disclosure policies. No authorship changes are expected to be allowed after acceptance."
-      ]
-    },
-    {
-      "heading": "Formatting Requirements",
-      "paragraphs": [
-        "All paper-based submissions should use the IEEE conference proceedings template with 10-point body text. LaTeX users should use the IEEEtran conference class. Submissions that alter spacing, margins, font sizes, or other formatting rules may be rejected without review.",
-        "Full papers accepted for proceedings submission must be submitted in final camera-ready form by the camera-ready deadline, have the required registration completed, and be presented by an author at the conference."
-      ]
-    },
-    {
-      "heading": "Review Coordination",
-      "paragraphs": [
-        "Program Chairs will coordinate review standards across the symposia to support fairness, quality control, and timely review completion.",
-        "Workshop submissions may use a different deadline, but their review process is expected to use the same submission platform and compatible evaluation criteria. Workshop Chairs will coordinate reviewer assignment, acceptance recommendations, and notification procedures for their workshops.",
-        "Full papers will receive the most complete peer-review pathway because they are the only submission type planned for proceedings consideration. Other accepted submission types will support presentation, poster, discussion, and community-building activities without proceedings publication."
-      ]
-    },
-    {
-      "heading": "Open Science",
-      "paragraphs": [
-        "Authors of full papers are encouraged to make data, code, or supplementary materials available when possible. A short data/code availability statement may be requested during submission or camera-ready preparation."
+        "For more instructions on each kind of submission, including page limitations and submission format, please see the submission instructions."
+      ],
+      "bullets": [
+        {
+          "label": "Submission Instructions",
+          "href": "/submissions/instructions/"
+        }
       ]
     }
   ]

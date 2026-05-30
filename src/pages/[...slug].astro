@@ -9,6 +9,7 @@ import PageSections from '../components/PageSections.astro';
 import committees from '../data/committees.json';
 import speakers from '../data/speakers.json';
 import sponsors from '../data/sponsors.json';
+import heroImages from '../data/heroImages.json';
 
 interface PageData {
   slug: string;
@@ -37,11 +38,34 @@ const committee = page.kind === 'committee'
   ? committees.find((item) => item.slug === page.committeeSlug)
   : undefined;
 const isOrganizingCommitteePage = page.kind === 'committee' && page.committeeSlug === 'organizing-committee';
+const isSymposiaOverviewPage = page.slug === 'symposia';
+const isCallForPapersPage = page.slug === 'submissions/call-for-papers';
+const isSubmissionInstructionsPage = page.slug === 'submissions/instructions';
 const showPageHeading = !isOrganizingCommitteePage;
+const base = import.meta.env.BASE_URL;
+const cleanBase = base.endsWith('/') ? base.slice(0, -1) : base;
+const withBase = (href: string) => {
+  if (href.startsWith('http') || href.startsWith('mailto:')) return href;
+  if (href === '/') return base;
+  return `${cleanBase}${href}`;
+};
+const getSymposiaHeroImage = (slug: string) => {
+  if (!slug.startsWith('symposia/') || !heroImages.length) return undefined;
+  const seed = Array.from(slug).reduce((sum, char) => sum + char.charCodeAt(0), 0);
+  return heroImages[seed % heroImages.length];
+};
+const symposiaHeroImage = getSymposiaHeroImage(page.slug);
 ---
 
 <BaseLayout title={page.title} description={page.summary}>
-  <section class:list={['section', 'inner-page', isOrganizingCommitteePage && 'committee-page-section']}>
+  <section class:list={[
+    'section',
+    'inner-page',
+    isOrganizingCommitteePage && 'committee-page-section',
+    isSymposiaOverviewPage && 'symposia-overview-page',
+    isCallForPapersPage && 'call-for-papers-page',
+    isSubmissionInstructionsPage && 'submission-instructions-page',
+  ]}>
     <div class:list={['container', 'page-content', isOrganizingCommitteePage && 'committee-page-content']}>
       {showPageHeading && (
         <header class="content-page-heading">
@@ -49,6 +73,14 @@ const showPageHeading = !isOrganizingCommitteePage;
           <h1>{page.title}</h1>
           {page.summary && <p>{page.summary}</p>}
         </header>
+      )}
+      {symposiaHeroImage && (
+        <img
+          class="content-hero-image"
+          src={withBase(symposiaHeroImage.src)}
+          alt={symposiaHeroImage.alt}
+          loading="lazy"
+        />
       )}
       {isOrganizingCommitteePage && page.kind === 'committee' && committee ? (
         <>
@@ -75,9 +107,7 @@ const showPageHeading = !isOrganizingCommitteePage;
               <SponsorGrid sponsors={sponsors} />
             </>
           )}
-          {!page.sections?.length && page.kind === 'basic' && (
-            <EmptyState title="Content coming soon" text="This page is ready for confirmed conference information, links, images, and downloadable files." />
-          )}
+          {!page.sections?.length && page.kind === 'basic' && <EmptyState title="Information will be posted here." />}
         </>
       )}
     </div>

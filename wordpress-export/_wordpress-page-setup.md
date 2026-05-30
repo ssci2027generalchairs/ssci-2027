@@ -18,7 +18,8 @@ Create parent pages first, then child pages. The page title is for WordPress adm
 | Organizing Committee | organizing-committee | About | /about/organizing-committee/ | full-pages/about__organizing-committee.html |  |
 | SSCI Evaluation and Planning Committee | evaluation-and-planning-committee | About | /about/evaluation-and-planning-committee/ | full-pages/about__evaluation-and-planning-committee.html |  |
 | Contact Us | contact | About | /about/contact/ | full-pages/about__contact.html |  |
-| Call for Papers and Abstracts | call-for-papers | Submissions | /submissions/call-for-papers/ | full-pages/submissions__call-for-papers.html |  |
+| Call For Papers and Other Submissions | call-for-papers | Submissions | /submissions/call-for-papers/ | full-pages/submissions__call-for-papers.html |  |
+| Submission Instructions | instructions | Submissions | /submissions/instructions/ | full-pages/submissions__instructions.html |  |
 | Symposia Overview | symposia | - | /symposia/ | full-pages/symposia.html |  |
 | 2027 IEEE Symposium on CI for Energy, Transport and Environmental Sustainability (IEEE CIETES) | energy-transport-environment | Symposia | /symposia/energy-transport-environment/ | full-pages/symposia__energy-transport-environment.html |  |
 | 2027 IEEE Symposium on CI in Engineering / Cyber Physical Systems (IEEE CIES) | engineering-cyber-physical-systems | Symposia | /symposia/engineering-cyber-physical-systems/ | full-pages/symposia__engineering-cyber-physical-systems.html |  |

@@ -1,7 +1,7 @@
 {
   "slug": "symposia",
   "title": "Symposia Overview",
-  "summary": "IEEE SSCI 2027 consists of 10 proposed symposia and multidisciplinary computational intelligence incubator special sessions.",
+  "summary": "IEEE SSCI 2027 consists of 10 symposia and multidisciplinary computational intelligence incubator special sessions.",
   "kind": "basic",
   "sections": [
     {
@@ -52,6 +52,7 @@
       ]
     },
     {
+      "heading": "Special Sessions under IEEE MCII",
       "bullets": [
         {
           "label": "Special Session in CI in Archeology",
