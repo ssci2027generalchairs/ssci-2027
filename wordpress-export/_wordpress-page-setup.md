@@ -16,7 +16,6 @@ Create parent pages first, then child pages. The page title is for WordPress adm
 | --- | --- | --- | --- | --- | --- |
 | IEEE SSCI 2027 | home | - | / | full-pages/home.html | Set this published page as the static homepage in Settings > Reading. |
 | Organizing Committee | organizing-committee | About | /about/organizing-committee/ | full-pages/about__organizing-committee.html |  |
-| SSCI Evaluation and Planning Committee | evaluation-and-planning-committee | About | /about/evaluation-and-planning-committee/ | full-pages/about__evaluation-and-planning-committee.html |  |
 | Contact Us | contact | About | /about/contact/ | full-pages/about__contact.html |  |
 | Call For Papers and Other Submissions | call-for-papers | Submissions | /submissions/call-for-papers/ | full-pages/submissions__call-for-papers.html |  |
 | Submission Instructions | instructions | Submissions | /submissions/instructions/ | full-pages/submissions__instructions.html |  |
