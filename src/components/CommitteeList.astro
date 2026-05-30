@@ -62,7 +62,6 @@ const roleHeading = (role: string) => role.endsWith('Chair') ? `${role}s` : role
                 <h3>{member.name}</h3>
                 <p class="member-title">{member.role}</p>
                 {member.affiliation && <p class="member-uni">{member.affiliation}</p>}
-                {member.email && <a href={`mailto:${member.email}`}>{member.email}</a>}
                 {member.note && <small>{member.note}</small>}
               </article>
             ))}
@@ -78,7 +77,6 @@ const roleHeading = (role: string) => role.endsWith('Chair') ? `${role}s` : role
                 <li>
                   <strong class="organizers-names">{member.name}</strong>
                   {member.affiliation && <span>, {member.affiliation}</span>}
-                  {member.email && <><br /><a href={`mailto:${member.email}`}>{member.email}</a></>}
                   {member.status && <><br /><em>{member.status}</em></>}
                   {member.note && <><br /><small>{member.note}</small></>}
                 </li>
@@ -105,7 +103,6 @@ const roleHeading = (role: string) => role.endsWith('Chair') ? `${role}s` : role
                 </div>
                 <h4>{member.name}</h4>
                 {member.affiliation && <span>{member.affiliation}</span>}
-                {member.email && <a href={`mailto:${member.email}`}>{member.email}</a>}
                 {member.status && <em>{member.status}</em>}
                 {member.note && <small>{member.note}</small>}
               </article>

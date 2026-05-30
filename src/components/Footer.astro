@@ -1,14 +1,14 @@
 ---
 import site from '../data/site.json';
-import navigation from '../data/navigation.json';
 
 const base = import.meta.env.BASE_URL;
 const cleanBase = base.endsWith('/') ? base.slice(0, -1) : base;
 const withBase = (href: string) => href === '/' ? base : `${cleanBase}${href}`;
-const quickLinks = navigation
-  .filter((item: typeof navigation[number] & { hidden?: boolean }) => !item.hidden)
-  .flatMap((item) => item.href ? [item] : item.items || [])
-  .slice(0, 8);
+const quickLinks = [
+  { label: 'Home', href: '/' },
+  { label: 'Call for Papers', href: '/submissions/call-for-papers/' },
+  { label: 'Symposia Overview', href: '/symposia/' },
+];
 ---
 
 <footer class="site-footer">

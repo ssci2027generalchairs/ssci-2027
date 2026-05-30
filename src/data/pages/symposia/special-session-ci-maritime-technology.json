@@ -1,0 +1,44 @@
+{
+  "slug": "symposia/special-session-ci-maritime-technology",
+  "title": "Special Session in CI in Maritime Technology",
+  "summary": "This MCII special session focuses on computational intelligence for maritime systems, autonomous vessels, ocean data, and marine decision support.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Parent Symposium",
+      "bullets": [
+        {
+          "label": "2027 IEEE Symposium for Multidisciplinary Computational Intelligence Incubators (IEEE MCII)",
+          "href": "/symposia/multidisciplinary-incubators/"
+        }
+      ]
+    },
+    {
+      "heading": "Session Chairs",
+      "bullets": [
+        "Chenxi Huang, Xiamen University",
+        "Shi Zeyu, Marine Design & Research Institute of China",
+        "Yang Meng, Hanjiang National Laboratory"
+      ]
+    },
+    {
+      "heading": "Topics of Interest",
+      "paragraphs": [
+        "Topics of interest include, but are not limited to:"
+      ],
+      "bullets": [
+        "Underwater technology research.",
+        "Underwater robotics and exploration.",
+        "Electric ships.",
+        "Autonomous ship navigation.",
+        "Intelligent ship design and optimization.",
+        "Vessel performance optimization.",
+        "Marine traffic management systems.",
+        "Marine renewable energy systems.",
+        "Ocean data analysis and prediction.",
+        "Maritime risk assessment and decision support.",
+        "Marine environmental monitoring and conservation."
+      ]
+    }
+  ]
+}

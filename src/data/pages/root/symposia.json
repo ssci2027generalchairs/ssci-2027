@@ -53,13 +53,34 @@
     },
     {
       "bullets": [
-        "Special Session in CI in Archeology",
-        "Special Session for CI in Non-Traditional Computation Technologies",
-        "Special Session in CI in Aerospace Applications",
-        "Special Session in CI in Agricultural Sciences and Agroforestry",
-        "Special Session in CI in Neuroscience",
-        "Special Session in CI in Search-based Software Engineering",
-        "Special Session in CI in Maritime Technology"
+        {
+          "label": "Special Session in CI in Archeology",
+          "href": "/symposia/special-session-ci-archeology/"
+        },
+        {
+          "label": "Special Session for CI in Non-Traditional Computation Technologies",
+          "href": "/symposia/special-session-ci-non-traditional-computation-technologies/"
+        },
+        {
+          "label": "Special Session in CI in Aerospace Applications",
+          "href": "/symposia/special-session-ci-aerospace-applications/"
+        },
+        {
+          "label": "Special Session in CI in Agricultural Sciences and Agroforestry",
+          "href": "/symposia/special-session-ci-agricultural-sciences-agroforestry/"
+        },
+        {
+          "label": "Special Session in CI in Neuroscience",
+          "href": "/symposia/special-session-ci-neuroscience/"
+        },
+        {
+          "label": "Special Session in CI in Search-based Software Engineering",
+          "href": "/symposia/special-session-ci-search-based-software-engineering/"
+        },
+        {
+          "label": "Special Session in CI in Maritime Technology",
+          "href": "/symposia/special-session-ci-maritime-technology/"
+        }
       ]
     }
   ]

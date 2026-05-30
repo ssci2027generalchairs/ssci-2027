@@ -1,0 +1,170 @@
+[
+  {
+    "title": "IEEE SSCI 2027",
+    "slug": "home",
+    "wordpressPath": "/",
+    "file": "full-pages/home.html",
+    "kind": "basic"
+  },
+  {
+    "title": "Organizing Committee",
+    "slug": "about/organizing-committee",
+    "wordpressPath": "/about/organizing-committee/",
+    "file": "full-pages/about__organizing-committee.html",
+    "kind": "committee"
+  },
+  {
+    "title": "SSCI Evaluation and Planning Committee",
+    "slug": "about/evaluation-and-planning-committee",
+    "wordpressPath": "/about/evaluation-and-planning-committee/",
+    "file": "full-pages/about__evaluation-and-planning-committee.html",
+    "kind": "basic"
+  },
+  {
+    "title": "Contact Us",
+    "slug": "about/contact",
+    "wordpressPath": "/about/contact/",
+    "file": "full-pages/about__contact.html",
+    "kind": "basic"
+  },
+  {
+    "title": "Call for Papers and Abstracts",
+    "slug": "submissions/call-for-papers",
+    "wordpressPath": "/submissions/call-for-papers/",
+    "file": "full-pages/submissions__call-for-papers.html",
+    "kind": "basic"
+  },
+  {
+    "title": "Symposia Overview",
+    "slug": "symposia",
+    "wordpressPath": "/symposia/",
+    "file": "full-pages/symposia.html",
+    "kind": "basic"
+  },
+  {
+    "title": "2027 IEEE Symposium on CI for Energy, Transport and Environmental Sustainability (IEEE CIETES)",
+    "slug": "symposia/energy-transport-environment",
+    "wordpressPath": "/symposia/energy-transport-environment/",
+    "file": "full-pages/symposia__energy-transport-environment.html",
+    "kind": "basic"
+  },
+  {
+    "title": "2027 IEEE Symposium on CI in Engineering / Cyber Physical Systems (IEEE CIES)",
+    "slug": "symposia/engineering-cyber-physical-systems",
+    "wordpressPath": "/symposia/engineering-cyber-physical-systems/",
+    "file": "full-pages/symposia__engineering-cyber-physical-systems.html",
+    "kind": "basic"
+  },
+  {
+    "title": "2027 IEEE Symposium on CI in Image, Signal Processing and Synthetic Media (IEEE CISM)",
+    "slug": "symposia/image-signal-synthetic-media",
+    "wordpressPath": "/symposia/image-signal-synthetic-media/",
+    "file": "full-pages/symposia__image-signal-synthetic-media.html",
+    "kind": "basic"
+  },
+  {
+    "title": "2027 IEEE Symposium on CI in Artificial Life and Cooperative Intelligent Systems (IEEE ALIFE-CIS)",
+    "slug": "symposia/artificial-life-cooperative-systems",
+    "wordpressPath": "/symposia/artificial-life-cooperative-systems/",
+    "file": "full-pages/symposia__artificial-life-cooperative-systems.html",
+    "kind": "basic"
+  },
+  {
+    "title": "2027 IEEE Symposium on CI in Security, Defence and Biometrics (IEEE CISDB)",
+    "slug": "symposia/security-defence-biometrics",
+    "wordpressPath": "/symposia/security-defence-biometrics/",
+    "file": "full-pages/symposia__security-defence-biometrics.html",
+    "kind": "basic"
+  },
+  {
+    "title": "2027 IEEE Symposium on CI in Health and Medicine (IEEE CIHM)",
+    "slug": "symposia/health-medicine",
+    "wordpressPath": "/symposia/health-medicine/",
+    "file": "full-pages/symposia__health-medicine.html",
+    "kind": "basic"
+  },
+  {
+    "title": "2027 IEEE Symposium on CI for Financial Engineering and Economics (IEEE CiFer)",
+    "slug": "symposia/financial-engineering-economics",
+    "wordpressPath": "/symposia/financial-engineering-economics/",
+    "file": "full-pages/symposia__financial-engineering-economics.html",
+    "kind": "basic"
+  },
+  {
+    "title": "2027 IEEE Symposium on CI in Natural Language Processing and Social Media (IEEE CI-NLPSoMe)",
+    "slug": "symposia/nlp-social-media",
+    "wordpressPath": "/symposia/nlp-social-media/",
+    "file": "full-pages/symposia__nlp-social-media.html",
+    "kind": "basic"
+  },
+  {
+    "title": "2027 IEEE Symposium on Trustworthy, Explainable and Responsible CI (IEEE CITREx)",
+    "slug": "symposia/trustworthy-explainable-responsible-ci",
+    "wordpressPath": "/symposia/trustworthy-explainable-responsible-ci/",
+    "file": "full-pages/symposia__trustworthy-explainable-responsible-ci.html",
+    "kind": "basic"
+  },
+  {
+    "title": "2027 IEEE Symposium for Multidisciplinary Computational Intelligence Incubators (IEEE MCII)",
+    "slug": "symposia/multidisciplinary-incubators",
+    "wordpressPath": "/symposia/multidisciplinary-incubators/",
+    "file": "full-pages/symposia__multidisciplinary-incubators.html",
+    "kind": "basic"
+  },
+  {
+    "title": "Special Session in CI in Archeology",
+    "slug": "symposia/special-session-ci-archeology",
+    "wordpressPath": "/symposia/special-session-ci-archeology/",
+    "file": "full-pages/symposia__special-session-ci-archeology.html",
+    "kind": "basic"
+  },
+  {
+    "title": "Special Session for CI in Non-Traditional Computation Technologies",
+    "slug": "symposia/special-session-ci-non-traditional-computation-technologies",
+    "wordpressPath": "/symposia/special-session-ci-non-traditional-computation-technologies/",
+    "file": "full-pages/symposia__special-session-ci-non-traditional-computation-technologies.html",
+    "kind": "basic"
+  },
+  {
+    "title": "Special Session in CI in Aerospace Applications",
+    "slug": "symposia/special-session-ci-aerospace-applications",
+    "wordpressPath": "/symposia/special-session-ci-aerospace-applications/",
+    "file": "full-pages/symposia__special-session-ci-aerospace-applications.html",
+    "kind": "basic"
+  },
+  {
+    "title": "Special Session in CI in Agricultural Sciences and Agroforestry",
+    "slug": "symposia/special-session-ci-agricultural-sciences-agroforestry",
+    "wordpressPath": "/symposia/special-session-ci-agricultural-sciences-agroforestry/",
+    "file": "full-pages/symposia__special-session-ci-agricultural-sciences-agroforestry.html",
+    "kind": "basic"
+  },
+  {
+    "title": "Special Session in CI in Neuroscience",
+    "slug": "symposia/special-session-ci-neuroscience",
+    "wordpressPath": "/symposia/special-session-ci-neuroscience/",
+    "file": "full-pages/symposia__special-session-ci-neuroscience.html",
+    "kind": "basic"
+  },
+  {
+    "title": "Special Session in CI in Search-based Software Engineering",
+    "slug": "symposia/special-session-ci-search-based-software-engineering",
+    "wordpressPath": "/symposia/special-session-ci-search-based-software-engineering/",
+    "file": "full-pages/symposia__special-session-ci-search-based-software-engineering.html",
+    "kind": "basic"
+  },
+  {
+    "title": "Special Session in CI in Maritime Technology",
+    "slug": "symposia/special-session-ci-maritime-technology",
+    "wordpressPath": "/symposia/special-session-ci-maritime-technology/",
+    "file": "full-pages/symposia__special-session-ci-maritime-technology.html",
+    "kind": "basic"
+  },
+  {
+    "title": "Call for Sponsors",
+    "slug": "sponsors/call-for-sponsors",
+    "wordpressPath": "/sponsors/call-for-sponsors/",
+    "file": "full-pages/sponsors__call-for-sponsors.html",
+    "kind": "basic"
+  }
+]

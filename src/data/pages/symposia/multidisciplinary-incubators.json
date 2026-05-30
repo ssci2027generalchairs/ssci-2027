@@ -7,20 +7,41 @@
     {
       "heading": "Symposium Chairs",
       "bullets": [
-        "Fenglei Fan - fenglfan@cityu.edu.hk, City University of Hong Kong",
-        "Min Jiang - minjiang@xmu.edu.cn, Xiamen University"
+        "Fenglei Fan, City University of Hong Kong",
+        "Min Jiang, Xiamen University"
       ]
     },
     {
       "heading": "Special Sessions",
       "bullets": [
-        "Special Session in CI in Archeology",
-        "Special Session for CI in Non-Traditional Computation Technologies",
-        "Special Session in CI in Aerospace Applications",
-        "Special Session in CI in Agricultural Sciences and Agroforestry",
-        "Special Session in CI in Neuroscience",
-        "Special Session in CI in Search-based Software Engineering",
-        "Special Session in CI in Maritime Technology"
+        {
+          "label": "Special Session in CI in Archeology",
+          "href": "/symposia/special-session-ci-archeology/"
+        },
+        {
+          "label": "Special Session for CI in Non-Traditional Computation Technologies",
+          "href": "/symposia/special-session-ci-non-traditional-computation-technologies/"
+        },
+        {
+          "label": "Special Session in CI in Aerospace Applications",
+          "href": "/symposia/special-session-ci-aerospace-applications/"
+        },
+        {
+          "label": "Special Session in CI in Agricultural Sciences and Agroforestry",
+          "href": "/symposia/special-session-ci-agricultural-sciences-agroforestry/"
+        },
+        {
+          "label": "Special Session in CI in Neuroscience",
+          "href": "/symposia/special-session-ci-neuroscience/"
+        },
+        {
+          "label": "Special Session in CI in Search-based Software Engineering",
+          "href": "/symposia/special-session-ci-search-based-software-engineering/"
+        },
+        {
+          "label": "Special Session in CI in Maritime Technology",
+          "href": "/symposia/special-session-ci-maritime-technology/"
+        }
       ]
     },
     {
@@ -39,7 +60,7 @@
     {
       "heading": "Special Session in CI in Archeology",
       "paragraphs": [
-        "Session Chairs: Prof. Zhichun Jing - jingzh@mail.ubc.ca, University of British Columbia; Prof. Qingyue Yang - yangqy@cass.org.cn, Chinese Academy of Social Sciences"
+        "Session Chairs: Prof. Zhichun Jing, University of British Columbia; Prof. Qingyue Yang, Chinese Academy of Social Sciences"
       ],
       "bullets": [
         "Interpreting and explaining cultural heritage.",
@@ -104,7 +125,7 @@
     {
       "heading": "Special Session in CI in Neuroscience",
       "paragraphs": [
-        "Session Chairs: Chair: Imad Rida, Universit\u00e9 de Technologie de Compi\u00e8gne, France"
+        "Session Chairs: Chair: Imad Rida, Université de Technologie de Compiègne, France"
       ],
       "bullets": [
         "Neurorehabilitation.",

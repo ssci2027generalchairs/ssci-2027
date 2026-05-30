@@ -42,25 +42,28 @@ const isActive = (href: string) => {
 
     <nav class="primary-nav" aria-label="Primary navigation">
       <ul>
-        {visibleNavigation.map((item) => (
-          <li class:list={['nav-item', item.items && 'has-menu']}>
-            {item.href ? (
-              <a class:list={[isActive(item.href) && 'active']} href={withBase(item.href)}>{item.label}</a>
-            ) : (
-              <>
-                <button type="button" class:list={[item.items?.some((child) => isActive(child.href)) && 'active']}>
-                  {item.label}
-                  <span aria-hidden="true">⌄</span>
-                </button>
+        {visibleNavigation.map((item) => {
+          const children = item.items || [];
+          const parentHref = item.href || children[0]?.href || '/';
+          const active = item.href
+            ? isActive(item.href)
+            : children.some((child) => isActive(child.href));
+
+          return (
+            <li class:list={['nav-item', children.length && 'has-menu']}>
+              <a class:list={[active && 'active']} href={withBase(parentHref)} aria-haspopup={children.length ? 'true' : undefined}>
+                {item.label}
+              </a>
+              {children.length ? (
                 <ul class="dropdown">
-                  {item.items?.map((child) => (
+                  {children.map((child) => (
                     <li><a class:list={[isActive(child.href) && 'active']} href={withBase(child.href)}>{child.label}</a></li>
                   ))}
                 </ul>
-              </>
-            )}
-          </li>
-        ))}
+              ) : null}
+            </li>
+          );
+        })}
       </ul>
     </nav>
   </div>

@@ -1,7 +1,7 @@
 {
   "slug": "submissions/call-for-papers",
   "title": "Call for Papers and Abstracts",
-  "summary": "IEEE SSCI 2027 will invite full papers, short papers, late-breaking work, abstracts, and journal-to-conference submissions.",
+  "summary": "IEEE SSCI 2027 will invite full papers, short papers, late-breaking work, poster abstracts, and journal-to-conference presentations, with only accepted full papers planned for IEEE proceedings submission.",
   "kind": "basic",
   "sections": [
     {
@@ -48,17 +48,73 @@
       }
     },
     {
-      "heading": "Submission & Review Format",
+      "heading": "Submission Types",
       "paragraphs": [
-        "Following recent IEEE SSCI practice, the program is expected to call for full papers, short papers, late-breaking papers, abstract-only submissions, and journal-to-conference conversions across the conference symposia.",
-        "The review process is planned to use a centralized conference management system such as CMT3 or EasyChair. Full papers will follow a rigorous double-blind peer-review process with common review guidelines, standardized evaluation criteria, and coordinated acceptance thresholds across symposia."
+        "IEEE SSCI 2027 plans to follow the recent IEEE SSCI submission structure, with multiple presentation pathways for different stages and types of work. Final details, submission links, and registration requirements will be confirmed before submissions open."
+      ],
+      "table": {
+        "headers": [
+          "Type",
+          "Expected length",
+          "Proceedings policy"
+        ],
+        "rows": [
+          [
+            "Full paper",
+            "Up to 6 pages, plus 1 page for references",
+            "Accepted and presented full papers are planned for submission to the IEEE conference proceedings and IEEE Xplore, subject to IEEE requirements."
+          ],
+          [
+            "Short paper",
+            "Up to 4 pages, plus 1 page for references",
+            "Presentation/program track only; not planned for proceedings submission."
+          ],
+          [
+            "Late-breaking paper",
+            "Up to 2 pages, including references if any",
+            "Presentation/program track only; not planned for proceedings submission."
+          ],
+          [
+            "Abstract-only poster",
+            "Up to 250 words",
+            "Poster presentation track only; not planned for proceedings submission."
+          ],
+          [
+            "Journal-to-conference presentation",
+            "Up to 1 page summarizing highlights and relevance to SSCI",
+            "Presentation track for eligible recent journal papers; not planned for proceedings submission."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Originality, Eligibility, and Review",
+      "paragraphs": [
+        "Full papers, short papers, and late-breaking papers should describe original work that has not been published elsewhere and is not under review elsewhere during the IEEE SSCI 2027 review period.",
+        "Abstract-only poster submissions and journal-to-conference presentation submissions should not have been previously presented, be under consideration for presentation, or be submitted for presentation at another conference, congress, symposium, or workshop during the IEEE SSCI 2027 review period.",
+        "Journal-to-conference presentations are intended for recent journal papers that are relevant to SSCI. The final eligibility window and journal scope will be confirmed in the official submission instructions.",
+        "Submissions will be checked for plagiarism. Authors should follow IEEE authorship, submission, and AI-generated text disclosure policies. No authorship changes are expected to be allowed after acceptance."
       ]
     },
     {
-      "heading": "Paper Review Coordination",
+      "heading": "Formatting Requirements",
       "paragraphs": [
-        "Program Chairs will oversee the review process across all tracks to ensure fairness, quality control, and timely completion of reviews.",
-        "Workshops will use a different submission deadline, but their review workflow is planned to be hosted on the same platform and follow the same review criteria. Workshop Chairs will be responsible for setting up the workshop review process within the same system, ensuring consistency in reviewer assignment, evaluation standards, and notification procedures."
+        "All paper-based submissions should use the IEEE conference proceedings template with 10-point body text. LaTeX users should use the IEEEtran conference class. Submissions that alter spacing, margins, font sizes, or other formatting rules may be rejected without review.",
+        "Full papers accepted for proceedings submission must be submitted in final camera-ready form by the camera-ready deadline, have the required registration completed, and be presented by an author at the conference."
+      ]
+    },
+    {
+      "heading": "Review Coordination",
+      "paragraphs": [
+        "Program Chairs will coordinate review standards across the symposia to support fairness, quality control, and timely review completion.",
+        "Workshop submissions may use a different deadline, but their review process is expected to use the same submission platform and compatible evaluation criteria. Workshop Chairs will coordinate reviewer assignment, acceptance recommendations, and notification procedures for their workshops.",
+        "Full papers will receive the most complete peer-review pathway because they are the only submission type planned for proceedings consideration. Other accepted submission types will support presentation, poster, discussion, and community-building activities without proceedings publication."
+      ]
+    },
+    {
+      "heading": "Open Science",
+      "paragraphs": [
+        "Authors of full papers are encouraged to make data, code, or supplementary materials available when possible. A short data/code availability statement may be requested during submission or camera-ready preparation."
       ]
     }
   ]

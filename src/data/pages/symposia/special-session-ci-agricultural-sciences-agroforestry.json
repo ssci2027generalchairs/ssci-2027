@@ -1,0 +1,43 @@
+{
+  "slug": "symposia/special-session-ci-agricultural-sciences-agroforestry",
+  "title": "Special Session in CI in Agricultural Sciences and Agroforestry",
+  "summary": "This MCII special session focuses on computational intelligence for agriculture, agroforestry, environmental sensing, and climate-aware farm management.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Parent Symposium",
+      "bullets": [
+        {
+          "label": "2027 IEEE Symposium for Multidisciplinary Computational Intelligence Incubators (IEEE MCII)",
+          "href": "/symposia/multidisciplinary-incubators/"
+        }
+      ]
+    },
+    {
+      "heading": "Session Chairs",
+      "bullets": [
+        "Weifeng Gao, Xidian University",
+        "Yannan Sun, Sichuan University"
+      ]
+    },
+    {
+      "heading": "Topics of Interest",
+      "paragraphs": [
+        "Topics of interest include, but are not limited to:"
+      ],
+      "bullets": [
+        "Weed control, pesticides or fungicides application, disease identification.",
+        "Soil health monitoring and management.",
+        "Enhance carbon sequestration and improve crop management.",
+        "Precision agriculture and CI.",
+        "Crop yield prediction models and algorithms.",
+        "Agroforestry system design and optimization.",
+        "Smart irrigation systems.",
+        "Climate change adaptation strategies.",
+        "Multi-Criteria Decision Making in agroforestry.",
+        "Remote sensing applications in agroforestry.",
+        "Farm management systems integration."
+      ]
+    }
+  ]
+}

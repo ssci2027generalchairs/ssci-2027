@@ -1,0 +1,43 @@
+{
+  "slug": "symposia/special-session-ci-aerospace-applications",
+  "title": "Special Session in CI in Aerospace Applications",
+  "summary": "This MCII special session focuses on computational intelligence for aerospace systems, missions, vehicles, and autonomous space operations.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Parent Symposium",
+      "bullets": [
+        {
+          "label": "2027 IEEE Symposium for Multidisciplinary Computational Intelligence Incubators (IEEE MCII)",
+          "href": "/symposia/multidisciplinary-incubators/"
+        }
+      ]
+    },
+    {
+      "heading": "Session Chairs",
+      "bullets": [
+        "Weineng Chen, South China University of Technology",
+        "Chunxue Liu, Beijing Microelectronics Technology Institute",
+        "Feng-Feng Wei, South China University of Technology"
+      ]
+    },
+    {
+      "heading": "Topics of Interest",
+      "paragraphs": [
+        "Topics of interest include, but are not limited to:"
+      ],
+      "bullets": [
+        "Planning and scheduling for autonomous systems in space.",
+        "Advances in CI for aerospace applications.",
+        "Intelligent search and optimization methods in aerospace applications.",
+        "Optimal control of aircraft, UAVs, spacecraft or rovers.",
+        "Autonomous spacecraft navigation.",
+        "Space situational awareness and collision avoidance.",
+        "Optimization of space mission trajectories.",
+        "CI for satellite constellations.",
+        "CI design of spacecraft components.",
+        "Cognitive systems for human spaceflight."
+      ]
+    }
+  ]
+}

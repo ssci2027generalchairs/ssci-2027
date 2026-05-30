@@ -4,17 +4,5 @@
   "summary": "Current organizing roles and committee appointments from the IEEE SSCI 2027 proposal draft.",
   "kind": "committee",
   "committeeSlug": "organizing-committee",
-  "sections": [
-    {
-      "paragraphs": [
-        "The organizing committee is being developed around Griffith University, University of Technology Sydney, and partner institutions. Roles, affiliations, email addresses, IEEE membership notes, and invitation status are shown where they are provided in the current proposal draft."
-      ]
-    },
-    {
-      "heading": "Conference Organizers",
-      "paragraphs": [
-        "The current proposal draft now lists named chairs for conflict of interest and journal-to-conference coordination. Poster Session Chair remains to be confirmed and is associated with the 250-word abstract submission pathway."
-      ]
-    }
-  ]
+  "sections": []
 }

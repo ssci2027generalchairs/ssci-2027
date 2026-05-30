@@ -1,0 +1,44 @@
+{
+  "slug": "symposia/special-session-ci-neuroscience",
+  "title": "Special Session in CI in Neuroscience",
+  "summary": "This MCII special session focuses on computational intelligence for neuroscience, neurorehabilitation, brain-computer interfaces, and neural data analysis.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Parent Symposium",
+      "bullets": [
+        {
+          "label": "2027 IEEE Symposium for Multidisciplinary Computational Intelligence Incubators (IEEE MCII)",
+          "href": "/symposia/multidisciplinary-incubators/"
+        }
+      ]
+    },
+    {
+      "heading": "Session Chair",
+      "bullets": [
+        "Imad Rida, Université de Technologie de Compiègne, France"
+      ]
+    },
+    {
+      "heading": "Topics of Interest",
+      "paragraphs": [
+        "Topics of interest include, but are not limited to:"
+      ],
+      "bullets": [
+        "Neurorehabilitation.",
+        "Neurorobotics.",
+        "Applied consumer neuroscience.",
+        "Brain-Computer Interfaces (BCIs).",
+        "Neural data analysis and modeling.",
+        "Computational neurostimulation.",
+        "Neuroimaging pattern recognition.",
+        "Computational Psychiatry.",
+        "Cognitive computational Neuroscience.",
+        "Brain network analysis.",
+        "Neuroevolutionary algorithms.",
+        "Computational neuropsychology.",
+        "Brain-Inspired computing."
+      ]
+    }
+  ]
+}

@@ -7,7 +7,10 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "ssci": "node scripts/ssci-site.mjs",
+    "update:pdf": "node scripts/ssci-site.mjs pdf-update",
     "export:wordpress": "node scripts/export-wordpress-html.mjs",
+    "export:wordpress:zip": "node scripts/ssci-site.mjs export-wordpress --zip",
     "check": "astro check"
   },
   "dependencies": {

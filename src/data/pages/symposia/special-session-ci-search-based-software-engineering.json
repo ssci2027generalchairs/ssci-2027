@@ -1,0 +1,38 @@
+{
+  "slug": "symposia/special-session-ci-search-based-software-engineering",
+  "title": "Special Session in CI in Search-based Software Engineering",
+  "summary": "This MCII special session focuses on computational intelligence and search-based methods for software engineering problems.",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Parent Symposium",
+      "bullets": [
+        {
+          "label": "2027 IEEE Symposium for Multidisciplinary Computational Intelligence Incubators (IEEE MCII)",
+          "href": "/symposia/multidisciplinary-incubators/"
+        }
+      ]
+    },
+    {
+      "heading": "Session Chairs",
+      "bullets": [
+        "Chunqiang Hu, Chongqing University",
+        "Hui Xia, Ocean University of China"
+      ]
+    },
+    {
+      "heading": "Topics of Interest",
+      "paragraphs": [
+        "Topics of interest include, but are not limited to:"
+      ],
+      "bullets": [
+        "Search based software testing.",
+        "Search-based software optimization.",
+        "Software maintenance.",
+        "Software project scheduling.",
+        "Software design.",
+        "Software configuration."
+      ]
+    }
+  ]
+}
