@@ -40,12 +40,6 @@
         "photo": ""
       },
       {
-        "role": "Plenary and Keynote Chair",
-        "name": "Yang Xiang",
-        "affiliation": "",
-        "photo": ""
-      },
-      {
         "role": "Tutorial Chair",
         "name": "M. Tanveer",
         "affiliation": "Indian Institute of Technology Indore",
@@ -58,9 +52,9 @@
         "photo": ""
       },
       {
-        "role": "Poster Session Chair",
-        "name": "Yanming Zhu",
-        "affiliation": "",
+        "role": "Publicity Chair",
+        "name": "Jun Shen",
+        "affiliation": "University of Wollongong",
         "photo": ""
       },
       {
@@ -130,12 +124,6 @@
         "photo": ""
       },
       {
-        "role": "Collaboration and Engagement Chair",
-        "name": "Andy Song",
-        "affiliation": "",
-        "photo": ""
-      },
-      {
         "role": "Conflict of Interest Chair",
         "name": "Ponnuthurai Nagaratnam Suganthan",
         "affiliation": "Qatar University",
@@ -144,6 +132,12 @@
       {
         "role": "Journal-to-Conference Chair",
         "name": "He Zhang",
+        "affiliation": "Griffith University",
+        "photo": ""
+      },
+      {
+        "role": "Poster Session Chair",
+        "name": "Yanming Zhu",
         "affiliation": "Griffith University",
         "photo": ""
       },
@@ -157,12 +151,6 @@
         "role": "Registration Chair",
         "name": "Ryan Zhou",
         "affiliation": "",
-        "photo": ""
-      },
-      {
-        "role": "Publicity Chair",
-        "name": "Jun Shen",
-        "affiliation": "University of Wollongong",
         "photo": ""
       },
       {

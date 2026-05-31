@@ -12,18 +12,6 @@
     "date": "10 November 2026"
   },
   {
-    "label": "Workshop proposal due",
-    "date": "1 June 2026"
-  },
-  {
-    "label": "Workshop paper deadline",
-    "date": "15 August 2026"
-  },
-  {
-    "label": "Workshop paper acceptance notification",
-    "date": "26 October 2026"
-  },
-  {
     "label": "Competitions proposal submission",
     "date": "2 August 2026"
   },
@@ -42,13 +30,5 @@
   {
     "label": "Tutorial acceptance notification",
     "date": "30 October 2026"
-  },
-  {
-    "label": "Tutorial material submission",
-    "date": "15 December 2026"
-  },
-  {
-    "label": "Conference dates",
-    "date": "14-17 February 2027"
   }
 ]

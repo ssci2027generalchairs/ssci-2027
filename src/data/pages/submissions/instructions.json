@@ -8,7 +8,7 @@
       "heading": "Submission Link",
       "paragraphs": [
         "Full and short paper submissions should be made through the IEEE SSCI 2027 online submission system.",
-        "You can access the CMT submission site <a href=\"https://cmt3.research.microsoft.com/IEEESSCI2027\" target=\"_blank\">here</a>.",
+        "You can access the submission site [Will be released later].",
         "The deadline for full and short paper submissions is 10 August 2026.",
         "Submissions for late breaking papers, abstract (poster-only) and journal to conference presentation (J2C) submissions are also welcome."
       ]
@@ -27,7 +27,7 @@
         "You must respect the page limitation for the respective paper type (see limitation in the section below).",
         "All papers must be submitted through the IEEE SSCI 2027 online submission system.",
         "For full or short papers, please add a statement about data/code sharing following the instructions below.",
-        "For a paper to be included in the symposium program, in the proceedings and in IEEE Xplore, final accepted papers must be submitted by the camera-ready deadline, the corresponding registration fees must be paid by the early registration deadline, and the paper must presented by at least one author at the required time slots at the conference. For information on the rules for author registration (e.g., how many papers a single author registration can cover, or the type of required registration), please refer to the <a href=\"/registration/\">registration</a> page. For more information on the presentation format, please refer to this <a href=\"/submissions/presentation-format/\">link</a>."
+        "For a paper to be included in the symposium program, in the proceedings and in IEEE Xplore, final accepted papers must be submitted by the camera-ready deadline, the corresponding registration fees must be paid by the early registration deadline, and the paper must presented by at least one author at the required time slots at the conference."
       ]
     },
     {
@@ -37,7 +37,7 @@
         "The page limitations are as follows:"
       ],
       "bullets": [
-        "<b>Full papers:</b> papers of up to 6 pages, plus 1 page for references. A maximum of two extra content pages per full paper is allowed (i.e, up to 8 pages plus 1 page for references), at an additional charge per extra page as specified in the <a href=\"/registration/\">registration</a> page. SSCI will be using a new <a href=\"/submissions/presentation-format/\">presentation format</a> for full papers this year.",
+        "<b>Full papers:</b> papers of up to 6 pages, plus 1 page for references. A maximum of two extra content pages per full paper is allowed (i.e, up to 8 pages plus 1 page for references), at an additional charge per extra page as specified in the <a href=\"/registration/\">registration</a> page.",
         "<b>Short papers:</b> papers of up to 4 pages, plus 1 page for references.",
         "<b>Late breaking papers:</b> extended abstracts of up to 2 pages, including references, if any.",
         "<b>Abstract (poster-only):</b> abstracts of up to 250 words.",
@@ -46,7 +46,7 @@
     },
     {
       "paragraphs": [
-        "For a description of each paper type, please refer to the call for papers."
+        "For more details, please refer to the <a href=\"https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/call-for-papers.pdf\" target=\"_blank\">Call for Papers</a>."
       ],
       "bullets": [
         {

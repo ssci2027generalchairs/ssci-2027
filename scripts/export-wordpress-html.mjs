@@ -58,13 +58,25 @@ const pageUrl = (value = '') => {
   return `${wordPressBase}${value.replace(/^\//, '')}`;
 };
 
-const paragraph = (text) => `<p>${escapeHtml(text)}</p>`;
+const trustedHtmlPattern = /<\/?[a-z][\s\S]*>/i;
+
+const rewriteTrustedHtmlLinks = (html = '') => String(html).replace(
+  /\s(href|src)=(["'])\/(?!\/)([^"']*)\2/gi,
+  (_match, attr, quote, target) => ` ${attr}=${quote}${escapeHtml(pageUrl(`/${target}`))}${quote}`,
+);
+
+const renderInlineContent = (value = '') => {
+  const text = String(value);
+  return trustedHtmlPattern.test(text) ? rewriteTrustedHtmlLinks(text) : escapeHtml(text);
+};
+
+const paragraph = (text) => `<p>${renderInlineContent(text)}</p>`;
 
 const renderTable = (table) => {
   if (!table?.headers?.length || !table?.rows?.length) return '';
   const headers = table.headers.map((header) => `<th>${escapeHtml(header)}</th>`).join('');
   const rows = table.rows
-    .map((row) => `<tr>${row.map((cell) => `<td>${escapeHtml(cell)}</td>`).join('')}</tr>`)
+    .map((row) => `<tr>${row.map((cell) => `<td>${renderInlineContent(cell)}</td>`).join('')}</tr>`)
     .join('\n');
   return [
     '<figure class="wp-block-table">',
@@ -77,7 +89,7 @@ const renderTable = (table) => {
 };
 
 const renderBullet = (item) => {
-  if (typeof item === 'string') return escapeHtml(item);
+  if (typeof item === 'string') return renderInlineContent(item);
   if (item?.href && item?.label) {
     return `<a href="${escapeHtml(pageUrl(item.href))}">${escapeHtml(item.label)}</a>`;
   }

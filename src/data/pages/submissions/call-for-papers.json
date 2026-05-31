@@ -66,24 +66,36 @@
         ],
         "rows": [
           [
-            "Main track paper submission deadline",
+            "Main Track and Special Session Full/Short Paper Submission Deadline",
             "10 August 2026"
           ],
           [
-            "Main track notification due",
+            "Main Track and Special Session Notification Due",
             "26 October 2026"
           ],
           [
-            "Workshop paper deadline",
-            "15 August 2026"
+            "Final Camera-Ready Version Due",
+            "10 November 2026"
           ],
           [
-            "Workshop paper acceptance notification",
-            "26 October 2026"
+            "Competitions Proposal Submission",
+            "2 August 2026"
           ],
           [
-            "Tutorial material submission",
-            "15 December 2026"
+            "Competitions Acceptance Notification",
+            "30 August 2026"
+          ],
+          [
+            "Late Breaking Papers, Poster-only Abstracts, and Journal Paper Presentations Submission",
+            "1 November 2026"
+          ],
+          [
+            "Tutorials Proposal Submission",
+            "1 October 2026"
+          ],
+          [
+            "Tutorials Acceptance Notification",
+            "30 October 2026"
           ]
         ]
       }

@@ -1,13 +1,16 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
+import ImportantDates from '../components/ImportantDates.astro';
 import NewsTicker from '../components/NewsTicker.astro';
 import SpeakerGrid from '../components/SpeakerGrid.astro';
+import importantDates from '../data/importantDates.json';
 import site from '../data/site.json';
 import news from '../data/news.json';
 import speakers from '../data/speakers.json';
 
 const hasNews = news.length > 0;
+const hasImportantDates = importantDates.length > 0;
 const hasSpeakers = speakers.plenary.length > 0 || speakers.keynote.length > 0;
 const base = import.meta.env.BASE_URL;
 const withAssetBase = (href: string) => `${base}${href.replace(/^\//, '')}`;
@@ -32,6 +35,17 @@ const withAssetBase = (href: string) => `${base}${href.replace(/^\//, '')}`;
         </div>
       </div>
     </section>
+
+    {hasImportantDates && (
+      <section class="about home-dates">
+        <div class="container">
+          <div class="home-section-title">
+            <p>Important Dates</p>
+          </div>
+          <ImportantDates dates={importantDates} />
+        </div>
+      </section>
+    )}
 
     {hasSpeakers && (
       <section class="about home-speakers">
