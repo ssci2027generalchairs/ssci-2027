@@ -40,6 +40,12 @@
         "photo": ""
       },
       {
+        "role": "Plenary and Keynote Chair",
+        "name": "Yang Xiang",
+        "affiliation": "Swinburne University of Technology",
+        "photo": ""
+      },
+      {
         "role": "Tutorial Chair",
         "name": "M. Tanveer",
         "affiliation": "Indian Institute of Technology Indore",
@@ -55,6 +61,12 @@
         "role": "Publicity Chair",
         "name": "Jun Shen",
         "affiliation": "University of Wollongong",
+        "photo": ""
+      },
+      {
+        "role": "Publicity Chair",
+        "name": "Jiapu Wang",
+        "affiliation": "Nanjing University of Science and Technology",
         "photo": ""
       },
       {
@@ -102,6 +114,12 @@
       {
         "role": "Local Chair",
         "name": "Xuefei Yin",
+        "affiliation": "Griffith University",
+        "photo": ""
+      },
+      {
+        "role": "Local Chair",
+        "name": "Ming Jin",
         "affiliation": "Griffith University",
         "photo": ""
       },
