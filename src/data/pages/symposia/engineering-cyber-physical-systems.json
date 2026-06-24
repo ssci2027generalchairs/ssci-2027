@@ -12,6 +12,28 @@
       ]
     },
     {
+      "heading": "Technical Co-Chairs",
+      "bullets": [
+        "Pengcheng Zhang, Hohai University, China",
+        "Xiaoyu Shaw Xia, RMIT University, Australia",
+        "Yahui Jia, South China University of Technology, China",
+        "Meng Yuan, Victoria University of Wellington, New Zealand"
+      ]
+    },
+    {
+      "heading": "Publicity Co-Chairs",
+      "bullets": [
+        "Handing Wang, Xidian University, China",
+        "Hemant Singh, University of New South Wales, Australia",
+        "Terry Yang, RMIT University, Australia",
+        "Yu Zhang, Macquarie University, Australia",
+        "Tiehua Zhang, Tongji University, China",
+        "Yue Xie, Loughborough University, United Kingdom",
+        "Huiying Jin, Nanjing University of Posts and Telecommunications, China",
+        "Tong Guo, Nanyang Technological University, Singapore"
+      ]
+    },
+    {
       "heading": "Scope",
       "paragraphs": [
         "In an era marked by rapid technological advancements, Computational Intelligence (CI) continues to evolve the widespread computational paradigms of Artificial Intelligence (AI) to match these needs. The intersection of computational intelligence (CI) with engineering and cyber-physical systems (CPS) has thus emerged as a critical area of research and innovation.",
@@ -27,66 +49,128 @@
       ]
     },
     {
-      "heading": "Intelligent Autonomous",
+      "heading": "Artificial Intelligence for CPS",
       "bullets": [
-        "Industrial IoT",
-        "Automative systems",
-        "Adaptive control",
-        "Decentralised control",
-        "Industrial automations",
-        "Manufacturing systems",
-        "Digital twins",
-        "Warehouse automation",
-        "Intelligent industrial robots"
+        "Explainable AI for Engineering Systems",
+        "Trustworthy AI and Responsible AI",
+        "Foundation Models for Engineering Applications",
+        "Generative AI for Design and Optimization",
+        "Agentic AI Systems",
+        "Multi-Agent Systems and Swarm Intelligence",
+        "Human-AI Collaboration",
+        "AI for Scientific Discovery"
       ]
     },
     {
-      "heading": "Civil and mechanical engineering",
+      "heading": "Cyber-Physical Systems",
       "bullets": [
-        "Complex systems",
-        "Complex structures",
-        "Intelligent analysis and control",
-        "Infrastructure security",
-        "Design optimization"
+        "Intelligent Cyber-Physical Systems",
+        "CPS Security and Resilience",
+        "Autonomous Cyber-Physical Systems",
+        "Distributed CPS Architectures",
+        "Edge AI for CPS",
+        "Real-Time CPS Analytics",
+        "Self-Adaptive and Self-Healing CPS",
+        "Safety-Critical CPS"
       ]
     },
     {
-      "heading": "Decision support",
+      "heading": "Industry 5.0 and Smart Manufacturing",
       "bullets": [
-        "Intelligent decision making",
-        "Management and processing of uncertainties",
-        "Sensitivity analysis",
-        "Risk-aware, risk impact and probability estimation"
+        "Industry 5.0 Technologies",
+        "Human-Centric Manufacturing",
+        "Cognitive Manufacturing Systems",
+        "Smart Factories",
+        "Autonomous Production Systems",
+        "AI-Driven Process Optimization",
+        "Predictive Maintenance",
+        "Sustainable Manufacturing"
       ]
     },
     {
-      "heading": "Resource Management",
+      "heading": "Digital Twins and Simulation Intelligence",
       "bullets": [
-        "Resource planning",
-        "Predictions and recommendation of informed decisions",
-        "Supply and demand forecasting in warehouses"
+        "AI-Enhanced Digital Twins",
+        "Digital Twin Federations",
+        "Physics-Informed Digital Twins",
+        "Hybrid Digital Twins",
+        "Simulation-Based Optimization",
+        "Real-Time Digital Twin Synchronization",
+        "Digital Engineering"
       ]
     },
     {
-      "heading": "Evolvable Hardware",
+      "heading": "Infrastructure and Smart Cities",
       "bullets": [
-        "Autonomous systems",
-        "Self-reconfigurable and adaptive systems",
-        "Novel evolvable hardware architectures (e.g. FPGAs, FPAAs)",
-        "Self-repairing, fault-tolerant systems",
-        "Self-monitoring and self-testing",
-        "Electronic circuit synthesis and optimization",
-        "MEMS and nanotechnology"
+        "Smart Infrastructure Monitoring",
+        "Intelligent Transportation Systems",
+        "Smart Buildings and Smart Cities",
+        "Critical Infrastructure Protection",
+        "Urban Digital Twins",
+        "Infrastructure Resilience and Recovery",
+        "Sustainable Infrastructure Systems"
       ]
     },
     {
-      "heading": "Sensors",
+      "heading": "Energy and Sustainability",
       "bullets": [
-        "Smart sensing",
-        "Monitoring",
-        "Intelligent ubiquitous sensor network",
-        "Biosensors",
-        "Sensor networks"
+        "Smart Grids and Energy Systems",
+        "Renewable Energy Optimization",
+        "Intelligent Energy Management",
+        "Carbon-Aware Computing",
+        "Sustainable AI and Green Computing",
+        "Energy-Aware CPS"
+      ]
+    },
+    {
+      "heading": "Autonomous Systems and Robotics",
+      "bullets": [
+        "Autonomous Vehicles",
+        "Autonomous Drones and UAV Systems",
+        "Collaborative Robotics (Cobots)",
+        "Multi-Robot Coordination",
+        "Human-Robot Interaction",
+        "Robot Learning and Adaptation",
+        "AI for Industrial Robotics"
+      ]
+    },
+    {
+      "heading": "Security, Privacy, and Trust",
+      "bullets": [
+        "AI for Cybersecurity",
+        "Security of Industrial Control Systems",
+        "Privacy-Preserving Intelligence",
+        "Federated Learning for CPS",
+        "Adversarial Machine Learning",
+        "Blockchain for CPS and IoT",
+        "Trust Management in Distributed Systems"
+      ]
+    },
+    {
+      "heading": "Data-Driven Engineering",
+      "bullets": [
+        "Engineering Knowledge Graphs",
+        "Industrial Data Analytics",
+        "Industrial Large Language Models",
+        "Time-Series Intelligence",
+        "Graph Machine Learning for Engineering Systems",
+        "Uncertainty Quantification",
+        "Physics-Informed Machine Learning"
+      ]
+    },
+    {
+      "heading": "Emerging Topics",
+      "bullets": [
+        "Quantum Computing for Engineering Optimization",
+        "Neuromorphic Computing",
+        "Edge-Cloud Continuum Intelligence",
+        "Digital Ecosystems",
+        "Intelligent Space Systems",
+        "Smart Agriculture and Precision Farming",
+        "AI for Climate and Environmental Systems",
+        "Intelligent Healthcare Engineering",
+        "Metaverse and Industrial Metaverse",
+        "Decentralized Autonomous Systems"
       ]
     }
   ]
