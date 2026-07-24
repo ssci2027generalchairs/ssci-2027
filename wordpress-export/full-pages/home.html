@@ -547,6 +547,49 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   font-weight: 700;
 }
 
+.ssci-remote-presentation-note {
+  margin: 24px 0 28px;
+  padding: 18px 20px;
+  border-left: 4px solid var(--ssci-teal);
+  background: #fff;
+  color: var(--ssci-muted);
+}
+
+.ssci-remote-presentation-note p {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.72;
+}
+
+.ssci-remote-presentation-note p + p {
+  margin-top: 14px;
+}
+
+.ssci-organised-by {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 18px;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.ssci-organised-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 112px;
+  padding: 18px;
+  border: 1px solid var(--ssci-line);
+  background: #fff;
+}
+
+.ssci-organised-logo img {
+  width: 100%;
+  max-width: 210px;
+  max-height: 76px;
+  object-fit: contain;
+}
+
 .ssci-news-list {
   display: grid;
   gap: 14px;
@@ -561,6 +604,25 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   padding: 16px 18px;
   border-left: 5px solid var(--ssci-orange);
   background: #fff;
+}
+
+.ssci-news-list h3 {
+  margin: 0 0 8px;
+  color: var(--ssci-navy);
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+.ssci-news-list p {
+  margin: 0;
+  color: var(--ssci-muted);
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.ssci-news-list a {
+  color: var(--ssci-orange) !important;
+  font-weight: 800;
 }
 
 .ssci-sponsor-strip {
@@ -1222,6 +1284,18 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 </section>
 
+<section class="ssci-wp-section ssci-soft-section ssci-news-section">
+
+<h2>News</h2>
+<div class="ssci-news-list" aria-label="Latest news">
+<article>
+<h3>Submission System Now Open</h3>
+<p>The IEEE SSCI 2027 submission system is now open. Please submit your paper through the <a href="https://ssl.linklings.net/conferences/SSCI/" target="_blank" rel="noreferrer">submission site</a>.</p>
+</article>
+</div>
+
+</section>
+
 <section class="ssci-wp-section ssci-soft-section">
 
 <h2>Important Dates</h2>
@@ -1235,6 +1309,19 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <li><strong>Tutorial proposal deadline</strong><br />1 October 2026</li>
 <li><strong>Tutorial acceptance notification</strong><br />30 October 2026</li>
 </ul>
+
+<div class="ssci-remote-presentation-note">
+<p>IEEE SSCI 2027 will be primarily an in-person conference. However, the organization acknowledges that for a wide variety of reasons not all members can physically attend the conference and that traveling may simply be impossible. Therefore, the conference will provide the possibility for remote presentation (live online talk with live online Q&amp;A) for remote authors. At least one remote author must register for the conference (regular registration, as IEEE Member or Non-Member).</p>
+<p>In addition to delivering the live online talk, remote authors are also asked to provide a recording their talk, which will be made available to all attendees to be viewed at their own convenience. The recorded talk will also be used as a backup just in case there are Internet connection problems during the live online talk. Remote attendees can attend only online sessions whereas on-site attendees can attend all sessions (i.e., both online and on-site sessions).</p>
+</div>
+
+<h2>Organised By</h2>
+<div class="ssci-organised-by" aria-label="Organising institutions">
+<div class="ssci-organised-logo"><img src="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/IEEE2-370x148.png.webp" alt="IEEE" loading="lazy" /></div>
+<div class="ssci-organised-logo"><img src="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/cis-logo.png" alt="IEEE Computational Intelligence Society" loading="lazy" /></div>
+<div class="ssci-organised-logo"><img src="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/griffith-logo-1.png" alt="Griffith University" loading="lazy" /></div>
+<div class="ssci-organised-logo"><img src="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/UTS-logo-1-scaled.jpg" alt="University of Technology Sydney" loading="lazy" /></div>
+</div>
 
 </section>
 
