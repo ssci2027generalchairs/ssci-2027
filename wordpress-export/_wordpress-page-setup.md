@@ -17,7 +17,8 @@ Create parent pages first, then child pages. The page title is for WordPress adm
 | IEEE SSCI 2027 | home | - | / | full-pages/home.html | Set this published page as the static homepage in Settings > Reading. |
 | Organizing Committee | organizing-committee | About | /about/organizing-committee/ | full-pages/about__organizing-committee.html |  |
 | Contact Us | contact | About | /about/contact/ | full-pages/about__contact.html |  |
-| Call For Papers and Other Submissions | call-for-papers | Submissions | /submissions/call-for-papers/ | full-pages/submissions__call-for-papers.html |  |
+| Call For Papers | call-for-papers | Submissions | /submissions/call-for-papers/ | full-pages/submissions__call-for-papers.html |  |
+| Call for Tutorials | call-for-tutorials | Submissions | /submissions/call-for-tutorials/ | full-pages/submissions__call-for-tutorials.html |  |
 | Submission Instructions | instructions | Submissions | /submissions/instructions/ | full-pages/submissions__instructions.html |  |
 | Symposia Overview | symposia | - | /symposia/ | full-pages/symposia.html |  |
 | 2027 IEEE Symposium on CI for Energy, Transport and Environmental Sustainability (IEEE CIETES) | energy-transport-environment | Symposia | /symposia/energy-transport-environment/ | full-pages/symposia__energy-transport-environment.html |  |
@@ -38,4 +39,3 @@ Create parent pages first, then child pages. The page title is for WordPress adm
 | Special Session in CI in Search-based Software Engineering | special-session-ci-search-based-software-engineering | Symposia | /symposia/special-session-ci-search-based-software-engineering/ | full-pages/symposia__special-session-ci-search-based-software-engineering.html |  |
 | Special Session in CI in Maritime Technology | special-session-ci-maritime-technology | Symposia | /symposia/special-session-ci-maritime-technology/ | full-pages/symposia__special-session-ci-maritime-technology.html |  |
 | Call for Sponsors | call-for-sponsors | Sponsors | /sponsors/call-for-sponsors/ | full-pages/sponsors__call-for-sponsors.html |  |
-

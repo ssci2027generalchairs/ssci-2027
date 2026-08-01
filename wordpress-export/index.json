@@ -21,10 +21,17 @@
     "kind": "basic"
   },
   {
-    "title": "Call For Papers and Other Submissions",
+    "title": "Call For Papers",
     "slug": "submissions/call-for-papers",
     "wordpressPath": "/submissions/call-for-papers/",
     "file": "full-pages/submissions__call-for-papers.html",
+    "kind": "basic"
+  },
+  {
+    "title": "Call for Tutorials",
+    "slug": "submissions/call-for-tutorials",
+    "wordpressPath": "/submissions/call-for-tutorials/",
+    "file": "full-pages/submissions__call-for-tutorials.html",
     "kind": "basic"
   },
   {

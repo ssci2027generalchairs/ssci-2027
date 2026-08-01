@@ -243,6 +243,12 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   transition: opacity 0.3s ease, top 0.3s ease;
 }
 
+.ssci-wp-dropdown-vertical {
+  display: block;
+  min-width: 260px;
+  max-width: min(340px, calc(100vw - 32px));
+}
+
 .ssci-wp-dropdown::before {
   position: absolute;
   right: 0;
@@ -1127,8 +1133,9 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 </li>
 <li class="ssci-wp-nav-item ssci-wp-has-menu">
 <a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/" aria-haspopup="true">Submissions</a>
-<ul class="ssci-wp-dropdown">
-<li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call For Papers and Other Submissions</a></li>
+<ul class="ssci-wp-dropdown ssci-wp-dropdown-vertical">
+<li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call For Papers</a></li>
+<li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-tutorials/">Call for Tutorials</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/submissions/instructions/">Submission Instructions</a></li>
 </ul>
 </li>
@@ -1192,7 +1199,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <ul><li><b>Full papers:</b> papers of up to 6 pages, plus 1 page for references. A maximum of two extra content pages per full paper is allowed (i.e, up to 8 pages plus 1 page for references), at an additional charge per extra page as specified in the <a href="https://attend.ieee.org/ssci-2027/registration/">registration</a> page.</li><li><b>Short papers:</b> papers of up to 4 pages, plus 1 page for references.</li><li><b>Late breaking papers:</b> extended abstracts of up to 2 pages, including references, if any.</li><li><b>Abstract (poster-only):</b> abstracts of up to 250 words.</li><li><b>Journal to conference:</b> up to 1 page listing bullet points with the highlights of the paper, and an explanation on why you believe the paper to be relevant to SSCI.</li></ul>
 
 <p>For more details, please refer to the <a href="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/call-for-papers.pdf" target="_blank">Call for Papers</a>.</p>
-<ul><li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call For Papers and Other Submissions</a></li></ul>
+<ul><li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call For Papers</a></li></ul>
 
 <h2>Open Science for Full and Short Papers</h2>
 <p>We encourage all authors to make their data/code available upon acceptance of full and short papers to increase reproducibility and replicability.</p>

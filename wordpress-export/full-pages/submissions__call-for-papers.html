@@ -243,6 +243,12 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   transition: opacity 0.3s ease, top 0.3s ease;
 }
 
+.ssci-wp-dropdown-vertical {
+  display: block;
+  min-width: 260px;
+  max-width: min(340px, calc(100vw - 32px));
+}
+
 .ssci-wp-dropdown::before {
   position: absolute;
   right: 0;
@@ -1127,8 +1133,9 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 </li>
 <li class="ssci-wp-nav-item ssci-wp-has-menu">
 <a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/" aria-haspopup="true">Submissions</a>
-<ul class="ssci-wp-dropdown">
-<li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call For Papers and Other Submissions</a></li>
+<ul class="ssci-wp-dropdown ssci-wp-dropdown-vertical">
+<li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call For Papers</a></li>
+<li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-tutorials/">Call for Tutorials</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/submissions/instructions/">Submission Instructions</a></li>
 </ul>
 </li>
@@ -1154,7 +1161,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 </div>
 </header>
 <main class="ssci-wp-main">
-<!-- WordPress export for IEEE SSCI 2027: Call For Papers and Other Submissions -->
+<!-- WordPress export for IEEE SSCI 2027: Call For Papers -->
 
 <div class="ssci-wp ssci-wp-page ssci-call-for-papers-page">
 
@@ -1162,7 +1169,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 <p class="ssci-sub-header">IEEE SSCI 2027</p>
 
-<h1>Call For Papers and Other Submissions</h1>
+<h1>Call For Papers</h1>
 
 <p>IEEE SSCI 2027 invites paper, abstract, and journal-to-conference submissions across applied computational intelligence symposia.</p>
 
@@ -1170,18 +1177,11 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 <div class="ssci-page-content">
 
-<h2>Call for Papers</h2>
 <p>IEEE SSCI is widely recognized for cultivating the interchange of state-of-the-art theories and sophisticated algorithms within the broad realm of computational intelligence applications. The Symposia provide for cross-pollination of research concepts, fostering an environment that facilitates future inter- and intra-disciplinary collaborations.</p>
 <p>The 2027 event continues the restructured biennial Symposia Series featuring ten dedicated Applied Computational Intelligence Symposia:</p>
 <ul><li><a href="https://attend.ieee.org/ssci-2027/symposia/energy-transport-environment/">2027 IEEE Symposium on CI for Energy, Transport and Environmental Sustainability (IEEE CIETES)</a></li><li><a href="https://attend.ieee.org/ssci-2027/symposia/engineering-cyber-physical-systems/">2027 IEEE Symposium on CI in Engineering / Cyber Physical Systems (IEEE CIES)</a></li><li><a href="https://attend.ieee.org/ssci-2027/symposia/image-signal-synthetic-media/">2027 IEEE Symposium on CI in Image, Signal Processing and Synthetic Media (IEEE CISM)</a></li><li><a href="https://attend.ieee.org/ssci-2027/symposia/artificial-life-cooperative-systems/">2027 IEEE Symposium on CI in Artificial Life and Cooperative Intelligent Systems (IEEE ALIFE-CIS)</a></li><li><a href="https://attend.ieee.org/ssci-2027/symposia/security-defence-biometrics/">2027 IEEE Symposium on CI in Security, Defence and Biometrics (IEEE CISDB)</a></li><li><a href="https://attend.ieee.org/ssci-2027/symposia/health-medicine/">2027 IEEE Symposium on CI in Health and Medicine (IEEE CIHM)</a></li><li><a href="https://attend.ieee.org/ssci-2027/symposia/financial-engineering-economics/">2027 IEEE Symposium on CI for Financial Engineering and Economics (IEEE CiFer)</a></li><li><a href="https://attend.ieee.org/ssci-2027/symposia/nlp-social-media/">2027 IEEE Symposium on CI in Natural Language Processing and Social Media (IEEE CI-NLPSoMe)</a></li><li><a href="https://attend.ieee.org/ssci-2027/symposia/trustworthy-explainable-responsible-ci/">2027 IEEE Symposium on Trustworthy, Explainable and Responsible CI (IEEE CITREx)</a></li><li><a href="https://attend.ieee.org/ssci-2027/symposia/multidisciplinary-incubators/">2027 IEEE Symposium for Multidisciplinary Computational Intelligence Incubators (IEEE MCII)</a></li></ul>
 
 <p>IEEE SSCI 2027, hosted on the Gold Coast, Queensland, Australia, brings IEEE SSCI to a coastal destination known for global accessibility, walkable conference facilities, beaches, rainforests, national parks, cultural attractions, and a strong academic presence through Griffith University. The February timing provides easy access to venues, accommodation, restaurants, and coastal attractions.</p>
-
-<h2>Call for Tutorials</h2>
-<p>The organizing committee for SSCI 2027 is inviting proposals for tutorials from computational intelligence experts to be presented as part of the conference program. The tutorials should focus on a specific theme, and both theoretical and methodological aspects are welcome. The workshops/tutorials typically last 2-6 hours, with an average of 30 participants.</p>
-<p>To submit a proposal, please include the title, abstract, an overview of the topic, a schedule with topic, time allocation, and a short biography of each presenter. The proposals should be sent directly to the Tutorial Chairs via email:</p>
-<ul><li>M. Tanveer, Indian Institute of Technology Indore, <a href="mailto:mtanveer@iiti.ac.in">mtanveer@iiti.ac.in</a></li><li>Feng Xia, RMIT University, <a href="mailto:f.xia@ieee.org">f.xia@ieee.org</a></li></ul>
-<p>The deadline is 1 October 2026. Early submissions are welcomed. Notifications of decisions will be sent by 31 October 2026.</p>
 
 <h2>Important Dates</h2>
 <figure class="wp-block-table">
@@ -1196,8 +1196,6 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <tr><td>Competitions Proposal Submission</td><td>2 August 2026</td></tr>
 <tr><td>Competitions Acceptance Notification</td><td>30 August 2026</td></tr>
 <tr><td>Late Breaking Papers, Poster-only Abstracts, and Journal Paper Presentations Submission</td><td>1 November 2026</td></tr>
-<tr><td>Tutorials Proposal Submission</td><td>1 October 2026</td></tr>
-<tr><td>Tutorials Acceptance Notification</td><td>30 October 2026</td></tr>
 </tbody>
 </table>
 </figure>
