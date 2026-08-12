@@ -783,6 +783,46 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   margin-bottom: 8px;
 }
 
+.ssci-epc-page {
+  display: grid;
+  gap: 28px;
+  padding-bottom: 72px;
+}
+
+.ssci-epc-section {
+  padding-bottom: 26px;
+  border-bottom: 1px solid var(--ssci-line);
+}
+
+.ssci-epc-section:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.ssci-epc-section h2 {
+  margin: 0 0 14px;
+  color: var(--ssci-navy);
+  font-size: clamp(20px, 1.8vw, 25px);
+  font-weight: 700;
+}
+
+.ssci-epc-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px 32px;
+  margin: 0;
+  padding-left: 22px;
+}
+
+.ssci-epc-list li {
+  margin-bottom: 4px;
+  line-height: 1.58;
+}
+
+.ssci-epc-list strong {
+  color: var(--ssci-navy);
+}
+
 @media (max-width: 900px) {
   .ssci-page-content > ul,
   .ssci-link-card-grid {
@@ -1162,7 +1202,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 </div>
 </header>
 <main class="ssci-wp-main">
-<!-- WordPress export for IEEE SSCI 2027: Organizing Committee -->
+<!-- WordPress export for IEEE SSCI 2027: SSCI Evaluation and Planning Committee -->
 
 <div class="ssci-wp ssci-wp-page">
 
@@ -1170,150 +1210,67 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 <p class="ssci-sub-header">IEEE SSCI 2027</p>
 
-<h1>Organizing Committee</h1>
+<h1>SSCI Evaluation and Planning Committee</h1>
 
-<p>Organizing roles and committee appointments for IEEE SSCI 2027.</p>
+<p>Committee members supporting the long-term planning and technical activities alignment of IEEE SSCI 2027.</p>
 
 </header>
 
-<div class="ssci-page-content">
+<div class="ssci-page-content ssci-epc-page">
 
-<div class="ssci-committee ssci-legacy-committee">
-<section class="ssci-committee-feature-section">
-<h2 class="ssci-feature-title">General Chairs</h2>
-<div class="ssci-committee-feature-grid">
-<article class="ssci-committee-feature-card">
-<div class="ssci-committee-feature-photo">
-<img src="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/alan-liew.jpg" alt="Alan Liew" />
-</div>
-<h3>Alan Liew</h3>
-<p class="ssci-member-title">General Chair</p>
-<p class="ssci-member-uni">Griffith University</p>
-</article>
-<article class="ssci-committee-feature-card">
-<div class="ssci-committee-feature-photo">
-<img src="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/chin-teng-lin.jpg" alt="Chin-Teng Lin" />
-</div>
-<h3>Chin-Teng Lin</h3>
-<p class="ssci-member-title">General Chair</p>
-<p class="ssci-member-uni">University of Technology Sydney</p>
-</article>
-</div>
-</section>
-<section class="ssci-committee-role-columns">
-<section class="ssci-committee-role-list">
-<h3>Program Chairs</h3>
-<ul>
-<li><strong class="ssci-name">Shirui Pan</strong>, Griffith University</li>
-<li><strong class="ssci-name">Davide Bacciu</strong>, University of Pisa</li>
-<li><strong class="ssci-name">Gary G. Yen</strong>, Oklahoma State University</li>
+<section class="ssci-epc-section">
+<h2>Evaluation and Planning Committee Chair</h2>
+<ul class="ssci-epc-list">
+<li>Conference Committee - <strong>Andy Tyrrell</strong> (Chair of Committee)</li>
 </ul>
 </section>
-<section class="ssci-committee-role-list">
-<h3>Plenary and Keynote Chairs</h3>
-<ul>
-<li><strong class="ssci-name">Xiaodong Li</strong>, RMIT University</li>
-<li><strong class="ssci-name">Yang Xiang</strong>, Swinburne University of Technology</li>
+
+<section class="ssci-epc-section">
+<h2>General Chairs</h2>
+<ul class="ssci-epc-list">
+<li><strong>Alan Liew</strong>, Griffith University</li>
+<li><strong>Chin-Teng Lin</strong>, University of Technology Sydney</li>
 </ul>
 </section>
-<section class="ssci-committee-role-list">
-<h3>Tutorial Chairs</h3>
-<ul>
-<li><strong class="ssci-name">M. Tanveer</strong>, Indian Institute of Technology Indore</li>
-<li><strong class="ssci-name">Feng Xia</strong>, RMIT University</li>
+
+<section class="ssci-epc-section">
+<h2>Program Chairs</h2>
+<ul class="ssci-epc-list">
+<li><strong>Shirui Pan</strong>, Griffith University</li>
+<li><strong>Davide Bacciu</strong>, University of Pisa</li>
+<li><strong>Gary G. Yen</strong>, Oklahoma State University</li>
 </ul>
 </section>
-<section class="ssci-committee-role-list">
-<h3>Publicity Chairs</h3>
-<ul>
-<li><strong class="ssci-name">Jun Shen</strong>, University of Wollongong</li>
-<li><strong class="ssci-name">Jiapu Wang</strong>, Nanjing University of Science and Technology</li>
+
+<section class="ssci-epc-section">
+<h2>Symposium Chairs</h2>
+<ul class="ssci-epc-list">
+<li>CI for Energy, Transport and Environmental Sustainability - <strong>Bo Du</strong>, <strong>Wei-Neng Chen</strong></li>
+<li>CI in Engineering / Cyber Physical Systems - <strong>Hai Dong</strong>, <strong>Yi Mei</strong></li>
+<li>CI in Image, Signal Processing and Synthetic Media - <strong>Ying Bi</strong>, <strong>Bing Xue</strong>, <strong>Kai Qin</strong></li>
+<li>CI in Artificial Life and Cooperative Intelligent Systems - <strong>Jiajun Liu</strong>, <strong>Peyman Moghadam</strong></li>
+<li>CI in Security, Defence and Biometrics - <strong>Jiankun Hu</strong>, <strong>Tianqing Zhu</strong></li>
+<li>CI in Health and Medicine - <strong>Xiuying Wang</strong>, <strong>Vassilis P. Plagianakos</strong></li>
+<li>CI for Financial Engineering and Economics - <strong>Yongjae Lee</strong>, <strong>Jianxin Li</strong></li>
+<li>CI in Natural Language Processing and Social Media - <strong>Hongzhi Yin</strong>, <strong>Usman Naseem</strong></li>
+<li>Trustworthy, Explainable and Responsible CI - <strong>Guangdong Bai</strong>, <strong>Feng Liu</strong>, <strong>Ruwang Jiao</strong></li>
+<li>Multidisciplinary Computational Intelligence Incubators - <strong>Fenglei Fan</strong>, <strong>Min Jiang</strong></li>
 </ul>
 </section>
-<section class="ssci-committee-role-list">
-<h3>Industry and Government Chairs</h3>
-<ul>
-<li><strong class="ssci-name">Ming Ding</strong>, CSIRO</li>
-<li><strong class="ssci-name">Jialin Liu</strong>, Lingnan University</li>
-<li><strong class="ssci-name">Owen Vallis</strong>, OpenAI</li>
+
+<section class="ssci-epc-section">
+<h2>Technical Activities Liaison/Strategy Representatives</h2>
+<ul class="ssci-epc-list">
+<li>CI for Energy, Transport and Environmental Sustainability - <strong>Joao Soares</strong>, jan@isep.ipp.pt</li>
+<li>CI in Engineering / Cyber Physical Systems - <strong>Manuel Roveri</strong>, manuel.roveri@polimi.it</li>
+<li>CI in Image, Signal Processing and Synthetic Media - <strong>Kai Qin</strong>, kqin@swin.edu.au</li>
+<li>CI in Artificial Life and Cooperative Intelligent Systems - <strong>Chrystopher Nehaniv</strong>, cnehaniv@uwaterloo.ca</li>
+<li>CI in Health and Medicine - <strong>Yasin Mamatjan</strong>, ymamatjan@tru.ca</li>
+<li>CI for Financial Engineering and Economics - <strong>Ruppa Thulasiram (Tulsi)</strong>, tulsi.thulasiram@umanitoba.ca</li>
+<li>CI in Natural Language Processing and Social Media - <strong>Xueming Yan</strong>, yanxm@gdufs.edu.cn</li>
+<li>Trustworthy, Explainable and Responsible CI - <strong>Albert YS Lam</strong>, ayslam@gmail.com</li>
 </ul>
 </section>
-<section class="ssci-committee-role-list">
-<h3>Competition Chairs</h3>
-<ul>
-<li><strong class="ssci-name">Min Wu</strong>, A*STAR</li>
-<li><strong class="ssci-name">Catherine Huang</strong>, Google</li>
-</ul>
-</section>
-<section class="ssci-committee-role-list">
-<h3>Local Chairs</h3>
-<ul>
-<li><strong class="ssci-name">Leo Zhang</strong>, Griffith University</li>
-<li><strong class="ssci-name">Ming Jin</strong>, Griffith University</li>
-</ul>
-</section>
-<section class="ssci-committee-role-list">
-<h3>Proceedings Chairs</h3>
-<ul>
-<li><strong class="ssci-name">Yixin Liu</strong>, Griffith University</li>
-<li><strong class="ssci-name">Xin Zheng</strong>, RMIT University</li>
-<li><strong class="ssci-name">Liang Chen</strong>, Tongji University</li>
-</ul>
-</section>
-<section class="ssci-committee-role-list">
-<h3>Conflict of Interest Chairs</h3>
-<ul>
-<li><strong class="ssci-name">Ponnuthurai Nagaratnam Suganthan</strong>, Qatar University</li>
-</ul>
-</section>
-<section class="ssci-committee-role-list">
-<h3>Journal-to-Conference Chairs</h3>
-<ul>
-<li><strong class="ssci-name">He Zhang</strong>, Griffith University</li>
-</ul>
-</section>
-<section class="ssci-committee-role-list">
-<h3>Poster Session Chairs</h3>
-<ul>
-<li><strong class="ssci-name">Yanming Zhu</strong>, Griffith University</li>
-</ul>
-</section>
-<section class="ssci-committee-role-list">
-<h3>Finance Chairs</h3>
-<ul>
-<li><strong class="ssci-name">Yi Liu</strong>, Quantstamp / Griffith University</li>
-</ul>
-</section>
-<section class="ssci-committee-role-list">
-<h3>Registration Chairs</h3>
-<ul>
-<li><strong class="ssci-name">Ryan Zhou</strong></li>
-</ul>
-</section>
-<section class="ssci-committee-role-list">
-<h3>Website Chairs</h3>
-<ul>
-<li><strong class="ssci-name">Zirui Gong</strong>, Griffith University</li>
-<li><strong class="ssci-name">Zhaoxi Zhang</strong>, Griffith University</li>
-</ul>
-</section>
-<section class="ssci-committee-role-list" style="grid-column: 1 / -1;">
-<h3>Symposia Chairs</h3>
-<ul>
-<li>CI for Energy, Transport and Environmental Sustainability (IEEE CIETES) - <strong class="ssci-name">Bo Du</strong>, <strong class="ssci-name">Wei-Neng Chen</strong></li>
-<li>CI in Engineering / Cyber Physical Systems (IEEE CIES) - <strong class="ssci-name">Hai Dong</strong>, <strong class="ssci-name">Yi Mei</strong></li>
-<li>CI in Image, Signal Processing and Synthetic Media (IEEE CISM) - <strong class="ssci-name">Ying Bi</strong>, <strong class="ssci-name">Bing Xue</strong>, <strong class="ssci-name">Kai Qin</strong></li>
-<li>CI in Artificial Life and Cooperative Intelligent Systems (IEEE ALIFE-CIS) - <strong class="ssci-name">Jiajun Liu</strong>, <strong class="ssci-name">Peyman Moghadam</strong></li>
-<li>CI in Security, Defence and Biometrics (IEEE CISDB) - <strong class="ssci-name">Jiankun Hu</strong>, <strong class="ssci-name">Tianqing Zhu</strong></li>
-<li>CI in Health and Medicine (IEEE CIHM) - <strong class="ssci-name">Xiuying Wang</strong>, <strong class="ssci-name">Vassilis P. Plagianakos</strong></li>
-<li>CI for Financial Engineering and Economics (IEEE CiFer) - <strong class="ssci-name">Yongjae Lee</strong>, <strong class="ssci-name">Jianxin Li</strong></li>
-<li>CI in Natural Language Processing and Social Media (IEEE CI-NLPSoMe) - <strong class="ssci-name">Hongzhi Yin</strong>, <strong class="ssci-name">Usman Naseem</strong></li>
-<li>Trustworthy, Explainable and Responsible CI (IEEE CITREx) - <strong class="ssci-name">Guangdong Bai</strong>, <strong class="ssci-name">Feng Liu</strong>, <strong class="ssci-name">Ruwang Jiao</strong></li>
-<li>Multidisciplinary Computational Intelligence Incubators (IEEE MCII) - <strong class="ssci-name">Fenglei Fan</strong>, <strong class="ssci-name">Min Jiang</strong></li>
-</ul>
-</section>
-</section>
-</div>
 
 </div>
 

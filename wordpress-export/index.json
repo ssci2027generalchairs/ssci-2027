@@ -14,6 +14,13 @@
     "kind": "committee"
   },
   {
+    "title": "SSCI Evaluation and Planning Committee",
+    "slug": "about/evaluation-and-planning-committee",
+    "wordpressPath": "/about/evaluation-and-planning-committee/",
+    "file": "full-pages/about__evaluation-and-planning-committee.html",
+    "kind": "basic"
+  },
+  {
     "title": "Contact Us",
     "slug": "about/contact",
     "wordpressPath": "/about/contact/",
