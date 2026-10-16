@@ -37,6 +37,7 @@
       { "label": "Special Session in CI in Maritime Technology", "href": "/symposia/special-session-ci-maritime-technology/" }
     ]
   },
+  { "label": "Competitions", "href": "/program/competitions/" },
   {
     "label": "Program",
     "hidden": true,

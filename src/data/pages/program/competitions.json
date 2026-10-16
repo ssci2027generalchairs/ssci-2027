@@ -1,12 +1,21 @@
 {
   "slug": "program/competitions",
   "title": "Competitions",
-  "summary": "Competitions and challenge tracks are planned for IEEE SSCI 2027.",
+  "summary": "Explore competitions associated with IEEE SSCI 2027 and take part in current challenges.",
   "kind": "basic",
   "sections": [
     {
+      "heading": "Mad Chairs Tournament 2026",
       "paragraphs": [
-        "Competition and challenge tracks will include research challenges, results sessions, and award announcements."
+        "The Mad Chairs Tournament 2026 is a competition associated with IEEE SSCI 2027.",
+        "The competition is now live on Kaggle. Participants can find the competition details, rules, data, evaluation criteria, and submission instructions on the Kaggle competition page."
+      ],
+      "cards": [
+        {
+          "title": "Join the Competition on Kaggle",
+          "href": "https://www.kaggle.com/competitions/mad-chairs-tournament-2026/",
+          "text": "Visit Kaggle to review the rules and participate in Mad Chairs Tournament 2026."
+        }
       ]
     }
   ]
