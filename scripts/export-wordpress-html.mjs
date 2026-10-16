@@ -278,7 +278,7 @@ const renderNews = () => {
     news.map((item) => [
       '<article>',
       item.date ? `<time datetime="${escapeHtml(item.date)}">${escapeHtml(item.date)}</time>` : '',
-      `<h3>${item.href ? `<a href="${escapeHtml(item.href)}">${escapeHtml(item.title)}</a>` : escapeHtml(item.title)}</h3>`,
+      `<h3>${item.href ? `<a href="${escapeHtml(pageUrl(item.href))}">${escapeHtml(item.title)}</a>` : escapeHtml(item.title)}</h3>`,
       item.summary ? paragraph(item.summary) : '',
       '</article>',
     ].filter(Boolean).join('\n')).join('\n'),
