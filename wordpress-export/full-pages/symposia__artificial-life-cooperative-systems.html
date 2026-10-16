@@ -243,6 +243,12 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   transition: opacity 0.3s ease, top 0.3s ease;
 }
 
+.ssci-wp-dropdown-vertical {
+  display: block;
+  min-width: 260px;
+  max-width: min(340px, calc(100vw - 32px));
+}
+
 .ssci-wp-dropdown::before {
   position: absolute;
   right: 0;
@@ -1120,15 +1126,17 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <li class="ssci-wp-nav-item"><a href="https://attend.ieee.org/ssci-2027/">Home</a></li>
 <li class="ssci-wp-nav-item ssci-wp-has-menu">
 <a href="https://attend.ieee.org/ssci-2027/about/organizing-committee/" aria-haspopup="true">About</a>
-<ul class="ssci-wp-dropdown">
+<ul class="ssci-wp-dropdown ssci-wp-dropdown-vertical">
 <li><a href="https://attend.ieee.org/ssci-2027/about/organizing-committee/">Organizing Committee</a></li>
+<li><a href="https://attend.ieee.org/ssci-2027/about/evaluation-and-planning-committee/">SSCI Evaluation and Planning Committee</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/about/contact/">Contact Us</a></li>
 </ul>
 </li>
 <li class="ssci-wp-nav-item ssci-wp-has-menu">
 <a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/" aria-haspopup="true">Submissions</a>
-<ul class="ssci-wp-dropdown">
-<li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call For Papers and Other Submissions</a></li>
+<ul class="ssci-wp-dropdown ssci-wp-dropdown-vertical">
+<li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call For Papers</a></li>
+<li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-tutorials/">Call for Tutorials</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/submissions/instructions/">Submission Instructions</a></li>
 </ul>
 </li>
@@ -1146,13 +1154,6 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <li><a href="https://attend.ieee.org/ssci-2027/symposia/nlp-social-media/">CI in Natural Language Processing and Social Media</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/symposia/trustworthy-explainable-responsible-ci/">Trustworthy, Explainable and Responsible CI</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/symposia/multidisciplinary-incubators/">Multidisciplinary Computational Intelligence Incubators</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-archeology/">Special Session in CI in Archeology</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-non-traditional-computation-technologies/">Special Session for CI in Non-Traditional Computation Technologies</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-aerospace-applications/">Special Session in CI in Aerospace Applications</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-agricultural-sciences-agroforestry/">Special Session in CI in Agricultural Sciences and Agroforestry</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-neuroscience/">Special Session in CI in Neuroscience</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-search-based-software-engineering/">Special Session in CI in Search-based Software Engineering</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-maritime-technology/">Special Session in CI in Maritime Technology</a></li>
 </ul>
 </li>
 <li class="ssci-wp-nav-item"><a href="https://attend.ieee.org/ssci-2027/program/competitions/">Competitions</a></li>
@@ -1182,6 +1183,9 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 <h2>Symposium Chairs</h2>
 <ul><li>Jiajun Liu, CSIRO</li><li>Peyman Moghadam, CSIRO</li></ul>
+
+<h2>Technical Activities Liaison</h2>
+<ul><li>Chrystopher Nehaniv</li></ul>
 
 <h2>Scope</h2>
 <p>The IEEE SSCI symposium on Artificial Life and Cooperative Intelligent Systems brings together researchers working on the emerging areas of Artificial Life and Complex Adaptive Systems, as well as Cooperative Intelligent Systems. The aim is to understand and synthesize life-like systems and to apply bio-inspired synthetic methods to other science/engineering disciplines, including Biology, Robotics, Social Sciences, among others.</p>

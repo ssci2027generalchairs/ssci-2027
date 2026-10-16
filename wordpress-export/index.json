@@ -7,11 +7,25 @@
     "kind": "basic"
   },
   {
+    "title": "Competitions",
+    "slug": "program/competitions",
+    "wordpressPath": "/program/competitions/",
+    "file": "full-pages/program__competitions.html",
+    "kind": "basic"
+  },
+  {
     "title": "Organizing Committee",
     "slug": "about/organizing-committee",
     "wordpressPath": "/about/organizing-committee/",
     "file": "full-pages/about__organizing-committee.html",
     "kind": "committee"
+  },
+  {
+    "title": "SSCI Evaluation and Planning Committee",
+    "slug": "about/evaluation-and-planning-committee",
+    "wordpressPath": "/about/evaluation-and-planning-committee/",
+    "file": "full-pages/about__evaluation-and-planning-committee.html",
+    "kind": "basic"
   },
   {
     "title": "Contact Us",
@@ -21,10 +35,17 @@
     "kind": "basic"
   },
   {
-    "title": "Call For Papers and Other Submissions",
+    "title": "Call For Papers",
     "slug": "submissions/call-for-papers",
     "wordpressPath": "/submissions/call-for-papers/",
     "file": "full-pages/submissions__call-for-papers.html",
+    "kind": "basic"
+  },
+  {
+    "title": "Call for Tutorials",
+    "slug": "submissions/call-for-tutorials",
+    "wordpressPath": "/submissions/call-for-tutorials/",
+    "file": "full-pages/submissions__call-for-tutorials.html",
     "kind": "basic"
   },
   {
@@ -158,13 +179,6 @@
     "slug": "symposia/special-session-ci-maritime-technology",
     "wordpressPath": "/symposia/special-session-ci-maritime-technology/",
     "file": "full-pages/symposia__special-session-ci-maritime-technology.html",
-    "kind": "basic"
-  },
-  {
-    "title": "Competitions",
-    "slug": "program/competitions",
-    "wordpressPath": "/program/competitions/",
-    "file": "full-pages/program__competitions.html",
     "kind": "basic"
   },
   {
