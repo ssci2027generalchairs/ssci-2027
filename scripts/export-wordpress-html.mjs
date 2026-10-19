@@ -449,17 +449,18 @@ const renderHomePage = () => {
 const renderPage = (page) => {
   if (page.slug === 'home') return renderHomePage();
   const symposiaHeroImage = getSymposiaHeroImage(page.slug);
+  const contentHeroImage = page.heroImage || symposiaHeroImage;
 
   return [
     `<!-- WordPress export for ${escapeHtml(site.shortName)}: ${escapeHtml(page.title)} -->`,
-    `<div class="ssci-wp ssci-wp-page${page.slug === 'symposia' ? ' ssci-symposia-overview-page' : ''}${page.slug === 'submissions/call-for-papers' ? ' ssci-call-for-papers-page' : ''}${page.slug === 'submissions/instructions' ? ' ssci-submission-instructions-page' : ''}">`,
+    `<div class="ssci-wp ssci-wp-page${page.slug === 'symposia' ? ' ssci-symposia-overview-page' : ''}${page.slug === 'submissions/call-for-papers' ? ' ssci-call-for-papers-page' : ''}${page.slug === 'submissions/instructions' ? ' ssci-submission-instructions-page' : ''}${page.slug === 'program/competitions' ? ' ssci-competitions-page' : ''}">`,
     '<header class="ssci-page-heading">',
     '<p class="ssci-sub-header">IEEE SSCI 2027</p>',
     `<h1>${escapeHtml(page.title)}</h1>`,
     page.summary ? `<p>${escapeHtml(page.summary)}</p>` : '',
     '</header>',
-    symposiaHeroImage
-      ? `<img class="ssci-content-hero-image" src="${escapeHtml(assetUrl(symposiaHeroImage.src))}" alt="${escapeHtml(symposiaHeroImage.alt || '')}" loading="lazy" />`
+    contentHeroImage
+      ? `<img class="ssci-content-hero-image" src="${escapeHtml(assetUrl(contentHeroImage.src))}" alt="${escapeHtml(contentHeroImage.alt || '')}" loading="lazy" />`
       : '',
     '<div class="ssci-page-content">',
     renderSections(page.sections),
@@ -1254,6 +1255,44 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   margin: 0 0 30px;
   object-fit: cover;
 }
+
+@media (min-width: 820px) {
+  .ssci-competitions-page {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 380px);
+    gap: 28px 48px;
+    align-items: start;
+  }
+
+  .ssci-competitions-page .ssci-page-heading {
+    grid-column: 1 / -1;
+    margin-bottom: 0;
+  }
+
+  .ssci-competitions-page .ssci-content-hero-image {
+    grid-column: 2;
+    grid-row: 2;
+    height: auto;
+    max-height: 540px;
+    margin: 0;
+    object-fit: contain;
+  }
+
+  .ssci-competitions-page .ssci-page-content {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+.ssci-competitions-page .ssci-link-card-grid {
+  grid-template-columns: minmax(0, 420px);
+}
+
+.ssci-competitions-page .ssci-link-card {
+  grid-template-rows: auto auto;
+  min-height: 0;
+}
+
 
 .ssci-page-content h2 {
   margin: 24px 0 10px;

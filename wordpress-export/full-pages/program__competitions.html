@@ -243,12 +243,6 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   transition: opacity 0.3s ease, top 0.3s ease;
 }
 
-.ssci-wp-dropdown-vertical {
-  display: block;
-  min-width: 260px;
-  max-width: min(340px, calc(100vw - 32px));
-}
-
 .ssci-wp-dropdown::before {
   position: absolute;
   right: 0;
@@ -696,6 +690,44 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   object-fit: cover;
 }
 
+@media (min-width: 820px) {
+  .ssci-competitions-page {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 380px);
+    gap: 28px 48px;
+    align-items: start;
+  }
+
+  .ssci-competitions-page .ssci-page-heading {
+    grid-column: 1 / -1;
+    margin-bottom: 0;
+  }
+
+  .ssci-competitions-page .ssci-content-hero-image {
+    grid-column: 2;
+    grid-row: 2;
+    height: auto;
+    max-height: 540px;
+    margin: 0;
+    object-fit: contain;
+  }
+
+  .ssci-competitions-page .ssci-page-content {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+.ssci-competitions-page .ssci-link-card-grid {
+  grid-template-columns: minmax(0, 420px);
+}
+
+.ssci-competitions-page .ssci-link-card {
+  grid-template-rows: auto auto;
+  min-height: 0;
+}
+
+
 .ssci-page-content h2 {
   margin: 24px 0 10px;
   color: var(--ssci-navy);
@@ -1126,17 +1158,15 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <li class="ssci-wp-nav-item"><a href="https://attend.ieee.org/ssci-2027/">Home</a></li>
 <li class="ssci-wp-nav-item ssci-wp-has-menu">
 <a href="https://attend.ieee.org/ssci-2027/about/organizing-committee/" aria-haspopup="true">About</a>
-<ul class="ssci-wp-dropdown ssci-wp-dropdown-vertical">
+<ul class="ssci-wp-dropdown">
 <li><a href="https://attend.ieee.org/ssci-2027/about/organizing-committee/">Organizing Committee</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/about/evaluation-and-planning-committee/">SSCI Evaluation and Planning Committee</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/about/contact/">Contact Us</a></li>
 </ul>
 </li>
 <li class="ssci-wp-nav-item ssci-wp-has-menu">
 <a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/" aria-haspopup="true">Submissions</a>
-<ul class="ssci-wp-dropdown ssci-wp-dropdown-vertical">
-<li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call For Papers</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-tutorials/">Call for Tutorials</a></li>
+<ul class="ssci-wp-dropdown">
+<li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call For Papers and Other Submissions</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/submissions/instructions/">Submission Instructions</a></li>
 </ul>
 </li>
@@ -1154,6 +1184,13 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <li><a href="https://attend.ieee.org/ssci-2027/symposia/nlp-social-media/">CI in Natural Language Processing and Social Media</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/symposia/trustworthy-explainable-responsible-ci/">Trustworthy, Explainable and Responsible CI</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/symposia/multidisciplinary-incubators/">Multidisciplinary Computational Intelligence Incubators</a></li>
+<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-archeology/">Special Session in CI in Archeology</a></li>
+<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-non-traditional-computation-technologies/">Special Session for CI in Non-Traditional Computation Technologies</a></li>
+<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-aerospace-applications/">Special Session in CI in Aerospace Applications</a></li>
+<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-agricultural-sciences-agroforestry/">Special Session in CI in Agricultural Sciences and Agroforestry</a></li>
+<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-neuroscience/">Special Session in CI in Neuroscience</a></li>
+<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-search-based-software-engineering/">Special Session in CI in Search-based Software Engineering</a></li>
+<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-maritime-technology/">Special Session in CI in Maritime Technology</a></li>
 </ul>
 </li>
 <li class="ssci-wp-nav-item"><a href="https://attend.ieee.org/ssci-2027/program/competitions/">Competitions</a></li>
@@ -1165,7 +1202,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <main class="ssci-wp-main">
 <!-- WordPress export for IEEE SSCI 2027: Competitions -->
 
-<div class="ssci-wp ssci-wp-page">
+<div class="ssci-wp ssci-wp-page ssci-competitions-page">
 
 <header class="ssci-page-heading">
 
@@ -1173,22 +1210,21 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 <h1>Competitions</h1>
 
-<p>Explore competitions associated with IEEE SSCI 2027 and take part in current challenges.</p>
+<p>Prepare an agentic AI team for Mad Chairs Tournament 2026, an open Kaggle competition associated with IEEE SSCI 2027.</p>
 
 </header>
+
+<img class="ssci-content-hero-image" src="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/mad-chairs-tournament-2026.jpg" alt="A friendly robot mediating a group activity with children in a sunny green park" loading="lazy" />
 
 <div class="ssci-page-content">
 
 <h2>Mad Chairs Tournament 2026</h2>
-
-<p>The Mad Chairs Tournament 2026 is a competition associated with IEEE SSCI 2027.</p>
-
-<p>The competition is now live on Kaggle. Participants can find the competition details, rules, data, evaluation criteria, and submission instructions on the Kaggle competition page.</p>
-
+<p>Robots and AI will need social norms for dividing scarce resources, such as space in traffic and attention on social media. You can advance potential norms by preparing agentic AI to win this 3 vs 3 game on Kaggle.</p>
+<p>This competition will remain active and open to all until <strong>24 December 2026</strong>. IEEE SSCI 2027 will include an awards ceremony to honor the winners. Further details, rules, data, evaluation criteria, and submission instructions are available on the Kaggle competition page.</p>
 <div class="ssci-link-card-grid">
-<a class="ssci-link-card" href="https://www.kaggle.com/competitions/mad-chairs-tournament-2026/" target="_blank" rel="noreferrer">
+<a class="ssci-link-card" href="https://www.kaggle.com/competitions/mad-chairs-tournament-2026/">
 <span>Join the Competition on Kaggle</span>
-<small>Visit Kaggle to review the rules and participate in Mad Chairs Tournament 2026.</small>
+<small>Review the rules and enter Mad Chairs Tournament 2026. Open to all until 24 December 2026.</small>
 </a>
 </div>
 

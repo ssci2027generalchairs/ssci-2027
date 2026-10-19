@@ -1,20 +1,24 @@
 {
   "slug": "program/competitions",
   "title": "Competitions",
-  "summary": "Explore competitions associated with IEEE SSCI 2027 and take part in current challenges.",
+  "summary": "Prepare an agentic AI team for Mad Chairs Tournament 2026, an open Kaggle competition associated with IEEE SSCI 2027.",
   "kind": "basic",
+  "heroImage": {
+    "src": "/assets/images/competitions/mad-chairs-tournament-2026.jpg",
+    "alt": "A friendly robot mediating a group activity with children in a sunny green park"
+  },
   "sections": [
     {
       "heading": "Mad Chairs Tournament 2026",
       "paragraphs": [
-        "The Mad Chairs Tournament 2026 is a competition associated with IEEE SSCI 2027.",
-        "The competition is now live on Kaggle. Participants can find the competition details, rules, data, evaluation criteria, and submission instructions on the Kaggle competition page."
+        "Robots and AI will need social norms for dividing scarce resources, such as space in traffic and attention on social media. You can advance potential norms by preparing agentic AI to win this 3 vs 3 game on Kaggle.",
+        "This competition will remain active and open to all until <strong>24 December 2026</strong>. IEEE SSCI 2027 will include an awards ceremony to honor the winners. Further details, rules, data, evaluation criteria, and submission instructions are available on the Kaggle competition page."
       ],
       "cards": [
         {
           "title": "Join the Competition on Kaggle",
           "href": "https://www.kaggle.com/competitions/mad-chairs-tournament-2026/",
-          "text": "Visit Kaggle to review the rules and participate in Mad Chairs Tournament 2026."
+          "text": "Review the rules and enter Mad Chairs Tournament 2026. Open to all until 24 December 2026."
         }
       ]
     }

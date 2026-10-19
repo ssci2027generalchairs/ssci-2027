@@ -17,6 +17,10 @@ interface PageData {
   summary: string;
   kind: 'basic' | 'committee' | 'speakers' | 'sponsors';
   committeeSlug?: string;
+  heroImage?: {
+    src: string;
+    alt: string;
+  };
   sections?: Array<Record<string, unknown>>;
 }
 
@@ -41,6 +45,7 @@ const isOrganizingCommitteePage = page.kind === 'committee' && page.committeeSlu
 const isSymposiaOverviewPage = page.slug === 'symposia';
 const isCallForPapersPage = page.slug === 'submissions/call-for-papers';
 const isSubmissionInstructionsPage = page.slug === 'submissions/instructions';
+const isCompetitionsPage = page.slug === 'program/competitions';
 const showPageHeading = !isOrganizingCommitteePage;
 const base = import.meta.env.BASE_URL;
 const cleanBase = base.endsWith('/') ? base.slice(0, -1) : base;
@@ -55,6 +60,7 @@ const getSymposiaHeroImage = (slug: string) => {
   return heroImages[seed % heroImages.length];
 };
 const symposiaHeroImage = getSymposiaHeroImage(page.slug);
+const contentHeroImage = page.heroImage || symposiaHeroImage;
 ---
 
 <BaseLayout title={page.title} description={page.summary}>
@@ -65,6 +71,7 @@ const symposiaHeroImage = getSymposiaHeroImage(page.slug);
     isSymposiaOverviewPage && 'symposia-overview-page',
     isCallForPapersPage && 'call-for-papers-page',
     isSubmissionInstructionsPage && 'submission-instructions-page',
+    isCompetitionsPage && 'competitions-page',
   ]}>
     <div class:list={['container', 'page-content', isOrganizingCommitteePage && 'committee-page-content']}>
       {showPageHeading && (
@@ -74,11 +81,11 @@ const symposiaHeroImage = getSymposiaHeroImage(page.slug);
           {page.summary && <p>{page.summary}</p>}
         </header>
       )}
-      {symposiaHeroImage && (
+      {contentHeroImage && (
         <img
           class="content-hero-image"
-          src={withBase(symposiaHeroImage.src)}
-          alt={symposiaHeroImage.alt}
+          src={withBase(contentHeroImage.src)}
+          alt={contentHeroImage.alt}
           loading="lazy"
         />
       )}
