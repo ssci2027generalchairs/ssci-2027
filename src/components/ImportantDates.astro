@@ -5,6 +5,7 @@ interface DateItem {
   label: string;
   date: string;
   status?: string;
+  previousDate?: string;
 }
 
 interface Props {
@@ -17,7 +18,8 @@ interface Props {
     {Astro.props.dates.map((item) => (
       <li>
         <span>{item.label}</span>
-        <strong>{item.date}</strong>
+        {item.previousDate && <del class="previous-date">{item.previousDate}</del>}
+        <strong class:list={[item.previousDate && 'extended-date']}>{item.date}</strong>
         {item.status && <em>{item.status}</em>}
       </li>
     ))}

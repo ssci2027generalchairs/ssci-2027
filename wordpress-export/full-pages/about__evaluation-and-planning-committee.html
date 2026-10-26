@@ -243,12 +243,6 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   transition: opacity 0.3s ease, top 0.3s ease;
 }
 
-.ssci-wp-dropdown-vertical {
-  display: block;
-  min-width: 260px;
-  max-width: min(340px, calc(100vw - 32px));
-}
-
 .ssci-wp-dropdown::before {
   position: absolute;
   right: 0;
@@ -553,6 +547,13 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   font-weight: 700;
 }
 
+.ssci-previous-date { color: black; text-decoration-color: red; text-decoration-thickness: 2px; }
+.ssci-extended-date { color: red; font-weight: 700; }
+.ssci-remote-presentation-note { margin: 28px 0; }
+.ssci-organised-by { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 28px; align-items: center; }
+.ssci-organised-by > div { display: grid; place-items: center; min-height: 100px; }
+.ssci-organised-by img { width: auto; max-width: 100%; max-height: 100px; object-fit: contain; }
+
 .ssci-news-list {
   display: grid;
   gap: 14px;
@@ -696,6 +697,44 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   object-fit: cover;
 }
 
+@media (min-width: 820px) {
+  .ssci-competitions-page {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 380px);
+    gap: 28px 48px;
+    align-items: start;
+  }
+
+  .ssci-competitions-page .ssci-page-heading {
+    grid-column: 1 / -1;
+    margin-bottom: 0;
+  }
+
+  .ssci-competitions-page .ssci-content-hero-image {
+    grid-column: 2;
+    grid-row: 2;
+    height: auto;
+    max-height: 540px;
+    margin: 0;
+    object-fit: contain;
+  }
+
+  .ssci-competitions-page .ssci-page-content {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+.ssci-competitions-page .ssci-link-card-grid {
+  grid-template-columns: minmax(0, 420px);
+}
+
+.ssci-competitions-page .ssci-link-card {
+  grid-template-rows: auto auto;
+  min-height: 0;
+}
+
+
 .ssci-page-content h2 {
   margin: 24px 0 10px;
   color: var(--ssci-navy);
@@ -781,46 +820,6 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 .ssci-call-for-papers-page .ssci-page-content > ul li,
 .ssci-submission-instructions-page .ssci-page-content > ul li {
   margin-bottom: 8px;
-}
-
-.ssci-epc-page {
-  display: grid;
-  gap: 28px;
-  padding-bottom: 72px;
-}
-
-.ssci-epc-section {
-  padding-bottom: 26px;
-  border-bottom: 1px solid var(--ssci-line);
-}
-
-.ssci-epc-section:last-child {
-  padding-bottom: 0;
-  border-bottom: 0;
-}
-
-.ssci-epc-section h2 {
-  margin: 0 0 14px;
-  color: var(--ssci-navy);
-  font-size: clamp(20px, 1.8vw, 25px);
-  font-weight: 700;
-}
-
-.ssci-epc-list {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px 32px;
-  margin: 0;
-  padding-left: 22px;
-}
-
-.ssci-epc-list li {
-  margin-bottom: 4px;
-  line-height: 1.58;
-}
-
-.ssci-epc-list strong {
-  color: var(--ssci-navy);
 }
 
 @media (max-width: 900px) {
@@ -1166,7 +1165,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <li class="ssci-wp-nav-item"><a href="https://attend.ieee.org/ssci-2027/">Home</a></li>
 <li class="ssci-wp-nav-item ssci-wp-has-menu">
 <a href="https://attend.ieee.org/ssci-2027/about/organizing-committee/" aria-haspopup="true">About</a>
-<ul class="ssci-wp-dropdown ssci-wp-dropdown-vertical">
+<ul class="ssci-wp-dropdown">
 <li><a href="https://attend.ieee.org/ssci-2027/about/organizing-committee/">Organizing Committee</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/about/evaluation-and-planning-committee/">SSCI Evaluation and Planning Committee</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/about/contact/">Contact Us</a></li>
@@ -1174,7 +1173,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 </li>
 <li class="ssci-wp-nav-item ssci-wp-has-menu">
 <a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/" aria-haspopup="true">Submissions</a>
-<ul class="ssci-wp-dropdown ssci-wp-dropdown-vertical">
+<ul class="ssci-wp-dropdown">
 <li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call For Papers</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-tutorials/">Call for Tutorials</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/submissions/instructions/">Submission Instructions</a></li>
@@ -1213,65 +1212,24 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 <h1>SSCI Evaluation and Planning Committee</h1>
 
-<p>Committee members supporting the long-term planning and technical activities alignment of IEEE SSCI 2027.</p>
-
 </header>
 
-<div class="ssci-page-content ssci-epc-page">
+<div class="ssci-page-content">
 
-<section class="ssci-epc-section">
 <h2>Evaluation and Planning Committee Chair</h2>
-<ul class="ssci-epc-list">
-<li>Conference Committee - <strong>Andy Tyrrell</strong> (Chair of Committee)</li>
-</ul>
-</section>
+<ul><li>Conference Committee - <strong>Andy Tyrrell</strong> (Chair of Committee)</li></ul>
 
-<section class="ssci-epc-section">
 <h2>General Chairs</h2>
-<ul class="ssci-epc-list">
-<li><strong>Alan Liew</strong>, Griffith University</li>
-<li><strong>Chin-Teng Lin</strong>, University of Technology Sydney</li>
-</ul>
-</section>
+<ul><li><strong>Alan Liew</strong>, Griffith University</li><li><strong>Chin-Teng Lin</strong>, University of Technology Sydney</li></ul>
 
-<section class="ssci-epc-section">
 <h2>Program Chairs</h2>
-<ul class="ssci-epc-list">
-<li><strong>Shirui Pan</strong>, Griffith University</li>
-<li><strong>Davide Bacciu</strong>, University of Pisa</li>
-<li><strong>Gary G. Yen</strong>, Oklahoma State University</li>
-</ul>
-</section>
+<ul><li><strong>Shirui Pan</strong>, Griffith University</li><li><strong>Davide Bacciu</strong>, University of Pisa</li><li><strong>Gary G. Yen</strong>, Oklahoma State University</li></ul>
 
-<section class="ssci-epc-section">
 <h2>Symposium Chairs</h2>
-<ul class="ssci-epc-list">
-<li>CI for Energy, Transport and Environmental Sustainability - <strong>Bo Du</strong>, <strong>Wei-Neng Chen</strong></li>
-<li>CI in Engineering / Cyber Physical Systems - <strong>Hai Dong</strong>, <strong>Yi Mei</strong></li>
-<li>CI in Image, Signal Processing and Synthetic Media - <strong>Ying Bi</strong>, <strong>Bing Xue</strong>, <strong>Kai Qin</strong></li>
-<li>CI in Artificial Life and Cooperative Intelligent Systems - <strong>Jiajun Liu</strong>, <strong>Peyman Moghadam</strong></li>
-<li>CI in Security, Defence and Biometrics - <strong>Jiankun Hu</strong>, <strong>Tianqing Zhu</strong></li>
-<li>CI in Health and Medicine - <strong>Xiuying Wang</strong>, <strong>Vassilis P. Plagianakos</strong></li>
-<li>CI for Financial Engineering and Economics - <strong>Yongjae Lee</strong>, <strong>Jianxin Li</strong></li>
-<li>CI in Natural Language Processing and Social Media - <strong>Hongzhi Yin</strong>, <strong>Usman Naseem</strong></li>
-<li>Trustworthy, Explainable and Responsible CI - <strong>Guangdong Bai</strong>, <strong>Feng Liu</strong>, <strong>Ruwang Jiao</strong></li>
-<li>Multidisciplinary Computational Intelligence Incubators - <strong>Fenglei Fan</strong>, <strong>Min Jiang</strong></li>
-</ul>
-</section>
+<ul><li>CI for Energy, Transport and Environmental Sustainability - <strong>Bo Du</strong>, <strong>Wei-Neng Chen</strong></li><li>CI in Engineering / Cyber Physical Systems - <strong>Hai Dong</strong>, <strong>Yi Mei</strong></li><li>CI in Image, Signal Processing and Synthetic Media - <strong>Ying Bi</strong>, <strong>Bing Xue</strong>, <strong>Kai Qin</strong></li><li>CI in Artificial Life and Cooperative Intelligent Systems - <strong>Jiajun Liu</strong>, <strong>Peyman Moghadam</strong></li><li>CI in Security, Defence and Biometrics - <strong>Jiankun Hu</strong>, <strong>Tianqing Zhu</strong></li><li>CI in Health and Medicine - <strong>Xiuying Wang</strong>, <strong>Vassilis P. Plagianakos</strong></li><li>CI for Financial Engineering and Economics - <strong>Yongjae Lee</strong>, <strong>Jianxin Li</strong></li><li>CI in Natural Language Processing and Social Media - <strong>Hongzhi Yin</strong>, <strong>Usman Naseem</strong></li><li>Trustworthy, Explainable and Responsible CI - <strong>Guangdong Bai</strong>, <strong>Feng Liu</strong>, <strong>Ruwang Jiao</strong></li><li>Multidisciplinary Computational Intelligence Incubators - <strong>Fenglei Fan</strong>, <strong>Min Jiang</strong></li></ul>
 
-<section class="ssci-epc-section">
 <h2>Technical Activities Liaison/Strategy Representatives</h2>
-<ul class="ssci-epc-list">
-<li>CI for Energy, Transport and Environmental Sustainability - <strong>Joao Soares</strong>, jan@isep.ipp.pt</li>
-<li>CI in Engineering / Cyber Physical Systems - <strong>Manuel Roveri</strong>, manuel.roveri@polimi.it</li>
-<li>CI in Image, Signal Processing and Synthetic Media - <strong>Kai Qin</strong>, kqin@swin.edu.au</li>
-<li>CI in Artificial Life and Cooperative Intelligent Systems - <strong>Chrystopher Nehaniv</strong>, cnehaniv@uwaterloo.ca</li>
-<li>CI in Health and Medicine - <strong>Yasin Mamatjan</strong>, ymamatjan@tru.ca</li>
-<li>CI for Financial Engineering and Economics - <strong>Ruppa Thulasiram (Tulsi)</strong>, tulsi.thulasiram@umanitoba.ca</li>
-<li>CI in Natural Language Processing and Social Media - <strong>Xueming Yan</strong>, yanxm@gdufs.edu.cn</li>
-<li>Trustworthy, Explainable and Responsible CI - <strong>Albert YS Lam</strong>, ayslam@gmail.com</li>
-</ul>
-</section>
+<ul><li>CI for Energy, Transport and Environmental Sustainability - <strong>Joao Soares</strong>, jan@isep.ipp.pt</li><li>CI in Engineering / Cyber Physical Systems - <strong>Manuel Roveri</strong>, manuel.roveri@polimi.it</li><li>CI in Image, Signal Processing and Synthetic Media - <strong>Kai Qin</strong>, kqin@swin.edu.au</li><li>CI in Artificial Life and Cooperative Intelligent Systems - <strong>Chrystopher Nehaniv</strong>, cnehaniv@uwaterloo.ca</li><li>CI in Health and Medicine - <strong>Yasin Mamatjan</strong>, ymamatjan@tru.ca</li><li>CI for Financial Engineering and Economics - <strong>Ruppa Thulasiram (Tulsi)</strong>, tulsi.thulasiram@umanitoba.ca</li><li>CI in Natural Language Processing and Social Media - <strong>Xueming Yan</strong>, yanxm@gdufs.edu.cn</li><li>Trustworthy, Explainable and Responsible CI - <strong>Albert YS Lam</strong>, ayslam@gmail.com</li></ul>
 
 </div>
 

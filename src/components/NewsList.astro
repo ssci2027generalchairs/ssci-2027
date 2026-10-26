@@ -4,6 +4,7 @@ interface NewsItem {
   href?: string;
   date?: string;
   summary?: string;
+  summaryHtml?: string;
 }
 
 interface Props {
@@ -19,7 +20,7 @@ interface Props {
         <h3>
           {item.href ? <a href={item.href}>{item.title}</a> : item.title}
         </h3>
-        {item.summary && <p>{item.summary}</p>}
+        {item.summaryHtml ? <p set:html={item.summaryHtml} /> : item.summary && <p>{item.summary}</p>}
       </article>
     ))}
   </div>

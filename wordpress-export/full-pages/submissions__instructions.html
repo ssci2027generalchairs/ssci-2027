@@ -243,12 +243,6 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   transition: opacity 0.3s ease, top 0.3s ease;
 }
 
-.ssci-wp-dropdown-vertical {
-  display: block;
-  min-width: 260px;
-  max-width: min(340px, calc(100vw - 32px));
-}
-
 .ssci-wp-dropdown::before {
   position: absolute;
   right: 0;
@@ -553,6 +547,13 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   font-weight: 700;
 }
 
+.ssci-previous-date { color: black; text-decoration-color: red; text-decoration-thickness: 2px; }
+.ssci-extended-date { color: red; font-weight: 700; }
+.ssci-remote-presentation-note { margin: 28px 0; }
+.ssci-organised-by { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 28px; align-items: center; }
+.ssci-organised-by > div { display: grid; place-items: center; min-height: 100px; }
+.ssci-organised-by img { width: auto; max-width: 100%; max-height: 100px; object-fit: contain; }
+
 .ssci-news-list {
   display: grid;
   gap: 14px;
@@ -695,6 +696,44 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   margin: 0 0 30px;
   object-fit: cover;
 }
+
+@media (min-width: 820px) {
+  .ssci-competitions-page {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 380px);
+    gap: 28px 48px;
+    align-items: start;
+  }
+
+  .ssci-competitions-page .ssci-page-heading {
+    grid-column: 1 / -1;
+    margin-bottom: 0;
+  }
+
+  .ssci-competitions-page .ssci-content-hero-image {
+    grid-column: 2;
+    grid-row: 2;
+    height: auto;
+    max-height: 540px;
+    margin: 0;
+    object-fit: contain;
+  }
+
+  .ssci-competitions-page .ssci-page-content {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+.ssci-competitions-page .ssci-link-card-grid {
+  grid-template-columns: minmax(0, 420px);
+}
+
+.ssci-competitions-page .ssci-link-card {
+  grid-template-rows: auto auto;
+  min-height: 0;
+}
+
 
 .ssci-page-content h2 {
   margin: 24px 0 10px;
@@ -1126,7 +1165,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <li class="ssci-wp-nav-item"><a href="https://attend.ieee.org/ssci-2027/">Home</a></li>
 <li class="ssci-wp-nav-item ssci-wp-has-menu">
 <a href="https://attend.ieee.org/ssci-2027/about/organizing-committee/" aria-haspopup="true">About</a>
-<ul class="ssci-wp-dropdown ssci-wp-dropdown-vertical">
+<ul class="ssci-wp-dropdown">
 <li><a href="https://attend.ieee.org/ssci-2027/about/organizing-committee/">Organizing Committee</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/about/evaluation-and-planning-committee/">SSCI Evaluation and Planning Committee</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/about/contact/">Contact Us</a></li>
@@ -1134,7 +1173,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 </li>
 <li class="ssci-wp-nav-item ssci-wp-has-menu">
 <a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/" aria-haspopup="true">Submissions</a>
-<ul class="ssci-wp-dropdown ssci-wp-dropdown-vertical">
+<ul class="ssci-wp-dropdown">
 <li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call For Papers</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-tutorials/">Call for Tutorials</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/submissions/instructions/">Submission Instructions</a></li>
@@ -1154,13 +1193,6 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <li><a href="https://attend.ieee.org/ssci-2027/symposia/nlp-social-media/">CI in Natural Language Processing and Social Media</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/symposia/trustworthy-explainable-responsible-ci/">Trustworthy, Explainable and Responsible CI</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/symposia/multidisciplinary-incubators/">Multidisciplinary Computational Intelligence Incubators</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-archeology/">Special Session in CI in Archeology</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-non-traditional-computation-technologies/">Special Session for CI in Non-Traditional Computation Technologies</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-aerospace-applications/">Special Session in CI in Aerospace Applications</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-agricultural-sciences-agroforestry/">Special Session in CI in Agricultural Sciences and Agroforestry</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-neuroscience/">Special Session in CI in Neuroscience</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-search-based-software-engineering/">Special Session in CI in Search-based Software Engineering</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-maritime-technology/">Special Session in CI in Maritime Technology</a></li>
 </ul>
 </li>
 <li class="ssci-wp-nav-item"><a href="https://attend.ieee.org/ssci-2027/program/competitions/">Competitions</a></li>
@@ -1188,7 +1220,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 <h2>Submission Link</h2>
 <p>Full and short paper submissions should be made through the IEEE SSCI 2027 online submission system.</p>
-<p>You can access the submission site <a href="https://ssl.linklings.net/conferences/SSCI/" target="_blank" rel="noreferrer" style="color: #c2410c; font-weight: 800;">here</a>.</p>
+<p>You can access the submission site [Will be released later].</p>
 <p>The deadline for full and short paper submissions is 10 August 2026.</p>
 <p>Submissions for late breaking papers, abstract (poster-only) and journal to conference presentation (J2C) submissions are also welcome.</p>
 
@@ -1201,7 +1233,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <ul><li><b>Full papers:</b> papers of up to 6 pages, plus 1 page for references. A maximum of two extra content pages per full paper is allowed (i.e, up to 8 pages plus 1 page for references), at an additional charge per extra page as specified in the <a href="https://attend.ieee.org/ssci-2027/registration/">registration</a> page.</li><li><b>Short papers:</b> papers of up to 4 pages, plus 1 page for references.</li><li><b>Late breaking papers:</b> extended abstracts of up to 2 pages, including references, if any.</li><li><b>Abstract (poster-only):</b> abstracts of up to 250 words.</li><li><b>Journal to conference:</b> up to 1 page listing bullet points with the highlights of the paper, and an explanation on why you believe the paper to be relevant to SSCI.</li></ul>
 
 <p>For more details, please refer to the <a href="https://attend.ieee.org/ssci-2027/wp-content/uploads/sites/847/call-for-papers.pdf" target="_blank">Call for Papers</a>.</p>
-<ul><li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call For Papers</a></li></ul>
+<ul><li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call For Papers and Other Submissions</a></li></ul>
 
 <h2>Open Science for Full and Short Papers</h2>
 <p>We encourage all authors to make their data/code available upon acceptance of full and short papers to increase reproducibility and replicability.</p>

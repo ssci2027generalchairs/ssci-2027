@@ -243,12 +243,6 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   transition: opacity 0.3s ease, top 0.3s ease;
 }
 
-.ssci-wp-dropdown-vertical {
-  display: block;
-  min-width: 260px;
-  max-width: min(340px, calc(100vw - 32px));
-}
-
 .ssci-wp-dropdown::before {
   position: absolute;
   right: 0;
@@ -553,6 +547,13 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   font-weight: 700;
 }
 
+.ssci-previous-date { color: black; text-decoration-color: red; text-decoration-thickness: 2px; }
+.ssci-extended-date { color: red; font-weight: 700; }
+.ssci-remote-presentation-note { margin: 28px 0; }
+.ssci-organised-by { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 28px; align-items: center; }
+.ssci-organised-by > div { display: grid; place-items: center; min-height: 100px; }
+.ssci-organised-by img { width: auto; max-width: 100%; max-height: 100px; object-fit: contain; }
+
 .ssci-news-list {
   display: grid;
   gap: 14px;
@@ -695,6 +696,44 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   margin: 0 0 30px;
   object-fit: cover;
 }
+
+@media (min-width: 820px) {
+  .ssci-competitions-page {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 380px);
+    gap: 28px 48px;
+    align-items: start;
+  }
+
+  .ssci-competitions-page .ssci-page-heading {
+    grid-column: 1 / -1;
+    margin-bottom: 0;
+  }
+
+  .ssci-competitions-page .ssci-content-hero-image {
+    grid-column: 2;
+    grid-row: 2;
+    height: auto;
+    max-height: 540px;
+    margin: 0;
+    object-fit: contain;
+  }
+
+  .ssci-competitions-page .ssci-page-content {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+.ssci-competitions-page .ssci-link-card-grid {
+  grid-template-columns: minmax(0, 420px);
+}
+
+.ssci-competitions-page .ssci-link-card {
+  grid-template-rows: auto auto;
+  min-height: 0;
+}
+
 
 .ssci-page-content h2 {
   margin: 24px 0 10px;
@@ -1126,7 +1165,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <li class="ssci-wp-nav-item"><a href="https://attend.ieee.org/ssci-2027/">Home</a></li>
 <li class="ssci-wp-nav-item ssci-wp-has-menu">
 <a href="https://attend.ieee.org/ssci-2027/about/organizing-committee/" aria-haspopup="true">About</a>
-<ul class="ssci-wp-dropdown ssci-wp-dropdown-vertical">
+<ul class="ssci-wp-dropdown">
 <li><a href="https://attend.ieee.org/ssci-2027/about/organizing-committee/">Organizing Committee</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/about/evaluation-and-planning-committee/">SSCI Evaluation and Planning Committee</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/about/contact/">Contact Us</a></li>
@@ -1134,7 +1173,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 </li>
 <li class="ssci-wp-nav-item ssci-wp-has-menu">
 <a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/" aria-haspopup="true">Submissions</a>
-<ul class="ssci-wp-dropdown ssci-wp-dropdown-vertical">
+<ul class="ssci-wp-dropdown">
 <li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call For Papers</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-tutorials/">Call for Tutorials</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/submissions/instructions/">Submission Instructions</a></li>
@@ -1154,13 +1193,6 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <li><a href="https://attend.ieee.org/ssci-2027/symposia/nlp-social-media/">CI in Natural Language Processing and Social Media</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/symposia/trustworthy-explainable-responsible-ci/">Trustworthy, Explainable and Responsible CI</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/symposia/multidisciplinary-incubators/">Multidisciplinary Computational Intelligence Incubators</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-archeology/">Special Session in CI in Archeology</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-non-traditional-computation-technologies/">Special Session for CI in Non-Traditional Computation Technologies</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-aerospace-applications/">Special Session in CI in Aerospace Applications</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-agricultural-sciences-agroforestry/">Special Session in CI in Agricultural Sciences and Agroforestry</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-neuroscience/">Special Session in CI in Neuroscience</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-search-based-software-engineering/">Special Session in CI in Search-based Software Engineering</a></li>
-<li><a href="https://attend.ieee.org/ssci-2027/symposia/special-session-ci-maritime-technology/">Special Session in CI in Maritime Technology</a></li>
 </ul>
 </li>
 <li class="ssci-wp-nav-item"><a href="https://attend.ieee.org/ssci-2027/program/competitions/">Competitions</a></li>
@@ -1191,12 +1223,6 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <h2>Symposium Chairs</h2>
 <ul><li>A/Prof. Bo Du, Griffith University Business School</li><li>Prof. Wei-Neng Chen, South China University of Technology</li></ul>
 
-<h2>Technical Activities Liaison</h2>
-<ul><li>Joao Soares</li></ul>
-
-<h2>Technical Chairs</h2>
-<ul><li>Prof. Chaomin Luo, Mississippi State University, USA</li><li>A/Prof. Liang Du, Villanova University, USA</li></ul>
-
 <h2>Scope</h2>
 <p>The primary focus of the IEEE Symposium on Computational Intelligence for Energy, Transport, and Environmental Sustainability is the convergence of computational intelligence (CI) with the vital areas of energy, transport, and environmental sustainability. This subject is crucial as it tackles the urgent difficulties encountered in energy, transportation, and environmental sustainability, which directly affect our world and future generations.</p>
 <p>Computational intelligence has been effectively utilized in diverse sectors within this field. For example, CI has been employed in enhancing energy generation and distribution systems, optimizing transportation networks and logistics, and creating sophisticated environmental monitoring and management solutions. These applications have demonstrated the value of CI in tackling intricate challenges and attaining effective and durable results.</p>
@@ -1207,19 +1233,19 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <p>Topics of interest include, but are not limited to:</p>
 
 <h2>Natural Ecosystems</h2>
-<ul><li>Agriculture management</li><li>Forest monitoring</li><li>Water resource management</li><li>Smart fishing</li><li>Pollution monitoring</li><li>Aquaculture management</li><li>Ecosystems services</li><li>Ecosystems resilience</li><li>Sustainable agriculture</li></ul>
+<ul><li>Agriculture, harvesting and precision</li><li>Crop and animal genetics</li><li>Agriculture management</li><li>Soil and growing condition monitoring</li><li>Forest monitoring</li><li>Forest fire mitigation</li><li>Water resource management</li><li>Smart fishing</li><li>Pollution monitoring</li><li>Aquaculture management</li><li>Invasive species management</li><li>Ecosystems services</li><li>Ecosystems resilience</li><li>Sustainable agriculture</li><li>Ecosystem toxicology</li><li>Ecosystem restoration</li></ul>
 
 <h2>Environment</h2>
-<ul><li>Disaster warning and management</li><li>Environmental monitoring</li><li>Biodiversity conservation</li><li>Pollution control</li><li>Climate modeling and simulation</li><li>Climate risk assessment and adaptation</li><li>Carbon cycle modeling and prediction</li><li>Climate resilience planning</li><li>Climate informatics</li></ul>
+<ul><li>Disaster warning and management</li><li>Forecasting models</li><li>Environmental monitoring</li><li>Biodiversity conservation</li><li>Pollution control</li><li>Climate modeling and simulation</li><li>Climate data analysis and pattern recognition</li><li>Climate risk assessment and adaptation</li><li>Carbon cycle modeling and prediction</li><li>Climate resilience planning</li><li>Climate informatics</li><li>Climate services and Decision Support Systems</li></ul>
 
-<h2>Energy</h2>
-<ul><li>Renewable energy forecasting</li><li>Energy management</li><li>Distributed energy</li><li>Optimisation of energy storage</li><li>Charging and discharging strategies</li><li>Transport energy interfacing</li><li>Wireless power transfer</li><li>Smart grid integration with renewable energy</li><li>Hydrogen-powered energy system</li><li>Energy efficiency in data centres</li></ul>
+<h2>Energy/Transport</h2>
+<ul><li>Efficient energy</li><li>Renewable energy forecasting</li><li>Energy management</li><li>Distributed energy</li><li>Optimisation of energy storage</li><li>Charging and discharging strategies</li><li>Transport energy interfacing</li><li>Wireless power transfer</li><li>Smart grid scheduling</li><li>Smart grid integration with renewable energy</li><li>Electric vehicles/ships</li><li>Integrated multi-modal transport systems</li><li>Predictive maintenance in transport systems</li><li>Smart charging for electric vehicles</li><li>Energy efficiency in data centres</li></ul>
 
-<h2>Transport</h2>
-<ul><li>Autonomous vehicles</li><li>Unmanned aerial vehicle</li><li>Electric vertical take-off and landing (eVTOL)</li><li>Electrified transport</li><li>Smart charging for electric vehicles</li><li>Intelligent transport systems</li><li>Energy efficiency in transportation</li><li>Cybersecurity in autonomous vehicles</li><li>Vehicle-to-vehicle/infrastructure communication</li></ul>
+<h2>Transport Vehicles/Ships</h2>
+<ul><li>Autonomous vehicles</li><li>Health and longevity of transport vehicles</li><li>Route optimisation</li><li>Efficient loading/unloading</li><li>Intelligent transport systems</li><li>Traffic flow optimization</li><li>Energy efficiency in vehicles/ships</li><li>Cybersecurity in vehicles</li><li>Vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I)</li></ul>
 
 <h2>Supply Chains</h2>
-<ul><li>Cost-efficient supply chains</li><li>Supply chain safety</li><li>IoT for goods in shipment and real-time tracking</li><li>Sustainable and green supply chains</li><li>Demand forecasting</li><li>Supply chain resilience</li><li>Predictive analytics for risk management</li></ul>
+<ul><li>Cost-efficient supply chains</li><li>Supply chain safety</li><li>IoT for goods in shipment and real-time tracking</li><li>Sustainable and Green supply chains</li><li>Demand forecasting</li><li>Supply chain resilience</li><li>Predictive analytics for risk management</li></ul>
 
 </div>
 

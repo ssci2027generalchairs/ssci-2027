@@ -1,8 +1,15 @@
 [
   {
-    "title": "Mad Chairs Tournament 2026 is now live on Kaggle",
-    "href": "/program/competitions/",
-    "date": "2026-10-16",
-    "summary": "Take part in the Mad Chairs Tournament 2026, a competition associated with IEEE SSCI 2027."
+    "title": "Mad Chairs Tournament 2026 Is Now Live",
+    "summaryHtml": "The Mad Chairs Tournament 2026, a competition associated with IEEE SSCI 2027, is now live on <a href=\"https://www.kaggle.com/competitions/mad-chairs-tournament-2026/\" rel=\"noreferrer\" target=\"_blank\">Kaggle</a>.",
+    "href": "/program/competitions/"
+  },
+  {
+    "title": "Submission System Now Open",
+    "summaryHtml": "The IEEE SSCI 2027 submission system is now open. Please submit your paper through the <a href=\"https://ssl.linklings.net/conferences/SSCI/\" rel=\"noreferrer\" target=\"_blank\">submission site</a>."
+  },
+  {
+    "title": "Tutorial Submission System Now Open",
+    "summaryHtml": "The IEEE SSCI 2027 tutorial proposal submission system is now open. Please submit your tutorial proposal through the <a href=\"https://easychair.org/conferences/?conf=ssci27\" rel=\"noreferrer\" target=\"_blank\">EasyChair submission site</a>."
   }
 ]

@@ -1,0 +1,24 @@
+{
+  "remotePresentation": [
+    "IEEE SSCI 2027 will be primarily an in-person conference. However, the organization acknowledges that for a wide variety of reasons not all members can physically attend the conference and that traveling may simply be impossible. Therefore, the conference will provide the possibility for remote presentation (live online talk with live online Q&A) for remote authors. At least one remote author must register for the conference (regular registration, as IEEE Member or Non-Member).",
+    "In addition to delivering the live online talk, remote authors are also asked to provide a recording their talk, which will be made available to all attendees to be viewed at their own convenience. The recorded talk will also be used as a backup just in case there are Internet connection problems during the live online talk. Remote attendees can attend only online sessions whereas on-site attendees can attend all sessions (i.e., both online and on-site sessions)."
+  ],
+  "organizers": [
+    {
+      "name": "IEEE",
+      "logo": "/assets/images/IEEE2-370x148.png.webp"
+    },
+    {
+      "name": "IEEE Computational Intelligence Society",
+      "logo": "/assets/images/cis-logo.png"
+    },
+    {
+      "name": "Griffith University",
+      "logo": "/assets/images/griffith-logo-1.png"
+    },
+    {
+      "name": "University of Technology Sydney",
+      "logo": "/assets/images/UTS-logo-1-scaled.jpg"
+    }
+  ]
+}

@@ -243,12 +243,6 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   transition: opacity 0.3s ease, top 0.3s ease;
 }
 
-.ssci-wp-dropdown-vertical {
-  display: block;
-  min-width: 260px;
-  max-width: min(340px, calc(100vw - 32px));
-}
-
 .ssci-wp-dropdown::before {
   position: absolute;
   right: 0;
@@ -553,6 +547,13 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   font-weight: 700;
 }
 
+.ssci-previous-date { color: black; text-decoration-color: red; text-decoration-thickness: 2px; }
+.ssci-extended-date { color: red; font-weight: 700; }
+.ssci-remote-presentation-note { margin: 28px 0; }
+.ssci-organised-by { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 28px; align-items: center; }
+.ssci-organised-by > div { display: grid; place-items: center; min-height: 100px; }
+.ssci-organised-by img { width: auto; max-width: 100%; max-height: 100px; object-fit: contain; }
+
 .ssci-news-list {
   display: grid;
   gap: 14px;
@@ -695,6 +696,44 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   margin: 0 0 30px;
   object-fit: cover;
 }
+
+@media (min-width: 820px) {
+  .ssci-competitions-page {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 380px);
+    gap: 28px 48px;
+    align-items: start;
+  }
+
+  .ssci-competitions-page .ssci-page-heading {
+    grid-column: 1 / -1;
+    margin-bottom: 0;
+  }
+
+  .ssci-competitions-page .ssci-content-hero-image {
+    grid-column: 2;
+    grid-row: 2;
+    height: auto;
+    max-height: 540px;
+    margin: 0;
+    object-fit: contain;
+  }
+
+  .ssci-competitions-page .ssci-page-content {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+.ssci-competitions-page .ssci-link-card-grid {
+  grid-template-columns: minmax(0, 420px);
+}
+
+.ssci-competitions-page .ssci-link-card {
+  grid-template-rows: auto auto;
+  min-height: 0;
+}
+
 
 .ssci-page-content h2 {
   margin: 24px 0 10px;
@@ -1126,7 +1165,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <li class="ssci-wp-nav-item"><a href="https://attend.ieee.org/ssci-2027/">Home</a></li>
 <li class="ssci-wp-nav-item ssci-wp-has-menu">
 <a href="https://attend.ieee.org/ssci-2027/about/organizing-committee/" aria-haspopup="true">About</a>
-<ul class="ssci-wp-dropdown ssci-wp-dropdown-vertical">
+<ul class="ssci-wp-dropdown">
 <li><a href="https://attend.ieee.org/ssci-2027/about/organizing-committee/">Organizing Committee</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/about/evaluation-and-planning-committee/">SSCI Evaluation and Planning Committee</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/about/contact/">Contact Us</a></li>
@@ -1134,7 +1173,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 </li>
 <li class="ssci-wp-nav-item ssci-wp-has-menu">
 <a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/" aria-haspopup="true">Submissions</a>
-<ul class="ssci-wp-dropdown ssci-wp-dropdown-vertical">
+<ul class="ssci-wp-dropdown">
 <li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-papers/">Call For Papers</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/submissions/call-for-tutorials/">Call for Tutorials</a></li>
 <li><a href="https://attend.ieee.org/ssci-2027/submissions/instructions/">Submission Instructions</a></li>
@@ -1163,7 +1202,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 </div>
 </header>
 <main class="ssci-wp-main">
-<!-- WordPress export for IEEE SSCI 2027: Call For Papers -->
+<!-- WordPress export for IEEE SSCI 2027: Call For Papers and Other Submissions -->
 
 <div class="ssci-wp ssci-wp-page ssci-call-for-papers-page">
 
@@ -1171,7 +1210,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 <p class="ssci-sub-header">IEEE SSCI 2027</p>
 
-<h1>Call For Papers</h1>
+<h1>Call For Papers and Other Submissions</h1>
 
 <p>IEEE SSCI 2027 invites paper, abstract, and journal-to-conference submissions across applied computational intelligence symposia.</p>
 
@@ -1188,17 +1227,15 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 <h2>Important Dates</h2>
 <figure class="wp-block-table">
 <table>
-<thead>
-<tr><th>Item</th><th>Date</th></tr>
-</thead>
-<tbody>
-<tr><td>Main Track and Special Session Full/Short Paper Submission Deadline</td><td><span style="color: black; text-decoration: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">10 August 2026</span><br /><span style="color: red; font-weight: 700;">10 September 2026</span></td></tr>
+<thead><tr><th>Item</th><th>Date</th></tr></thead>
+<tbody><tr><td>Main Track and Special Session Full/Short Paper Submission Deadline</td><td>10 August 2026</td></tr>
 <tr><td>Main Track and Special Session Notification Due</td><td>26 October 2026</td></tr>
 <tr><td>Final Camera-Ready Version Due</td><td>10 November 2026</td></tr>
 <tr><td>Competitions Proposal Submission</td><td>2 August 2026</td></tr>
 <tr><td>Competitions Acceptance Notification</td><td>30 August 2026</td></tr>
 <tr><td>Late Breaking Papers, Poster-only Abstracts, and Journal Paper Presentations Submission</td><td>1 November 2026</td></tr>
-</tbody>
+<tr><td>Tutorials Proposal Submission</td><td>1 October 2026</td></tr>
+<tr><td>Tutorials Acceptance Notification</td><td>30 October 2026</td></tr></tbody>
 </table>
 </figure>
 

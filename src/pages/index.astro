@@ -2,7 +2,8 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
 import ImportantDates from '../components/ImportantDates.astro';
-import NewsTicker from '../components/NewsTicker.astro';
+import NewsList from '../components/NewsList.astro';
+import home from '../data/home.json';
 import SpeakerGrid from '../components/SpeakerGrid.astro';
 import importantDates from '../data/importantDates.json';
 import site from '../data/site.json';
@@ -22,7 +23,6 @@ const withAssetBase = (href: string) => `${base}${href.replace(/^\//, '')}`;
   <div class="home-main" id="main">
     <section class="about home-about" id="about">
       <div class="container">
-        {hasNews && <NewsTicker items={news} />}
         <div class="row justify-content-between">
           <div class="col-lg-12 pt-5 pt-lg-0 welcome-content">
             <h3>{site.welcomeTitle}</h3>
@@ -36,6 +36,13 @@ const withAssetBase = (href: string) => `${base}${href.replace(/^\//, '')}`;
       </div>
     </section>
 
+    {hasNews && (
+      <section class="about home-news"><div class="container">
+        <div class="home-section-title"><p>News</p></div>
+        <NewsList items={news} />
+      </div></section>
+    )}
+
     {hasImportantDates && (
       <section class="about home-dates">
         <div class="container">
@@ -43,6 +50,15 @@ const withAssetBase = (href: string) => `${base}${href.replace(/^\//, '')}`;
             <p>Important Dates</p>
           </div>
           <ImportantDates dates={importantDates} />
+          <div class="remote-presentation-note">
+            {home.remotePresentation.map((paragraph) => <p>{paragraph}</p>)}
+          </div>
+          <div class="home-section-title"><p>Organised By</p></div>
+          <div class="organised-by" aria-label="Organising institutions">
+            {home.organizers.map((organizer) => (
+              <div><img src={withAssetBase(organizer.logo)} alt={organizer.name} loading="lazy" /></div>
+            ))}
+          </div>
         </div>
       </section>
     )}

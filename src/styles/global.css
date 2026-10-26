@@ -2221,3 +2221,10 @@ th {
     grid-template-columns: 1fr;
   }
 }
+
+.previous-date { color: #000; text-decoration-color: red; text-decoration-thickness: 2px; }
+.date-list .extended-date { color: red; }
+.remote-presentation-note { margin: 28px 0; }
+.organised-by { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 28px; align-items: center; }
+.organised-by > div { display: grid; place-items: center; min-height: 100px; }
+.organised-by img { width: auto; max-width: 100%; max-height: 100px; object-fit: contain; }

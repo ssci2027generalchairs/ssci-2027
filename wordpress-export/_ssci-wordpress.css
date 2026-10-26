@@ -545,6 +545,13 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   font-weight: 700;
 }
 
+.ssci-previous-date { color: black; text-decoration-color: red; text-decoration-thickness: 2px; }
+.ssci-extended-date { color: red; font-weight: 700; }
+.ssci-remote-presentation-note { margin: 28px 0; }
+.ssci-organised-by { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 28px; align-items: center; }
+.ssci-organised-by > div { display: grid; place-items: center; min-height: 100px; }
+.ssci-organised-by img { width: auto; max-width: 100%; max-height: 100px; object-fit: contain; }
+
 .ssci-news-list {
   display: grid;
   gap: 14px;
@@ -687,6 +694,44 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   margin: 0 0 30px;
   object-fit: cover;
 }
+
+@media (min-width: 820px) {
+  .ssci-competitions-page {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 380px);
+    gap: 28px 48px;
+    align-items: start;
+  }
+
+  .ssci-competitions-page .ssci-page-heading {
+    grid-column: 1 / -1;
+    margin-bottom: 0;
+  }
+
+  .ssci-competitions-page .ssci-content-hero-image {
+    grid-column: 2;
+    grid-row: 2;
+    height: auto;
+    max-height: 540px;
+    margin: 0;
+    object-fit: contain;
+  }
+
+  .ssci-competitions-page .ssci-page-content {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+.ssci-competitions-page .ssci-link-card-grid {
+  grid-template-columns: minmax(0, 420px);
+}
+
+.ssci-competitions-page .ssci-link-card {
+  grid-template-rows: auto auto;
+  min-height: 0;
+}
+
 
 .ssci-page-content h2 {
   margin: 24px 0 10px;

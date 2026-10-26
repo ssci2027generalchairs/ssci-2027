@@ -1,0 +1,56 @@
+{
+  "slug": "about/evaluation-and-planning-committee",
+  "title": "SSCI Evaluation and Planning Committee",
+  "kind": "basic",
+  "sections": [
+    {
+      "heading": "Evaluation and Planning Committee Chair",
+      "bullets": [
+        "Conference Committee - <strong>Andy Tyrrell</strong> (Chair of Committee)"
+      ]
+    },
+    {
+      "heading": "General Chairs",
+      "bullets": [
+        "<strong>Alan Liew</strong>, Griffith University",
+        "<strong>Chin-Teng Lin</strong>, University of Technology Sydney"
+      ]
+    },
+    {
+      "heading": "Program Chairs",
+      "bullets": [
+        "<strong>Shirui Pan</strong>, Griffith University",
+        "<strong>Davide Bacciu</strong>, University of Pisa",
+        "<strong>Gary G. Yen</strong>, Oklahoma State University"
+      ]
+    },
+    {
+      "heading": "Symposium Chairs",
+      "bullets": [
+        "CI for Energy, Transport and Environmental Sustainability - <strong>Bo Du</strong>, <strong>Wei-Neng Chen</strong>",
+        "CI in Engineering / Cyber Physical Systems - <strong>Hai Dong</strong>, <strong>Yi Mei</strong>",
+        "CI in Image, Signal Processing and Synthetic Media - <strong>Ying Bi</strong>, <strong>Bing Xue</strong>, <strong>Kai Qin</strong>",
+        "CI in Artificial Life and Cooperative Intelligent Systems - <strong>Jiajun Liu</strong>, <strong>Peyman Moghadam</strong>",
+        "CI in Security, Defence and Biometrics - <strong>Jiankun Hu</strong>, <strong>Tianqing Zhu</strong>",
+        "CI in Health and Medicine - <strong>Xiuying Wang</strong>, <strong>Vassilis P. Plagianakos</strong>",
+        "CI for Financial Engineering and Economics - <strong>Yongjae Lee</strong>, <strong>Jianxin Li</strong>",
+        "CI in Natural Language Processing and Social Media - <strong>Hongzhi Yin</strong>, <strong>Usman Naseem</strong>",
+        "Trustworthy, Explainable and Responsible CI - <strong>Guangdong Bai</strong>, <strong>Feng Liu</strong>, <strong>Ruwang Jiao</strong>",
+        "Multidisciplinary Computational Intelligence Incubators - <strong>Fenglei Fan</strong>, <strong>Min Jiang</strong>"
+      ]
+    },
+    {
+      "heading": "Technical Activities Liaison/Strategy Representatives",
+      "bullets": [
+        "CI for Energy, Transport and Environmental Sustainability - <strong>Joao Soares</strong>, jan@isep.ipp.pt",
+        "CI in Engineering / Cyber Physical Systems - <strong>Manuel Roveri</strong>, manuel.roveri@polimi.it",
+        "CI in Image, Signal Processing and Synthetic Media - <strong>Kai Qin</strong>, kqin@swin.edu.au",
+        "CI in Artificial Life and Cooperative Intelligent Systems - <strong>Chrystopher Nehaniv</strong>, cnehaniv@uwaterloo.ca",
+        "CI in Health and Medicine - <strong>Yasin Mamatjan</strong>, ymamatjan@tru.ca",
+        "CI for Financial Engineering and Economics - <strong>Ruppa Thulasiram (Tulsi)</strong>, tulsi.thulasiram@umanitoba.ca",
+        "CI in Natural Language Processing and Social Media - <strong>Xueming Yan</strong>, yanxm@gdufs.edu.cn",
+        "Trustworthy, Explainable and Responsible CI - <strong>Albert YS Lam</strong>, ayslam@gmail.com"
+      ]
+    }
+  ]
+}

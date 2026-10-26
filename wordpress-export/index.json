@@ -7,13 +7,6 @@
     "kind": "basic"
   },
   {
-    "title": "Competitions",
-    "slug": "program/competitions",
-    "wordpressPath": "/program/competitions/",
-    "file": "full-pages/program__competitions.html",
-    "kind": "basic"
-  },
-  {
     "title": "Organizing Committee",
     "slug": "about/organizing-committee",
     "wordpressPath": "/about/organizing-committee/",
@@ -35,7 +28,7 @@
     "kind": "basic"
   },
   {
-    "title": "Call For Papers",
+    "title": "Call For Papers and Other Submissions",
     "slug": "submissions/call-for-papers",
     "wordpressPath": "/submissions/call-for-papers/",
     "file": "full-pages/submissions__call-for-papers.html",
@@ -133,52 +126,10 @@
     "kind": "basic"
   },
   {
-    "title": "Special Session in CI in Archeology",
-    "slug": "symposia/special-session-ci-archeology",
-    "wordpressPath": "/symposia/special-session-ci-archeology/",
-    "file": "full-pages/symposia__special-session-ci-archeology.html",
-    "kind": "basic"
-  },
-  {
-    "title": "Special Session for CI in Non-Traditional Computation Technologies",
-    "slug": "symposia/special-session-ci-non-traditional-computation-technologies",
-    "wordpressPath": "/symposia/special-session-ci-non-traditional-computation-technologies/",
-    "file": "full-pages/symposia__special-session-ci-non-traditional-computation-technologies.html",
-    "kind": "basic"
-  },
-  {
-    "title": "Special Session in CI in Aerospace Applications",
-    "slug": "symposia/special-session-ci-aerospace-applications",
-    "wordpressPath": "/symposia/special-session-ci-aerospace-applications/",
-    "file": "full-pages/symposia__special-session-ci-aerospace-applications.html",
-    "kind": "basic"
-  },
-  {
-    "title": "Special Session in CI in Agricultural Sciences and Agroforestry",
-    "slug": "symposia/special-session-ci-agricultural-sciences-agroforestry",
-    "wordpressPath": "/symposia/special-session-ci-agricultural-sciences-agroforestry/",
-    "file": "full-pages/symposia__special-session-ci-agricultural-sciences-agroforestry.html",
-    "kind": "basic"
-  },
-  {
-    "title": "Special Session in CI in Neuroscience",
-    "slug": "symposia/special-session-ci-neuroscience",
-    "wordpressPath": "/symposia/special-session-ci-neuroscience/",
-    "file": "full-pages/symposia__special-session-ci-neuroscience.html",
-    "kind": "basic"
-  },
-  {
-    "title": "Special Session in CI in Search-based Software Engineering",
-    "slug": "symposia/special-session-ci-search-based-software-engineering",
-    "wordpressPath": "/symposia/special-session-ci-search-based-software-engineering/",
-    "file": "full-pages/symposia__special-session-ci-search-based-software-engineering.html",
-    "kind": "basic"
-  },
-  {
-    "title": "Special Session in CI in Maritime Technology",
-    "slug": "symposia/special-session-ci-maritime-technology",
-    "wordpressPath": "/symposia/special-session-ci-maritime-technology/",
-    "file": "full-pages/symposia__special-session-ci-maritime-technology.html",
+    "title": "Competitions",
+    "slug": "program/competitions",
+    "wordpressPath": "/program/competitions/",
+    "file": "full-pages/program__competitions.html",
     "kind": "basic"
   },
   {

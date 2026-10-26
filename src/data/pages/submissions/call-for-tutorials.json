@@ -1,0 +1,38 @@
+{
+  "slug": "submissions/call-for-tutorials",
+  "title": "Call for Tutorials",
+  "kind": "basic",
+  "sections": [
+    {
+      "paragraphs": [
+        "The organizing committee for SSCI 2027 is inviting proposals for tutorials from computational intelligence experts to be presented as part of the conference program. The tutorials should focus on a specific theme, and both theoretical and methodological aspects are welcome. The workshops/tutorials typically last 2-6 hours, with an average of 30 participants."
+      ]
+    },
+    {
+      "paragraphs": [
+        "To submit a proposal, please include the title, abstract, an overview of the topic, a schedule with topic, time allocation, and a short biography of each presenter."
+      ]
+    },
+    {
+      "paragraphs": [
+        "Tutorial proposals should be submitted through the EasyChair submission system: <a href=\"https://easychair.org/conferences/?conf=ssci27\" rel=\"noopener\" target=\"_blank\">https://easychair.org/conferences/?conf=ssci27</a>"
+      ]
+    },
+    {
+      "paragraphs": [
+        "For questions, please contact the Tutorial Chairs via email:"
+      ]
+    },
+    {
+      "bullets": [
+        "M. Tanveer, Indian Institute of Technology Indore, <a href=\"mailto:mtanveer@iiti.ac.in\">mtanveer@iiti.ac.in</a>",
+        "Feng Xia, RMIT University, <a href=\"mailto:f.xia@ieee.org\">f.xia@ieee.org</a>"
+      ]
+    },
+    {
+      "paragraphs": [
+        "The deadline is 1 October 2026. Early submissions are welcomed. Notifications of decisions will be sent by 31 October 2026."
+      ]
+    }
+  ]
+}

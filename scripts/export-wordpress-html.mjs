@@ -22,6 +22,7 @@ const speakers = await readJson('src/data/speakers.json');
 const sponsors = await readJson('src/data/sponsors.json');
 const importantDates = await readJson('src/data/importantDates.json');
 const news = await readJson('src/data/news.json');
+const home = await readJson('src/data/home.json');
 const site = await readJson('src/data/site.json');
 const heroImages = await readJson('src/data/heroImages.json');
 const navigation = await readJson('src/data/navigation.json');
@@ -262,7 +263,8 @@ const renderDateList = () => {
     importantDates.map((item) => [
       '<li>',
       `<strong>${escapeHtml(item.label)}</strong><br />`,
-      escapeHtml(item.date),
+      item.previousDate ? `<del class="ssci-previous-date">${escapeHtml(item.previousDate)}</del><br />` : '',
+      `<span${item.previousDate ? ' class="ssci-extended-date"' : ''}>${escapeHtml(item.date)}</span>`,
       item.status ? `<br /><em>${escapeHtml(item.status)}</em>` : '',
       '</li>',
     ].join('')).join('\n'),
@@ -273,13 +275,13 @@ const renderDateList = () => {
 const renderNews = () => {
   if (!news.length) return '';
   return [
-    '<h2>News and Updates</h2>',
+    '<h2>News</h2>',
     '<div class="ssci-news-list">',
     news.map((item) => [
       '<article>',
       item.date ? `<time datetime="${escapeHtml(item.date)}">${escapeHtml(item.date)}</time>` : '',
-      `<h3>${item.href ? `<a href="${escapeHtml(item.href)}">${escapeHtml(item.title)}</a>` : escapeHtml(item.title)}</h3>`,
-      item.summary ? paragraph(item.summary) : '',
+      `<h3>${item.href ? `<a href="${escapeHtml(pageUrl(item.href))}">${escapeHtml(item.title)}</a>` : escapeHtml(item.title)}</h3>`,
+      item.summaryHtml ? paragraph(item.summaryHtml) : item.summary ? paragraph(item.summary) : '',
       '</article>',
     ].filter(Boolean).join('\n')).join('\n'),
     '</div>',
@@ -426,15 +428,22 @@ const renderHomePage = () => {
     '</div>',
     '</section>',
     '<section class="ssci-wp-section ssci-welcome-section">',
-    renderNews(),
     '<div class="ssci-welcome-content">',
     `<h2>${escapeHtml(site.welcomeTitle)}</h2>`,
     `<p><img class="ssci-welcome-image" src="${escapeHtml(assetUrl(inlineImage.src))}" alt="${escapeHtml(inlineImage.alt)}" />${escapeHtml(site.welcomeBody[0] || '')}</p>`,
     ...(site.welcomeBody.slice(1) || []).map(paragraph),
     '</div>',
+    renderNews(),
     '</section>',
     '<section class="ssci-wp-section ssci-soft-section">',
     renderDateList(),
+    '<div class="ssci-remote-presentation-note">',
+    ...home.remotePresentation.map(paragraph),
+    '</div>',
+    '<h2>Organised By</h2>',
+    '<div class="ssci-organised-by" aria-label="Organising institutions">',
+    ...home.organizers.map((organizer) => `<div><img src="${escapeHtml(assetUrl(organizer.logo))}" alt="${escapeHtml(organizer.name)}" loading="lazy" /></div>`),
+    '</div>',
     '</section>',
     (speakers.plenary.length || speakers.keynote.length) ? [
       '<section class="ssci-wp-section ssci-speakers-section">',
@@ -1113,6 +1122,13 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   font-weight: 700;
 }
 
+.ssci-previous-date { color: black; text-decoration-color: red; text-decoration-thickness: 2px; }
+.ssci-extended-date { color: red; font-weight: 700; }
+.ssci-remote-presentation-note { margin: 28px 0; }
+.ssci-organised-by { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 28px; align-items: center; }
+.ssci-organised-by > div { display: grid; place-items: center; min-height: 100px; }
+.ssci-organised-by img { width: auto; max-width: 100%; max-height: 100px; object-fit: contain; }
+
 .ssci-news-list {
   display: grid;
   gap: 14px;
@@ -1718,13 +1734,17 @@ const setupGuide = [
   '',
   'Create parent pages first, then child pages. The page title is for WordPress administration and SEO; the slug plus parent controls the permalink used by the exported navigation.',
   '',
-  '## Parent Pages',
+  '## 1. Parent Pages',
+  '',
+  'Table 1-1-1. Parent page setup.',
   '',
   '| Title | Slug | Parent | Target URL | Note |',
   '| --- | --- | --- | --- | --- |',
   ...parentPageSetups.map((row) => `| ${row.title} | ${row.slug} | ${row.parent || '-'} | ${row.targetPath} | ${row.note} |`),
   '',
-  '## Content Pages',
+  '## 2. Content Pages',
+  '',
+  'Table 2-1-1. Content page setup.',
   '',
   '| Title | Slug | Parent | Target URL | HTML file | Note |',
   '| --- | --- | --- | --- | --- | --- |',
@@ -1732,6 +1752,6 @@ const setupGuide = [
   '',
 ].join('\n');
 
-await writeFile(path.join(outputDir, '_wordpress-page-setup.md'), `${setupGuide}\n`);
+await writeFile(path.join(outputDir, '_wordpress-page-setup.md'), `${setupGuide.trimEnd()}\n`);
 
 console.log(`Exported ${pages.length} WordPress HTML files to ${path.relative(root, fullPagesDir)}/`);

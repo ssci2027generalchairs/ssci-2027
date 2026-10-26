@@ -2,7 +2,9 @@
 
 Create parent pages first, then child pages. The page title is for WordPress administration and SEO; the slug plus parent controls the permalink used by the exported navigation.
 
-## Parent Pages
+## 1. Parent Pages
+
+Table 1-1-1. Parent page setup.
 
 | Title | Slug | Parent | Target URL | Note |
 | --- | --- | --- | --- | --- |
@@ -11,16 +13,17 @@ Create parent pages first, then child pages. The page title is for WordPress adm
 | Program | program | - | /program/ | Parent page for program child pages; content can be empty or a simple redirect. |
 | Sponsors | sponsors | - | /sponsors/ | Parent page for sponsor child pages; content can be empty or a simple redirect. |
 
-## Content Pages
+## 2. Content Pages
+
+Table 2-1-1. Content page setup.
 
 | Title | Slug | Parent | Target URL | HTML file | Note |
 | --- | --- | --- | --- | --- | --- |
 | IEEE SSCI 2027 | home | - | / | full-pages/home.html | Set this published page as the static homepage in Settings > Reading. |
-| Competitions | competitions | Program | /program/competitions/ | full-pages/program__competitions.html |  |
 | Organizing Committee | organizing-committee | About | /about/organizing-committee/ | full-pages/about__organizing-committee.html |  |
 | SSCI Evaluation and Planning Committee | evaluation-and-planning-committee | About | /about/evaluation-and-planning-committee/ | full-pages/about__evaluation-and-planning-committee.html |  |
 | Contact Us | contact | About | /about/contact/ | full-pages/about__contact.html |  |
-| Call For Papers | call-for-papers | Submissions | /submissions/call-for-papers/ | full-pages/submissions__call-for-papers.html |  |
+| Call For Papers and Other Submissions | call-for-papers | Submissions | /submissions/call-for-papers/ | full-pages/submissions__call-for-papers.html |  |
 | Call for Tutorials | call-for-tutorials | Submissions | /submissions/call-for-tutorials/ | full-pages/submissions__call-for-tutorials.html |  |
 | Submission Instructions | instructions | Submissions | /submissions/instructions/ | full-pages/submissions__instructions.html |  |
 | Symposia Overview | symposia | - | /symposia/ | full-pages/symposia.html |  |
@@ -34,11 +37,5 @@ Create parent pages first, then child pages. The page title is for WordPress adm
 | 2027 IEEE Symposium on CI in Natural Language Processing and Social Media (IEEE CI-NLPSoMe) | nlp-social-media | Symposia | /symposia/nlp-social-media/ | full-pages/symposia__nlp-social-media.html |  |
 | 2027 IEEE Symposium on Trustworthy, Explainable and Responsible CI (IEEE CITREx) | trustworthy-explainable-responsible-ci | Symposia | /symposia/trustworthy-explainable-responsible-ci/ | full-pages/symposia__trustworthy-explainable-responsible-ci.html |  |
 | 2027 IEEE Symposium for Multidisciplinary Computational Intelligence Incubators (IEEE MCII) | multidisciplinary-incubators | Symposia | /symposia/multidisciplinary-incubators/ | full-pages/symposia__multidisciplinary-incubators.html |  |
-| Special Session in CI in Archeology | special-session-ci-archeology | Symposia | /symposia/special-session-ci-archeology/ | full-pages/symposia__special-session-ci-archeology.html |  |
-| Special Session for CI in Non-Traditional Computation Technologies | special-session-ci-non-traditional-computation-technologies | Symposia | /symposia/special-session-ci-non-traditional-computation-technologies/ | full-pages/symposia__special-session-ci-non-traditional-computation-technologies.html |  |
-| Special Session in CI in Aerospace Applications | special-session-ci-aerospace-applications | Symposia | /symposia/special-session-ci-aerospace-applications/ | full-pages/symposia__special-session-ci-aerospace-applications.html |  |
-| Special Session in CI in Agricultural Sciences and Agroforestry | special-session-ci-agricultural-sciences-agroforestry | Symposia | /symposia/special-session-ci-agricultural-sciences-agroforestry/ | full-pages/symposia__special-session-ci-agricultural-sciences-agroforestry.html |  |
-| Special Session in CI in Neuroscience | special-session-ci-neuroscience | Symposia | /symposia/special-session-ci-neuroscience/ | full-pages/symposia__special-session-ci-neuroscience.html |  |
-| Special Session in CI in Search-based Software Engineering | special-session-ci-search-based-software-engineering | Symposia | /symposia/special-session-ci-search-based-software-engineering/ | full-pages/symposia__special-session-ci-search-based-software-engineering.html |  |
-| Special Session in CI in Maritime Technology | special-session-ci-maritime-technology | Symposia | /symposia/special-session-ci-maritime-technology/ | full-pages/symposia__special-session-ci-maritime-technology.html |  |
+| Competitions | competitions | Program | /program/competitions/ | full-pages/program__competitions.html |  |
 | Call for Sponsors | call-for-sponsors | Sponsors | /sponsors/call-for-sponsors/ | full-pages/sponsors__call-for-sponsors.html |  |
