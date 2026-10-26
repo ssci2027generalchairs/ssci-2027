@@ -6,11 +6,13 @@
   },
   {
     "label": "Main track notification due",
-    "date": "26 October 2026"
+    "date": "10 November 2026",
+    "previousDate": "26 October 2026"
   },
   {
     "label": "Final camera-ready version due",
-    "date": "10 November 2026"
+    "date": "17 November 2026",
+    "previousDate": "10 November 2026"
   },
   {
     "label": "Competitions proposal submission",
