@@ -42,6 +42,13 @@
     "kind": "basic"
   },
   {
+    "title": "Camera-Ready Instructions",
+    "slug": "submissions/camera-ready",
+    "wordpressPath": "/submissions/camera-ready/",
+    "file": "full-pages/submissions__camera-ready.html",
+    "kind": "basic"
+  },
+  {
     "title": "Submission Instructions",
     "slug": "submissions/instructions",
     "wordpressPath": "/submissions/instructions/",
@@ -123,6 +130,13 @@
     "slug": "symposia/multidisciplinary-incubators",
     "wordpressPath": "/symposia/multidisciplinary-incubators/",
     "file": "full-pages/symposia__multidisciplinary-incubators.html",
+    "kind": "basic"
+  },
+  {
+    "title": "Registration",
+    "slug": "registration",
+    "wordpressPath": "/registration/",
+    "file": "full-pages/registration.html",
     "kind": "basic"
   },
   {

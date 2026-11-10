@@ -25,6 +25,7 @@ Table 2-1-1. Content page setup.
 | Contact Us | contact | About | /about/contact/ | full-pages/about__contact.html |  |
 | Call For Papers and Other Submissions | call-for-papers | Submissions | /submissions/call-for-papers/ | full-pages/submissions__call-for-papers.html |  |
 | Call for Tutorials | call-for-tutorials | Submissions | /submissions/call-for-tutorials/ | full-pages/submissions__call-for-tutorials.html |  |
+| Camera-Ready Instructions | camera-ready | Submissions | /submissions/camera-ready/ | full-pages/submissions__camera-ready.html |  |
 | Submission Instructions | instructions | Submissions | /submissions/instructions/ | full-pages/submissions__instructions.html |  |
 | Symposia Overview | symposia | - | /symposia/ | full-pages/symposia.html |  |
 | 2027 IEEE Symposium on CI for Energy, Transport and Environmental Sustainability (IEEE CIETES) | energy-transport-environment | Symposia | /symposia/energy-transport-environment/ | full-pages/symposia__energy-transport-environment.html |  |
@@ -37,5 +38,6 @@ Table 2-1-1. Content page setup.
 | 2027 IEEE Symposium on CI in Natural Language Processing and Social Media (IEEE CI-NLPSoMe) | nlp-social-media | Symposia | /symposia/nlp-social-media/ | full-pages/symposia__nlp-social-media.html |  |
 | 2027 IEEE Symposium on Trustworthy, Explainable and Responsible CI (IEEE CITREx) | trustworthy-explainable-responsible-ci | Symposia | /symposia/trustworthy-explainable-responsible-ci/ | full-pages/symposia__trustworthy-explainable-responsible-ci.html |  |
 | 2027 IEEE Symposium for Multidisciplinary Computational Intelligence Incubators (IEEE MCII) | multidisciplinary-incubators | Symposia | /symposia/multidisciplinary-incubators/ | full-pages/symposia__multidisciplinary-incubators.html |  |
+| Registration | registration | - | /registration/ | full-pages/registration.html |  |
 | Competitions | competitions | Program | /program/competitions/ | full-pages/program__competitions.html |  |
 | Call for Sponsors | call-for-sponsors | Sponsors | /sponsors/call-for-sponsors/ | full-pages/sponsors__call-for-sponsors.html |  |

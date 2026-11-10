@@ -32,6 +32,10 @@
         "href": "/submissions/call-for-tutorials/"
       },
       {
+        "label": "Camera-Ready Instructions",
+        "href": "/submissions/camera-ready/"
+      },
+      {
         "label": "Submission Instructions",
         "href": "/submissions/instructions/"
       }
@@ -87,6 +91,15 @@
     ]
   },
   {
+    "label": "Attend",
+    "items": [
+      {
+        "label": "Registration",
+        "href": "/registration/"
+      }
+    ]
+  },
+  {
     "label": "Competitions",
     "href": "/program/competitions/"
   },
@@ -135,11 +148,6 @@
         "href": "/program/quantum-ci-workshop/"
       }
     ]
-  },
-  {
-    "label": "Registration",
-    "href": "/registration/",
-    "hidden": true
   },
   {
     "label": "Venue and Travel",
