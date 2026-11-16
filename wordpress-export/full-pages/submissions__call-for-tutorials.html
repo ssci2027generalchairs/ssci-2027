@@ -742,6 +742,22 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   font-weight: 700;
 }
 
+
+
+/* Camera-ready page: visibly separate Step 1 and tighten its access instructions. */
+.ssci-page-content h2.ssci-step-one-heading {
+  margin-top: 56px !important;
+}
+
+.ssci-page-content p.ssci-ecf-intro {
+  margin-bottom: 2px !important;
+}
+
+.ssci-page-content p.ssci-ecf-access-heading {
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+}
+
 .ssci-page-content h3 {
   margin: 20px 0 10px;
   color: var(--ssci-ink);
@@ -1141,6 +1157,40 @@ body:has(.ssci-wp-shell) .entry-content.padding {
     flex-direction: column;
   }
 }
+
+/* Camera-ready instruction rhythm: compact related text, distinct steps. */
+.ssci-camera-ready-page .ssci-page-content h2 {
+  margin: 34px 0 12px !important;
+}
+.ssci-camera-ready-page .ssci-page-content h2.ssci-step-one-heading {
+  margin-top: 56px !important;
+}
+.ssci-camera-ready-page .ssci-page-content p.ssci-ecf-intro {
+  margin: 0 0 4px !important;
+}
+.ssci-camera-ready-page .ssci-page-content p.ssci-ecf-access-heading {
+  margin: 0 0 5px !important;
+  padding: 0 !important;
+  line-height: 1.4 !important;
+}
+.ssci-camera-ready-page .ssci-page-content p.ssci-pdf-intro {
+  margin-bottom: 4px !important;
+}
+.ssci-camera-ready-page .ssci-page-content p.ssci-detail-line {
+  margin: 0 0 4px !important;
+  padding: 0 !important;
+  line-height: 1.5 !important;
+}
+.ssci-camera-ready-page .ssci-page-content p.ssci-instruction-label {
+  margin: 9px 0 5px !important;
+  padding: 0 !important;
+  line-height: 1.4 !important;
+}
+.ssci-camera-ready-page .ssci-page-content p.ssci-ecf-access-heading + ul,
+.ssci-camera-ready-page .ssci-page-content p.ssci-instruction-label + ul {
+  margin-top: 0 !important;
+  margin-bottom: 18px !important;
+}
 </style>
 <div class="ssci-wp-shell">
 <header class="ssci-wp-site-header">
@@ -1209,31 +1259,63 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 </div>
 </header>
 <main class="ssci-wp-main">
-<!-- WordPress export for IEEE SSCI 2027: Call for Tutorials -->
+<!-- WordPress export for IEEE SSCI 2027: Camera-Ready Instructions -->
 
-<div class="ssci-wp ssci-wp-page">
+<div class="ssci-wp ssci-wp-page ssci-camera-ready-page">
 
 <header class="ssci-page-heading">
 
 <p class="ssci-sub-header">IEEE SSCI 2027</p>
 
-<h1>Call for Tutorials</h1>
+<h1>Camera-Ready Instructions</h1>
+
+<p>Complete the copyright, PDF validation, camera-ready upload, and author registration steps for IEEE SSCI 2027.</p>
 
 </header>
 
 <div class="ssci-page-content">
 
-<p>The organizing committee for SSCI 2027 is inviting proposals for tutorials from computational intelligence experts to be presented as part of the conference program. The tutorials should focus on a specific theme, and both theoretical and methodological aspects are welcome. The workshops/tutorials typically last 2-6 hours, with an average of 30 participants.</p>
+<p>Congratulations on the acceptance of your paper to IEEE SSCI 2027. To ensure that your paper can be included in the conference program and IEEE proceedings, please complete the steps below by the applicable deadlines.</p>
+<p><strong>Important:</strong> Only accepted Full Papers will be included in the IEEE proceedings. Short Papers, Late-Breaking Papers, Poster-only Abstracts, and Journal-to-Conference (J2C) submissions are for presentation/poster and are not included in the proceedings. However, registration is required for <strong>all accepted contributions</strong>, regardless of submission type.</p>
 
-<p>To submit a proposal, please include the title, abstract, an overview of the topic, a schedule with topic, time allocation, and a short biography of each presenter.</p>
+<h2>Key Dates and Fees</h2>
+<figure class="wp-block-table">
+<table>
+<thead><tr><th>Item</th><th>Details</th></tr></thead>
+<tbody><tr><td>Camera-ready paper deadline</td><td>24 November 2026</td></tr>
+<tr><td>Author registration deadline</td><td>24 December 2026. Registration is required for all accepted contributions. For accepted Full Papers, at least one non-student registration is required. Upon confirmed registration, the registration confirmation and official invitation letter will be issued together automatically.</td></tr>
+<tr><td>Early-bird registration deadline</td><td>15 January 2027</td></tr>
+<tr><td>Subsequent paper discount</td><td>AUD 400 for each subsequent paper, up to 2 additional papers under the same author registration</td></tr>
+<tr><td>Extra-page fee for a Full Paper</td><td>AUD 180 per extra page; maximum 2 extra pages</td></tr></tbody>
+</table>
+</figure>
 
-<p>Tutorial proposals should be submitted through the EasyChair submission system: <a href="https://easychair.org/conferences/?conf=ssci27" rel="noopener" target="_blank">https://easychair.org/conferences/?conf=ssci27</a></p>
+<h2 class="ssci-step-one-heading">Step 1. Complete the IEEE Electronic Copyright Form (eCF)</h2>
+<p class="ssci-ecf-intro">Completion of the IEEE electronic copyright form (eCF) is mandatory for accepted Full Papers that will be included in the IEEE proceedings. The corresponding author, or an authorised agent signing on behalf of all co-authors, should complete this step.</p>
+<p class="ssci-ecf-access-heading"><strong>How to access the form</strong></p>
+<ul><li>Log in to the <a href="https://ssl.linklings.net/conferences/SSCI/" target="_blank" rel="noreferrer">IEEE SSCI 2027 Linklings submission system</a> using the account associated with your paper.</li><li>Open the <strong>TO-DO LIST</strong> from the top navigation bar.</li><li>Locate the task for your accepted paper labelled <strong>Submit an IEEE copyright form</strong> and click <strong>Submit</strong>.</li><li>You will be redirected to the IEEE Publication Agreement website. Follow the online steps to confirm the article information, signing authority, and funder details; select the appropriate agreement; and sign electronically.</li><li>Download and save a copy of the completed agreement for your records, then return to Linklings. The copyright task should be shown as completed once the system has registered the agreement.</li><li>If you have more than one accepted paper, make sure you complete the copyright task for the correct paper.</li></ul>
 
-<p>For questions, please contact the Tutorial Chairs via email:</p>
+<h2>Step 2. Generate an IEEE Xplore-Compatible PDF Using IEEE PDF eXpress</h2>
+<p class="ssci-pdf-intro">All final Full Paper manuscripts must be validated through IEEE PDF eXpress before they are uploaded to Linklings.</p>
+<p class="ssci-detail-line"><strong>IEEE PDF eXpress:</strong> <a href="https://ieee-pdf-express.org/account/login" target="_blank" rel="noreferrer">ieee-pdf-express.org/account/login</a></p>
+<p class="ssci-detail-line"><strong>Conference ID:</strong> 72740X</p>
+<p class="ssci-instruction-label"><strong>First-time users</strong></p>
+<ul><li>Open the IEEE PDF eXpress website and select the option for a new user or account.</li><li>Create an account using Conference ID <strong>72740X</strong>, your email address, and a password.</li><li>Allow cookies from the PDF eXpress website so that the service functions correctly.</li></ul>
 
-<ul><li>M. Tanveer, Indian Institute of Technology Indore, <a href="mailto:mtanveer@iiti.ac.in">mtanveer@iiti.ac.in</a></li><li>Feng Xia, RMIT University, <a href="mailto:f.xia@ieee.org">f.xia@ieee.org</a></li></ul>
+<p class="ssci-instruction-label"><strong>Create or validate your final PDF</strong></p>
+<ul><li>Upload your paper source file for conversion, or upload your PDF for validation, as supported by PDF eXpress.</li><li>Receive or download the IEEE Xplore-compatible PDF generated or approved by PDF eXpress.</li><li>Do not modify the PDF after PDF eXpress validation. Changes made afterwards may invalidate IEEE Xplore compatibility.</li><li>Ensure that the Creation Time and Modification Time of the final PDF match, as required by the final submission workflow.</li></ul>
 
-<p>The deadline is 1 October 2026. Early submissions are welcomed. Notifications of decisions will be sent by 31 October 2026.</p>
+<h2>Step 3. Upload the Camera-Ready Paper in Linklings</h2>
+<p>After completing Steps 1 and 2, return to Linklings and upload the final IEEE Xplore-compatible PDF for your accepted paper.</p>
+<ul><li>Log in to the <a href="https://ssl.linklings.net/conferences/SSCI/" target="_blank" rel="noreferrer">IEEE SSCI 2027 Linklings submission system</a>.</li><li>Open the camera-ready submission task for the correct accepted paper.</li><li>Upload the IEEE PDF eXpress-compatible PDF.</li><li>Check the final title, author names, affiliations, and other metadata carefully. The information in Linklings should match the final manuscript.</li><li>Submit the camera-ready version by <strong>24 November 2026</strong>.</li></ul>
+
+<h2>Step 4. Register for IEEE SSCI 2027</h2>
+<p>After completing the camera-ready submission, register for IEEE SSCI 2027. Registration is required for all accepted contributions, including Full Papers, Short Papers, Late-Breaking Papers, Poster-only Abstracts, and Journal-to-Conference (J2C) presentations. At least one author of each accepted contribution must be covered by a valid conference registration. Upon successful registration, the registration confirmation and official invitation letter will be issued together automatically.</p>
+<p>Visit the <a href="https://attend.ieee.org/ssci-2027/registration/">IEEE SSCI 2027 registration page</a>.</p>
+<ul><li>Every accepted contribution must be covered by an author registration by <strong>24 December 2026</strong>. For accepted Full Papers, at least one non-student registration is required. The invitation letter is provided automatically with the confirmed registration; authors do not need to request it separately.</li><li>One author registration may cover the registering author&#39;s primary paper, with a subsequent-paper fee of AUD 400 per additional paper, for up to 2 additional papers.</li><li>If your final Full Paper exceeds the standard page allowance, an extra-page fee of AUD 180 per page applies, with a maximum of 2 extra pages.</li><li>Standard conference registrations are transferable. Discounted registrations are not transferable.</li><li>Refunds are not available after the early-bird deadline of 15 January 2027. Before that date, refunds incur an administration fee of AUD 200 for regular registrations and AUD 150 for student registrations.</li></ul>
+
+<h2>Final Checklist</h2>
+<ul><li>IEEE electronic copyright form completed</li><li>PDF eXpress validation completed</li><li>Camera-ready paper uploaded</li><li>Author registration completed</li><li>Invitation letter received</li></ul>
 
 </div>
 
