@@ -1,7 +1,122 @@
 {
   "slug": "submissions/camera-ready",
   "title": "Camera-Ready Instructions",
-  "summary": "Camera-ready submission instructions for IEEE SSCI 2027.",
+  "summary": "Complete the copyright, PDF validation, camera-ready upload, and author registration steps for IEEE SSCI 2027.",
   "kind": "basic",
-  "sections": []
+  "sections": [
+    {
+      "paragraphs": [
+        "Congratulations on the acceptance of your paper to IEEE SSCI 2027. To ensure that your paper can be included in the conference program and IEEE proceedings, please complete the steps below by the applicable deadlines.",
+        "<strong>Important:</strong> Only accepted Full Papers will be included in the IEEE proceedings. Short Papers, Late-Breaking Papers, Poster-only Abstracts, and Journal-to-Conference (J2C) submissions are presentation-only and are not included in the proceedings. However, registration is required for <strong>all accepted contributions</strong>, regardless of submission type."
+      ]
+    },
+    {
+      "heading": "Key Dates and Fees",
+      "table": {
+        "headers": [
+          "Item",
+          "Details"
+        ],
+        "rows": [
+          [
+            "Camera-ready paper deadline",
+            "24 November 2026"
+          ],
+          [
+            "Author registration deadline",
+            "24 December 2026. Registration is required for all accepted contributions. For accepted Full Papers, at least one non-student registration is required. Upon confirmed registration, the registration confirmation and official invitation letter will be issued together automatically."
+          ],
+          [
+            "Early-bird registration deadline",
+            "15 January 2027"
+          ],
+          [
+            "Subsequent paper discount",
+            "AUD 400 for each subsequent paper, up to 2 additional papers under the same author registration"
+          ],
+          [
+            "Extra-page fee for a Full Paper",
+            "AUD 180 per extra page; maximum 2 extra pages"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Step 1. Complete the IEEE Electronic Copyright Form (eCF)",
+      "paragraphs": [
+        "Completion of the IEEE electronic copyright form (eCF) is mandatory for accepted Full Papers that will be included in the IEEE proceedings. The corresponding author, or an authorised agent signing on behalf of all co-authors, should complete this step.",
+        "<strong>How to access the form</strong>"
+      ],
+      "bullets": [
+        "Log in to the <a href=\"https://ssl.linklings.net/conferences/SSCI/\" target=\"_blank\" rel=\"noreferrer\">IEEE SSCI 2027 Linklings submission system</a> using the account associated with your paper.",
+        "Open the <strong>TO-DO LIST</strong> from the top navigation bar.",
+        "Locate the task for your accepted paper labelled <strong>Submit an IEEE copyright form</strong> and click <strong>Submit</strong>.",
+        "You will be redirected to the IEEE Publication Agreement website. Follow the online steps to confirm the article information, signing authority, and funder details; select the appropriate agreement; and sign electronically.",
+        "Download and save a copy of the completed agreement for your records, then return to Linklings. The copyright task should be shown as completed once the system has registered the agreement.",
+        "If you have more than one accepted paper, make sure you complete the copyright task for the correct paper."
+      ]
+    },
+    {
+      "heading": "Step 2. Generate an IEEE Xplore-Compatible PDF Using IEEE PDF eXpress",
+      "paragraphs": [
+        "All final Full Paper manuscripts must be validated through IEEE PDF eXpress before they are uploaded to Linklings.",
+        "<strong>IEEE PDF eXpress:</strong> <a href=\"https://ieee-pdf-express.org/account/login\" target=\"_blank\" rel=\"noreferrer\">ieee-pdf-express.org/account/login</a>",
+        "<strong>Conference ID:</strong> 72740X",
+        "<strong>First-time users</strong>"
+      ],
+      "bullets": [
+        "Open the IEEE PDF eXpress website and select the option for a new user or account.",
+        "Create an account using Conference ID <strong>72740X</strong>, your email address, and a password.",
+        "Allow cookies from the PDF eXpress website so that the service functions correctly."
+      ]
+    },
+    {
+      "paragraphs": [
+        "<strong>Create or validate your final PDF</strong>"
+      ],
+      "bullets": [
+        "Upload your paper source file for conversion, or upload your PDF for validation, as supported by PDF eXpress.",
+        "Receive or download the IEEE Xplore-compatible PDF generated or approved by PDF eXpress.",
+        "Do not modify the PDF after PDF eXpress validation. Changes made afterwards may invalidate IEEE Xplore compatibility.",
+        "Ensure that the Creation Time and Modification Time of the final PDF match, as required by the final submission workflow."
+      ]
+    },
+    {
+      "heading": "Step 3. Upload the Camera-Ready Paper in Linklings",
+      "paragraphs": [
+        "After completing Steps 1 and 2, return to Linklings and upload the final IEEE Xplore-compatible PDF for your accepted paper."
+      ],
+      "bullets": [
+        "Log in to the <a href=\"https://ssl.linklings.net/conferences/SSCI/\" target=\"_blank\" rel=\"noreferrer\">IEEE SSCI 2027 Linklings submission system</a>.",
+        "Open the camera-ready submission task for the correct accepted paper.",
+        "Upload the IEEE PDF eXpress-compatible PDF.",
+        "Check the final title, author names, affiliations, and other metadata carefully. The information in Linklings should match the final manuscript.",
+        "Submit the camera-ready version by <strong>24 November 2026</strong>."
+      ]
+    },
+    {
+      "heading": "Step 4. Register for IEEE SSCI 2027",
+      "paragraphs": [
+        "After completing the camera-ready submission, register for IEEE SSCI 2027. Registration is required for all accepted contributions, including Full Papers, Short Papers, Late-Breaking Papers, Poster-only Abstracts, and Journal-to-Conference (J2C) presentations. At least one author of each accepted contribution must be covered by a valid conference registration. Upon successful registration, the registration confirmation and official invitation letter will be issued together automatically.",
+        "Visit the <a href=\"/registration/\">IEEE SSCI 2027 registration page</a>."
+      ],
+      "bullets": [
+        "Every accepted contribution must be covered by an author registration by <strong>24 December 2026</strong>. For accepted Full Papers, at least one non-student registration is required. The invitation letter is provided automatically with the confirmed registration; authors do not need to request it separately.",
+        "One author registration may cover the registering author's primary paper, with a subsequent-paper fee of AUD 400 per additional paper, for up to 2 additional papers.",
+        "If your final Full Paper exceeds the standard page allowance, an extra-page fee of AUD 180 per page applies, with a maximum of 2 extra pages.",
+        "Standard conference registrations are transferable. Discounted registrations are not transferable.",
+        "Refunds are not available after the early-bird deadline of 15 January 2027. Before that date, refunds incur an administration fee of AUD 200 for regular registrations and AUD 150 for student registrations."
+      ]
+    },
+    {
+      "heading": "Final Checklist",
+      "bullets": [
+        "IEEE electronic copyright form completed",
+        "PDF eXpress validation completed",
+        "Camera-ready paper uploaded",
+        "Author registration completed",
+        "Invitation letter received"
+      ]
+    }
+  ]
 }
