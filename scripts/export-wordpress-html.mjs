@@ -477,7 +477,7 @@ const renderPage = (page) => {
 
   return [
     `<!-- WordPress export for ${escapeHtml(site.shortName)}: ${escapeHtml(page.title)} -->`,
-    `<div class="ssci-wp ssci-wp-page${page.slug === 'symposia' ? ' ssci-symposia-overview-page' : ''}${page.slug === 'submissions/call-for-papers' ? ' ssci-call-for-papers-page' : ''}${page.slug === 'submissions/instructions' ? ' ssci-submission-instructions-page' : ''}${page.slug === 'program/competitions' ? ' ssci-competitions-page' : ''}">`,
+    `<div class="ssci-wp ssci-wp-page${page.slug === 'symposia' ? ' ssci-symposia-overview-page' : ''}${page.slug === 'submissions/call-for-papers' ? ' ssci-call-for-papers-page' : ''}${page.slug === 'submissions/instructions' ? ' ssci-submission-instructions-page' : ''}${page.slug === 'program/competitions' ? ' ssci-competitions-page' : ''}${page.slug === 'registration' ? ' ssci-registration-page' : ''}">`,
     '<header class="ssci-page-heading">',
     '<p class="ssci-sub-header">IEEE SSCI 2027</p>',
     `<h1>${escapeHtml(page.title)}</h1>`,
@@ -1347,6 +1347,27 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   padding-left: 22px;
 }
 
+.ssci-registration-page .ssci-page-content > ul {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 32px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.ssci-registration-page .ssci-page-content > ul > li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.ssci-registration-page .ssci-page-content > ul > li::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--ssci-teal);
+  font-weight: 800;
+  content: "\\2022";
+}
+
 .ssci-link-card-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1455,6 +1476,7 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 }
 
 @media (max-width: 640px) {
+  .ssci-registration-page .ssci-page-content > ul,
   .ssci-page-content > ul,
   .ssci-link-card-grid {
     grid-template-columns: 1fr;
