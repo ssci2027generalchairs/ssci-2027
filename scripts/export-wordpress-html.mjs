@@ -112,6 +112,20 @@ const renderCards = (cards = []) => {
   ].join('\n');
 };
 
+const renderActions = (actions = []) => {
+  if (!actions.length) return '';
+  return [
+    '<div class="ssci-action-row">',
+    actions.map((action) => [
+      action.href
+        ? `<a class="ssci-button" href="${escapeHtml(pageUrl(action.href))}">${escapeHtml(action.label)}</a>`
+        : `<button class="ssci-button is-disabled" type="button" disabled aria-disabled="true">${escapeHtml(action.label)}</button>`,
+      action.note ? `<small>${escapeHtml(action.note)}</small>` : '',
+    ].filter(Boolean).join('\n')).join('\n'),
+    '</div>',
+  ].join('\n');
+};
+
 const renderSections = (sections = []) => sections
   .map((section) => [
     section.heading ? `<h2>${escapeHtml(section.heading)}</h2>` : '',
@@ -121,6 +135,7 @@ const renderSections = (sections = []) => sections
       : '',
     section.cards?.length ? renderCards(section.cards) : '',
     section.table ? renderTable(section.table) : '',
+    section.actions?.length ? renderActions(section.actions) : '',
   ].filter(Boolean).join('\n'))
   .filter(Boolean)
   .join('\n\n');
@@ -1377,6 +1392,41 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   padding-bottom: 16px;
   color: var(--ssci-muted);
   line-height: 1.45;
+}
+
+.ssci-action-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 18px 0 0;
+  text-align: center;
+}
+
+.ssci-button {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 6px;
+  color: #102b3c !important;
+  background: var(--ssci-gold);
+  font: inherit;
+  font-weight: 800;
+  text-decoration: none !important;
+}
+
+.ssci-button.is-disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.ssci-action-row small {
+  color: var(--ssci-muted);
 }
 
 .ssci-symposia-overview-page .ssci-page-content > ul {

@@ -804,6 +804,41 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   line-height: 1.45;
 }
 
+.ssci-action-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 18px 0 0;
+  text-align: center;
+}
+
+.ssci-button {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 6px;
+  color: #102b3c !important;
+  background: var(--ssci-gold);
+  font: inherit;
+  font-weight: 800;
+  text-decoration: none !important;
+}
+
+.ssci-button.is-disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.ssci-action-row small {
+  color: var(--ssci-muted);
+}
+
 .ssci-symposia-overview-page .ssci-page-content > ul {
   display: block;
 }
@@ -1219,13 +1254,97 @@ body:has(.ssci-wp-shell) .entry-content.padding {
 
 <h1>Registration</h1>
 
-<p>Registration information and links will be added once available.</p>
+<p>Registration fees, author policies, key deadlines, and attendee information for IEEE SSCI 2027.</p>
 
 </header>
 
 <div class="ssci-page-content">
 
-<p>Registration categories, rates, deadlines, and the registration portal will be published on this page.</p>
+<p><strong>Registration Information and Author Policies</strong></p>
+<p>IEEE SSCI 2027 will be held primarily <strong>in person on the Gold Coast, Australia</strong>, with a remote presentation option available for accepted papers.</p>
+<p>Standard conference registration fees (excluding Tutorial-only Registration) include:</p>
+<ul><li>Access to the full IEEE SSCI 2027 technical program</li><li>Admission to keynote and plenary sessions</li><li>Access to tutorials</li><li>Access to industry and government sessions and panel discussions</li><li>Coffee breaks and lunches, as specified in the conference program</li><li>Conference materials and digital proceedings</li><li>Admission to the Welcome Reception and Conference Banquet</li></ul>
+
+<h2>Registration Information</h2>
+<p>All registration fees are in Australian Dollars (AUD). Unless otherwise specified, all deadlines are at 11:59 PM AoE (Anywhere on Earth) on the stated date.</p>
+<p>For registration-related enquiries, email <a href="mailto:ssci2027@intelliaevents.com.au">ssci2027@intelliaevents.com.au</a>.</p>
+
+<h2>Early Registration Fees</h2>
+<p><strong>Deadline:</strong> 15 January 2027</p>
+<figure class="wp-block-table">
+<table>
+<thead><tr><th>Category</th><th>Registration Fee</th></tr></thead>
+<tbody><tr><td>IEEE Member</td><td>AUD 1,050</td></tr>
+<tr><td>Non-Member</td><td>AUD 1,300</td></tr>
+<tr><td>IEEE Student Member</td><td>AUD 550</td></tr>
+<tr><td>Student Non-Member</td><td>AUD 650</td></tr>
+<tr><td>IEEE Life Member</td><td>AUD 550</td></tr>
+<tr><td>Tutorial-only Registration</td><td>AUD 280</td></tr></tbody>
+</table>
+</figure>
+<div class="ssci-action-row">
+<button class="ssci-button is-disabled" type="button" disabled aria-disabled="true">Register Here!</button>
+<small>The registration system is under testing and will be online soon.</small>
+</div>
+
+<h2>Late / At-Conference Registration Fees</h2>
+<figure class="wp-block-table">
+<table>
+<thead><tr><th>Category</th><th>Registration Fee</th></tr></thead>
+<tbody><tr><td>IEEE Member</td><td>AUD 1,200</td></tr>
+<tr><td>Non-Member</td><td>AUD 1,450</td></tr>
+<tr><td>IEEE Student Member</td><td>AUD 700</td></tr>
+<tr><td>Student Non-Member</td><td>AUD 800</td></tr>
+<tr><td>IEEE Life Member</td><td>AUD 700</td></tr>
+<tr><td>Tutorial-only Registration</td><td>AUD 400</td></tr></tbody>
+</table>
+</figure>
+<div class="ssci-action-row">
+<button class="ssci-button is-disabled" type="button" disabled aria-disabled="true">Register Here!</button>
+</div>
+
+<h2>Author Registration</h2>
+<p><strong>Author Registration Deadline: 24 December 2026</strong></p>
+<p><strong>Registration is required for ALL accepted contributions to IEEE SSCI 2027, not only Full Papers.</strong> This includes Full Papers, Short Papers, Late-Breaking Papers, Poster-only Abstracts, and Journal-to-Conference (J2C) presentations.</p>
+<p>For accepted Full Papers, at least one NON-STUDENT registration must be associated with each paper for the paper to be included in the IEEE SSCI 2027 proceedings and submitted to IEEE Xplore.</p>
+<p>Only accepted Full Papers will be included in the IEEE proceedings. Other accepted contribution types are presentation-only but still require registration to be included in the conference program and presented at IEEE SSCI 2027.</p>
+
+<h2>Additional Accepted Papers</h2>
+<p>An author with multiple accepted papers may use the Subsequent Paper Registration option.</p>
+<p><strong>Subsequent paper fee: AUD 400 per additional paper, with a maximum of two papers covered under an author registration.</strong></p>
+
+<h2>Extra Page Charges for Full Papers</h2>
+<p>Full Papers may be up to 6 pages, plus 1 page for references. A maximum of two extra content pages per Full Paper is allowed, up to 8 pages plus 1 page for references, with an additional charge per extra page.</p>
+<p><strong>Extra page fee: AUD 180 per additional content page</strong></p>
+
+<h2>Invitation Letter</h2>
+<p><strong>The registration confirmation and the official invitation letter will be issued and sent together automatically after successful registration.</strong></p>
+<p>Authors and attendees do not need to request the invitation letter separately after completing their registration.</p>
+<p>Participants who require a visa to travel to Australia are strongly encouraged to register early and begin their visa application process as soon as possible after receiving the invitation letter.</p>
+
+<h2>Cancellation, Refund and Transfer Policy</h2>
+<p>Requests for cancellation received on or before 15 January 2027 are eligible for a refund subject to the following administrative fees:</p>
+<figure class="wp-block-table">
+<table>
+<thead><tr><th>Category</th><th>Cancellation Fee</th></tr></thead>
+<tbody><tr><td>Regular Registration</td><td>AUD 200</td></tr>
+<tr><td>Student Registration</td><td>AUD 150</td></tr></tbody>
+</table>
+</figure>
+
+<p><strong>No registration refunds will be provided after 15 January 2027.</strong></p>
+<p>Standard conference registrations are transferable. <strong>Discounted registrations are not transferable.</strong></p>
+
+<h2>Important Dates</h2>
+<figure class="wp-block-table">
+<table>
+<thead><tr><th>Item</th><th>Deadline</th></tr></thead>
+<tbody><tr><td>Camera-Ready Paper Submission</td><td>24 November 2026</td></tr>
+<tr><td>Author Registration</td><td>24 December 2026</td></tr>
+<tr><td>Early Registration</td><td>15 January 2027</td></tr>
+<tr><td>Refund / Cancellation Deadline</td><td>15 January 2027</td></tr></tbody>
+</table>
+</figure>
 
 </div>
 

@@ -802,6 +802,41 @@ body:has(.ssci-wp-shell) .entry-content.padding {
   line-height: 1.45;
 }
 
+.ssci-action-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 18px 0 0;
+  text-align: center;
+}
+
+.ssci-button {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 6px;
+  color: #102b3c !important;
+  background: var(--ssci-gold);
+  font: inherit;
+  font-weight: 800;
+  text-decoration: none !important;
+}
+
+.ssci-button.is-disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.ssci-action-row small {
+  color: var(--ssci-muted);
+}
+
 .ssci-symposia-overview-page .ssci-page-content > ul {
   display: block;
 }

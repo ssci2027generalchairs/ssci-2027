@@ -16,12 +16,19 @@ interface CardItem {
   text?: string;
 }
 
+interface ActionItem {
+  label: string;
+  href?: string;
+  note?: string;
+}
+
 interface SectionData {
   heading?: string;
   paragraphs?: string[];
   bullets?: Array<string | LinkItem>;
   cards?: CardItem[];
   table?: TableData;
+  actions?: ActionItem[];
 }
 
 interface Props {
@@ -81,6 +88,22 @@ const withBase = (href: string) => {
             </table>
           </div>
         )}
+        {section.actions?.length ? (
+          <div class="content-actions">
+            {section.actions.map((action) => (
+              <div class="content-action">
+                {action.href ? (
+                  <a class="button primary" href={withBase(action.href)}>{action.label}</a>
+                ) : (
+                  <button class="button primary is-disabled" type="button" disabled aria-disabled="true">
+                    {action.label}
+                  </button>
+                )}
+                {action.note && <small>{action.note}</small>}
+              </div>
+            ))}
+          </div>
+        ) : null}
       </section>
     ))}
   </div>

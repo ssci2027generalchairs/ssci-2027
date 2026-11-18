@@ -1,13 +1,147 @@
 {
   "slug": "registration",
   "title": "Registration",
-  "summary": "Registration information and links will be added once available.",
+  "summary": "Registration fees, author policies, key deadlines, and attendee information for IEEE SSCI 2027.",
   "kind": "basic",
   "sections": [
     {
       "paragraphs": [
-        "Registration categories, rates, deadlines, and the registration portal will be published on this page."
+        "<strong>Registration Information and Author Policies</strong>",
+        "IEEE SSCI 2027 will be held primarily <strong>in person on the Gold Coast, Australia</strong>, with a remote presentation option available for accepted papers.",
+        "Standard conference registration fees (excluding Tutorial-only Registration) include:"
+      ],
+      "bullets": [
+        "Access to the full IEEE SSCI 2027 technical program",
+        "Admission to keynote and plenary sessions",
+        "Access to tutorials",
+        "Access to industry and government sessions and panel discussions",
+        "Coffee breaks and lunches, as specified in the conference program",
+        "Conference materials and digital proceedings",
+        "Admission to the Welcome Reception and Conference Banquet"
       ]
+    },
+    {
+      "heading": "Registration Information",
+      "paragraphs": [
+        "All registration fees are in Australian Dollars (AUD). Unless otherwise specified, all deadlines are at 11:59 PM AoE (Anywhere on Earth) on the stated date.",
+        "For registration-related enquiries, email <a href=\"mailto:ssci2027@intelliaevents.com.au\">ssci2027@intelliaevents.com.au</a>."
+      ]
+    },
+    {
+      "heading": "Early Registration Fees",
+      "paragraphs": [
+        "<strong>Deadline:</strong> 15 January 2027"
+      ],
+      "table": {
+        "headers": [
+          "Category",
+          "Registration Fee"
+        ],
+        "rows": [
+          ["IEEE Member", "AUD 1,050"],
+          ["Non-Member", "AUD 1,300"],
+          ["IEEE Student Member", "AUD 550"],
+          ["Student Non-Member", "AUD 650"],
+          ["IEEE Life Member", "AUD 550"],
+          ["Tutorial-only Registration", "AUD 280"]
+        ]
+      },
+      "actions": [
+        {
+          "label": "Register Here!",
+          "note": "The registration system is under testing and will be online soon."
+        }
+      ]
+    },
+    {
+      "heading": "Late / At-Conference Registration Fees",
+      "table": {
+        "headers": [
+          "Category",
+          "Registration Fee"
+        ],
+        "rows": [
+          ["IEEE Member", "AUD 1,200"],
+          ["Non-Member", "AUD 1,450"],
+          ["IEEE Student Member", "AUD 700"],
+          ["Student Non-Member", "AUD 800"],
+          ["IEEE Life Member", "AUD 700"],
+          ["Tutorial-only Registration", "AUD 400"]
+        ]
+      },
+      "actions": [
+        {
+          "label": "Register Here!"
+        }
+      ]
+    },
+    {
+      "heading": "Author Registration",
+      "paragraphs": [
+        "<strong>Author Registration Deadline: 24 December 2026</strong>",
+        "<strong>Registration is required for ALL accepted contributions to IEEE SSCI 2027, not only Full Papers.</strong> This includes Full Papers, Short Papers, Late-Breaking Papers, Poster-only Abstracts, and Journal-to-Conference (J2C) presentations.",
+        "For accepted Full Papers, at least one NON-STUDENT registration must be associated with each paper for the paper to be included in the IEEE SSCI 2027 proceedings and submitted to IEEE Xplore.",
+        "Only accepted Full Papers will be included in the IEEE proceedings. Other accepted contribution types are presentation-only but still require registration to be included in the conference program and presented at IEEE SSCI 2027."
+      ]
+    },
+    {
+      "heading": "Additional Accepted Papers",
+      "paragraphs": [
+        "An author with multiple accepted papers may use the Subsequent Paper Registration option.",
+        "<strong>Subsequent paper fee: AUD 400 per additional paper, with a maximum of two papers covered under an author registration.</strong>"
+      ]
+    },
+    {
+      "heading": "Extra Page Charges for Full Papers",
+      "paragraphs": [
+        "Full Papers may be up to 6 pages, plus 1 page for references. A maximum of two extra content pages per Full Paper is allowed, up to 8 pages plus 1 page for references, with an additional charge per extra page.",
+        "<strong>Extra page fee: AUD 180 per additional content page</strong>"
+      ]
+    },
+    {
+      "heading": "Invitation Letter",
+      "paragraphs": [
+        "<strong>The registration confirmation and the official invitation letter will be issued and sent together automatically after successful registration.</strong>",
+        "Authors and attendees do not need to request the invitation letter separately after completing their registration.",
+        "Participants who require a visa to travel to Australia are strongly encouraged to register early and begin their visa application process as soon as possible after receiving the invitation letter."
+      ]
+    },
+    {
+      "heading": "Cancellation, Refund and Transfer Policy",
+      "paragraphs": [
+        "Requests for cancellation received on or before 15 January 2027 are eligible for a refund subject to the following administrative fees:"
+      ],
+      "table": {
+        "headers": [
+          "Category",
+          "Cancellation Fee"
+        ],
+        "rows": [
+          ["Regular Registration", "AUD 200"],
+          ["Student Registration", "AUD 150"]
+        ]
+      }
+    },
+    {
+      "paragraphs": [
+        "<strong>No registration refunds will be provided after 15 January 2027.</strong>",
+        "Standard conference registrations are transferable. <strong>Discounted registrations are not transferable.</strong>"
+      ]
+    },
+    {
+      "heading": "Important Dates",
+      "table": {
+        "headers": [
+          "Item",
+          "Deadline"
+        ],
+        "rows": [
+          ["Camera-Ready Paper Submission", "24 November 2026"],
+          ["Author Registration", "24 December 2026"],
+          ["Early Registration", "15 January 2027"],
+          ["Refund / Cancellation Deadline", "15 January 2027"]
+        ]
+      }
     }
   ]
 }
