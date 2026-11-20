@@ -42,14 +42,13 @@
           ["Non-Member", "AUD 1,300"],
           ["IEEE Student Member", "AUD 550"],
           ["Student Non-Member", "AUD 650"],
-          ["IEEE Life Member", "AUD 550"],
-          ["Tutorial-only Registration", "AUD 280"]
+          ["IEEE Life Member", "AUD 550"]
         ]
       },
       "actions": [
         {
           "label": "Register Here!",
-          "note": "The registration system is under testing and will be online soon."
+          "href": "https://ssci2027.intelliaevents.com.au/registration"
         }
       ]
     },
@@ -65,13 +64,32 @@
           ["Non-Member", "AUD 1,450"],
           ["IEEE Student Member", "AUD 700"],
           ["Student Non-Member", "AUD 800"],
-          ["IEEE Life Member", "AUD 700"],
-          ["Tutorial-only Registration", "AUD 400"]
+          ["IEEE Life Member", "AUD 700"]
         ]
       },
       "actions": [
         {
-          "label": "Register Here!"
+          "label": "Register Here!",
+          "href": "https://ssci2027.intelliaevents.com.au/registration"
+        }
+      ]
+    },
+    {
+      "heading": "One-day Tutorial Registration",
+      "table": {
+        "headers": [
+          "Registration Period",
+          "Registration Fee"
+        ],
+        "rows": [
+          ["Early (by 15 January 2027)", "AUD 280"],
+          ["Late / At-Conference", "AUD 400"]
+        ]
+      },
+      "actions": [
+        {
+          "label": "Tutorial Registration",
+          "note": "The separate one-day tutorial registration link will be available soon."
         }
       ]
     },
